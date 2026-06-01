@@ -1,5 +1,5 @@
 const DATA_URL = 'data/foods.json';
-const STORAGE_KEY = 'au-fast-food-value.items.v1';
+const STORAGE_KEY = 'au-fast-food-value.items.v2';
 const BUDGET_KEY = 'au-fast-food-value.budget.v1';
 const THEME_KEY = 'au-fast-food-value.theme.v1';
 

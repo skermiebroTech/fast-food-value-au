@@ -8,7 +8,9 @@
       "McDonalds_AU_Best_Value.xlsx"
     ],
     "updated": "2026-06-01",
-    "notes": "Static seed data from provided spreadsheets. User edits are stored in localStorage and can be exported/imported as JSON."
+    "notes": "Static seed data from provided Australia spreadsheets plus manually added AU meal deals. Removed non-current/non-legit FitChips. User edits are stored in localStorage and can be exported/imported as JSON.",
+    "siteUrl": "https://skermiebrotech.github.io/fast-food-value-au/",
+    "audit": "Reviewed item list for obvious non-Australia/non-current entries; removed Subway FitChips. Promo/deal rows are labelled and prices vary by store/app."
   },
   "items": [
     {
@@ -792,6 +794,32 @@
       "sourceFile": "McDonalds_AU_Best_Value.xlsx"
     },
     {
+      "id": "mcdonalds-mcsmart-meal-2-cheeseburgers-small-fries-small-drink",
+      "brand": "McDonald's",
+      "item": "McSmart Meal (2 Cheeseburgers + Small Fries + Small Drink)",
+      "category": "Meal Deal",
+      "note": "Australia McSmart-style value meal; $6 promo requested. Food metrics count 2 cheeseburgers + small fries only; drink nutrition/volume varies by choice and is excluded.",
+      "price": 6.0,
+      "serveGrams": 344.0,
+      "energyKj": 3910.0,
+      "energyCal": 934.52,
+      "proteinGrams": 37.0,
+      "sourceFile": "manual-au-meal-deal"
+    },
+    {
+      "id": "mcdonalds-mcsmart-meal-mcdouble-small-fries-small-drink",
+      "brand": "McDonald's",
+      "item": "McSmart Meal (McDouble + Small Fries + Small Drink)",
+      "category": "Meal Deal",
+      "note": "Australia McSmart-style value meal variant; food metrics count McDouble + small fries only; drink nutrition/volume varies by choice and is excluded.",
+      "price": 6.0,
+      "serveGrams": 266.0,
+      "energyKj": 3030.0,
+      "energyCal": 724.19,
+      "proteinGrams": 28.0,
+      "sourceFile": "manual-au-meal-deal"
+    },
+    {
       "id": "mcdonald-s-hash-brown",
       "brand": "McDonald's",
       "item": "Hash Brown",
@@ -1309,19 +1337,6 @@
       "energyKj": 955.0,
       "energyCal": 228.25,
       "proteinGrams": 2.1,
-      "sourceFile": "Subway_AU_Best_Value.xlsx"
-    },
-    {
-      "id": "subway-fitchips",
-      "brand": "Subway",
-      "item": "FitChips",
-      "category": "Side",
-      "note": "selected stores",
-      "price": 2.5,
-      "serveGrams": 190.0,
-      "energyKj": 1170.0,
-      "energyCal": 279.64,
-      "proteinGrams": 6.5,
       "sourceFile": "Subway_AU_Best_Value.xlsx"
     },
     {

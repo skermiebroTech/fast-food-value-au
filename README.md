@@ -1,5 +1,9 @@
 # AU Fast Food Value Finder
 
+Live URL:
+
+https://skermiebrotech.github.io/fast-food-value-au/
+
 A modern, no-build GitHub Pages website for comparing Australian fast food value by:
 
 - grams per dollar
@@ -15,6 +19,13 @@ Seed data was generated from:
 - `/Users/joel/Downloads/McDonalds_AU_Best_Value.xlsx`
 
 The copied workbook sources are kept in `sources/` for maintainers. The browser loads the public seed dataset from `data/foods.json`.
+
+## Data corrections in this repo
+
+- Removed Subway FitChips because they are not a dependable current Australian Subway item.
+- Added Australia-focused McDonald's McSmart-style meal deal rows, including the requested `$6 McSmart Meal`.
+- Meal deal food-value metrics count the food components only. Drinks vary by choice and are excluded from grams/kJ/protein calculations unless a maintainer adds a specific drink row.
+- Promo/deal prices can vary by store, app account, delivery channel and time. They are labelled as deals and should be checked against the Australian app/store before relying on them.
 
 ## Features
 
@@ -72,7 +83,13 @@ git push
 
 ## Deploying to GitHub Pages
 
-1. Create a GitHub repo and push this folder.
+This repo is configured for:
+
+```text
+https://skermiebrotech.github.io/fast-food-value-au/
+```
+
+1. Push this folder to `github.com/skermiebroTech/fast-food-value-au`.
 2. In GitHub, go to `Settings` → `Pages`.
 3. Under `Build and deployment`, choose `GitHub Actions`.
 4. Push to `main`. The included workflow deploys the static files.

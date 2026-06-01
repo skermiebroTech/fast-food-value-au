@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: ./sitemap.xml
+Sitemap: https://skermiebrotech.github.io/fast-food-value-au/sitemap.xml
