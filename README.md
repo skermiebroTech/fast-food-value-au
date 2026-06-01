@@ -21,7 +21,8 @@ Seed data was generated from:
 - Frugal Feeds AU menu/deal listings for additional meal deal prices
 - kfcmenuprice.au for KFC Australia item prices and kJ values
 - Frugal Feeds AU menu listings for Domino's, Pizza Hut and Grill'd prices
-- Domino's Australia public menu kJ values where item names matched the added Domino's rows
+- Domino's Australia public nutrition page for Large Classic crust pizza kJ values where item names matched the added Domino's rows
+- Pizza Hut Australia `/menu/pizza` product data for Medium/Large pizza kJ values where item names and sizes matched
 
 The copied workbook sources are kept in `sources/` for maintainers. The browser loads the public seed dataset from `data/foods.json`.
 
@@ -32,7 +33,7 @@ The copied workbook sources are kept in `sources/` for maintainers. The browser 
 - Added small-meal rows for common McDonald's mains using Australian small meal prices.
 - Added Subway meal-upgrade rows, GYG kids/bundle meal-deal rows, KFC Australia items/combos/boxes/shared meals, and Domino's/Pizza Hut/Grill'd Australia menu rows.
 - KFC rows use price + kJ data from kfcmenuprice.au; serve grams and protein are shown as unavailable where the source did not provide them.
-- Domino's rows use Frugal Feeds prices, with official Domino's AU large-pizza kJ shown where names matched. Pizza Hut and Grill'd rows use Frugal Feeds prices and show unavailable nutrition fields until a public source is added.
+- Domino's rows use Frugal Feeds prices, with official Domino's AU Large Classic crust pizza kJ shown where names matched. Pizza Hut Medium/Large pizza rows use Frugal Feeds prices plus official Pizza Hut AU menu kJ where names and sizes matched. Grill'd rows are price-only until a public nutrition source is added.
 - Meal deal food-value metrics use known components only. For corrected McSmart rows, kJ includes the required drink from the supplied option list; grams/protein are shown only when all food components are known and exclude drink grams/protein.
 - Promo/deal/menu prices can vary by store, app account, delivery channel and time. They are labelled with source notes and should be checked against the Australian app/store before relying on them.
 

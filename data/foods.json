@@ -11,12 +11,14 @@
       "Frugal Feeds Domino's menu prices (June 2026)",
       "Domino's AU menu kJ values (June 2026)",
       "Frugal Feeds Pizza Hut menu prices (June 2026)",
-      "Frugal Feeds Grill'd menu prices (June 2026)"
+      "Frugal Feeds Grill'd menu prices (June 2026)",
+      "Domino's AU nutritional information page (Large Classic crust kJ, June 2026)",
+      "Pizza Hut AU menu product API (Medium/Large pizza kJ, June 2026)"
     ],
     "updated": "2026-06-01",
-    "notes": "Static seed data from provided Australia spreadsheets plus AU meal deals and expanded Domino's, Pizza Hut, Grill'd, and KFC AU rows. Some restaurant rows only have price or price+kJ because public sources did not provide serve grams/protein. McSmart Meal rows use user-corrected Australian option/drink combinations and exclude McDouble. User edits are stored in localStorage and can be exported/imported as JSON.",
+    "notes": "Static seed data from provided Australia spreadsheets plus AU meal deals and expanded Domino's, Pizza Hut, Grill'd, and KFC AU rows. Official kJ values are attached where Domino's/Pizza Hut AU menu nutrition matched clearly; unmatched nutrition fields remain null. McSmart Meal rows use user-corrected Australian option/drink combinations and exclude McDouble. User edits are stored in localStorage and can be exported/imported as JSON.",
     "siteUrl": "https://skermiebrotech.github.io/fast-food-value-au/",
-    "audit": "Expanded meal/deal coverage for Subway, GYG, McDonald's, KFC, Domino's, Pizza Hut, and Grill'd. Removed Subway FitChips, the $8 Footlong Sub of the Day promo, and invalid McDouble McSmart row. Domino's large-pizza kJ is included where the official AU menu matched Frugal Feeds item names; Pizza Hut and Grill'd rows are price-only unless maintainers add nutrition later. Deal prices vary by store/app/campaign and should be checked against Australian store apps."
+    "audit": "Expanded meal/deal coverage for Subway, GYG, McDonald's, KFC, Domino's, Pizza Hut, and Grill'd. Removed Subway FitChips, the $8 Footlong Sub of the Day promo, and invalid McDouble McSmart row. Domino's large-pizza kJ is included from the official AU nutrition page where item names matched Large Classic crust rows; Pizza Hut Medium/Large pizza kJ is included from the official menu product API where item names and sizes matched. Grill'd rows are price-only unless maintainers add nutrition later. Deal prices vary by store/app/campaign and should be checked against Australian store apps."
   },
   "items": [
     {
@@ -2926,10 +2928,10 @@
       "note": "Frugal Feeds menu price; kJ shown where matched to Domino's AU large classic-crust menu.",
       "price": 4.0,
       "serveGrams": null,
-      "energyKj": 4584.0,
-      "energyCal": 1095.6,
+      "energyKj": 4120.0,
+      "energyCal": 984.7,
       "proteinGrams": null,
-      "sourceFile": "Frugal Feeds Domino's prices + Domino's AU menu kJ (June 2026)"
+      "sourceFile": "Frugal Feeds Domino's prices + Domino's AU nutritional information (June 2026)"
     },
     {
       "id": "domino-s-simply-cheese-pizza",
@@ -3017,10 +3019,10 @@
       "note": "Frugal Feeds menu price; kJ shown where matched to Domino's AU large classic-crust menu.",
       "price": 9.99,
       "serveGrams": null,
-      "energyKj": 6104.0,
-      "energyCal": 1458.89,
+      "energyKj": 4888.0,
+      "energyCal": 1168.26,
       "proteinGrams": null,
-      "sourceFile": "Frugal Feeds Domino's prices + Domino's AU menu kJ (June 2026)"
+      "sourceFile": "Frugal Feeds Domino's prices + Domino's AU nutritional information (June 2026)"
     },
     {
       "id": "domino-s-chicken-supreme-pizza",
@@ -3056,10 +3058,10 @@
       "note": "Frugal Feeds menu price; kJ shown where matched to Domino's AU large classic-crust menu.",
       "price": 14.99,
       "serveGrams": null,
-      "energyKj": 4792.0,
-      "energyCal": 1145.32,
+      "energyKj": 5112.0,
+      "energyCal": 1221.8,
       "proteinGrams": null,
-      "sourceFile": "Frugal Feeds Domino's prices + Domino's AU menu kJ (June 2026)"
+      "sourceFile": "Frugal Feeds Domino's prices + Domino's AU nutritional information (June 2026)"
     },
     {
       "id": "domino-s-fire-breather-pizza",
@@ -3121,10 +3123,10 @@
       "note": "Frugal Feeds menu price; kJ shown where matched to Domino's AU large classic-crust menu.",
       "price": 14.99,
       "serveGrams": null,
-      "energyKj": null,
-      "energyCal": null,
+      "energyKj": 5496.0,
+      "energyCal": 1313.58,
       "proteinGrams": null,
-      "sourceFile": "Frugal Feeds Domino's prices + Domino's AU menu kJ (June 2026)"
+      "sourceFile": "Frugal Feeds Domino's prices + Domino's AU nutritional information (June 2026)"
     },
     {
       "id": "domino-s-garlic-chicken-bacon-aioli-pizza",
@@ -3160,10 +3162,10 @@
       "note": "Frugal Feeds menu price; kJ shown where matched to Domino's AU large classic-crust menu.",
       "price": 17.99,
       "serveGrams": null,
-      "energyKj": null,
-      "energyCal": null,
+      "energyKj": 5792.0,
+      "energyCal": 1384.32,
       "proteinGrams": null,
-      "sourceFile": "Frugal Feeds Domino's prices + Domino's AU menu kJ (June 2026)"
+      "sourceFile": "Frugal Feeds Domino's prices + Domino's AU nutritional information (June 2026)"
     },
     {
       "id": "domino-s-chicken-camembert-pizza",
@@ -3173,10 +3175,10 @@
       "note": "Frugal Feeds menu price; kJ shown where matched to Domino's AU large classic-crust menu.",
       "price": 18.99,
       "serveGrams": null,
-      "energyKj": null,
-      "energyCal": null,
+      "energyKj": 5840.0,
+      "energyCal": 1395.79,
       "proteinGrams": null,
-      "sourceFile": "Frugal Feeds Domino's prices + Domino's AU menu kJ (June 2026)"
+      "sourceFile": "Frugal Feeds Domino's prices + Domino's AU nutritional information (June 2026)"
     },
     {
       "id": "domino-s-peri-peri-chicken-pizza",
@@ -3186,10 +3188,10 @@
       "note": "Frugal Feeds menu price; kJ shown where matched to Domino's AU large classic-crust menu.",
       "price": 17.99,
       "serveGrams": null,
-      "energyKj": 4744.0,
-      "energyCal": 1133.84,
+      "energyKj": 4752.0,
+      "energyCal": 1135.76,
       "proteinGrams": null,
-      "sourceFile": "Frugal Feeds Domino's prices + Domino's AU menu kJ (June 2026)"
+      "sourceFile": "Frugal Feeds Domino's prices + Domino's AU nutritional information (June 2026)"
     },
     {
       "id": "domino-s-bbq-chicken-rasher-bacon-pizza",
@@ -3290,10 +3292,10 @@
       "note": "Frugal Feeds menu price; kJ shown where matched to Domino's AU large classic-crust menu.",
       "price": 11.98,
       "serveGrams": null,
-      "energyKj": null,
-      "energyCal": null,
+      "energyKj": 4256.0,
+      "energyCal": 1017.21,
       "proteinGrams": null,
-      "sourceFile": "Frugal Feeds Domino's prices + Domino's AU menu kJ (June 2026)"
+      "sourceFile": "Frugal Feeds Domino's prices + Domino's AU nutritional information (June 2026)"
     },
     {
       "id": "domino-s-vegan-magherita-pizza",
@@ -3303,10 +3305,10 @@
       "note": "Frugal Feeds menu price; kJ shown where matched to Domino's AU large classic-crust menu.",
       "price": 9.99,
       "serveGrams": null,
-      "energyKj": null,
-      "energyCal": null,
+      "energyKj": 3944.0,
+      "energyCal": 942.64,
       "proteinGrams": null,
-      "sourceFile": "Frugal Feeds Domino's prices + Domino's AU menu kJ (June 2026)"
+      "sourceFile": "Frugal Feeds Domino's prices + Domino's AU nutritional information (June 2026)"
     },
     {
       "id": "domino-s-vegan-cheesy-garlic-bread-pizza",
@@ -3459,10 +3461,10 @@
       "note": "Value range pizza; kJ only listed for large classic crust where available.",
       "price": 7.0,
       "serveGrams": null,
-      "energyKj": 4584.0,
-      "energyCal": 1095.6,
+      "energyKj": 4120.0,
+      "energyCal": 984.7,
       "proteinGrams": null,
-      "sourceFile": "Frugal Feeds Domino's prices + Domino's AU menu kJ (June 2026)"
+      "sourceFile": "Frugal Feeds Domino's prices + Domino's AU nutritional information (June 2026)"
     },
     {
       "id": "domino-s-ham-cheese-extra-large-pizza",
@@ -3914,10 +3916,10 @@
       "note": "Price from Frugal Feeds; nutrition/serve metrics unavailable from source.",
       "price": 20.95,
       "serveGrams": null,
-      "energyKj": null,
-      "energyCal": null,
+      "energyKj": 4827.0,
+      "energyCal": 1153.68,
       "proteinGrams": null,
-      "sourceFile": "Frugal Feeds Pizza Hut menu prices (June 2026)"
+      "sourceFile": "Frugal Feeds Pizza Hut prices + Pizza Hut AU menu product API kJ (June 2026)"
     },
     {
       "id": "pizza-hut-surf-turf-large-pizza",
@@ -3927,10 +3929,10 @@
       "note": "Price from Frugal Feeds; nutrition/serve metrics unavailable from source.",
       "price": 23.95,
       "serveGrams": null,
-      "energyKj": null,
-      "energyCal": null,
+      "energyKj": 7388.0,
+      "energyCal": 1765.77,
       "proteinGrams": null,
-      "sourceFile": "Frugal Feeds Pizza Hut menu prices (June 2026)"
+      "sourceFile": "Frugal Feeds Pizza Hut prices + Pizza Hut AU menu product API kJ (June 2026)"
     },
     {
       "id": "pizza-hut-creamy-chicken-bacon-medium-pizza",
@@ -3940,10 +3942,10 @@
       "note": "Price from Frugal Feeds; nutrition/serve metrics unavailable from source.",
       "price": 20.95,
       "serveGrams": null,
-      "energyKj": null,
-      "energyCal": null,
+      "energyKj": 5366.0,
+      "energyCal": 1282.5,
       "proteinGrams": null,
-      "sourceFile": "Frugal Feeds Pizza Hut menu prices (June 2026)"
+      "sourceFile": "Frugal Feeds Pizza Hut prices + Pizza Hut AU menu product API kJ (June 2026)"
     },
     {
       "id": "pizza-hut-creamy-chicken-bacon-large-pizza",
@@ -3953,10 +3955,10 @@
       "note": "Price from Frugal Feeds; nutrition/serve metrics unavailable from source.",
       "price": 23.95,
       "serveGrams": null,
-      "energyKj": null,
-      "energyCal": null,
+      "energyKj": 7628.0,
+      "energyCal": 1823.14,
       "proteinGrams": null,
-      "sourceFile": "Frugal Feeds Pizza Hut menu prices (June 2026)"
+      "sourceFile": "Frugal Feeds Pizza Hut prices + Pizza Hut AU menu product API kJ (June 2026)"
     },
     {
       "id": "pizza-hut-creamy-garlic-prawn-medium-pizza",
@@ -3966,10 +3968,10 @@
       "note": "Price from Frugal Feeds; nutrition/serve metrics unavailable from source.",
       "price": 15.95,
       "serveGrams": null,
-      "energyKj": null,
-      "energyCal": null,
+      "energyKj": 4950.0,
+      "energyCal": 1183.08,
       "proteinGrams": null,
-      "sourceFile": "Frugal Feeds Pizza Hut menu prices (June 2026)"
+      "sourceFile": "Frugal Feeds Pizza Hut prices + Pizza Hut AU menu product API kJ (June 2026)"
     },
     {
       "id": "pizza-hut-creamy-garlic-prawn-large-pizza",
@@ -3979,10 +3981,10 @@
       "note": "Price from Frugal Feeds; nutrition/serve metrics unavailable from source.",
       "price": 18.95,
       "serveGrams": null,
-      "energyKj": null,
-      "energyCal": null,
+      "energyKj": 8424.0,
+      "energyCal": 2013.38,
       "proteinGrams": null,
-      "sourceFile": "Frugal Feeds Pizza Hut menu prices (June 2026)"
+      "sourceFile": "Frugal Feeds Pizza Hut prices + Pizza Hut AU menu product API kJ (June 2026)"
     },
     {
       "id": "pizza-hut-butcher-s-block-medium-pizza",
@@ -3992,10 +3994,10 @@
       "note": "Price from Frugal Feeds; nutrition/serve metrics unavailable from source.",
       "price": 20.95,
       "serveGrams": null,
-      "energyKj": null,
-      "energyCal": null,
+      "energyKj": 6060.0,
+      "energyCal": 1448.37,
       "proteinGrams": null,
-      "sourceFile": "Frugal Feeds Pizza Hut menu prices (June 2026)"
+      "sourceFile": "Frugal Feeds Pizza Hut prices + Pizza Hut AU menu product API kJ (June 2026)"
     },
     {
       "id": "pizza-hut-butcher-s-block-large-pizza",
@@ -4005,10 +4007,10 @@
       "note": "Price from Frugal Feeds; nutrition/serve metrics unavailable from source.",
       "price": 23.95,
       "serveGrams": null,
-      "energyKj": null,
-      "energyCal": null,
+      "energyKj": 9242.0,
+      "energyCal": 2208.89,
       "proteinGrams": null,
-      "sourceFile": "Frugal Feeds Pizza Hut menu prices (June 2026)"
+      "sourceFile": "Frugal Feeds Pizza Hut prices + Pizza Hut AU menu product API kJ (June 2026)"
     },
     {
       "id": "pizza-hut-vegan-deluxe-medium-pizza",
@@ -4018,10 +4020,10 @@
       "note": "Price from Frugal Feeds; nutrition/serve metrics unavailable from source.",
       "price": 15.95,
       "serveGrams": null,
-      "energyKj": null,
-      "energyCal": null,
+      "energyKj": 3816.0,
+      "energyCal": 912.05,
       "proteinGrams": null,
-      "sourceFile": "Frugal Feeds Pizza Hut menu prices (June 2026)"
+      "sourceFile": "Frugal Feeds Pizza Hut prices + Pizza Hut AU menu product API kJ (June 2026)"
     },
     {
       "id": "pizza-hut-vegan-deluxe-large-pizza",
@@ -4031,10 +4033,10 @@
       "note": "Price from Frugal Feeds; nutrition/serve metrics unavailable from source.",
       "price": 18.95,
       "serveGrams": null,
-      "energyKj": null,
-      "energyCal": null,
+      "energyKj": 6091.0,
+      "energyCal": 1455.78,
       "proteinGrams": null,
-      "sourceFile": "Frugal Feeds Pizza Hut menu prices (June 2026)"
+      "sourceFile": "Frugal Feeds Pizza Hut prices + Pizza Hut AU menu product API kJ (June 2026)"
     },
     {
       "id": "pizza-hut-garlic-prawn-medium-pizza",
@@ -4070,10 +4072,10 @@
       "note": "Price from Frugal Feeds; nutrition/serve metrics unavailable from source.",
       "price": 15.95,
       "serveGrams": null,
-      "energyKj": null,
-      "energyCal": null,
+      "energyKj": 4745.0,
+      "energyCal": 1134.08,
       "proteinGrams": null,
-      "sourceFile": "Frugal Feeds Pizza Hut menu prices (June 2026)"
+      "sourceFile": "Frugal Feeds Pizza Hut prices + Pizza Hut AU menu product API kJ (June 2026)"
     },
     {
       "id": "pizza-hut-hot-spicy-chicken-large-pizza",
@@ -4083,10 +4085,10 @@
       "note": "Price from Frugal Feeds; nutrition/serve metrics unavailable from source.",
       "price": 18.95,
       "serveGrams": null,
-      "energyKj": null,
-      "energyCal": null,
+      "energyKj": 7676.0,
+      "energyCal": 1834.61,
       "proteinGrams": null,
-      "sourceFile": "Frugal Feeds Pizza Hut menu prices (June 2026)"
+      "sourceFile": "Frugal Feeds Pizza Hut prices + Pizza Hut AU menu product API kJ (June 2026)"
     },
     {
       "id": "pizza-hut-bbq-chicken-medium-pizza",
@@ -4096,10 +4098,10 @@
       "note": "Price from Frugal Feeds; nutrition/serve metrics unavailable from source.",
       "price": 15.95,
       "serveGrams": null,
-      "energyKj": null,
-      "energyCal": null,
+      "energyKj": 4908.0,
+      "energyCal": 1173.04,
       "proteinGrams": null,
-      "sourceFile": "Frugal Feeds Pizza Hut menu prices (June 2026)"
+      "sourceFile": "Frugal Feeds Pizza Hut prices + Pizza Hut AU menu product API kJ (June 2026)"
     },
     {
       "id": "pizza-hut-bbq-chicken-large-pizza",
@@ -4109,10 +4111,10 @@
       "note": "Price from Frugal Feeds; nutrition/serve metrics unavailable from source.",
       "price": 18.95,
       "serveGrams": null,
-      "energyKj": null,
-      "energyCal": null,
+      "energyKj": 7587.0,
+      "energyCal": 1813.34,
       "proteinGrams": null,
-      "sourceFile": "Frugal Feeds Pizza Hut menu prices (June 2026)"
+      "sourceFile": "Frugal Feeds Pizza Hut prices + Pizza Hut AU menu product API kJ (June 2026)"
     },
     {
       "id": "pizza-hut-smoky-chicken-bacon-medium-pizza",
@@ -4148,10 +4150,10 @@
       "note": "Price from Frugal Feeds; nutrition/serve metrics unavailable from source.",
       "price": 13.45,
       "serveGrams": null,
-      "energyKj": null,
-      "energyCal": null,
+      "energyKj": 4425.0,
+      "energyCal": 1057.6,
       "proteinGrams": null,
-      "sourceFile": "Frugal Feeds Pizza Hut menu prices (June 2026)"
+      "sourceFile": "Frugal Feeds Pizza Hut prices + Pizza Hut AU menu product API kJ (June 2026)"
     },
     {
       "id": "pizza-hut-hot-spicy-veggie-large-pizza",
@@ -4161,10 +4163,10 @@
       "note": "Price from Frugal Feeds; nutrition/serve metrics unavailable from source.",
       "price": 16.45,
       "serveGrams": null,
-      "energyKj": null,
-      "energyCal": null,
+      "energyKj": 7218.0,
+      "energyCal": 1725.14,
       "proteinGrams": null,
-      "sourceFile": "Frugal Feeds Pizza Hut menu prices (June 2026)"
+      "sourceFile": "Frugal Feeds Pizza Hut prices + Pizza Hut AU menu product API kJ (June 2026)"
     },
     {
       "id": "pizza-hut-super-supreme-medium-pizza",
@@ -4174,10 +4176,10 @@
       "note": "Price from Frugal Feeds; nutrition/serve metrics unavailable from source.",
       "price": 13.45,
       "serveGrams": null,
-      "energyKj": null,
-      "energyCal": null,
+      "energyKj": 4905.0,
+      "energyCal": 1172.32,
       "proteinGrams": null,
-      "sourceFile": "Frugal Feeds Pizza Hut menu prices (June 2026)"
+      "sourceFile": "Frugal Feeds Pizza Hut prices + Pizza Hut AU menu product API kJ (June 2026)"
     },
     {
       "id": "pizza-hut-super-supreme-large-pizza",
@@ -4187,10 +4189,10 @@
       "note": "Price from Frugal Feeds; nutrition/serve metrics unavailable from source.",
       "price": 16.45,
       "serveGrams": null,
-      "energyKj": null,
-      "energyCal": null,
+      "energyKj": 7990.0,
+      "energyCal": 1909.66,
       "proteinGrams": null,
-      "sourceFile": "Frugal Feeds Pizza Hut menu prices (June 2026)"
+      "sourceFile": "Frugal Feeds Pizza Hut prices + Pizza Hut AU menu product API kJ (June 2026)"
     },
     {
       "id": "pizza-hut-vegan-mediterranean-medium-pizza",
@@ -4200,10 +4202,10 @@
       "note": "Price from Frugal Feeds; nutrition/serve metrics unavailable from source.",
       "price": 15.95,
       "serveGrams": null,
-      "energyKj": null,
-      "energyCal": null,
+      "energyKj": 3907.0,
+      "energyCal": 933.8,
       "proteinGrams": null,
-      "sourceFile": "Frugal Feeds Pizza Hut menu prices (June 2026)"
+      "sourceFile": "Frugal Feeds Pizza Hut prices + Pizza Hut AU menu product API kJ (June 2026)"
     },
     {
       "id": "pizza-hut-vegan-mediterranean-large-pizza",
@@ -4213,10 +4215,10 @@
       "note": "Price from Frugal Feeds; nutrition/serve metrics unavailable from source.",
       "price": 18.95,
       "serveGrams": null,
-      "energyKj": null,
-      "energyCal": null,
+      "energyKj": 6308.0,
+      "energyCal": 1507.65,
       "proteinGrams": null,
-      "sourceFile": "Frugal Feeds Pizza Hut menu prices (June 2026)"
+      "sourceFile": "Frugal Feeds Pizza Hut prices + Pizza Hut AU menu product API kJ (June 2026)"
     },
     {
       "id": "pizza-hut-mega-meatlovers-medium-pizza",
@@ -4252,10 +4254,10 @@
       "note": "Price from Frugal Feeds; nutrition/serve metrics unavailable from source.",
       "price": 13.45,
       "serveGrams": null,
-      "energyKj": null,
-      "energyCal": null,
+      "energyKj": 5088.0,
+      "energyCal": 1216.06,
       "proteinGrams": null,
-      "sourceFile": "Frugal Feeds Pizza Hut menu prices (June 2026)"
+      "sourceFile": "Frugal Feeds Pizza Hut prices + Pizza Hut AU menu product API kJ (June 2026)"
     },
     {
       "id": "pizza-hut-ultimate-hot-spicy-large-pizza",
@@ -4265,10 +4267,10 @@
       "note": "Price from Frugal Feeds; nutrition/serve metrics unavailable from source.",
       "price": 16.45,
       "serveGrams": null,
-      "energyKj": null,
-      "energyCal": null,
+      "energyKj": 8205.0,
+      "energyCal": 1961.04,
       "proteinGrams": null,
-      "sourceFile": "Frugal Feeds Pizza Hut menu prices (June 2026)"
+      "sourceFile": "Frugal Feeds Pizza Hut prices + Pizza Hut AU menu product API kJ (June 2026)"
     },
     {
       "id": "pizza-hut-veggie-sensation-medium-pizza",
@@ -4278,10 +4280,10 @@
       "note": "Price from Frugal Feeds; nutrition/serve metrics unavailable from source.",
       "price": 13.45,
       "serveGrams": null,
-      "energyKj": null,
-      "energyCal": null,
+      "energyKj": 5094.0,
+      "energyCal": 1217.5,
       "proteinGrams": null,
-      "sourceFile": "Frugal Feeds Pizza Hut menu prices (June 2026)"
+      "sourceFile": "Frugal Feeds Pizza Hut prices + Pizza Hut AU menu product API kJ (June 2026)"
     },
     {
       "id": "pizza-hut-veggie-sensation-large-pizza",
@@ -4291,10 +4293,10 @@
       "note": "Price from Frugal Feeds; nutrition/serve metrics unavailable from source.",
       "price": 16.45,
       "serveGrams": null,
-      "energyKj": null,
-      "energyCal": null,
+      "energyKj": 8423.0,
+      "energyCal": 2013.15,
       "proteinGrams": null,
-      "sourceFile": "Frugal Feeds Pizza Hut menu prices (June 2026)"
+      "sourceFile": "Frugal Feeds Pizza Hut prices + Pizza Hut AU menu product API kJ (June 2026)"
     },
     {
       "id": "pizza-hut-hawaiian-medium-pizza",
@@ -4304,10 +4306,10 @@
       "note": "Price from Frugal Feeds; nutrition/serve metrics unavailable from source.",
       "price": 13.45,
       "serveGrams": null,
-      "energyKj": null,
-      "energyCal": null,
+      "energyKj": 4477.0,
+      "energyCal": 1070.03,
       "proteinGrams": null,
-      "sourceFile": "Frugal Feeds Pizza Hut menu prices (June 2026)"
+      "sourceFile": "Frugal Feeds Pizza Hut prices + Pizza Hut AU menu product API kJ (June 2026)"
     },
     {
       "id": "pizza-hut-hawaiian-large-pizza",
@@ -4317,10 +4319,10 @@
       "note": "Price from Frugal Feeds; nutrition/serve metrics unavailable from source.",
       "price": 16.45,
       "serveGrams": null,
-      "energyKj": null,
-      "energyCal": null,
+      "energyKj": 7391.0,
+      "energyCal": 1766.49,
       "proteinGrams": null,
-      "sourceFile": "Frugal Feeds Pizza Hut menu prices (June 2026)"
+      "sourceFile": "Frugal Feeds Pizza Hut prices + Pizza Hut AU menu product API kJ (June 2026)"
     },
     {
       "id": "pizza-hut-pepperoni-lovers-medium-pizza",
@@ -4330,10 +4332,10 @@
       "note": "Price from Frugal Feeds; nutrition/serve metrics unavailable from source.",
       "price": 9.95,
       "serveGrams": null,
-      "energyKj": null,
-      "energyCal": null,
+      "energyKj": 5206.0,
+      "energyCal": 1244.26,
       "proteinGrams": null,
-      "sourceFile": "Frugal Feeds Pizza Hut menu prices (June 2026)"
+      "sourceFile": "Frugal Feeds Pizza Hut prices + Pizza Hut AU menu product API kJ (June 2026)"
     },
     {
       "id": "pizza-hut-pepperoni-lovers-large-pizza",
@@ -4343,10 +4345,10 @@
       "note": "Price from Frugal Feeds; nutrition/serve metrics unavailable from source.",
       "price": 11.45,
       "serveGrams": null,
-      "energyKj": null,
-      "energyCal": null,
+      "energyKj": 8153.0,
+      "energyCal": 1948.61,
       "proteinGrams": null,
-      "sourceFile": "Frugal Feeds Pizza Hut menu prices (June 2026)"
+      "sourceFile": "Frugal Feeds Pizza Hut prices + Pizza Hut AU menu product API kJ (June 2026)"
     },
     {
       "id": "pizza-hut-bbq-beef-medium-pizza",
@@ -4356,10 +4358,10 @@
       "note": "Price from Frugal Feeds; nutrition/serve metrics unavailable from source.",
       "price": 9.95,
       "serveGrams": null,
-      "energyKj": null,
-      "energyCal": null,
+      "energyKj": 4900.0,
+      "energyCal": 1171.13,
       "proteinGrams": null,
-      "sourceFile": "Frugal Feeds Pizza Hut menu prices (June 2026)"
+      "sourceFile": "Frugal Feeds Pizza Hut prices + Pizza Hut AU menu product API kJ (June 2026)"
     },
     {
       "id": "pizza-hut-bbq-beef-large-pizza",
@@ -4369,10 +4371,10 @@
       "note": "Price from Frugal Feeds; nutrition/serve metrics unavailable from source.",
       "price": 11.45,
       "serveGrams": null,
-      "energyKj": null,
-      "energyCal": null,
+      "energyKj": 7607.0,
+      "energyCal": 1818.12,
       "proteinGrams": null,
-      "sourceFile": "Frugal Feeds Pizza Hut menu prices (June 2026)"
+      "sourceFile": "Frugal Feeds Pizza Hut prices + Pizza Hut AU menu product API kJ (June 2026)"
     },
     {
       "id": "pizza-hut-chicken-supreme-medium-pizza",
@@ -4382,10 +4384,10 @@
       "note": "Price from Frugal Feeds; nutrition/serve metrics unavailable from source.",
       "price": 13.45,
       "serveGrams": null,
-      "energyKj": null,
-      "energyCal": null,
+      "energyKj": 4530.0,
+      "energyCal": 1082.7,
       "proteinGrams": null,
-      "sourceFile": "Frugal Feeds Pizza Hut menu prices (June 2026)"
+      "sourceFile": "Frugal Feeds Pizza Hut prices + Pizza Hut AU menu product API kJ (June 2026)"
     },
     {
       "id": "pizza-hut-chicken-supreme-large-pizza",
@@ -4395,10 +4397,10 @@
       "note": "Price from Frugal Feeds; nutrition/serve metrics unavailable from source.",
       "price": 16.45,
       "serveGrams": null,
-      "energyKj": null,
-      "energyCal": null,
+      "energyKj": 7468.0,
+      "energyCal": 1784.89,
       "proteinGrams": null,
-      "sourceFile": "Frugal Feeds Pizza Hut menu prices (June 2026)"
+      "sourceFile": "Frugal Feeds Pizza Hut prices + Pizza Hut AU menu product API kJ (June 2026)"
     },
     {
       "id": "pizza-hut-bbq-meatlovers-medium-pizza",
@@ -4408,10 +4410,10 @@
       "note": "Price from Frugal Feeds; nutrition/serve metrics unavailable from source.",
       "price": 13.45,
       "serveGrams": null,
-      "energyKj": null,
-      "energyCal": null,
+      "energyKj": 5530.0,
+      "energyCal": 1321.7,
       "proteinGrams": null,
-      "sourceFile": "Frugal Feeds Pizza Hut menu prices (June 2026)"
+      "sourceFile": "Frugal Feeds Pizza Hut prices + Pizza Hut AU menu product API kJ (June 2026)"
     },
     {
       "id": "pizza-hut-bbq-meatlovers-large-pizza",
@@ -4421,10 +4423,10 @@
       "note": "Price from Frugal Feeds; nutrition/serve metrics unavailable from source.",
       "price": 16.45,
       "serveGrams": null,
-      "energyKj": null,
-      "energyCal": null,
+      "energyKj": 8411.0,
+      "energyCal": 2010.28,
       "proteinGrams": null,
-      "sourceFile": "Frugal Feeds Pizza Hut menu prices (June 2026)"
+      "sourceFile": "Frugal Feeds Pizza Hut prices + Pizza Hut AU menu product API kJ (June 2026)"
     },
     {
       "id": "pizza-hut-bbq-cheeseburger-medium-pizza",
@@ -4434,10 +4436,10 @@
       "note": "Price from Frugal Feeds; nutrition/serve metrics unavailable from source.",
       "price": 13.45,
       "serveGrams": null,
-      "energyKj": null,
-      "energyCal": null,
+      "energyKj": 5366.0,
+      "energyCal": 1282.5,
       "proteinGrams": null,
-      "sourceFile": "Frugal Feeds Pizza Hut menu prices (June 2026)"
+      "sourceFile": "Frugal Feeds Pizza Hut prices + Pizza Hut AU menu product API kJ (June 2026)"
     },
     {
       "id": "pizza-hut-bbq-cheeseburger-large-pizza",
@@ -4447,10 +4449,10 @@
       "note": "Price from Frugal Feeds; nutrition/serve metrics unavailable from source.",
       "price": 16.45,
       "serveGrams": null,
-      "energyKj": null,
-      "energyCal": null,
+      "energyKj": 8421.0,
+      "energyCal": 2012.67,
       "proteinGrams": null,
-      "sourceFile": "Frugal Feeds Pizza Hut menu prices (June 2026)"
+      "sourceFile": "Frugal Feeds Pizza Hut prices + Pizza Hut AU menu product API kJ (June 2026)"
     },
     {
       "id": "pizza-hut-ham-lovers-medium-pizza",
@@ -4460,10 +4462,10 @@
       "note": "Price from Frugal Feeds; nutrition/serve metrics unavailable from source.",
       "price": 9.95,
       "serveGrams": null,
-      "energyKj": null,
-      "energyCal": null,
+      "energyKj": 4402.0,
+      "energyCal": 1052.1,
       "proteinGrams": null,
-      "sourceFile": "Frugal Feeds Pizza Hut menu prices (June 2026)"
+      "sourceFile": "Frugal Feeds Pizza Hut prices + Pizza Hut AU menu product API kJ (June 2026)"
     },
     {
       "id": "pizza-hut-ham-lovers-large-pizza",
@@ -4473,10 +4475,10 @@
       "note": "Price from Frugal Feeds; nutrition/serve metrics unavailable from source.",
       "price": 11.45,
       "serveGrams": null,
-      "energyKj": null,
-      "energyCal": null,
+      "energyKj": 7256.0,
+      "energyCal": 1734.23,
       "proteinGrams": null,
-      "sourceFile": "Frugal Feeds Pizza Hut menu prices (June 2026)"
+      "sourceFile": "Frugal Feeds Pizza Hut prices + Pizza Hut AU menu product API kJ (June 2026)"
     },
     {
       "id": "pizza-hut-vegan-margherita-medium-pizza",
@@ -4486,10 +4488,10 @@
       "note": "Price from Frugal Feeds; nutrition/serve metrics unavailable from source.",
       "price": 9.95,
       "serveGrams": null,
-      "energyKj": null,
-      "energyCal": null,
+      "energyKj": 3606.0,
+      "energyCal": 861.85,
       "proteinGrams": null,
-      "sourceFile": "Frugal Feeds Pizza Hut menu prices (June 2026)"
+      "sourceFile": "Frugal Feeds Pizza Hut prices + Pizza Hut AU menu product API kJ (June 2026)"
     },
     {
       "id": "pizza-hut-vegan-margherita-large-pizza",
@@ -4499,10 +4501,10 @@
       "note": "Price from Frugal Feeds; nutrition/serve metrics unavailable from source.",
       "price": 11.45,
       "serveGrams": null,
-      "energyKj": null,
-      "energyCal": null,
+      "energyKj": 6009.0,
+      "energyCal": 1436.19,
       "proteinGrams": null,
-      "sourceFile": "Frugal Feeds Pizza Hut menu prices (June 2026)"
+      "sourceFile": "Frugal Feeds Pizza Hut prices + Pizza Hut AU menu product API kJ (June 2026)"
     },
     {
       "id": "pizza-hut-vegan-cheese-lovers-medium-pizza",
@@ -4512,10 +4514,10 @@
       "note": "Price from Frugal Feeds; nutrition/serve metrics unavailable from source.",
       "price": 9.95,
       "serveGrams": null,
-      "energyKj": null,
-      "energyCal": null,
+      "energyKj": 3850.0,
+      "energyCal": 920.17,
       "proteinGrams": null,
-      "sourceFile": "Frugal Feeds Pizza Hut menu prices (June 2026)"
+      "sourceFile": "Frugal Feeds Pizza Hut prices + Pizza Hut AU menu product API kJ (June 2026)"
     },
     {
       "id": "pizza-hut-vegan-cheese-lovers-large-pizza",
@@ -4525,10 +4527,10 @@
       "note": "Price from Frugal Feeds; nutrition/serve metrics unavailable from source.",
       "price": 11.45,
       "serveGrams": null,
-      "energyKj": null,
-      "energyCal": null,
+      "energyKj": 6203.0,
+      "energyCal": 1482.55,
       "proteinGrams": null,
-      "sourceFile": "Frugal Feeds Pizza Hut menu prices (June 2026)"
+      "sourceFile": "Frugal Feeds Pizza Hut prices + Pizza Hut AU menu product API kJ (June 2026)"
     },
     {
       "id": "pizza-hut-cheese-lovers-medium-pizza",
@@ -4538,10 +4540,10 @@
       "note": "Price from Frugal Feeds; nutrition/serve metrics unavailable from source.",
       "price": 9.95,
       "serveGrams": null,
-      "energyKj": null,
-      "energyCal": null,
+      "energyKj": 4798.0,
+      "energyCal": 1146.75,
       "proteinGrams": null,
-      "sourceFile": "Frugal Feeds Pizza Hut menu prices (June 2026)"
+      "sourceFile": "Frugal Feeds Pizza Hut prices + Pizza Hut AU menu product API kJ (June 2026)"
     },
     {
       "id": "pizza-hut-cheese-lovers-large-pizza",
@@ -4551,10 +4553,10 @@
       "note": "Price from Frugal Feeds; nutrition/serve metrics unavailable from source.",
       "price": 11.45,
       "serveGrams": null,
-      "energyKj": null,
-      "energyCal": null,
+      "energyKj": 9909.0,
+      "energyCal": 2368.31,
       "proteinGrams": null,
-      "sourceFile": "Frugal Feeds Pizza Hut menu prices (June 2026)"
+      "sourceFile": "Frugal Feeds Pizza Hut prices + Pizza Hut AU menu product API kJ (June 2026)"
     },
     {
       "id": "pizza-hut-margherita-medium-pizza",
@@ -4564,10 +4566,10 @@
       "note": "Price from Frugal Feeds; nutrition/serve metrics unavailable from source.",
       "price": 9.95,
       "serveGrams": null,
-      "energyKj": null,
-      "energyCal": null,
+      "energyKj": 4145.0,
+      "energyCal": 990.68,
       "proteinGrams": null,
-      "sourceFile": "Frugal Feeds Pizza Hut menu prices (June 2026)"
+      "sourceFile": "Frugal Feeds Pizza Hut prices + Pizza Hut AU menu product API kJ (June 2026)"
     },
     {
       "id": "pizza-hut-margherita-large-pizza",
@@ -4577,10 +4579,10 @@
       "note": "Price from Frugal Feeds; nutrition/serve metrics unavailable from source.",
       "price": 11.45,
       "serveGrams": null,
-      "energyKj": null,
-      "energyCal": null,
+      "energyKj": 6793.0,
+      "energyCal": 1623.57,
       "proteinGrams": null,
-      "sourceFile": "Frugal Feeds Pizza Hut menu prices (June 2026)"
+      "sourceFile": "Frugal Feeds Pizza Hut prices + Pizza Hut AU menu product API kJ (June 2026)"
     },
     {
       "id": "pizza-hut-hawaiian-personal-value-range-pizza",
