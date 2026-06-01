@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Compare Australian fast food value by grams, kilojoules, calories and protein per dollar. Add/edit prices and plan a budget.">
+  <meta name="theme-color" content="#111827">
+  <meta property="og:title" content="AU Fast Food Value Finder">
+  <meta property="og:description" content="Find the best fast food value in Australia and manage your own prices and budget.">
+  <meta property="og:type" content="website">
+  <title>AU Fast Food Value Finder</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#results">Skip to results</a>
+  <header class="hero">
+    <nav class="topbar" aria-label="Main navigation">
+      <a class="brand" href="#top" aria-label="AU Fast Food Value Finder home">
+        <span class="brand-mark">$</span>
+        <span>AU Fast Food Value</span>
+      </a>
+      <div class="nav-actions">
+        <a href="#budget">Budget</a>
+        <a href="#manage">Manage items</a>
+        <button id="themeToggle" class="ghost" type="button" aria-label="Toggle dark mode">🌙</button>
+      </div>
+    </nav>
+
+    <section id="top" class="hero-grid">
+      <div>
+        <p class="eyebrow">Australia · Subway · GYG · McDonald's</p>
+        <h1>Find the most food, energy or protein for every dollar.</h1>
+        <p class="lead">A GitHub Pages-friendly fast food value calculator with editable local prices, budget planning, and export/import tools for keeping data fresh.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#results">Compare value</a>
+          <a class="button secondary" href="#manage">Add or edit food</a>
+        </div>
+      </div>
+      <aside class="hero-card" aria-label="Best value summary">
+        <p class="small-label">Best right now</p>
+        <div id="heroBest" class="hero-best">Loading data…</div>
+        <p class="muted">Sorted by the selected value metric. Prices vary by store; update them for your area.</p>
+      </aside>
+    </section>
+  </header>
+
+  <main>
+    <section class="panel controls" aria-label="Filters and controls">
+      <div class="control-grid">
+        <label>Search
+          <input id="searchInput" type="search" placeholder="Big Mac, burrito, fries…" autocomplete="off">
+        </label>
+        <label>Brand
+          <select id="brandFilter"><option value="all">All brands</option></select>
+        </label>
+        <label>Category
+          <select id="categoryFilter"><option value="all">All categories</option></select>
+        </label>
+        <label>Value metric
+          <select id="metricSelect">
+            <option value="gramsPerDollar">Grams per $</option>
+            <option value="kjPerDollar">kJ per $</option>
+            <option value="calPerDollar">Calories per $</option>
+            <option value="proteinPerDollar">Protein per $</option>
+            <option value="price">Lowest price</option>
+          </select>
+        </label>
+        <label>Max price
+          <input id="maxPrice" type="number" min="0" step="0.05" placeholder="No limit">
+        </label>
+        <label>Sort
+          <select id="sortSelect">
+            <option value="metricDesc">Best value first</option>
+            <option value="priceAsc">Cheapest first</option>
+            <option value="brandAsc">Brand A-Z</option>
+            <option value="nameAsc">Name A-Z</option>
+          </select>
+        </label>
+      </div>
+      <div class="quick-stats" id="quickStats" aria-live="polite"></div>
+    </section>
+
+    <section id="budget" class="section-grid">
+      <article class="panel budget-panel">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Budget planner</p>
+            <h2>What can I buy?</h2>
+          </div>
+          <span class="pill">Saved locally</span>
+        </div>
+        <div class="budget-form">
+          <label>Budget (AUD)
+            <input id="budgetInput" type="number" min="0" step="0.05" placeholder="e.g. 15">
+          </label>
+          <label>Optimise for
+            <select id="budgetMetric">
+              <option value="gramsPerDollar">Most grams</option>
+              <option value="kjPerDollar">Most kJ</option>
+              <option value="proteinPerDollar">Most protein</option>
+              <option value="calPerDollar">Most calories</option>
+            </select>
+          </label>
+        </div>
+        <div class="budget-summary" id="budgetSummary">Enter a budget to see matching items.</div>
+        <div class="budget-list" id="budgetList"></div>
+      </article>
+
+      <article class="panel">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">How to use</p>
+            <h2>Update prices in seconds</h2>
+          </div>
+        </div>
+        <ol class="steps">
+          <li>Click Edit on any item and adjust the local price, serve size or macros.</li>
+          <li>Use Export JSON to save your edited dataset.</li>
+          <li>Commit the exported JSON over <code>data/foods.json</code> for all GitHub Pages visitors.</li>
+        </ol>
+        <div class="callout">GitHub Pages is static, so shared public updates happen through the repo. Personal edits save instantly in your browser via localStorage.</div>
+      </article>
+    </section>
+
+    <section id="results" class="panel results-panel">
+      <div class="section-heading sticky-heading">
+        <div>
+          <p class="eyebrow">Compare</p>
+          <h2>Food pricing per dollar</h2>
+        </div>
+        <div class="view-actions">
+          <button id="resetEdits" class="ghost danger" type="button">Reset local edits</button>
+          <button id="exportJson" class="ghost" type="button">Export JSON</button>
+        </div>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Food</th><th>Brand</th><th>Category</th><th>Price</th><th>Serve</th><th>g/$</th><th>kJ/$</th><th>Cal/$</th><th>Protein/$</th><th></th>
+            </tr>
+          </thead>
+          <tbody id="itemsBody"></tbody>
+        </table>
+      </div>
+      <div id="cardGrid" class="card-grid"></div>
+    </section>
+
+    <section id="manage" class="section-grid">
+      <article class="panel editor-panel">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Manage items</p>
+            <h2 id="formTitle">Add a food item</h2>
+          </div>
+          <button id="newItem" class="ghost" type="button">New item</button>
+        </div>
+        <form id="itemForm" class="item-form">
+          <input id="itemId" type="hidden">
+          <label>Item name<input id="itemName" required placeholder="e.g. Small Fries"></label>
+          <label>Brand<input id="itemBrand" required list="brandList" placeholder="e.g. KFC"></label>
+          <datalist id="brandList"></datalist>
+          <label>Category<input id="itemCategory" required list="categoryList" placeholder="e.g. Side"></label>
+          <datalist id="categoryList"></datalist>
+          <label>Price AUD<input id="itemPrice" type="number" min="0" step="0.05" required></label>
+          <label>Serve grams<input id="itemServe" type="number" min="0" step="1"></label>
+          <label>Energy kJ<input id="itemKj" type="number" min="0" step="1"></label>
+          <label>Calories<input id="itemCal" type="number" min="0" step="1"></label>
+          <label>Protein grams<input id="itemProtein" type="number" min="0" step="0.1"></label>
+          <label class="wide">Note<input id="itemNote" placeholder="Deal, filling, store note…"></label>
+          <div class="form-actions wide">
+            <button class="button primary" type="submit">Save item</button>
+            <button id="deleteItem" class="button danger" type="button" disabled>Delete item</button>
+          </div>
+        </form>
+      </article>
+
+      <article class="panel import-panel">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Data tools</p>
+            <h2>Import or refresh</h2>
+          </div>
+        </div>
+        <p>Paste exported JSON here to replace your local dataset. To update the public GitHub Pages version, replace <code>data/foods.json</code> in the repository.</p>
+        <textarea id="importText" placeholder='Paste { "items": [...] } JSON here'></textarea>
+        <div class="form-actions">
+          <button id="importJson" class="button secondary" type="button">Import JSON locally</button>
+          <a class="button ghost" href="data/foods.json" download>Download seed data</a>
+        </div>
+        <p id="dataStatus" class="muted" aria-live="polite"></p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>Built for GitHub Pages. Data is a guide only; Australian fast food prices vary by store, app, delivery channel and time.</p>
+  </footer>
+
+  <template id="rowTemplate">
+    <tr>
+      <td class="food-cell"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td><button class="small-button" type="button">Edit</button></td>
+    </tr>
+  </template>
+  <script src="app.js" defer></script>
+</body>
+</html>
