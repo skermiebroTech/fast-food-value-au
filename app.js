@@ -1,5 +1,5 @@
 const DATA_URL = 'data/foods.json';
-const STORAGE_KEY = 'au-fast-food-value.items.v2';
+const STORAGE_KEY = 'au-fast-food-value.items.v3';
 const BUDGET_KEY = 'au-fast-food-value.budget.v1';
 const THEME_KEY = 'au-fast-food-value.theme.v1';
 
@@ -26,21 +26,25 @@ const money = new Intl.NumberFormat('en-AU', { style: 'currency', currency: 'AUD
 const n0 = new Intl.NumberFormat('en-AU', { maximumFractionDigits: 0 });
 const n1 = new Intl.NumberFormat('en-AU', { maximumFractionDigits: 1 });
 
+function hasNumber(value) {
+  return value !== null && value !== undefined && value !== '' && Number.isFinite(Number(value));
+}
 function asNum(value) {
   const num = Number(value);
   return Number.isFinite(num) ? num : 0;
 }
-function round(value, digits = 2) { return Number(Math.round(`${asNum(value)}e${digits}`) + `e-${digits}`); }
+function round(value, digits = 2) { return hasNumber(value) ? Number(Math.round(`${Number(value)}e${digits}`) + `e-${digits}`) : null; }
+function fmtNumber(value, formatter = n1, suffix = '') { return hasNumber(value) && Number(value) > 0 ? `${formatter.format(Number(value))}${suffix}` : '—'; }
 function slug(text) { return String(text || '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') || crypto.randomUUID(); }
 function withMetrics(item) {
   const price = asNum(item.price);
   return {
     ...item,
     price,
-    gramsPerDollar: price ? asNum(item.serveGrams) / price : 0,
-    kjPerDollar: price ? asNum(item.energyKj) / price : 0,
-    calPerDollar: price ? asNum(item.energyCal) / price : 0,
-    proteinPerDollar: price ? asNum(item.proteinGrams) / price : 0
+    gramsPerDollar: price && hasNumber(item.serveGrams) ? asNum(item.serveGrams) / price : 0,
+    kjPerDollar: price && hasNumber(item.energyKj) ? asNum(item.energyKj) / price : 0,
+    calPerDollar: price && hasNumber(item.energyCal) ? asNum(item.energyCal) / price : 0,
+    proteinPerDollar: price && hasNumber(item.proteinGrams) ? asNum(item.proteinGrams) / price : 0
   };
 }
 function saveLocal() {
@@ -55,7 +59,7 @@ function metricLabel(metric) {
 function formatMetric(item, metric) {
   if (metric === 'price') return money.format(item.price);
   const value = item[metric];
-  return metric === 'proteinPerDollar' ? n1.format(value) : n0.format(value);
+  return value > 0 ? (metric === 'proteinPerDollar' || metric === 'gramsPerDollar' || metric === 'calPerDollar' ? n1.format(value) : n0.format(value)) : '—';
 }
 
 async function init() {
@@ -75,7 +79,7 @@ async function init() {
 }
 function normaliseItem(item) {
   const id = item.id || slug(`${item.brand}-${item.item}`);
-  return { id, brand: item.brand || 'Other', item: item.item || 'Untitled item', category: item.category || 'Other', note: item.note || '', price: round(item.price), serveGrams: round(item.serveGrams, 1), energyKj: round(item.energyKj), energyCal: round(item.energyCal), proteinGrams: round(item.proteinGrams, 1), sourceFile: item.sourceFile || 'local', userEdited: Boolean(item.userEdited) };
+  return { id, brand: item.brand || 'Other', item: item.item || 'Untitled item', category: item.category || 'Other', note: item.note || '', price: round(item.price) ?? 0, serveGrams: round(item.serveGrams, 1), energyKj: round(item.energyKj), energyCal: round(item.energyCal), proteinGrams: round(item.proteinGrams, 1), sourceFile: item.sourceFile || 'local', userEdited: Boolean(item.userEdited) };
 }
 function bindEvents() {
   ['input', 'change'].forEach(evt => {
@@ -139,10 +143,10 @@ function renderHero(rows) {
   els.heroBest.innerHTML = best ? `<strong>${escapeHtml(best.item)}</strong><span>${escapeHtml(best.brand)} · ${money.format(best.price)} · ${formatMetric(best, els.metric.value)} ${metricLabel(els.metric.value)}</span>` : 'No matching items.';
 }
 function renderTable(rows) {
-  els.body.innerHTML = rows.map(i => `<tr class="${i.userEdited ? 'changed' : ''}"><td class="food-cell"><strong>${escapeHtml(i.item)}</strong><span>${escapeHtml(i.note || '')}</span></td><td>${escapeHtml(i.brand)}</td><td>${escapeHtml(i.category)}</td><td>${money.format(i.price)}</td><td>${n0.format(i.serveGrams)}g</td><td>${n1.format(i.gramsPerDollar)}</td><td>${n0.format(i.kjPerDollar)}</td><td>${n1.format(i.calPerDollar)}</td><td>${n1.format(i.proteinPerDollar)}</td><td><button class="small-button" data-edit="${escapeHtml(i.id)}" type="button">Edit</button></td></tr>`).join('');
+  els.body.innerHTML = rows.map(i => `<tr class="${i.userEdited ? 'changed' : ''}"><td class="food-cell"><strong>${escapeHtml(i.item)}</strong><span>${escapeHtml(i.note || '')}</span></td><td>${escapeHtml(i.brand)}</td><td>${escapeHtml(i.category)}</td><td>${money.format(i.price)}</td><td>${fmtNumber(i.serveGrams, n0, 'g')}</td><td>${formatMetric(i, 'gramsPerDollar')}</td><td>${formatMetric(i, 'kjPerDollar')}</td><td>${formatMetric(i, 'calPerDollar')}</td><td>${formatMetric(i, 'proteinPerDollar')}</td><td><button class="small-button" data-edit="${escapeHtml(i.id)}" type="button">Edit</button></td></tr>`).join('');
 }
 function renderCards(rows) {
-  els.cards.innerHTML = rows.map(i => `<article class="food-card ${i.userEdited ? 'changed' : ''}"><p class="eyebrow">${escapeHtml(i.brand)} · ${escapeHtml(i.category)}</p><h3>${escapeHtml(i.item)}</h3><p class="muted">${escapeHtml(i.note || '')}</p><div class="metric-grid"><div class="metric"><span>Price</span><b>${money.format(i.price)}</b></div><div class="metric"><span>Serve</span><b>${n0.format(i.serveGrams)}g</b></div><div class="metric"><span>g/$</span><b>${n1.format(i.gramsPerDollar)}</b></div><div class="metric"><span>Protein/$</span><b>${n1.format(i.proteinPerDollar)}</b></div></div><button class="small-button" data-edit="${escapeHtml(i.id)}" type="button">Edit item</button></article>`).join('');
+  els.cards.innerHTML = rows.map(i => `<article class="food-card ${i.userEdited ? 'changed' : ''}"><p class="eyebrow">${escapeHtml(i.brand)} · ${escapeHtml(i.category)}</p><h3>${escapeHtml(i.item)}</h3><p class="muted">${escapeHtml(i.note || '')}</p><div class="metric-grid"><div class="metric"><span>Price</span><b>${money.format(i.price)}</b></div><div class="metric"><span>Serve</span><b>${fmtNumber(i.serveGrams, n0, 'g')}</b></div><div class="metric"><span>g/$</span><b>${formatMetric(i, 'gramsPerDollar')}</b></div><div class="metric"><span>Protein/$</span><b>${formatMetric(i, 'proteinPerDollar')}</b></div></div><button class="small-button" data-edit="${escapeHtml(i.id)}" type="button">Edit item</button></article>`).join('');
 }
 function renderBudget() {
   const budget = Number(els.budget.value);

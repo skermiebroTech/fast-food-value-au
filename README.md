@@ -11,12 +11,15 @@ A modern, no-build GitHub Pages website for comparing Australian fast food value
 - calories per dollar
 - protein grams per dollar
 - budget-fit items under a user-entered AUD budget
+- meal deal and combo comparisons across Subway, GYG, McDonald's and KFC
 
 Seed data was generated from:
 
 - `/Users/joel/Downloads/Subway_AU_Best_Value.xlsx`
 - `/Users/joel/Downloads/GYG_Best_Value.xlsx`
 - `/Users/joel/Downloads/McDonalds_AU_Best_Value.xlsx`
+- Frugal Feeds AU menu/deal listings for additional meal deal prices
+- kfcmenuprice.au for KFC Australia item prices and kJ values
 
 The copied workbook sources are kept in `sources/` for maintainers. The browser loads the public seed dataset from `data/foods.json`.
 
@@ -24,6 +27,9 @@ The copied workbook sources are kept in `sources/` for maintainers. The browser 
 
 - Removed Subway FitChips because they are not a dependable current Australian Subway item.
 - Added Australia-focused McDonald's McSmart-style meal deal rows, including the requested `$6 McSmart Meal`.
+- Added small-meal rows for common McDonald's mains using Australian small meal prices.
+- Added Subway meal-upgrade rows, GYG kids/bundle meal-deal rows, and KFC Australia items, combos, boxes and shared meals.
+- KFC rows use price + kJ data from kfcmenuprice.au; serve grams and protein are shown as unavailable where the source did not provide them.
 - Meal deal food-value metrics count the food components only. Drinks vary by choice and are excluded from grams/kJ/protein calculations unless a maintainer adds a specific drink row.
 - Promo/deal prices can vary by store, app account, delivery channel and time. They are labelled as deals and should be checked against the Australian app/store before relying on them.
 
