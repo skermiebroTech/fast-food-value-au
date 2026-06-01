@@ -10,9 +10,9 @@
       "kfcmenuprice.au KFC menu prices/kJ (June 2026)"
     ],
     "updated": "2026-06-01",
-    "notes": "Static seed data from provided Australia spreadsheets plus AU meal deals and KFC AU menu rows. Some deal/ KFC rows only have price+kJ because public sources did not provide serve grams/protein. User edits are stored in localStorage and can be exported/imported as JSON.",
+    "notes": "Static seed data from provided Australia spreadsheets plus AU meal deals and KFC AU menu rows. Some deal/KFC rows only have price+kJ because public sources did not provide serve grams/protein. Removed non-current/non-dependable Subway FitChips and $8 Footlong Sub of the Day promo rows. User edits are stored in localStorage and can be exported/imported as JSON.",
     "siteUrl": "https://skermiebrotech.github.io/fast-food-value-au/",
-    "audit": "Expanded meal/deal coverage for Subway, GYG, McDonald's and KFC. Removed Subway FitChips. Deal prices vary by store/app/campaign and should be checked against Australian store apps."
+    "audit": "Expanded meal/deal coverage for Subway, GYG, McDonald's and KFC. Removed Subway FitChips and the $8 Footlong Sub of the Day promo. Deal prices vary by store/app/campaign and should be checked against Australian store apps."
   },
   "items": [
     {
@@ -2174,19 +2174,6 @@
       "sourceFile": "Subway_AU_Best_Value.xlsx"
     },
     {
-      "id": "subway-8-footlong-sub-of-the-day-e-g-bmt",
-      "brand": "Subway",
-      "item": "$8 Footlong Sub of the Day (e.g. BMT)",
-      "category": "Deal",
-      "note": "rotating daily promo",
-      "price": 8.0,
-      "serveGrams": 432.0,
-      "energyKj": 3140.0,
-      "energyCal": 750.48,
-      "proteinGrams": 40.4,
-      "sourceFile": "Subway_AU_Best_Value.xlsx"
-    },
-    {
       "id": "subway-buffalo-chicken",
       "brand": "Subway",
       "item": "Buffalo Chicken",
@@ -2478,24 +2465,8 @@
       "brand": "Subway",
       "sourceFile": "Subway_AU_Best_Value.xlsx",
       "notes": [
-        "Notes & Method",
-        "COUNTRY: Australia, to match the GYG and McDonald's sheets. Say if you want another country.",
-        "NUTRITION (solid): Serve size (g), energy (kJ) and protein (g) are from Subway's official Australia Nutrition Summary.",
-        "Values are for the standard 6-inch sub (white bread + standard salads, no extra cheese/sauce unless the sub includes it).",
-        "Footlong rows use 2x the 6-inch values, per Subway's own note ('Double values for approximate Footlong nutrition').",
-        "Energy (Cal) = kJ / 4.184. Adding cheese, sauces, avo or extra protein increases weight and energy beyond these figures.",
-        "PRICES (caveat): Subway is franchised and prices vary noticeably by store. The 6-inch prices here are representative AU",
-        "menu prices c. 2026; FOOTLONG prices are estimated at ~1.55x the 6-inch (real footlongs are often 1.5-1.7x). Verify in-store/app.",
-        "The best real-world value is the promo pricing: the ~$7 Six-Inch Value Range and the ~$8 Footlong Sub of the Day.",
-        "METRICS:",
-        "Grams / $  = serve size (g) / price  ->  the literal 'most food per dollar' measure (headline, green column).",
-        "kJ / $     = energy (kJ) / price; Protein g / $ = protein (g) / price.",
-        "KEY TAKEAWAYS:",
-        "Footlongs beat 6-inch on every per-dollar metric: 2x the food for only ~1.5x the price. If maximising food/$, go footlong.",
-        "Deal-priced subs win outright - an $8 Sub of the Day footlong is ~430g+ for $8 (~54 g/$).",
-        "For protein per dollar, the meatier footlongs (Chicken & Bacon Ranch, Steak, Chicken Teriyaki/Schnitzel) lead.",
-        "Cookies look efficient on grams/$ and kJ/$ but are sugar, not a meal.",
-        "All value columns are live Excel formulas - edit any price or serve size and the rankings update."
+        "FitChips removed after user correction; it is not a dependable current Australian Subway item.",
+        "The $8 Footlong Sub of the Day promo row was removed after user correction/request; remaining Subway rows are standard items, kids/menu upgrades or other explicitly labelled deals."
       ]
     },
     {
