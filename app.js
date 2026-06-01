@@ -1,6 +1,7 @@
 const DATA_URL = 'data/foods.json';
-const STORAGE_KEY = 'au-fast-food-value.items.v4';
+const STORAGE_KEY = 'au-fast-food-value.items.v5';
 const BUDGET_KEY = 'au-fast-food-value.budget.v1';
+const COMBO_KEY = 'au-fast-food-value.combo.v1';
 const THEME_KEY = 'au-fast-food-value.theme.v1';
 
 const els = {
@@ -8,7 +9,9 @@ const els = {
   category: document.querySelector('#categoryFilter'), metric: document.querySelector('#metricSelect'), sort: document.querySelector('#sortSelect'),
   maxPrice: document.querySelector('#maxPrice'), quickStats: document.querySelector('#quickStats'), body: document.querySelector('#itemsBody'),
   cards: document.querySelector('#cardGrid'), budget: document.querySelector('#budgetInput'), budgetMetric: document.querySelector('#budgetMetric'),
-  budgetSummary: document.querySelector('#budgetSummary'), budgetList: document.querySelector('#budgetList'), form: document.querySelector('#itemForm'),
+  budgetSummary: document.querySelector('#budgetSummary'), budgetList: document.querySelector('#budgetList'), comboBudget: document.querySelector('#comboBudget'),
+  comboBrand: document.querySelector('#comboBrand'), comboSize: document.querySelector('#comboSize'), comboMetric: document.querySelector('#comboMetric'),
+  comboSummary: document.querySelector('#comboSummary'), comboList: document.querySelector('#comboList'), form: document.querySelector('#itemForm'),
   formTitle: document.querySelector('#formTitle'), itemId: document.querySelector('#itemId'), itemName: document.querySelector('#itemName'), itemBrand: document.querySelector('#itemBrand'),
   itemCategory: document.querySelector('#itemCategory'), itemPrice: document.querySelector('#itemPrice'), itemServe: document.querySelector('#itemServe'),
   itemKj: document.querySelector('#itemKj'), itemCal: document.querySelector('#itemCal'), itemProtein: document.querySelector('#itemProtein'), itemNote: document.querySelector('#itemNote'),
@@ -73,6 +76,11 @@ async function init() {
   const budgetState = JSON.parse(localStorage.getItem(BUDGET_KEY) || '{}');
   if (budgetState.budget) els.budget.value = budgetState.budget;
   if (budgetState.metric) els.budgetMetric.value = budgetState.metric;
+  const comboState = JSON.parse(localStorage.getItem(COMBO_KEY) || '{}');
+  if (comboState.budget) els.comboBudget.value = comboState.budget;
+  if (comboState.brand) els.comboBrand.value = comboState.brand;
+  if (comboState.size) els.comboSize.value = comboState.size;
+  if (comboState.metric) els.comboMetric.value = comboState.metric;
   bindEvents();
   renderAll();
   if ('serviceWorker' in navigator && location.protocol !== 'file:') navigator.serviceWorker.register('sw.js').catch(console.warn);
@@ -85,6 +93,7 @@ function bindEvents() {
   ['input', 'change'].forEach(evt => {
     [els.search, els.brand, els.category, els.metric, els.sort, els.maxPrice].forEach(el => el.addEventListener(evt, renderAll));
     [els.budget, els.budgetMetric].forEach(el => el.addEventListener(evt, () => { localStorage.setItem(BUDGET_KEY, JSON.stringify({ budget: els.budget.value, metric: els.budgetMetric.value })); renderBudget(); }));
+    [els.comboBudget, els.comboBrand, els.comboSize, els.comboMetric].forEach(el => el.addEventListener(evt, () => { localStorage.setItem(COMBO_KEY, JSON.stringify({ budget: els.comboBudget.value, brand: els.comboBrand.value, size: els.comboSize.value, metric: els.comboMetric.value })); renderCombos(); }));
   });
   els.body.addEventListener('click', e => { const btn = e.target.closest('button[data-edit]'); if (btn) editItem(btn.dataset.edit); });
   els.cards.addEventListener('click', e => { const btn = e.target.closest('button[data-edit]'); if (btn) editItem(btn.dataset.edit); });
@@ -101,10 +110,11 @@ function applyTheme(theme) {
   localStorage.setItem(THEME_KEY, theme);
   els.themeToggle.textContent = theme === 'dark' ? '☀️' : '🌙';
 }
-function renderAll() { populateFilters(); const rows = getFilteredRows(); renderStats(rows); renderHero(rows); renderTable(rows); renderCards(rows); renderBudget(); }
+function renderAll() { populateFilters(); const rows = getFilteredRows(); renderStats(rows); renderHero(rows); renderTable(rows); renderCards(rows); renderBudget(); renderCombos(); }
 function populateFilters() {
-  const selectedBrand = els.brand.value, selectedCat = els.category.value;
+  const selectedBrand = els.brand.value, selectedCat = els.category.value, selectedComboBrand = els.comboBrand.value;
   fillSelect(els.brand, ['all', ...new Set(items.map(i => i.brand).sort())], selectedBrand, 'All brands');
+  fillSelect(els.comboBrand, ['all', ...new Set(items.map(i => i.brand).sort())], selectedComboBrand, 'Any brand');
   fillSelect(els.category, ['all', ...new Set(items.map(i => i.category).sort())], selectedCat, 'All categories');
   fillDatalist(els.brandList, [...new Set(items.map(i => i.brand).sort())]);
   fillDatalist(els.categoryList, [...new Set(items.map(i => i.category).sort())]);
@@ -156,6 +166,62 @@ function renderBudget() {
   const best = matches[0];
   els.budgetSummary.innerHTML = best ? `Best under ${money.format(budget)}: <strong>${escapeHtml(best.item)}</strong> from ${escapeHtml(best.brand)} (${formatMetric(best, metric)} ${metricLabel(metric)}).` : `No filtered items fit under ${money.format(budget)}.`;
   els.budgetList.innerHTML = matches.map(i => `<div class="budget-item"><div><strong>${escapeHtml(i.item)}</strong><div class="muted">${escapeHtml(i.brand)} · ${escapeHtml(i.category)} · ${formatMetric(i, metric)} ${metricLabel(metric)}</div></div><b>${money.format(i.price)}</b></div>`).join('');
+}
+function comboMetricLabel(metric) {
+  return ({ serveGrams: 'grams', energyKj: 'kJ', energyCal: 'Cal', proteinGrams: 'protein g' })[metric] || metric;
+}
+function comboMetricValue(combo, metric) {
+  return combo.totals[metric] || 0;
+}
+function comboItemMetric(item, metric) {
+  return hasNumber(item[metric]) ? Number(item[metric]) : 0;
+}
+function renderCombos() {
+  const budget = Number(els.comboBudget.value);
+  const metric = els.comboMetric.value;
+  const brand = els.comboBrand.value;
+  const maxItems = Math.max(2, Math.min(4, Number(els.comboSize.value) || 3));
+  if (!Number.isFinite(budget) || budget <= 0) { els.comboSummary.textContent = 'Enter a combo budget to find meal combinations.'; els.comboList.innerHTML = ''; return; }
+  const ignored = new Set(['Drink', 'Sauce']);
+  const bundleCategories = new Set(['Meal Deal', 'Boxed Meal', 'Shared Meal']);
+  const rawCandidates = items.map(withMetrics).filter(i => i.price > 0 && i.price <= budget && !ignored.has(i.category) && (brand === 'all' || i.brand === brand) && comboItemMetric(i, metric) > 0);
+  const byValue = [...rawCandidates].sort((a,b) => comboItemMetric(b, metric) / b.price - comboItemMetric(a, metric) / a.price).slice(0, 36);
+  const byCheap = [...rawCandidates].sort((a,b) => a.price - b.price).slice(0, 18);
+  const candidates = [...new Map([...byValue, ...byCheap].map(i => [i.id, i])).values()].sort((a,b) => a.price - b.price);
+  const combos = [];
+  function addCombo(picks) {
+    const totals = picks.reduce((acc, i) => {
+      acc.price += i.price;
+      acc.serveGrams += comboItemMetric(i, 'serveGrams');
+      acc.energyKj += comboItemMetric(i, 'energyKj');
+      acc.energyCal += comboItemMetric(i, 'energyCal');
+      acc.proteinGrams += comboItemMetric(i, 'proteinGrams');
+      return acc;
+    }, { price: 0, serveGrams: 0, energyKj: 0, energyCal: 0, proteinGrams: 0 });
+    if (picks.length >= 2 && totals.price <= budget && comboMetricValue({ totals }, metric) > 0) combos.push({ items: [...picks], totals });
+  }
+  function walk(start, picks, price) {
+    if (picks.length >= 2) addCombo(picks);
+    if (picks.length >= maxItems) return;
+    for (let idx = start; idx < candidates.length; idx += 1) {
+      const item = candidates[idx];
+      if (price + item.price > budget) continue;
+      if (bundleCategories.has(item.category) && picks.some(p => bundleCategories.has(p.category))) continue;
+      picks.push(item);
+      walk(idx + 1, picks, price + item.price);
+      picks.pop();
+    }
+  }
+  walk(0, [], 0);
+  const unique = [...new Map(combos.map(c => [c.items.map(i => i.id).sort().join('|'), c])).values()]
+    .sort((a,b) => comboMetricValue(b, metric) - comboMetricValue(a, metric) || (comboMetricValue(b, metric) / b.totals.price) - (comboMetricValue(a, metric) / a.totals.price) || a.totals.price - b.totals.price)
+    .slice(0, 8);
+  const best = unique[0];
+  els.comboSummary.innerHTML = best ? `Best ${maxItems}-item-or-less combo under ${money.format(budget)}: <strong>${n0.format(comboMetricValue(best, metric))} ${comboMetricLabel(metric)}</strong> for ${money.format(best.totals.price)}.` : `No 2-${maxItems} item food combos fit under ${money.format(budget)} for the selected brand/metric.`;
+  els.comboList.innerHTML = unique.map((combo, index) => {
+    const itemList = combo.items.map(i => `<li>${escapeHtml(i.item)} <span>${escapeHtml(i.brand)} · ${money.format(i.price)}</span></li>`).join('');
+    return `<article class="combo-card"><div class="combo-rank">#${index + 1}</div><div><h3>${n0.format(comboMetricValue(combo, metric))} ${comboMetricLabel(metric)} · ${money.format(combo.totals.price)}</h3><p class="muted">${fmtNumber(combo.totals.serveGrams, n0, 'g')} · ${fmtNumber(combo.totals.energyKj, n0, 'kJ')} · ${fmtNumber(combo.totals.energyCal, n1, 'Cal')} · ${fmtNumber(combo.totals.proteinGrams, n1, 'g protein')}</p><ul>${itemList}</ul></div></article>`;
+  }).join('');
 }
 function editItem(id) {
   const item = items.find(i => i.id === id); if (!item) return;

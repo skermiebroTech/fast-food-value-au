@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Compare Australian fast food value and meal deals from Subway, GYG, McDonald's and KFC by grams, kilojoules, calories and protein per dollar. Add/edit prices and plan a budget.">
+  <meta name="description" content="Compare Australian fast food value and meal deals from Subway, GYG, McDonald's and KFC by grams, kilojoules, calories and protein per dollar. Plan budgets, build meal combos, and add/edit prices.">
   <meta name="theme-color" content="#111827">
   <meta property="og:title" content="AU Fast Food Value Finder">
   <meta property="og:description" content="Find the best fast food value in Australia and manage your own prices and budget.">
@@ -25,6 +25,7 @@
       </a>
       <div class="nav-actions">
         <a href="#budget">Budget</a>
+        <a href="#meal-combos">Meal combos</a>
         <a href="#manage">Manage items</a>
         <button id="themeToggle" class="ghost" type="button" aria-label="Toggle dark mode">🌙</button>
       </div>
@@ -124,6 +125,42 @@
         </ol>
         <div class="callout">GitHub Pages is static, so shared public updates happen through the repo. Personal edits save instantly in your browser via localStorage.</div>
       </article>
+    </section>
+
+    <section id="meal-combos" class="panel combo-panel">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Meal combo finder</p>
+          <h2>Best combinations for your budget</h2>
+        </div>
+        <span class="pill">Auto-built from current prices</span>
+      </div>
+      <p class="muted">Builds multi-item meal ideas from the current dataset. Drinks and sauces are ignored so combos stay food-focused; existing meal deals can be included, but only one bundled deal/box/shared meal is used per combo.</p>
+      <div class="combo-form">
+        <label>Combo budget (AUD)
+          <input id="comboBudget" type="number" min="0" step="0.05" placeholder="e.g. 15">
+        </label>
+        <label>Brand
+          <select id="comboBrand"><option value="all">Any brand</option></select>
+        </label>
+        <label>Max items
+          <select id="comboSize">
+            <option value="2">2 items</option>
+            <option value="3" selected>3 items</option>
+            <option value="4">4 items</option>
+          </select>
+        </label>
+        <label>Optimise for
+          <select id="comboMetric">
+            <option value="serveGrams">Most grams</option>
+            <option value="energyKj">Most kJ</option>
+            <option value="proteinGrams">Most protein</option>
+            <option value="energyCal">Most calories</option>
+          </select>
+        </label>
+      </div>
+      <div id="comboSummary" class="budget-summary">Enter a combo budget to find meal combinations.</div>
+      <div id="comboList" class="combo-list"></div>
     </section>
 
     <section id="results" class="panel results-panel">

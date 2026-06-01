@@ -26,11 +26,11 @@ The copied workbook sources are kept in `sources/` for maintainers. The browser 
 ## Data corrections in this repo
 
 - Removed Subway FitChips because they are not a dependable current Australian Subway item.
-- Added Australia-focused McDonald's McSmart-style meal deal rows, including the requested `$6 McSmart Meal`.
+- Corrected the McDonald's McSmart Meal rows to the user-provided AU structure: Cheeseburger + Small Fries + one allowed food option + one allowed small drink. The invalid McDouble McSmart variant was removed.
 - Added small-meal rows for common McDonald's mains using Australian small meal prices.
 - Added Subway meal-upgrade rows, GYG kids/bundle meal-deal rows, and KFC Australia items, combos, boxes and shared meals.
 - KFC rows use price + kJ data from kfcmenuprice.au; serve grams and protein are shown as unavailable where the source did not provide them.
-- Meal deal food-value metrics count the food components only. Drinks vary by choice and are excluded from grams/kJ/protein calculations unless a maintainer adds a specific drink row.
+- Meal deal food-value metrics use known components only. For corrected McSmart rows, kJ includes the required drink from the supplied option list; grams/protein are shown only when all food components are known and exclude drink grams/protein.
 - Promo/deal prices can vary by store, app account, delivery channel and time. They are labelled as deals and should be checked against the Australian app/store before relying on them.
 
 ## Features
@@ -39,6 +39,7 @@ The copied workbook sources are kept in `sources/` for maintainers. The browser 
 - Responsive mobile cards and desktop comparison table.
 - Search, brand/category filters, price cap, and metric-based sorting.
 - Budget planner that finds best items under a selected budget.
+- Meal combo finder that builds the best 2–4 item food combinations under a budget, with brand and metric controls. Drinks/sauces are ignored and each combo uses at most one bundled meal deal/box/shared meal.
 - Add, edit, and delete food items in the browser.
 - Local edits are saved to `localStorage` so personal changes persist on the same device.
 - Export JSON to update the shared repository dataset.
