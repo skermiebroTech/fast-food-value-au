@@ -11,7 +11,7 @@ A modern, no-build GitHub Pages website for comparing Australian fast food value
 - calories per dollar
 - protein grams per dollar
 - budget-fit items under a user-entered AUD budget
-- meal deal and combo comparisons across Subway, GYG, McDonald's and KFC
+- meal deal and combo comparisons across Subway, GYG, McDonald's, KFC, Domino's, Pizza Hut and Grill'd
 
 Seed data was generated from:
 
@@ -20,6 +20,8 @@ Seed data was generated from:
 - `/Users/joel/Downloads/McDonalds_AU_Best_Value.xlsx`
 - Frugal Feeds AU menu/deal listings for additional meal deal prices
 - kfcmenuprice.au for KFC Australia item prices and kJ values
+- Frugal Feeds AU menu listings for Domino's, Pizza Hut and Grill'd prices
+- Domino's Australia public menu kJ values where item names matched the added Domino's rows
 
 The copied workbook sources are kept in `sources/` for maintainers. The browser loads the public seed dataset from `data/foods.json`.
 
@@ -28,10 +30,11 @@ The copied workbook sources are kept in `sources/` for maintainers. The browser 
 - Removed Subway FitChips because they are not a dependable current Australian Subway item.
 - Corrected the McDonald's McSmart Meal rows to the user-provided AU structure: Cheeseburger + Small Fries + one allowed food option + one allowed small drink. The invalid McDouble McSmart variant was removed.
 - Added small-meal rows for common McDonald's mains using Australian small meal prices.
-- Added Subway meal-upgrade rows, GYG kids/bundle meal-deal rows, and KFC Australia items, combos, boxes and shared meals.
+- Added Subway meal-upgrade rows, GYG kids/bundle meal-deal rows, KFC Australia items/combos/boxes/shared meals, and Domino's/Pizza Hut/Grill'd Australia menu rows.
 - KFC rows use price + kJ data from kfcmenuprice.au; serve grams and protein are shown as unavailable where the source did not provide them.
+- Domino's rows use Frugal Feeds prices, with official Domino's AU large-pizza kJ shown where names matched. Pizza Hut and Grill'd rows use Frugal Feeds prices and show unavailable nutrition fields until a public source is added.
 - Meal deal food-value metrics use known components only. For corrected McSmart rows, kJ includes the required drink from the supplied option list; grams/protein are shown only when all food components are known and exclude drink grams/protein.
-- Promo/deal prices can vary by store, app account, delivery channel and time. They are labelled as deals and should be checked against the Australian app/store before relying on them.
+- Promo/deal/menu prices can vary by store, app account, delivery channel and time. They are labelled with source notes and should be checked against the Australian app/store before relying on them.
 
 ## Features
 

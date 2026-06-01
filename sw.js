@@ -1,4 +1,4 @@
-const CACHE = 'au-fast-food-value-v6';
+const CACHE = 'au-fast-food-value-v7';
 const ASSETS = ['./', './index.html', './styles.css', './app.js', './data/foods.json', './manifest.webmanifest', './assets/icon.svg'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(ASSETS)).then(() => self.skipWaiting()));
