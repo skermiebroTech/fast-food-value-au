@@ -126,7 +126,10 @@ def supersede_predicate(brand: str, rows: list[dict], replace_manual: bool):
     if brand == "gyg":
         return foods.supersede_matching("GYG", rows, key_fn=gyg.base_key)
     if brand == "mcdonalds":
-        return foods.supersede_matching("McDonald's", rows)
+        # The McDonald's API is the source of truth once we can reach it —
+        # drop every hand-curated row, not just exact name matches, so retired
+        # items like the old McSmart Meal do not linger.
+        return lambda row: row.get("brand") == "McDonald's"
     return None
 
 
