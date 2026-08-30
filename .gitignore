@@ -1,3 +1,12 @@
 .DS_Store
 *.log
 node_modules/
+__pycache__/
+*.pyc
+.venv/
+# Extracted from com.mcdonalds.au.gma; contain the OAuth client secret in plaintext.
+scripts/aufood/mcd_credentials.json
+scripts/aufood/mcd_probe.py
+scripts/aufood/sdk_config_au_PROD_R7.json
+scripts/aufood/gma_markets_config.json
+scripts/aufood/logs/

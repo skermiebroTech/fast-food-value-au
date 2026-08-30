@@ -1,0 +1,252 @@
+{
+  "brand": "GYG",
+  "source": "GYG Allergen, Ingredient & Nutritional guide (current at 25 June 2024), via GYG_Best_Value.xlsx",
+  "note": "GYG's menu API serves prices but no usable energy data, so scripts/fetch_menus.py joins these figures onto the fetched rows. Values describe the grilled chicken build where a filling choice exists. Keys are normalised item names (see aufood/gyg.py:_match_key).",
+  "items": {
+    "churro sundae": {
+      "item": "Churro Sundae",
+      "serveGrams": 183.0,
+      "energyKj": 1310.0,
+      "energyCal": 313.1,
+      "proteinGrams": 5.5
+    },
+    "churros choc sauce": {
+      "item": "Churros + Choc Sauce",
+      "serveGrams": 108.0,
+      "energyKj": 1670.0,
+      "energyCal": 399.14,
+      "proteinGrams": 5.8
+    },
+    "gyg sundae": {
+      "item": "GYG Sundae (Lrg)",
+      "serveGrams": 165.0,
+      "energyKj": 1040.0,
+      "energyCal": 248.57,
+      "proteinGrams": 4.4
+    },
+    "nacho sundae": {
+      "item": "Nacho Sundae",
+      "serveGrams": 175.0,
+      "energyKj": 2010.0,
+      "energyCal": 480.4,
+      "proteinGrams": 6.8
+    },
+    "soft serve cone": {
+      "item": "Soft Serve Cone",
+      "serveGrams": 95.0,
+      "energyKj": 687.0,
+      "energyCal": 164.2,
+      "proteinGrams": 3.0
+    },
+    "little gs burrito meal": {
+      "item": "Little G's Burrito Meal",
+      "serveGrams": 235.0,
+      "energyKj": 2490.0,
+      "energyCal": 595.12,
+      "proteinGrams": 27.0
+    },
+    "bowl": {
+      "item": "Bowl",
+      "serveGrams": 455.0,
+      "energyKj": 2780.0,
+      "energyCal": 664.44,
+      "proteinGrams": 42.7
+    },
+    "burrito": {
+      "item": "Burrito",
+      "serveGrams": 480.0,
+      "energyKj": 3250.0,
+      "energyCal": 776.77,
+      "proteinGrams": 47.2
+    },
+    "cali burrito": {
+      "item": "Cali Burrito",
+      "serveGrams": 470.0,
+      "energyKj": 4070.0,
+      "energyCal": 972.75,
+      "proteinGrams": 46.4
+    },
+    "enchilada": {
+      "item": "Enchilada",
+      "serveGrams": 699.0,
+      "energyKj": 4680.0,
+      "energyCal": 1118.55,
+      "proteinGrams": 56.2
+    },
+    "nacho fries": {
+      "item": "Nacho Fries",
+      "serveGrams": 480.0,
+      "energyKj": 4270.0,
+      "energyCal": 1020.55,
+      "proteinGrams": 49.6
+    },
+    "nachos": {
+      "item": "Nachos",
+      "serveGrams": 500.0,
+      "energyKj": 4630.0,
+      "energyCal": 1106.6,
+      "proteinGrams": 52.1
+    },
+    "quesadilla": {
+      "item": "Quesadilla",
+      "serveGrams": 110.0,
+      "energyKj": 1580.0,
+      "energyCal": 377.63,
+      "proteinGrams": 17.6
+    },
+    "quesadilla plus": {
+      "item": "Quesadilla Plus",
+      "serveGrams": 241.0,
+      "energyKj": 2240.0,
+      "energyCal": 535.37,
+      "proteinGrams": 31.4
+    },
+    "salad": {
+      "item": "Salad",
+      "serveGrams": 284.0,
+      "energyKj": 1280.0,
+      "energyCal": 305.93,
+      "proteinGrams": 27.4
+    },
+    "mini bowl": {
+      "item": "Mini Bowl",
+      "serveGrams": 264.0,
+      "energyKj": 1720.0,
+      "energyCal": 411.09,
+      "proteinGrams": 23.9
+    },
+    "mini burrito": {
+      "item": "Mini Burrito",
+      "serveGrams": 260.0,
+      "energyKj": 1900.0,
+      "energyCal": 454.11,
+      "proteinGrams": 26.1
+    },
+    "mini cali burrito": {
+      "item": "Mini Cali Burrito",
+      "serveGrams": 275.0,
+      "energyKj": 2560.0,
+      "energyCal": 611.85,
+      "proteinGrams": 26.6
+    },
+    "mini enchilada": {
+      "item": "Mini Enchilada",
+      "serveGrams": 370.0,
+      "energyKj": 2660.0,
+      "energyCal": 635.76,
+      "proteinGrams": 30.8
+    },
+    "mini nacho fries": {
+      "item": "Mini Nacho Fries",
+      "serveGrams": 284.0,
+      "energyKj": 2550.0,
+      "energyCal": 609.46,
+      "proteinGrams": 27.2
+    },
+    "mini nachos": {
+      "item": "Mini Nachos",
+      "serveGrams": 250.0,
+      "energyKj": 2320.0,
+      "energyCal": 554.49,
+      "proteinGrams": 26.1
+    },
+    "mini salad": {
+      "item": "Mini Salad",
+      "serveGrams": 152.0,
+      "energyKj": 648.0,
+      "energyCal": 154.88,
+      "proteinGrams": 13.8
+    },
+    "corn chips guac": {
+      "item": "Corn Chips + Guac (Lrg)",
+      "serveGrams": 385.0,
+      "energyKj": 4310.0,
+      "energyCal": 1030.11,
+      "proteinGrams": 12.0
+    },
+    "corn chips queso": {
+      "item": "Corn Chips + Queso (Lrg)",
+      "serveGrams": 280.0,
+      "energyKj": 3390.0,
+      "energyCal": 810.23,
+      "proteinGrams": 24.8
+    },
+    "fries": {
+      "item": "Fries (Lrg)",
+      "serveGrams": 180.0,
+      "energyKj": 2250.0,
+      "energyCal": 537.76,
+      "proteinGrams": 7.9
+    },
+    "queso fries": {
+      "item": "Queso Fries (Lrg)",
+      "serveGrams": 330.0,
+      "energyKj": 3080.0,
+      "energyCal": 736.14,
+      "proteinGrams": 20.1
+    },
+    "crispy chicken tenders": {
+      "item": "Crispy Chicken Tenders (2)",
+      "serveGrams": 106.0,
+      "energyKj": 1010.0,
+      "energyCal": 241.4,
+      "proteinGrams": 13.3
+    },
+    "tenders and fries": {
+      "item": "Tenders & Fries",
+      "serveGrams": 286.0,
+      "energyKj": 3260.0,
+      "energyCal": 779.16,
+      "proteinGrams": 21.2
+    },
+    "3 taco": {
+      "item": "$3 Taco",
+      "serveGrams": 74.0,
+      "energyKj": 693.0,
+      "energyCal": 165.63,
+      "proteinGrams": 7.6
+    },
+    "hard taco": {
+      "item": "Hard Taco (1)",
+      "serveGrams": 109.0,
+      "energyKj": 806.0,
+      "energyCal": 192.64,
+      "proteinGrams": 14.5
+    },
+    "shiitake taco": {
+      "item": "Shiitake Taco (Herb Mayo)",
+      "serveGrams": 118.0,
+      "energyKj": 1090.0,
+      "energyCal": 260.52,
+      "proteinGrams": 7.3
+    },
+    "soft taco": {
+      "item": "Soft Taco (1)",
+      "serveGrams": 118.0,
+      "energyKj": 813.0,
+      "energyCal": 194.31,
+      "proteinGrams": 15.3
+    },
+    "soft tacos": {
+      "item": "Soft Tacos (3)",
+      "serveGrams": 354.0,
+      "energyKj": 2439.0,
+      "energyCal": 582.93,
+      "proteinGrams": 45.9
+    },
+    "tender taco soft": {
+      "item": "Tender Taco soft (1)",
+      "serveGrams": 99.0,
+      "energyKj": 1160.0,
+      "energyCal": 277.25,
+      "proteinGrams": 11.6
+    },
+    "tender tacos soft": {
+      "item": "Tender Tacos soft (3)",
+      "serveGrams": 297.0,
+      "energyKj": 3480.0,
+      "energyCal": 831.74,
+      "proteinGrams": 34.8
+    }
+  }
+}
