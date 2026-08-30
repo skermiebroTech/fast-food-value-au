@@ -4,6 +4,7 @@ node_modules/
 __pycache__/
 *.pyc
 .venv/
+.claude/
 # Extracted from com.mcdonalds.au.gma; contain the OAuth client secret in plaintext.
 scripts/aufood/mcd_credentials.json
 scripts/aufood/mcd_probe.py
