@@ -6,7 +6,8 @@ const THEME_KEY = 'au-fast-food-value.theme.v1';
 
 const els = {
   heroBest: document.querySelector('#heroBest'), search: document.querySelector('#searchInput'), brand: document.querySelector('#brandFilter'),
-  category: document.querySelector('#categoryFilter'), metric: document.querySelector('#metricSelect'), sort: document.querySelector('#sortSelect'),
+  category: document.querySelector('#categoryFilter'), channel: document.querySelector('#channelFilter'),
+  metric: document.querySelector('#metricSelect'), sort: document.querySelector('#sortSelect'),
   maxPrice: document.querySelector('#maxPrice'), quickStats: document.querySelector('#quickStats'), body: document.querySelector('#itemsBody'),
   cards: document.querySelector('#cardGrid'), budget: document.querySelector('#budgetInput'), budgetMetric: document.querySelector('#budgetMetric'),
   budgetSummary: document.querySelector('#budgetSummary'), budgetList: document.querySelector('#budgetList'), comboBudget: document.querySelector('#comboBudget'),
@@ -38,6 +39,9 @@ function asNum(value) {
 }
 function round(value, digits = 2) { return hasNumber(value) ? Number(Math.round(`${Number(value)}e${digits}`) + `e-${digits}`) : null; }
 function fmtNumber(value, formatter = n1, suffix = '') { return hasNumber(value) && Number(value) > 0 ? `${formatter.format(Number(value))}${suffix}` : '—'; }
+// Some feeds publish nutrition but no price (Carl's Jr), so a zero price means
+// "not published" rather than free.
+function fmtMoney(value) { return hasNumber(value) && Number(value) > 0 ? money.format(Number(value)) : '—'; }
 function slug(text) { return String(text || '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') || crypto.randomUUID(); }
 function withMetrics(item) {
   const price = asNum(item.price);
@@ -60,7 +64,7 @@ function metricLabel(metric) {
   return ({ gramsPerDollar: 'g/$', kjPerDollar: 'kJ/$', calPerDollar: 'Cal/$', proteinPerDollar: 'protein g/$', price: 'price' })[metric] || metric;
 }
 function formatMetric(item, metric) {
-  if (metric === 'price') return money.format(item.price);
+  if (metric === 'price') return fmtMoney(item.price);
   const value = item[metric];
   return value > 0 ? (metric === 'proteinPerDollar' || metric === 'gramsPerDollar' || metric === 'calPerDollar' ? n1.format(value) : n0.format(value)) : '—';
 }
@@ -87,11 +91,11 @@ async function init() {
 }
 function normaliseItem(item) {
   const id = item.id || slug(`${item.brand}-${item.item}`);
-  return { id, brand: item.brand || 'Other', item: item.item || 'Untitled item', category: item.category || 'Other', note: item.note || '', price: round(item.price) ?? 0, serveGrams: round(item.serveGrams, 1), energyKj: round(item.energyKj), energyCal: round(item.energyCal), proteinGrams: round(item.proteinGrams, 1), sourceFile: item.sourceFile || 'local', userEdited: Boolean(item.userEdited) };
+  return { id, brand: item.brand || 'Other', item: item.item || 'Untitled item', category: item.category || 'Other', note: item.note || '', price: round(item.price) ?? 0, serveGrams: round(item.serveGrams, 1), energyKj: round(item.energyKj), energyCal: round(item.energyCal), proteinGrams: round(item.proteinGrams, 1), sourceFile: item.sourceFile || 'local', channel: item.channel || '', storeLabel: item.storeLabel || '', userEdited: Boolean(item.userEdited) };
 }
 function bindEvents() {
   ['input', 'change'].forEach(evt => {
-    [els.search, els.brand, els.category, els.metric, els.sort, els.maxPrice].forEach(el => el.addEventListener(evt, renderAll));
+    [els.search, els.brand, els.category, els.channel, els.metric, els.sort, els.maxPrice].forEach(el => el.addEventListener(evt, renderAll));
     [els.budget, els.budgetMetric].forEach(el => el.addEventListener(evt, () => { localStorage.setItem(BUDGET_KEY, JSON.stringify({ budget: els.budget.value, metric: els.budgetMetric.value })); renderBudget(); }));
     [els.comboBudget, els.comboBrand, els.comboSize, els.comboMetric].forEach(el => el.addEventListener(evt, () => { localStorage.setItem(COMBO_KEY, JSON.stringify({ budget: els.comboBudget.value, brand: els.comboBrand.value, size: els.comboSize.value, metric: els.comboMetric.value })); renderCombos(); }));
   });
@@ -124,13 +128,21 @@ function fillSelect(sel, vals, previous, allLabel) {
   if (vals.includes(previous)) sel.value = previous;
 }
 function fillDatalist(dl, vals) { dl.innerHTML = vals.map(v => `<option value="${escapeHtml(v)}"></option>`).join(''); }
+// Live-fetched rows are tagged Pickup or Delivery; hand-curated rows carry no
+// channel and are counter prices, so they belong with pickup.
+function matchesChannel(item) {
+  const wanted = els.channel?.value || 'all';
+  if (wanted === 'all') return true;
+  const channel = (item.channel || '').toLowerCase();
+  return wanted === 'delivery' ? channel === 'delivery' : channel !== 'delivery';
+}
 function getFilteredRows() {
   const query = els.search.value.trim().toLowerCase();
   const max = Number(els.maxPrice.value);
   const metric = els.metric.value;
   let rows = items.map(withMetrics).filter(i => {
     const q = `${i.item} ${i.brand} ${i.category} ${i.note}`.toLowerCase();
-    return (!query || q.includes(query)) && (els.brand.value === 'all' || i.brand === els.brand.value) && (els.category.value === 'all' || i.category === els.category.value) && (!Number.isFinite(max) || max <= 0 || i.price <= max);
+    return (!query || q.includes(query)) && (els.brand.value === 'all' || i.brand === els.brand.value) && (els.category.value === 'all' || i.category === els.category.value) && matchesChannel(i) && (!Number.isFinite(max) || max <= 0 || i.price <= max);
   });
   const sorters = {
     metricDesc: (a,b) => metric === 'price' ? a.price - b.price : b[metric] - a[metric],
@@ -150,13 +162,13 @@ function renderStats(rows) {
 }
 function renderHero(rows) {
   const best = rows[0];
-  els.heroBest.innerHTML = best ? `<strong>${escapeHtml(best.item)}</strong><span>${escapeHtml(best.brand)} · ${money.format(best.price)} · ${formatMetric(best, els.metric.value)} ${metricLabel(els.metric.value)}</span>` : 'No matching items.';
+  els.heroBest.innerHTML = best ? `<strong>${escapeHtml(best.item)}</strong><span>${escapeHtml(best.brand)} · ${fmtMoney(best.price)} · ${formatMetric(best, els.metric.value)} ${metricLabel(els.metric.value)}</span>` : 'No matching items.';
 }
 function renderTable(rows) {
-  els.body.innerHTML = rows.map(i => `<tr class="${i.userEdited ? 'changed' : ''}"><td class="food-cell"><strong>${escapeHtml(i.item)}</strong><span>${escapeHtml(i.note || '')}</span></td><td>${escapeHtml(i.brand)}</td><td>${escapeHtml(i.category)}</td><td>${money.format(i.price)}</td><td>${fmtNumber(i.serveGrams, n0, 'g')}</td><td>${formatMetric(i, 'gramsPerDollar')}</td><td>${formatMetric(i, 'kjPerDollar')}</td><td>${formatMetric(i, 'calPerDollar')}</td><td>${formatMetric(i, 'proteinPerDollar')}</td><td><button class="small-button" data-edit="${escapeHtml(i.id)}" type="button">Edit</button></td></tr>`).join('');
+  els.body.innerHTML = rows.map(i => `<tr class="${i.userEdited ? 'changed' : ''}"><td class="food-cell"><strong>${escapeHtml(i.item)}</strong><span>${escapeHtml(i.note || '')}</span></td><td>${escapeHtml(i.brand)}</td><td>${escapeHtml(i.category)}</td><td>${fmtMoney(i.price)}</td><td>${fmtNumber(i.serveGrams, n0, 'g')}</td><td>${formatMetric(i, 'gramsPerDollar')}</td><td>${formatMetric(i, 'kjPerDollar')}</td><td>${formatMetric(i, 'calPerDollar')}</td><td>${formatMetric(i, 'proteinPerDollar')}</td><td><button class="small-button" data-edit="${escapeHtml(i.id)}" type="button">Edit</button></td></tr>`).join('');
 }
 function renderCards(rows) {
-  els.cards.innerHTML = rows.map(i => `<article class="food-card ${i.userEdited ? 'changed' : ''}"><p class="eyebrow">${escapeHtml(i.brand)} · ${escapeHtml(i.category)}</p><h3>${escapeHtml(i.item)}</h3><p class="muted">${escapeHtml(i.note || '')}</p><div class="metric-grid"><div class="metric"><span>Price</span><b>${money.format(i.price)}</b></div><div class="metric"><span>Serve</span><b>${fmtNumber(i.serveGrams, n0, 'g')}</b></div><div class="metric"><span>g/$</span><b>${formatMetric(i, 'gramsPerDollar')}</b></div><div class="metric"><span>Protein/$</span><b>${formatMetric(i, 'proteinPerDollar')}</b></div></div><button class="small-button" data-edit="${escapeHtml(i.id)}" type="button">Edit item</button></article>`).join('');
+  els.cards.innerHTML = rows.map(i => `<article class="food-card ${i.userEdited ? 'changed' : ''}"><p class="eyebrow">${escapeHtml(i.brand)} · ${escapeHtml(i.category)}</p><h3>${escapeHtml(i.item)}</h3><p class="muted">${escapeHtml(i.note || '')}</p><div class="metric-grid"><div class="metric"><span>Price</span><b>${fmtMoney(i.price)}</b></div><div class="metric"><span>Serve</span><b>${fmtNumber(i.serveGrams, n0, 'g')}</b></div><div class="metric"><span>g/$</span><b>${formatMetric(i, 'gramsPerDollar')}</b></div><div class="metric"><span>Protein/$</span><b>${formatMetric(i, 'proteinPerDollar')}</b></div></div><button class="small-button" data-edit="${escapeHtml(i.id)}" type="button">Edit item</button></article>`).join('');
 }
 function renderBudget() {
   const budget = Number(els.budget.value);
@@ -165,7 +177,7 @@ function renderBudget() {
   const matches = getFilteredRows().filter(i => i.price <= budget).sort((a,b) => b[metric] - a[metric]).slice(0, 8);
   const best = matches[0];
   els.budgetSummary.innerHTML = best ? `Best under ${money.format(budget)}: <strong>${escapeHtml(best.item)}</strong> from ${escapeHtml(best.brand)} (${formatMetric(best, metric)} ${metricLabel(metric)}).` : `No filtered items fit under ${money.format(budget)}.`;
-  els.budgetList.innerHTML = matches.map(i => `<div class="budget-item"><div><strong>${escapeHtml(i.item)}</strong><div class="muted">${escapeHtml(i.brand)} · ${escapeHtml(i.category)} · ${formatMetric(i, metric)} ${metricLabel(metric)}</div></div><b>${money.format(i.price)}</b></div>`).join('');
+  els.budgetList.innerHTML = matches.map(i => `<div class="budget-item"><div><strong>${escapeHtml(i.item)}</strong><div class="muted">${escapeHtml(i.brand)} · ${escapeHtml(i.category)} · ${formatMetric(i, metric)} ${metricLabel(metric)}</div></div><b>${fmtMoney(i.price)}</b></div>`).join('');
 }
 function comboMetricLabel(metric) {
   return ({ serveGrams: 'grams', energyKj: 'kJ', energyCal: 'Cal', proteinGrams: 'protein g' })[metric] || metric;
@@ -184,7 +196,7 @@ function renderCombos() {
   if (!Number.isFinite(budget) || budget <= 0) { els.comboSummary.textContent = 'Enter a combo budget to find meal combinations.'; els.comboList.innerHTML = ''; return; }
   const ignored = new Set(['Drink', 'Sauce']);
   const bundleCategories = new Set(['Meal Deal', 'Boxed Meal', 'Shared Meal']);
-  const rawCandidates = items.map(withMetrics).filter(i => i.price > 0 && i.price <= budget && !ignored.has(i.category) && (brand === 'all' || i.brand === brand) && comboItemMetric(i, metric) > 0);
+  const rawCandidates = items.map(withMetrics).filter(i => i.price > 0 && matchesChannel(i) && i.price <= budget && !ignored.has(i.category) && (brand === 'all' || i.brand === brand) && comboItemMetric(i, metric) > 0);
   const byValue = [...rawCandidates].sort((a,b) => comboItemMetric(b, metric) / b.price - comboItemMetric(a, metric) / a.price).slice(0, 36);
   const byCheap = [...rawCandidates].sort((a,b) => a.price - b.price).slice(0, 18);
   const candidates = [...new Map([...byValue, ...byCheap].map(i => [i.id, i])).values()].sort((a,b) => a.price - b.price);
@@ -219,7 +231,7 @@ function renderCombos() {
   const best = unique[0];
   els.comboSummary.innerHTML = best ? `Best ${maxItems}-item-or-less combo under ${money.format(budget)}: <strong>${n0.format(comboMetricValue(best, metric))} ${comboMetricLabel(metric)}</strong> for ${money.format(best.totals.price)}.` : `No 2-${maxItems} item food combos fit under ${money.format(budget)} for the selected brand/metric.`;
   els.comboList.innerHTML = unique.map((combo, index) => {
-    const itemList = combo.items.map(i => `<li>${escapeHtml(i.item)} <span>${escapeHtml(i.brand)} · ${money.format(i.price)}</span></li>`).join('');
+    const itemList = combo.items.map(i => `<li>${escapeHtml(i.item)} <span>${escapeHtml(i.brand)} · ${fmtMoney(i.price)}</span></li>`).join('');
     return `<article class="combo-card"><div class="combo-rank">#${index + 1}</div><div><h3>${n0.format(comboMetricValue(combo, metric))} ${comboMetricLabel(metric)} · ${money.format(combo.totals.price)}</h3><p class="muted">${fmtNumber(combo.totals.serveGrams, n0, 'g')} · ${fmtNumber(combo.totals.energyKj, n0, 'kJ')} · ${fmtNumber(combo.totals.energyCal, n1, 'Cal')} · ${fmtNumber(combo.totals.proteinGrams, n1, 'g protein')}</p><ul>${itemList}</ul></div></article>`;
   }).join('');
 }
@@ -233,7 +245,8 @@ function clearForm() { editingId = null; els.form.reset(); els.formTitle.textCon
 function saveItemFromForm(e) {
   e.preventDefault();
   const existingId = els.itemId.value || `${slug(els.itemBrand.value)}-${slug(els.itemName.value)}-${Date.now().toString(36)}`;
-  const item = normaliseItem({ id: existingId, item: els.itemName.value, brand: els.itemBrand.value, category: els.itemCategory.value, price: els.itemPrice.value, serveGrams: els.itemServe.value, energyKj: els.itemKj.value, energyCal: els.itemCal.value, proteinGrams: els.itemProtein.value, note: els.itemNote.value, sourceFile: 'local edit', userEdited: true });
+  const previous = items.find(i => i.id === existingId);
+  const item = normaliseItem({ id: existingId, channel: previous?.channel, storeLabel: previous?.storeLabel, item: els.itemName.value, brand: els.itemBrand.value, category: els.itemCategory.value, price: els.itemPrice.value, serveGrams: els.itemServe.value, energyKj: els.itemKj.value, energyCal: els.itemCal.value, proteinGrams: els.itemProtein.value, note: els.itemNote.value, sourceFile: 'local edit', userEdited: true });
   const index = items.findIndex(i => i.id === existingId);
   if (index >= 0) items[index] = item; else items.unshift(item);
   saveLocal(); editingId = item.id; els.itemId.value = item.id; els.deleteItem.disabled = false; els.dataStatus.textContent = `Saved ${item.item} locally. Export JSON to update the public repo.`; renderAll();
