@@ -328,6 +328,42 @@ def _resolve_energy(product_map: dict[int, dict], code: int, depth: int = 0) -> 
     return total if total > 0 else None
 
 
+# Nutrition panel keys on product.Nutrition, mapped to make_row arguments.
+_NUTRIENTS = {
+    "protein_grams": "Protein",
+    "sat_fat_grams": "Saturatedfat",
+    "sugars_grams": "Sugars",
+    "sodium_mg": "Sodium",
+    "fibre_grams": "Dietaryfiber",
+}
+
+
+def _resolve_nutrient(product_map: dict[int, dict], code: int, key: str, depth: int = 0) -> float | None:
+    """kJ-style resolver for any Nutrition field, summing a combo's recipe."""
+    if depth > 4:
+        return None
+    product = product_map.get(code)
+    if not product:
+        return None
+    direct = (product.get("Nutrition") or {}).get(key)
+    if direct not in (None, ""):
+        try:
+            return float(direct)
+        except (TypeError, ValueError):
+            return None
+    total = 0.0
+    found = False
+    for ingredient in (product.get("Recipe") or {}).get("Ingredients") or []:
+        ing_code = ingredient.get("ProductCode")
+        if ing_code is None:
+            continue
+        sub = _resolve_nutrient(product_map, int(ing_code), key, depth + 1)
+        if sub:
+            total += sub * (ingredient.get("DefaultQuantity") or 1)
+            found = True
+    return total if found and total > 0 else None
+
+
 def fetch(store: Store, channel: str) -> list[dict]:
     """One row per (product, channel) for this store's catalog.
 
@@ -385,6 +421,7 @@ def fetch(store: Store, channel: str) -> list[dict]:
         if not name:
             continue
         energy_kj = _resolve_energy(product_map, code)
+        nutrients = {arg: _resolve_nutrient(product_map, code, key) for arg, key in _NUTRIENTS.items()}
         rows.append(
             make_row(
                 brand=BRAND,
@@ -399,6 +436,7 @@ def fetch(store: Store, channel: str) -> list[dict]:
                 generated_by=GENERATED_BY,
                 source_file=source_file,
                 id_hint=f"{name}-{code}",
+                **nutrients,
             )
         )
 

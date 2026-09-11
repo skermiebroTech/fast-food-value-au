@@ -31,11 +31,12 @@ const n1 = new Intl.NumberFormat('en-AU', { maximumFractionDigits: 1 });
 
 // metric -> underlying nutrient field + display
 const METRICS = {
-  kjPerDollar:      { unit: 'kJ/$',  nutrient: 'energyKj',     fmt: n0 },
-  calPerDollar:     { unit: 'Cal/$', nutrient: 'energyCal',    fmt: n0 },
-  proteinPerDollar: { unit: 'g/$',   nutrient: 'proteinGrams', fmt: n1 },
-  gramsPerDollar:   { unit: 'g/$',   nutrient: 'serveGrams',   fmt: n1 },
-  price:            { unit: '',      nutrient: 'price',        fmt: money }
+  kjPerDollar:      { unit: 'kJ/$',   nutrient: 'energyKj',     fmt: n0 },
+  calPerDollar:     { unit: 'Cal/$',  nutrient: 'energyCal',    fmt: n0 },
+  nutriPerDollar:   { unit: 'pts/$',  nutrient: 'proteinGrams', fmt: n1 },
+  proteinPerDollar: { unit: 'g/$',    nutrient: 'proteinGrams', fmt: n1 },
+  gramsPerDollar:   { unit: 'g/$',    nutrient: 'serveGrams',   fmt: n1 },
+  price:            { unit: '',       nutrient: 'price',        fmt: money }
 };
 const BRAND_COLORS = {
   "McDonald's": '#c8102e', 'KFC': '#a3080f', 'Subway': '#0a7d34', 'GYG': '#d1180b',
@@ -64,14 +65,27 @@ const fmtNum = (v, f = n1, s = '') => (hasNum(v) && Number(v) > 0 ? `${f.format(
 const slug = t => String(t || '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') || crypto.randomUUID();
 const escapeHtml = v => String(v ?? '').replace(/[&<>'"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#039;', '"': '&quot;' }[c]));
 
+// Per-serve nutrition score: protein is the good macro; where the chain also
+// publishes them, penalise saturated fat, sugars and sodium. Transparent and
+// clamped at 0. Only defined when protein is known.
+function nutritionScore(item) {
+  if (!hasNum(item.proteinGrams) || asNum(item.proteinGrams) <= 0) return 0;
+  let s = asNum(item.proteinGrams);
+  if (hasNum(item.satFatGrams)) s -= 0.75 * asNum(item.satFatGrams);
+  if (hasNum(item.sugarsGrams)) s -= 0.10 * asNum(item.sugarsGrams);
+  if (hasNum(item.sodiumMg)) s -= 0.004 * asNum(item.sodiumMg);
+  return Math.max(0, s);
+}
 function withMetrics(item) {
   const price = asNum(item.price);
+  const nutri = nutritionScore(item);
   return {
-    ...item, price,
+    ...item, price, nutriScore: nutri,
     gramsPerDollar: price && hasNum(item.serveGrams) ? asNum(item.serveGrams) / price : 0,
     kjPerDollar: price && hasNum(item.energyKj) ? asNum(item.energyKj) / price : 0,
     calPerDollar: price && hasNum(item.energyCal) ? asNum(item.energyCal) / price : 0,
-    proteinPerDollar: price && hasNum(item.proteinGrams) ? asNum(item.proteinGrams) / price : 0
+    proteinPerDollar: price && hasNum(item.proteinGrams) ? asNum(item.proteinGrams) / price : 0,
+    nutriPerDollar: price && nutri > 0 ? nutri / price : 0
   };
 }
 function normaliseItem(item) {
@@ -80,6 +94,8 @@ function normaliseItem(item) {
     item: item.item || 'Untitled item', category: item.category || 'Other', note: item.note || '',
     price: round(item.price) ?? 0, serveGrams: round(item.serveGrams, 1), energyKj: round(item.energyKj),
     energyCal: round(item.energyCal), proteinGrams: round(item.proteinGrams, 1),
+    satFatGrams: round(item.satFatGrams, 1), sugarsGrams: round(item.sugarsGrams, 1),
+    sodiumMg: round(item.sodiumMg), fibreGrams: round(item.fibreGrams, 1),
     sourceFile: item.sourceFile || 'local', channel: item.channel || '', storeLabel: item.storeLabel || '',
     userEdited: Boolean(item.userEdited)
   };
@@ -283,6 +299,10 @@ function introText() {
 }
 function metricNote(metric, shown) {
   if (metric === 'price') return `${n0.format(shown)} items shown, cheapest first.`;
+  if (metric === 'nutriPerDollar') {
+    return `Nutrition score = protein per serve, minus saturated fat, sugar and sodium where the chain publishes them, divided by price. `
+      + `Only KFC and GYG expose protein in Australia, so ${n0.format(shown)} items are ranked.`;
+  }
   const info = METRICS[metric];
   const covered = items.filter(i => hasNum(i[info.nutrient]) && Number(i[info.nutrient]) > 0).length;
   const noun = { energyKj: 'kilojoules', energyCal: 'calories', proteinGrams: 'protein', serveGrams: 'serve weight' }[info.nutrient];
@@ -296,16 +316,67 @@ function brandTag(brand) {
   const c = BRAND_COLORS[brand] || '#6b7280';
   return `<span class="brandtag" style="background:${c}">${escapeHtml(brand)}</span>`;
 }
-function makeupPanel(info) {
+
+// Clean line-style SVG icons (stroke = currentColor, so they follow the theme).
+const SVG = s => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">${s}</svg>`;
+const FOOD_ICONS = {
+  burger: SVG('<path d="M4 10a8 4.5 0 0 1 16 0"/><path d="M4.6 13.6c1.3 1.1 2.5-1 3.8 0s2.5 1.1 3.8 0 2.5-1 3.2 0"/><path d="M5 17h14a1.6 2 0 0 1-1.6 2H6.6A1.6 2 0 0 1 5 17Z"/>'),
+  pizza: SVG('<path d="M4 7c5-3 11-3 16 0l-7 13a1 1 0 0 1-2 0Z"/><circle cx="10" cy="9.5" r="1.1"/><circle cx="14" cy="10.5" r="1.1"/><circle cx="12" cy="14" r="1.1"/>'),
+  chicken: SVG('<path d="M14 4.2a4.7 4.7 0 0 0-6 6.9l-3 3a2.1 2.1 0 1 0 1.9 1.9l3-3a4.7 4.7 0 0 0 6.9-6"/><path d="M5.4 15.1 3.5 16.4M7.6 17.3 6.3 19.2"/>'),
+  nuggets: SVG('<path d="M8 5.5c2.3 0 3.7 1.3 3.7 3s-1.4 3-3.7 3-3.7-1.3-3.7-3S5.7 5.5 8 5.5Z"/><path d="M15 11c2.3 0 3.8 1.4 3.8 3.2s-1.5 3.3-3.8 3.3-3.8-1.5-3.8-3.3S12.7 11 15 11Z"/>'),
+  fries: SVG('<path d="M6.5 10 7.5 19a2 2 0 0 0 2 1.8h5A2 2 0 0 0 16.5 19l1-9Z"/><path d="M9.5 10V5M12 10V4M14.5 10V6"/>'),
+  drink: SVG('<path d="M7 8h10l-1 11a2 2 0 0 1-2 1.8H10A2 2 0 0 1 8 19Z"/><path d="M8.2 11.5h7.6"/><path d="M13 8l2-3.5"/>'),
+  coffee: SVG('<path d="M5 9h11v5a4 4 0 0 1-4 4H9a4 4 0 0 1-4-4Z"/><path d="M16 10.5h1.8a2 2 0 0 1 0 4H16"/><path d="M8 3.5v2M11 3.5v2"/>'),
+  shake: SVG('<path d="M7.2 10h9.6l-1 9a2 2 0 0 1-2 1.8h-3.6a2 2 0 0 1-2-1.8Z"/><path d="M7 10a5 3 0 0 1 10 0"/><path d="M12 4.5V10"/>'),
+  icecream: SVG('<path d="M8.4 11 12 20.5 15.6 11Z"/><path d="M7.8 11a4.2 4.2 0 0 1 8.4 0"/><path d="M9 8.2a3 3 0 0 1 6 0"/>'),
+  wrap: SVG('<path d="M7.2 4 17 6l-2.6 14L4.5 18Z"/><path d="M7.2 4 6 7.2M9.4 4.4 8.2 7.6M11.6 4.9l-1.2 3.2"/>'),
+  sub: SVG('<path d="M3 12a3.2 3.2 0 0 1 3.2-3.2h11.6a3.2 3.2 0 0 1 0 6.4H6.2A3.2 3.2 0 0 1 3 12Z"/><path d="M6.5 11.2c2 1.4 4-1.4 6 0s4-1.4 6 0"/>'),
+  salad: SVG('<path d="M3.5 11h17a8.5 8.5 0 0 1-17 0Z"/><path d="M8 11c-1-3 1-5 3.2-5M12 11c0-3 2.2-4.2 4.2-4M12.5 11c1-2 3-3 4.3-2.2"/>'),
+  breakfast: SVG('<path d="M9 5.4c3-1.1 6 .4 6.6 3 3 .6 3.4 4.2.8 5.6.4 3-3.2 4.6-6.2 3-3 1.4-6.6-1-5.4-4-2.6-2 .2-6.2 4.2-7.6Z"/><circle cx="11" cy="11.4" r="2.3" fill="currentColor" stroke="none"/>'),
+  sauce: SVG('<path d="M10 3.5h4v2l1 1.8V19a1.8 1.8 0 0 1-1.8 1.8h-2.4A1.8 1.8 0 0 1 9 19V7.3Z"/><path d="M9.2 11h5.6"/>'),
+  dessert: SVG('<path d="M6.5 11h11l-1.4 8a2 2 0 0 1-2 1.7h-4.2a2 2 0 0 1-2-1.7Z"/><path d="M6 11a6 3.5 0 0 1 12 0"/><path d="M12 4.5V7"/><circle cx="12" cy="4" r="1"/>'),
+  meal: SVG('<path d="M6.5 8.5h11l-1 10.5a2 2 0 0 1-2 1.8H9.5a2 2 0 0 1-2-1.8Z"/><path d="M9 8.5V6.5a3 3 0 0 1 6 0v2"/>'),
+};
+function foodType(item, cat) {
+  const s = `${item} ${cat}`.toLowerCase();
+  if (/coffee|latte|cappuccino|espresso|mocha|flat white|macchiato|piccolo|long black|matcha|\btea\b|chai|hot choc/.test(s)) return 'coffee';
+  if (/thickshake|milkshake|\bshake\b|frappe/.test(s)) return 'shake';
+  if (/sundae|mcflurry|ice ?cream|soft serve|\bcone\b|storm|freeze|frozen|slush/.test(s)) return 'icecream';
+  if (/coke|cola|sprite|fanta|pepsi|solo|mountain dew|7up|sunkist|soft drink|soda|\bwater\b|juice|\bmilk\b|energy drink|kwench|\bcan\b|1\.25l|600ml|bottle|drink/.test(s)) return 'drink';
+  if (/pizza|margherita|meatlover|meat lover|supreme|pepperoni|hawaiian/.test(s)) return 'pizza';
+  if (/mcmuffin|brekky|breakfast|hotcake|hash brown|bacon & egg|sausage & egg|pancake/.test(s)) return 'breakfast';
+  if (/burger|whopper|big mac|angus|cheeseburger|\bmac\b|\bjack\b|stunner|quarter pounder|mcfeast/.test(s)) return 'burger';
+  if (/nugget|\bwing|tender|popcorn|strip|dipper/.test(s)) return 'nuggets';
+  if (/chicken|zinger|twister|fillet|drumstick|rooster|parma|schnit/.test(s)) return 'chicken';
+  if (/wrap|burrito|rappa|wraptor|\broll\b|quesadilla|taco|nacho/.test(s)) return 'wrap';
+  if (/\bsub\b|sandwich|footlong|6 inch|6-inch|melt/.test(s)) return 'sub';
+  if (/salad|\bbowl\b|veggie|greek|garden/.test(s)) return 'salad';
+  if (/fries|chips|hash|onion ring|\bside/.test(s)) return 'fries';
+  if (/sauce|\bdip\b|mayo|ketchup|mustard|aioli|gravy|condiment|dressing/.test(s)) return 'sauce';
+  if (/pie|cookie|brownie|donut|doughnut|mousse|dessert|churro|muffin|cake|choc|sweet|slice|cheesecake/.test(s)) return 'dessert';
+  return 'meal';
+}
+function foodIcon(item, cat) {
+  return `<span class="ficon" aria-hidden="true">${FOOD_ICONS[foodType(item, cat)]}</span>`;
+}
+function detailPanel(item, info) {
   const parts = [];
-  if (info.ingredients && info.ingredients.length) {
+  if (hasNum(item.proteinGrams) && Number(item.proteinGrams) > 0) {
+    const bits = [`${n1.format(Number(item.proteinGrams))}g protein`];
+    if (hasNum(item.satFatGrams)) bits.push(`${n1.format(Number(item.satFatGrams))}g sat fat`);
+    if (hasNum(item.sugarsGrams)) bits.push(`${n1.format(Number(item.sugarsGrams))}g sugar`);
+    if (hasNum(item.sodiumMg)) bits.push(`${n0.format(Number(item.sodiumMg))}mg sodium`);
+    parts.push(`<div class="mk-row"><span class="mk-label">Nutrition</span> ${bits.join(' · ')}<span class="mk-serve"> (per serve)</span></div>`);
+  }
+  if (info && info.ingredients && info.ingredients.length) {
     const label = info.ingredientsNote && info.ingredientsNote.includes('combo') ? 'Includes' : 'Made with';
     parts.push(`<div class="mk-row"><span class="mk-label">${label}</span> ${info.ingredients.map(escapeHtml).join(', ')}</div>`);
   }
-  if (info.allergens && info.allergens.length) {
+  if (info && info.allergens && info.allergens.length) {
     parts.push(`<div class="mk-row"><span class="mk-label">Allergens</span> ${info.allergens.map(escapeHtml).join(', ')}</div>`);
   }
-  const src = info.source ? `<div class="mk-src">${escapeHtml(info.source)}</div>` : '';
+  if (!parts.length) return '';
+  const src = info && info.source ? `<div class="mk-src">${escapeHtml(info.source)}</div>` : '';
   return `<div class="row-detail" hidden>${parts.join('')}${src}</div>`;
 }
 function renderPodium(top, metric, info) {
@@ -313,7 +384,7 @@ function renderPodium(top, metric, info) {
     <div class="podium-card">
       <span class="bar"></span>
       <div class="rank">#${idx + 1} best value</div>
-      <div class="p-item">${escapeHtml(i.item)}</div>
+      <div class="p-item">${foodIcon(i.item, i.category)}<span>${escapeHtml(i.item)}</span></div>
       <div class="p-val">${metricValue(i, metric)} <small>${metric === 'price' ? '' : info.unit}</small></div>
       <div class="p-sub">${brandTag(i.brand)} · ${fmtMoney(i.price)}${metric !== 'price' && i.energyKj ? ` · ${n0.format(i.energyKj)} kJ` : ''}</div>
     </div>`).join('');
@@ -341,15 +412,14 @@ function renderRanking(rows, metric, info) {
     const sub = metric === 'price'
       ? (i.energyKj ? `${n0.format(i.energyKj)} kJ` : escapeHtml(i.category))
       : `${info.unit}`;
-    const makeup = itemInfo(i.brand, i.item);
-    const hasMakeup = makeup && ((makeup.ingredients && makeup.ingredients.length) || (makeup.allergens && makeup.allergens.length));
+    const detail = detailPanel(i, itemInfo(i.brand, i.item));
     return `<li class="row ${idx < 3 ? 'top' : ''} ${i.userEdited ? 'edited' : ''}">
       <span class="bar" style="width:${pct}%"></span>
       <span class="rk">${idx + 1}</span>
       <div class="main">
-        <div class="name">${escapeHtml(i.item)}</div>
-        <div class="meta">${brandTag(i.brand)}<span class="dot"></span>${escapeHtml(i.category)}${i.note ? `<span class="dot"></span>${escapeHtml(i.note.length > 44 ? i.note.slice(0, 44).replace(/\s+\S*$/, '') + '…' : i.note)}` : ''}<span class="dot"></span><button class="editlink" data-edit="${escapeHtml(i.id)}" type="button">edit</button>${hasMakeup ? `<span class="dot"></span><button class="makeup-toggle" type="button" aria-expanded="false">what's in it ⌄</button>` : ''}</div>
-        ${hasMakeup ? makeupPanel(makeup) : ''}
+        <div class="name">${foodIcon(i.item, i.category)}<span>${escapeHtml(i.item)}</span></div>
+        <div class="meta">${brandTag(i.brand)}<span class="dot"></span>${escapeHtml(i.category)}${i.note ? `<span class="dot"></span>${escapeHtml(i.note.length > 44 ? i.note.slice(0, 44).replace(/\s+\S*$/, '') + '…' : i.note)}` : ''}<span class="dot"></span><button class="editlink" data-edit="${escapeHtml(i.id)}" type="button">edit</button>${detail ? `<span class="dot"></span><button class="makeup-toggle" type="button" aria-expanded="false">what's in it ⌄</button>` : ''}</div>
+        ${detail}
       </div>
       <div class="val">
         <div class="m">${metricValue(i, metric)} <span class="u">${metric === 'price' ? '' : sub}</span></div>
@@ -376,7 +446,7 @@ function renderBudget() {
     <li class="row ${idx < 3 ? 'top' : ''}">
       <span class="bar" style="width:${Math.max(4, Math.round((i[metric] / rows[0][metric]) * 100))}%"></span>
       <span class="rk">${idx + 1}</span>
-      <div class="main"><div class="name">${escapeHtml(i.item)}</div>
+      <div class="main"><div class="name">${foodIcon(i.item, i.category)}<span>${escapeHtml(i.item)}</span></div>
         <div class="meta">${brandTag(i.brand)}<span class="dot"></span>${escapeHtml(i.category)}</div></div>
       <div class="val"><div class="m">${info.fmt.format(i[metric])} <span class="u">${info.unit}</span></div><div class="price">${fmtMoney(i.price)}</div></div>
     </li>`).join('');

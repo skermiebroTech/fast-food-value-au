@@ -6,9 +6,7 @@
     "milk",
     "wheat"
    ],
-   "traces": [
-    "soy"
-   ],
+   "traces": [],
    "source": "KFC AU app catalog (orderserv) allergenInformation"
   },
   "Caramel Krunch Shake": {
@@ -17,10 +15,7 @@
     "milk",
     "wheat"
    ],
-   "traces": [
-    "soy",
-    "sulphites"
-   ],
+   "traces": [],
    "source": "KFC AU app catalog (orderserv) allergenInformation"
   },
   "Strawberry Krunch Shake": {
@@ -29,73 +24,14 @@
     "milk",
     "wheat"
    ],
-   "traces": [
-    "soy"
-   ],
+   "traces": [],
    "source": "KFC AU app catalog (orderserv) allergenInformation"
   },
   "Fairy Bread Krunch Shake": {
    "allergens": [
     "milk"
    ],
-   "traces": [
-    "gluten",
-    "soy",
-    "wheat"
-   ],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
-  "Watermelon Boba Refresher": {
-   "allergens": [
-    "egg",
-    "gluten",
-    "milk",
-    "soy",
-    "wheat"
-   ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
-  "Lychee Boba Refresher": {
-   "allergens": [
-    "egg",
-    "gluten",
-    "milk",
-    "soy",
-    "wheat"
-   ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
-  "Sparkling Raspberry Lemonade": {
-   "allergens": [],
-   "traces": [
-    "gluten",
-    "milk",
-    "soy",
-    "sulphites",
-    "wheat"
-   ],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
-  "Sparkling Peach Pop Lemonade": {
-   "allergens": [
-    "egg",
-    "gluten",
-    "milk",
-    "soy",
-    "wheat"
-   ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
+   "traces": [],
    "source": "KFC AU app catalog (orderserv) allergenInformation"
   },
   "Pepsi Frozen Spider": {
@@ -127,11 +63,7 @@
     "soy",
     "wheat"
    ],
-   "traces": [
-    "egg",
-    "gluten",
-    "sulphites"
-   ],
+   "traces": [],
    "source": "KFC AU app catalog (orderserv) allergenInformation",
    "ingredients": [
     "Pickles",
@@ -149,11 +81,7 @@
     "soy",
     "wheat"
    ],
-   "traces": [
-    "egg",
-    "gluten",
-    "sulphites"
-   ],
+   "traces": [],
    "source": "KFC AU app catalog (orderserv) allergenInformation",
    "ingredients": [
     "Pickles",
@@ -171,10 +99,7 @@
     "soy",
     "wheat"
    ],
-   "traces": [
-    "sesame",
-    "sulphites"
-   ],
+   "traces": [],
    "source": "KFC AU app catalog (orderserv) allergenInformation"
   },
   "Frickles": {
@@ -182,44 +107,7 @@
     "gluten",
     "wheat"
    ],
-   "traces": [
-    "soy"
-   ],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
-  "Pickle Sauce": {
-   "allergens": [
-    "egg",
-    "gluten",
-    "milk",
-    "soy",
-    "wheat"
-   ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
-  "Pickle Pepsi Max": {
-   "allergens": [],
-   "traces": [
-    "sulphites"
-   ],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
-  "Pickle Pepsi": {
-   "allergens": [
-    "egg",
-    "gluten",
-    "milk",
-    "soy",
-    "wheat"
-   ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
+   "traces": [],
    "source": "KFC AU app catalog (orderserv) allergenInformation"
   },
   "Original Crispy Burger": {
@@ -231,9 +119,7 @@
     "soy",
     "wheat"
    ],
-   "traces": [
-    "gluten"
-   ],
+   "traces": [],
    "source": "KFC AU app catalog (orderserv) allergenInformation",
    "ingredients": [
     "Lettuce",
@@ -249,10 +135,7 @@
     "soy",
     "wheat"
    ],
-   "traces": [
-    "egg",
-    "gluten"
-   ],
+   "traces": [],
    "source": "KFC AU app catalog (orderserv) allergenInformation",
    "ingredients": [
     "Bacon Slice",
@@ -271,9 +154,7 @@
     "soy",
     "wheat"
    ],
-   "traces": [
-    "gluten"
-   ],
+   "traces": [],
    "source": "KFC AU app catalog (orderserv) allergenInformation",
    "ingredients": [
     "Bacon Slice",
@@ -293,9 +174,7 @@
     "soy",
     "wheat"
    ],
-   "traces": [
-    "gluten"
-   ],
+   "traces": [],
    "source": "KFC AU app catalog (orderserv) allergenInformation",
    "ingredients": [
     "Lettuce",
@@ -312,9 +191,7 @@
     "soy",
     "wheat"
    ],
-   "traces": [
-    "gluten"
-   ],
+   "traces": [],
    "source": "KFC AU app catalog (orderserv) allergenInformation",
    "ingredients": [
     "Lettuce",
@@ -331,9 +208,7 @@
     "soy",
     "wheat"
    ],
-   "traces": [
-    "gluten"
-   ],
+   "traces": [],
    "source": "KFC AU app catalog (orderserv) allergenInformation",
    "ingredients": [
     "Bacon Slice",
@@ -342,13 +217,6 @@
     "Supercharged Sauce"
    ],
    "ingredientsNote": "listed recipe parts (core fillet/bun implied by item)"
-  },
-  "Zinger® Bacon & Cheese Burger Combo - Regular": {
-   "allergens": [
-    "tree nuts"
-   ],
-   "traces": [],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
   },
   "Zinger® Bacon & Cheese Burger Combo - Large": {
    "allergens": [
@@ -366,9 +234,7 @@
     "soy",
     "wheat"
    ],
-   "traces": [
-    "gluten"
-   ],
+   "traces": [],
    "source": "KFC AU app catalog (orderserv) allergenInformation",
    "ingredients": [
     "Cheese Slice",
@@ -387,9 +253,7 @@
     "soy",
     "wheat"
    ],
-   "traces": [
-    "gluten"
-   ],
+   "traces": [],
    "source": "KFC AU app catalog (orderserv) allergenInformation"
   },
   "3 Pieces Wicked Boneless": {
@@ -398,10 +262,7 @@
     "milk",
     "wheat"
    ],
-   "traces": [
-    "egg",
-    "soy"
-   ],
+   "traces": [],
    "source": "KFC AU app catalog (orderserv) allergenInformation"
   },
   "6 Pieces Wicked Boneless": {
@@ -410,10 +271,7 @@
     "milk",
     "wheat"
    ],
-   "traces": [
-    "egg",
-    "soy"
-   ],
+   "traces": [],
    "source": "KFC AU app catalog (orderserv) allergenInformation"
   },
   "1 Piece of Chicken": {
@@ -423,23 +281,7 @@
     "milk",
     "wheat"
    ],
-   "traces": [
-    "soy"
-   ],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
-  "3 Pieces of Chicken": {
-   "allergens": [
-    "egg",
-    "gluten",
-    "milk",
-    "soy",
-    "wheat"
-   ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
+   "traces": [],
    "source": "KFC AU app catalog (orderserv) allergenInformation"
   },
   "6 Pieces of Chicken": {
@@ -449,9 +291,7 @@
     "milk",
     "wheat"
    ],
-   "traces": [
-    "soy"
-   ],
+   "traces": [],
    "source": "KFC AU app catalog (orderserv) allergenInformation"
   },
   "21 Pieces of Chicken": {
@@ -461,9 +301,7 @@
     "milk",
     "wheat"
    ],
-   "traces": [
-    "soy"
-   ],
+   "traces": [],
    "source": "KFC AU app catalog (orderserv) allergenInformation"
   },
   "Original Crispy Fillet Piece": {
@@ -472,10 +310,7 @@
     "milk",
     "wheat"
    ],
-   "traces": [
-    "egg",
-    "soy"
-   ],
+   "traces": [],
    "source": "KFC AU app catalog (orderserv) allergenInformation"
   },
   "Zinger® Fillet Piece": {
@@ -484,10 +319,7 @@
     "milk",
     "wheat"
    ],
-   "traces": [
-    "egg",
-    "soy"
-   ],
+   "traces": [],
    "source": "KFC AU app catalog (orderserv) allergenInformation"
   },
   "Snack Popcorn Chicken": {
@@ -529,10 +361,7 @@
     "milk",
     "wheat"
    ],
-   "traces": [
-    "egg",
-    "soy"
-   ],
+   "traces": [],
    "source": "KFC AU app catalog (orderserv) allergenInformation"
   },
   "6 Wicked Wings": {
@@ -541,10 +370,7 @@
     "milk",
     "wheat"
    ],
-   "traces": [
-    "egg",
-    "soy"
-   ],
+   "traces": [],
    "source": "KFC AU app catalog (orderserv) allergenInformation"
   },
   "10 Wicked Wings": {
@@ -553,21 +379,10 @@
     "milk",
     "wheat"
    ],
-   "traces": [
-    "egg",
-    "soy"
-   ],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
-  "10 Wicked Wings® Combo - Regular": {
-   "allergens": [
-    "gluten",
-    "wheat"
-   ],
    "traces": [],
    "source": "KFC AU app catalog (orderserv) allergenInformation"
   },
-  "10 Wicked Wings® Combo - Large": {
+  "10 Wicked Wings® Combo - Regular": {
    "allergens": [
     "gluten",
     "wheat"
@@ -626,11 +441,7 @@
     "gluten",
     "wheat"
    ],
-   "traces": [
-    "egg",
-    "milk",
-    "soy"
-   ],
+   "traces": [],
    "source": "KFC AU app catalog (orderserv) allergenInformation"
   },
   "Original Pepper Mayo Slider": {
@@ -641,10 +452,7 @@
     "soy",
     "wheat"
    ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
+   "traces": [],
    "source": "KFC AU app catalog (orderserv) allergenInformation",
    "ingredients": [
     "Lettuce",
@@ -660,10 +468,7 @@
     "soy",
     "wheat"
    ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
+   "traces": [],
    "source": "KFC AU app catalog (orderserv) allergenInformation",
    "ingredients": [
     "Lettuce",
@@ -679,10 +484,7 @@
     "soy",
     "wheat"
    ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
+   "traces": [],
    "source": "KFC AU app catalog (orderserv) allergenInformation",
    "ingredients": [
     "Lettuce",
@@ -690,185 +492,12 @@
    ],
    "ingredientsNote": "listed recipe parts (core fillet/bun implied by item)"
   },
-  "3 Nuggets": {
-   "allergens": [
-    "egg",
-    "gluten",
-    "milk",
-    "soy",
-    "wheat"
-   ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
   "Double Chocolate Mousse": {
    "allergens": [
     "milk",
     "soy"
    ],
-   "traces": [
-    "gluten",
-    "peanut",
-    "tree nuts",
-    "wheat"
-   ],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
-  "Pepsi Freeze": {
-   "allergens": [
-    "egg",
-    "gluten",
-    "milk",
-    "soy",
-    "wheat"
-   ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
-  "Mountain Dew Freeze": {
-   "allergens": [
-    "egg",
-    "gluten",
-    "milk",
-    "soy",
-    "wheat"
-   ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
-  "Raspberry Freeze": {
-   "allergens": [
-    "egg",
-    "gluten",
-    "milk",
-    "soy",
-    "wheat"
-   ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
-  "Regular Pepsi Max": {
-   "allergens": [
-    "egg",
-    "gluten",
-    "milk",
-    "soy",
-    "wheat"
-   ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
-  "Regular Pepsi": {
-   "allergens": [
-    "egg",
-    "gluten",
-    "milk",
-    "soy",
-    "wheat"
-   ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
-  "Regular 7Up": {
-   "allergens": [
-    "egg",
-    "gluten",
-    "milk",
-    "soy",
-    "wheat"
-   ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
-  "Regular Mountain Dew": {
-   "allergens": [
-    "egg",
-    "gluten",
-    "milk",
-    "soy",
-    "wheat"
-   ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
-  "Regular Solo": {
-   "allergens": [
-    "egg",
-    "gluten",
-    "milk",
-    "soy",
-    "wheat"
-   ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
-  "Regular Sunkist": {
-   "allergens": [
-    "egg",
-    "gluten",
-    "milk",
-    "soy",
-    "wheat"
-   ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
-  "Bottled Water": {
-   "allergens": [
-    "egg",
-    "gluten",
-    "milk",
-    "soy",
-    "wheat"
-   ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
-  "Sparkling Water": {
-   "allergens": [
-    "egg",
-    "gluten",
-    "milk",
-    "soy",
-    "wheat"
-   ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
+   "traces": [],
    "source": "KFC AU app catalog (orderserv) allergenInformation"
   },
   "Zinger® Protein Bowl": {
@@ -878,10 +507,7 @@
     "milk",
     "wheat"
    ],
-   "traces": [
-    "sesame",
-    "soy"
-   ],
+   "traces": [],
    "source": "KFC AU app catalog (orderserv) allergenInformation",
    "ingredients": [
     "Crunchy Slaw",
@@ -897,10 +523,7 @@
     "soy",
     "wheat"
    ],
-   "traces": [
-    "egg",
-    "gluten"
-   ],
+   "traces": [],
    "source": "KFC AU app catalog (orderserv) allergenInformation"
   },
   "Zinger® Crunch Twister": {
@@ -911,27 +534,14 @@
     "soy",
     "wheat"
    ],
-   "traces": [
-    "sesame"
-   ],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
-  "Zinger® Crunch Twister® Combo - Regular": {
-   "allergens": [
-    "gluten"
-   ],
-   "traces": [
-    "tree nuts"
-   ],
+   "traces": [],
    "source": "KFC AU app catalog (orderserv) allergenInformation"
   },
   "Zinger® Crunch Twister® Combo - Large": {
    "allergens": [
     "gluten"
    ],
-   "traces": [
-    "tree nuts"
-   ],
+   "traces": [],
    "source": "KFC AU app catalog (orderserv) allergenInformation"
   },
   "Original Crunch Twister": {
@@ -940,16 +550,6 @@
     "gluten",
     "milk",
     "soy",
-    "wheat"
-   ],
-   "traces": [
-    "sesame"
-   ],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
-  "Original Crunch Twister® Combo - Regular": {
-   "allergens": [
-    "gluten",
     "wheat"
    ],
    "traces": [],
@@ -970,10 +570,7 @@
     "milk",
     "wheat"
    ],
-   "traces": [
-    "sesame",
-    "soy"
-   ],
+   "traces": [],
    "source": "KFC AU app catalog (orderserv) allergenInformation",
    "ingredients": [
     "Corn Chips",
@@ -990,9 +587,7 @@
     "soy",
     "wheat"
    ],
-   "traces": [
-    "sesame"
-   ],
+   "traces": [],
    "source": "KFC AU app catalog (orderserv) allergenInformation",
    "ingredients": [
     "Corn Chips",
@@ -1007,10 +602,7 @@
     "milk",
     "wheat"
    ],
-   "traces": [
-    "egg",
-    "soy"
-   ],
+   "traces": [],
    "source": "KFC AU app catalog (orderserv) allergenInformation"
   },
   "Go Bucket® Popcorn Chicken": {
@@ -1041,10 +633,7 @@
     "milk",
     "wheat"
    ],
-   "traces": [
-    "egg",
-    "soy"
-   ],
+   "traces": [],
    "source": "KFC AU app catalog (orderserv) allergenInformation"
   },
   "Go Bucket® 3 Nuggets": {
@@ -1054,9 +643,7 @@
     "milk",
     "wheat"
    ],
-   "traces": [
-    "soy"
-   ],
+   "traces": [],
    "source": "KFC AU app catalog (orderserv) allergenInformation"
   },
   "Kids Meal with BBQ Slider": {
@@ -1067,10 +654,7 @@
     "soy",
     "wheat"
    ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
+   "traces": [],
    "source": "KFC AU app catalog (orderserv) allergenInformation"
   },
   "Kids Meal with Nuggets - Small": {
@@ -1096,30 +680,12 @@
    "traces": [],
    "source": "KFC AU app catalog (orderserv) allergenInformation"
   },
-  "My Bucket": {
-   "allergens": [
-    "egg",
-    "gluten",
-    "milk",
-    "soy",
-    "wheat"
-   ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
   "Large Chips": {
    "allergens": [
     "gluten",
     "wheat"
    ],
-   "traces": [
-    "egg",
-    "milk",
-    "soy"
-   ],
+   "traces": [],
    "source": "KFC AU app catalog (orderserv) allergenInformation"
   },
   "Crunchy Jalapeno Slaw": {
@@ -1127,11 +693,7 @@
     "egg",
     "milk"
    ],
-   "traces": [
-    "gluten",
-    "sesame",
-    "wheat"
-   ],
+   "traces": [],
    "source": "KFC AU app catalog (orderserv) allergenInformation"
   },
   "Large Potato & Gravy": {
@@ -1186,23 +748,7 @@
     "soy",
     "wheat"
    ],
-   "traces": [
-    "gluten"
-   ],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
-  "4 Dipping Sauces": {
-   "allergens": [
-    "egg",
-    "gluten",
-    "milk",
-    "soy",
-    "wheat"
-   ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
+   "traces": [],
    "source": "KFC AU app catalog (orderserv) allergenInformation"
   },
   "Aioli Dip": {
@@ -1220,20 +766,6 @@
     "wheat"
    ],
    "traces": [],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
-  "Tomato Dip": {
-   "allergens": [
-    "egg",
-    "gluten",
-    "milk",
-    "soy",
-    "wheat"
-   ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
    "source": "KFC AU app catalog (orderserv) allergenInformation"
   },
   "Supercharged Dip": {
@@ -1254,188 +786,6 @@
    "traces": [],
    "source": "KFC AU app catalog (orderserv) allergenInformation"
   },
-  "Large Pepsi Max": {
-   "allergens": [
-    "egg",
-    "gluten",
-    "milk",
-    "soy",
-    "wheat"
-   ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
-  "1.25L Pepsi Max": {
-   "allergens": [
-    "egg",
-    "gluten",
-    "milk",
-    "soy",
-    "wheat"
-   ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
-  "Large Pepsi": {
-   "allergens": [
-    "egg",
-    "gluten",
-    "milk",
-    "soy",
-    "wheat"
-   ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
-  "1.25L Pepsi": {
-   "allergens": [
-    "egg",
-    "gluten",
-    "milk",
-    "soy",
-    "wheat"
-   ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
-  "Large 7Up": {
-   "allergens": [
-    "egg",
-    "gluten",
-    "milk",
-    "soy",
-    "wheat"
-   ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
-  "1.25L 7Up": {
-   "allergens": [
-    "egg",
-    "gluten",
-    "milk",
-    "soy",
-    "wheat"
-   ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
-  "Large Mountain Dew": {
-   "allergens": [
-    "egg",
-    "gluten",
-    "milk",
-    "soy",
-    "wheat"
-   ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
-  "1.25L Mountain Dew": {
-   "allergens": [
-    "egg",
-    "gluten",
-    "milk",
-    "soy",
-    "wheat"
-   ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
-  "Large Solo": {
-   "allergens": [
-    "egg",
-    "gluten",
-    "milk",
-    "soy",
-    "wheat"
-   ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
-  "1.25L Solo": {
-   "allergens": [
-    "egg",
-    "gluten",
-    "milk",
-    "soy",
-    "wheat"
-   ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
-  "Large Sunkist": {
-   "allergens": [
-    "egg",
-    "gluten",
-    "milk",
-    "soy",
-    "wheat"
-   ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
-  "Apple Juice": {
-   "allergens": [
-    "egg",
-    "gluten",
-    "milk",
-    "soy",
-    "wheat"
-   ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
-  "Lipton Peach Ice Tea": {
-   "allergens": [
-    "egg",
-    "gluten",
-    "milk",
-    "soy",
-    "wheat"
-   ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
   "Pickle Slider": {
    "allergens": [
     "egg",
@@ -1444,10 +794,7 @@
     "soy",
     "wheat"
    ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
+   "traces": [],
    "source": "KFC AU app catalog (orderserv) allergenInformation",
    "ingredients": [
     "Pickles",
@@ -1473,38 +820,7 @@
     "milk",
     "wheat"
    ],
-   "traces": [
-    "egg",
-    "soy"
-   ],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
-  "Pickle Sauce ADD ON": {
-   "allergens": [
-    "egg",
-    "gluten",
-    "milk",
-    "soy",
-    "wheat"
-   ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
-  "Pickle Cheesecake ADD ON": {
-   "allergens": [
-    "egg",
-    "gluten",
-    "milk",
-    "soy",
-    "wheat"
-   ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
+   "traces": [],
    "source": "KFC AU app catalog (orderserv) allergenInformation"
   },
   "8 for $8.95 Wicked Boneless Box": {
@@ -1513,10 +829,7 @@
     "milk",
     "wheat"
    ],
-   "traces": [
-    "egg",
-    "soy"
-   ],
+   "traces": [],
    "source": "KFC AU app catalog (orderserv) allergenInformation"
   },
   "8 Wicked Boneless & Wicked Sauce": {
@@ -1526,51 +839,7 @@
     "milk",
     "wheat"
    ],
-   "traces": [
-    "soy"
-   ],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
-  "30 Nuggets": {
-   "allergens": [
-    "egg",
-    "gluten",
-    "milk",
-    "soy",
-    "wheat"
-   ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
-  "MAKE IT A COMBO for $4": {
-   "allergens": [
-    "egg",
-    "gluten",
-    "milk",
-    "soy",
-    "wheat"
-   ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
-  "20 Nuggets": {
-   "allergens": [
-    "egg",
-    "gluten",
-    "milk",
-    "soy",
-    "wheat"
-   ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
+   "traces": [],
    "source": "KFC AU app catalog (orderserv) allergenInformation"
   },
   "Go Bucket® Popcorn Chicken® ADD ON": {
@@ -1603,135 +872,7 @@
     "soy",
     "wheat"
    ],
-   "traces": [
-    "gluten"
-   ],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
-  "Regular Pepsi Max^ ADD ON": {
-   "allergens": [
-    "egg",
-    "gluten",
-    "milk",
-    "soy",
-    "wheat"
-   ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
-  "Regular Pepsi^ ADD ON": {
-   "allergens": [
-    "egg",
-    "gluten",
-    "milk",
-    "soy",
-    "wheat"
-   ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
-  "Regular 7Up ADD ON": {
-   "allergens": [
-    "egg",
-    "gluten",
-    "milk",
-    "soy",
-    "wheat"
-   ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
-  "Regular Mountain Dew ADD ON": {
-   "allergens": [
-    "egg",
-    "gluten",
-    "milk",
-    "soy",
-    "wheat"
-   ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
-  "Regular Solo ADD ON": {
-   "allergens": [
-    "egg",
-    "gluten",
-    "milk",
-    "soy",
-    "wheat"
-   ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
-  "Regular Sunkist ADD ON": {
-   "allergens": [
-    "egg",
-    "gluten",
-    "milk",
-    "soy",
-    "wheat"
-   ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
-  "Large Pepsi Max^ ADD ON": {
-   "allergens": [
-    "egg",
-    "gluten",
-    "milk",
-    "soy",
-    "wheat"
-   ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
-  "Large Pepsi^ ADD ON": {
-   "allergens": [
-    "egg",
-    "gluten",
-    "milk",
-    "soy",
-    "wheat"
-   ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
-  "Large Solo ADD ON": {
-   "allergens": [
-    "egg",
-    "gluten",
-    "milk",
-    "soy",
-    "wheat"
-   ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
+   "traces": [],
    "source": "KFC AU app catalog (orderserv) allergenInformation"
   },
   "2 Wicked Boneless ADD ON": {
@@ -1740,10 +881,7 @@
     "milk",
     "wheat"
    ],
-   "traces": [
-    "egg",
-    "soy"
-   ],
+   "traces": [],
    "source": "KFC AU app catalog (orderserv) allergenInformation"
   },
   "6 Wicked Boneless ADD ON": {
@@ -1752,37 +890,7 @@
     "milk",
     "wheat"
    ],
-   "traces": [
-    "egg"
-   ],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
-  "10 Wicked Boneless ADD ON": {
-   "allergens": [
-    "egg",
-    "gluten",
-    "milk",
-    "soy",
-    "wheat"
-   ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
-  "Original Crispy Fillet Piece ADD ON": {
-   "allergens": [
-    "egg",
-    "gluten",
-    "milk",
-    "soy",
-    "wheat"
-   ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
+   "traces": [],
    "source": "KFC AU app catalog (orderserv) allergenInformation"
   },
   "Zinger® Fillet Piece ADD ON": {
@@ -1791,10 +899,7 @@
     "milk",
     "wheat"
    ],
-   "traces": [
-    "egg",
-    "soy"
-   ],
+   "traces": [],
    "source": "KFC AU app catalog (orderserv) allergenInformation"
   },
   "1 Piece Original Recipe ADD ON": {
@@ -1804,9 +909,7 @@
     "milk",
     "wheat"
    ],
-   "traces": [
-    "soy"
-   ],
+   "traces": [],
    "source": "KFC AU app catalog (orderserv) allergenInformation"
   },
   "4 Pieces Original Recipe Chicken ADD ON": {
@@ -1816,9 +919,7 @@
     "milk",
     "wheat"
    ],
-   "traces": [
-    "soy"
-   ],
+   "traces": [],
    "source": "KFC AU app catalog (orderserv) allergenInformation"
   },
   "2 Original Tenders™ ADD ON": {
@@ -1830,20 +931,6 @@
     "wheat"
    ],
    "traces": [],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
-  "5 Original Tenders™ ADD ON": {
-   "allergens": [
-    "egg",
-    "gluten",
-    "milk",
-    "soy",
-    "wheat"
-   ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
    "source": "KFC AU app catalog (orderserv) allergenInformation"
   },
   "6 Nuggets ADD ON": {
@@ -1864,10 +951,7 @@
     "milk",
     "wheat"
    ],
-   "traces": [
-    "egg",
-    "soy"
-   ],
+   "traces": [],
    "source": "KFC AU app catalog (orderserv) allergenInformation"
   },
   "2 Wicked Wings® ADD ON": {
@@ -1876,10 +960,7 @@
     "milk",
     "wheat"
    ],
-   "traces": [
-    "egg",
-    "soy"
-   ],
+   "traces": [],
    "source": "KFC AU app catalog (orderserv) allergenInformation"
   },
   "Snack Popcorn Chicken® ADD ON": {
@@ -1920,10 +1001,7 @@
     "milk",
     "soy"
    ],
-   "traces": [
-    "peanut",
-    "tree nuts"
-   ],
+   "traces": [],
    "source": "KFC AU app catalog (orderserv) allergenInformation"
   },
   "2 Double Chocolate Mousse ADD ON": {
@@ -1931,12 +1009,7 @@
     "milk",
     "soy"
    ],
-   "traces": [
-    "gluten",
-    "peanut",
-    "tree nuts",
-    "wheat"
-   ],
+   "traces": [],
    "source": "KFC AU app catalog (orderserv) allergenInformation"
   },
   "Large Chips ADD ON": {
@@ -1944,11 +1017,7 @@
     "gluten",
     "wheat"
    ],
-   "traces": [
-    "egg",
-    "milk",
-    "soy"
-   ],
+   "traces": [],
    "source": "KFC AU app catalog (orderserv) allergenInformation"
   },
   "Large Potato & Gravy ADD ON": {
@@ -1987,95 +1056,7 @@
     "milk",
     "soy"
    ],
-   "traces": [
-    "gluten",
-    "sesame",
-    "wheat"
-   ],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
-  "4 Dinner Rolls ADD ON": {
-   "allergens": [
-    "egg",
-    "gluten",
-    "milk",
-    "soy",
-    "wheat"
-   ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
-  "1.25L Pepsi Max^ ADD ON": {
-   "allergens": [
-    "egg",
-    "gluten",
-    "milk",
-    "soy",
-    "wheat"
-   ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
-  "1.25L Pepsi^ ADD ON": {
-   "allergens": [
-    "egg",
-    "gluten",
-    "milk",
-    "soy",
-    "wheat"
-   ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
-  "1.25L 7Up ADD ON": {
-   "allergens": [
-    "egg",
-    "gluten",
-    "milk",
-    "soy",
-    "wheat"
-   ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
-  "1.25L Mountain Dew ADD ON": {
-   "allergens": [
-    "egg",
-    "gluten",
-    "milk",
-    "soy",
-    "wheat"
-   ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
-  "1.25L Solo ADD ON": {
-   "allergens": [
-    "egg",
-    "gluten",
-    "milk",
-    "soy",
-    "wheat"
-   ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
+   "traces": [],
    "source": "KFC AU app catalog (orderserv) allergenInformation"
   },
   "Original Pepper Mayo Slider ADD ON": {
@@ -2086,10 +1067,7 @@
     "soy",
     "wheat"
    ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
+   "traces": [],
    "source": "KFC AU app catalog (orderserv) allergenInformation"
   },
   "Original BBQ Slider ADD ON": {
@@ -2100,10 +1078,7 @@
     "soy",
     "wheat"
    ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
+   "traces": [],
    "source": "KFC AU app catalog (orderserv) allergenInformation"
   },
   "Original Supercharged Slider ADD ON": {
@@ -2114,52 +1089,7 @@
     "soy",
     "wheat"
    ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
-  "ADD 2 Large Sides for $7.95": {
-   "allergens": [
-    "egg",
-    "gluten",
-    "milk",
-    "soy",
-    "wheat"
-   ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
-  "??Uber Eats": {
-   "allergens": [
-    "egg",
-    "gluten",
-    "milk",
-    "soy",
-    "wheat"
-   ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
-  "15 Wicked Wings® for $15": {
-   "allergens": [
-    "egg",
-    "gluten",
-    "milk",
-    "soy",
-    "wheat"
-   ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
+   "traces": [],
    "source": "KFC AU app catalog (orderserv) allergenInformation"
   },
   "$19.95 Family Burger Deal": {
@@ -2178,162 +1108,81 @@
     "gluten",
     "wheat"
    ],
-   "traces": [
-    "egg",
-    "milk",
-    "soy"
-   ],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
-  "Caramel Biscuit Bliss Cup ADD ON": {
-   "allergens": [
-    "egg",
-    "gluten",
-    "milk",
-    "soy",
-    "wheat"
-   ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
-  "1 Original Tender ADD ON": {
-   "allergens": [
-    "egg",
-    "gluten",
-    "milk",
-    "soy",
-    "wheat"
-   ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
-  "3 Original Tenders™ ADD ON": {
-   "allergens": [
-    "egg",
-    "gluten",
-    "milk",
-    "soy",
-    "wheat"
-   ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
-  "$1 KFC Youth Foundation Donation": {
-   "allergens": [
-    "egg",
-    "gluten",
-    "milk",
-    "soy",
-    "wheat"
-   ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
-  "$2 KFC Youth Foundation Donation": {
-   "allergens": [
-    "egg",
-    "gluten",
-    "milk",
-    "soy",
-    "wheat"
-   ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
-   "source": "KFC AU app catalog (orderserv) allergenInformation"
-  },
-  "$5 KFC Youth Foundation Donation": {
-   "allergens": [
-    "egg",
-    "gluten",
-    "milk",
-    "soy",
-    "wheat"
-   ],
-   "traces": [
-    "gluten",
-    "sesame"
-   ],
+   "traces": [],
    "source": "KFC AU app catalog (orderserv) allergenInformation"
   },
   "Wicked Boneless Slider": {
-   "allergens": [],
-   "traces": [],
    "ingredients": [
     "Lettuce",
     "Supercharged Sauce"
    ],
-   "ingredientsNote": "listed recipe parts (core fillet/bun implied by item)"
-  },
-  "Zinger® Crunch Burger™": {
    "allergens": [],
    "traces": [],
+   "ingredientsNote": "listed recipe parts (core fillet/bun implied by item)",
+   "source": null
+  },
+  "Zinger® Crunch Burger™": {
    "ingredients": [
     "Cheese Slice",
     "Corn Chips",
     "Crunchy Slaw",
     "Jalapeno Mayo"
    ],
-   "ingredientsNote": "listed recipe parts (core fillet/bun implied by item)"
-  },
-  "Original Crunch Twister®": {
    "allergens": [],
    "traces": [],
+   "ingredientsNote": "listed recipe parts (core fillet/bun implied by item)",
+   "source": null
+  },
+  "Original Crunch Twister®": {
    "ingredients": [
     "Crunchy Slaw",
     "Pepper Mayo"
    ],
-   "ingredientsNote": "listed recipe parts (core fillet/bun implied by item)"
-  },
-  "Zinger® Crunch Twister®": {
    "allergens": [],
    "traces": [],
+   "ingredientsNote": "listed recipe parts (core fillet/bun implied by item)",
+   "source": null
+  },
+  "Zinger® Crunch Twister®": {
    "ingredients": [
     "Corn Chips",
     "Crunchy Slaw",
     "Jalapeno Mayo"
    ],
-   "ingredientsNote": "listed recipe parts (core fillet/bun implied by item)"
+   "allergens": [],
+   "traces": [],
+   "ingredientsNote": "listed recipe parts (core fillet/bun implied by item)",
+   "source": null
   },
   "Zinger® Power Burger": {
-   "allergens": [],
-   "traces": [],
    "ingredients": [
     "Crunchy Slaw",
     "Supercharged Sauce"
    ],
-   "ingredientsNote": "listed recipe parts (core fillet/bun implied by item)"
+   "allergens": [],
+   "traces": [],
+   "ingredientsNote": "listed recipe parts (core fillet/bun implied by item)",
+   "source": null
   },
   "Supercharged Power Slider": {
-   "allergens": [],
-   "traces": [],
    "ingredients": [
     "Crunchy Slaw",
     "Supercharged Sauce"
    ],
-   "ingredientsNote": "listed recipe parts (core fillet/bun implied by item)"
-  },
-  "Double Tender Burger": {
    "allergens": [],
    "traces": [],
+   "ingredientsNote": "listed recipe parts (core fillet/bun implied by item)",
+   "source": null
+  },
+  "Double Tender Burger": {
    "ingredients": [
     "Pepper Mayo",
     "Lettuce"
    ],
-   "ingredientsNote": "listed recipe parts (core fillet/bun implied by item)"
+   "allergens": [],
+   "traces": [],
+   "ingredientsNote": "listed recipe parts (core fillet/bun implied by item)",
+   "source": null
   }
  },
  "Hungry Jack's": {

@@ -15,811 +15,1329 @@
    "item": "$7.95 KWENCH by KFC Snack - Until 4pm",
    "category": "NEW KWENCH BY KFC",
    "price": 7.95,
-   "energyKj": 3319
+   "energyKj": 3319,
+   "proteinGrams": 20.8,
+   "satFatGrams": 6.3,
+   "sugarsGrams": 42.7,
+   "sodiumMg": 867
   },
   {
    "item": "Chocolate Krunch Shake",
    "category": "NEW KWENCH BY KFC",
    "price": 5.95,
-   "energyKj": 2332
+   "energyKj": 2332,
+   "proteinGrams": 9.9,
+   "satFatGrams": 10.3,
+   "sugarsGrams": 75.9,
+   "sodiumMg": 393
   },
   {
    "item": "Caramel Krunch Shake",
    "category": "NEW KWENCH BY KFC",
    "price": 5.95,
-   "energyKj": 2471
+   "energyKj": 2471,
+   "proteinGrams": 9.6,
+   "satFatGrams": 11.9,
+   "sugarsGrams": 82.8,
+   "sodiumMg": 303
   },
   {
    "item": "Strawberry Krunch Shake",
    "category": "NEW KWENCH BY KFC",
    "price": 5.95,
-   "energyKj": 2509
+   "energyKj": 2509,
+   "proteinGrams": 10.0,
+   "satFatGrams": 11.7,
+   "sugarsGrams": 86.4,
+   "sodiumMg": 298
   },
   {
    "item": "Fairy Bread Krunch Shake",
    "category": "NEW KWENCH BY KFC",
    "price": 5.95,
-   "energyKj": 2401
+   "energyKj": 2401,
+   "proteinGrams": 9.9,
+   "satFatGrams": 14.1,
+   "sugarsGrams": 78.9,
+   "sodiumMg": 262
   },
   {
    "item": "Watermelon Boba Refresher",
    "category": "NEW KWENCH BY KFC",
    "price": 5.95,
-   "energyKj": 684
+   "energyKj": 684,
+   "proteinGrams": 0.1,
+   "sugarsGrams": 37.6,
+   "sodiumMg": 125
   },
   {
    "item": "Lychee Boba Refresher",
    "category": "NEW KWENCH BY KFC",
    "price": 5.95,
-   "energyKj": 998
+   "energyKj": 998,
+   "proteinGrams": 2.6,
+   "sugarsGrams": 55.8,
+   "sodiumMg": 125
   },
   {
    "item": "Sparkling Raspberry Lemonade",
    "category": "NEW KWENCH BY KFC",
    "price": 4.95,
-   "energyKj": 422
+   "energyKj": 422,
+   "proteinGrams": 0.3,
+   "sugarsGrams": 20.1,
+   "sodiumMg": 125
   },
   {
    "item": "Sparkling Peach Pop Lemonade",
    "category": "NEW KWENCH BY KFC",
    "price": 4.95,
-   "energyKj": 453
+   "energyKj": 453,
+   "sugarsGrams": 24.5,
+   "sodiumMg": 125
   },
   {
    "item": "Pepsi Frozen Spider",
    "category": "NEW KWENCH BY KFC",
    "price": 4.0,
-   "energyKj": 956
+   "energyKj": 956,
+   "proteinGrams": 3.0,
+   "satFatGrams": 3.6,
+   "sugarsGrams": 39.5,
+   "sodiumMg": 107
   },
   {
    "item": "Mountain Dew Frozen Spider",
    "category": "NEW KWENCH BY KFC",
    "price": 4.0,
-   "energyKj": 1018
+   "energyKj": 1018,
+   "proteinGrams": 3.1,
+   "satFatGrams": 3.7,
+   "sugarsGrams": 42.9,
+   "sodiumMg": 116
   },
   {
    "item": "Raspberry Frozen Spider",
    "category": "NEW KWENCH BY KFC",
    "price": 4.0,
-   "energyKj": 994
+   "energyKj": 994,
+   "proteinGrams": 3.0,
+   "satFatGrams": 3.6,
+   "sugarsGrams": 41.7,
+   "sodiumMg": 103
   },
   {
    "item": "Pickle Burger",
    "category": "FEATURED OFFERS",
    "price": 11.45,
-   "energyKj": 2288
+   "energyKj": 2288,
+   "proteinGrams": 25.3,
+   "satFatGrams": 2.9,
+   "sugarsGrams": 10.2,
+   "sodiumMg": 1232
   },
   {
    "item": "Pickle Zinger® Burger",
    "category": "FEATURED OFFERS",
    "price": 11.45,
-   "energyKj": 2288
+   "energyKj": 2288,
+   "proteinGrams": 26.8,
+   "satFatGrams": 3.1,
+   "sugarsGrams": 10.3,
+   "sodiumMg": 1401
   },
   {
    "item": "Pickle Burger Combo - Regular",
    "category": "FEATURED OFFERS",
    "price": 15.45,
-   "energyKj": 3479
+   "energyKj": 3479,
+   "proteinGrams": 30.0,
+   "satFatGrams": 4.0,
+   "sugarsGrams": 10.7,
+   "sodiumMg": 1393
   },
   {
    "item": "Pickle Burger Combo - Large",
    "category": "FEATURED OFFERS",
    "price": 17.95,
-   "energyKj": 4669
+   "energyKj": 4669,
+   "proteinGrams": 34.6,
+   "satFatGrams": 5.1,
+   "sugarsGrams": 11.2,
+   "sodiumMg": 1535
   },
   {
    "item": "Pickle Burger Box - Regular",
    "category": "FEATURED OFFERS",
    "price": 17.95,
-   "energyKj": 4703
+   "energyKj": 4703,
+   "proteinGrams": 50.7,
+   "satFatGrams": 5.6,
+   "sugarsGrams": 11.6,
+   "sodiumMg": 2661
   },
   {
    "item": "Pickle Burger Box - Large",
    "category": "FEATURED OFFERS",
    "price": 20.45,
-   "energyKj": 5892
+   "energyKj": 5892,
+   "proteinGrams": 55.3,
+   "satFatGrams": 6.6,
+   "sugarsGrams": 12.1,
+   "sodiumMg": 2803
   },
   {
    "item": "Picklecore Meal",
    "category": "FEATURED OFFERS",
    "price": 20.95,
-   "energyKj": 11336
+   "energyKj": 11336,
+   "proteinGrams": 68.3,
+   "satFatGrams": 16.8,
+   "sugarsGrams": 27.3,
+   "sodiumMg": 4837
   },
   {
    "item": "Pickle Loaded Chips",
    "category": "FEATURED OFFERS",
    "price": 8.95,
-   "energyKj": 4211
+   "energyKj": 4211,
+   "proteinGrams": 23.0,
+   "satFatGrams": 5.2,
+   "sugarsGrams": 7.4,
+   "sodiumMg": 1132
   },
   {
    "item": "Frickles",
    "category": "FEATURED OFFERS",
    "price": 5.0,
-   "energyKj": 864
+   "energyKj": 864,
+   "proteinGrams": 2.5,
+   "satFatGrams": 1.1,
+   "sugarsGrams": 1.8,
+   "sodiumMg": 920
   },
   {
    "item": "Pickle Sauce",
    "category": "FEATURED OFFERS",
    "price": 3.5,
-   "energyKj": 3174
+   "energyKj": 3174,
+   "proteinGrams": 0.4,
+   "satFatGrams": 6.3,
+   "sugarsGrams": 8.5,
+   "sodiumMg": 793
   },
   {
    "item": "Pickle Pepsi Max",
    "category": "FEATURED OFFERS",
    "price": 5.5,
-   "energyKj": 20
+   "energyKj": 20,
+   "proteinGrams": 0.3,
+   "sugarsGrams": 0.5,
+   "sodiumMg": 741
   },
   {
    "item": "Pickle Pepsi",
    "category": "FEATURED OFFERS",
    "price": 5.5,
-   "energyKj": 448
+   "energyKj": 448,
+   "proteinGrams": 0.1,
+   "sugarsGrams": 27.9,
+   "sodiumMg": 731
   },
   {
    "item": "Pickle Feast",
    "category": "FEATURED OFFERS",
    "price": 39.95,
-   "energyKj": 15417
+   "energyKj": 15417,
+   "proteinGrams": 167.0,
+   "satFatGrams": 23.7,
+   "sugarsGrams": 18.3,
+   "sodiumMg": 7363
   },
   {
    "item": "Footy Feed - Regular",
    "category": "FEATURED OFFERS",
    "price": 29.95,
-   "energyKj": 10495
+   "energyKj": 10495,
+   "proteinGrams": 122.6,
+   "satFatGrams": 17.1,
+   "sugarsGrams": 22.6,
+   "sodiumMg": 4212
   },
   {
    "item": "Original Crispy Burger",
    "category": "BURGERS",
    "price": 8.45,
-   "energyKj": 1874
+   "energyKj": 1874,
+   "proteinGrams": 24.7,
+   "satFatGrams": 2.1,
+   "sugarsGrams": 4.3,
+   "sodiumMg": 776
   },
   {
    "item": "Original Crispy Burger Combo - Regular",
    "category": "BURGERS",
    "price": 12.45,
-   "energyKj": 3065
+   "energyKj": 3065,
+   "proteinGrams": 29.4,
+   "satFatGrams": 3.1,
+   "sugarsGrams": 4.8,
+   "sodiumMg": 937
   },
   {
    "item": "Original Crispy Burger Combo - Large",
    "category": "BURGERS",
    "price": 14.95,
-   "energyKj": 4255
+   "energyKj": 4255,
+   "proteinGrams": 34.0,
+   "satFatGrams": 4.2,
+   "sugarsGrams": 5.2,
+   "sodiumMg": 1079
   },
   {
    "item": "Original Crispy Bacon & Cheese Burger",
    "category": "BURGERS",
    "price": 9.45,
-   "energyKj": 2384
+   "energyKj": 2384,
+   "proteinGrams": 31.6,
+   "satFatGrams": 6.1,
+   "sugarsGrams": 4.7,
+   "sodiumMg": 1178
   },
   {
    "item": "Original Crispy Bacon & Cheese Burger Combo - Regular",
    "category": "BURGERS",
    "price": 13.45,
-   "energyKj": 3576
+   "energyKj": 3576,
+   "proteinGrams": 36.2,
+   "satFatGrams": 7.2,
+   "sugarsGrams": 5.2,
+   "sodiumMg": 1339
   },
   {
    "item": "Original Crispy Bacon & Cheese Burger Combo - Large",
    "category": "BURGERS",
    "price": 15.95,
-   "energyKj": 4765
+   "energyKj": 4765,
+   "proteinGrams": 40.8,
+   "satFatGrams": 8.2,
+   "sugarsGrams": 5.6,
+   "sodiumMg": 1481
   },
   {
    "item": "Original Crispy BBQ Bacon Stacker® Burger",
    "category": "BURGERS",
    "price": 12.45,
-   "energyKj": 3526
+   "energyKj": 3526,
+   "proteinGrams": 55.0,
+   "satFatGrams": 8.6,
+   "sugarsGrams": 9.0,
+   "sodiumMg": 1964
   },
   {
    "item": "Original Crispy BBQ Bacon Stacker® Burger Combo - Regular",
    "category": "BURGERS",
    "price": 16.45,
-   "energyKj": 4717
+   "energyKj": 4717,
+   "proteinGrams": 59.6,
+   "satFatGrams": 9.7,
+   "sugarsGrams": 9.5,
+   "sodiumMg": 2126
   },
   {
    "item": "Original Crispy BBQ Bacon Stacker® Burger Combo - Large",
    "category": "BURGERS",
    "price": 18.95,
-   "energyKj": 5907
+   "energyKj": 5907,
+   "proteinGrams": 64.2,
+   "satFatGrams": 10.8,
+   "sugarsGrams": 9.9,
+   "sodiumMg": 2268
   },
   {
    "item": "Double Tender™ Burger",
    "category": "BURGERS",
    "price": 6.45,
-   "energyKj": 1882
+   "energyKj": 1882,
+   "proteinGrams": 23.3,
+   "satFatGrams": 2.2,
+   "sugarsGrams": 4.3,
+   "sodiumMg": 860
   },
   {
    "item": "Double Tender™ Burger Combo - Regular",
    "category": "BURGERS",
    "price": 10.45,
-   "energyKj": 3073
+   "energyKj": 3073,
+   "proteinGrams": 27.9,
+   "satFatGrams": 3.3,
+   "sugarsGrams": 4.8,
+   "sodiumMg": 1022
   },
   {
    "item": "Double Tender™ Burger Combo - Large",
    "category": "BURGERS",
    "price": 12.95,
-   "energyKj": 4263
+   "energyKj": 4263,
+   "proteinGrams": 32.5,
+   "satFatGrams": 4.4,
+   "sugarsGrams": 5.3,
+   "sodiumMg": 1164
   },
   {
    "item": "Zinger® Burger",
    "category": "BURGERS",
    "price": 8.45,
-   "energyKj": 1874
+   "energyKj": 1874,
+   "proteinGrams": 26.2,
+   "satFatGrams": 2.3,
+   "sugarsGrams": 4.4,
+   "sodiumMg": 944
   },
   {
    "item": "Zinger® Burger Combo - Regular",
    "category": "BURGERS",
    "price": 12.45,
-   "energyKj": 3066
+   "energyKj": 3066,
+   "proteinGrams": 30.9,
+   "satFatGrams": 3.4,
+   "sugarsGrams": 4.9,
+   "sodiumMg": 1106
   },
   {
    "item": "Zinger® Burger Combo - Large",
    "category": "BURGERS",
    "price": 14.95,
-   "energyKj": 4255
+   "energyKj": 4255,
+   "proteinGrams": 35.4,
+   "satFatGrams": 4.4,
+   "sugarsGrams": 5.3,
+   "sodiumMg": 1248
   },
   {
    "item": "Zinger® Bacon & Cheese Burger",
    "category": "BURGERS",
    "price": 9.45,
-   "energyKj": 2298
+   "energyKj": 2298,
+   "proteinGrams": 33.1,
+   "satFatGrams": 6.2,
+   "sugarsGrams": 5.7,
+   "sodiumMg": 1384
   },
   {
    "item": "Zinger® Bacon & Cheese Burger Combo - Regular",
    "category": "BURGERS",
    "price": 13.45,
-   "energyKj": 3489
+   "energyKj": 3489,
+   "proteinGrams": 37.7,
+   "satFatGrams": 7.3,
+   "sugarsGrams": 6.2,
+   "sodiumMg": 1546
   },
   {
    "item": "Zinger® Bacon & Cheese Burger Combo - Large",
    "category": "BURGERS",
    "price": 15.95,
-   "energyKj": 4678
+   "energyKj": 4678,
+   "proteinGrams": 42.3,
+   "satFatGrams": 8.3,
+   "sugarsGrams": 6.7,
+   "sodiumMg": 1688
   },
   {
    "item": "Zinger Stacker® Burger",
    "category": "BURGERS",
    "price": 11.45,
-   "energyKj": 3082
+   "energyKj": 3082,
+   "proteinGrams": 51.2,
+   "satFatGrams": 8.0,
+   "sugarsGrams": 9.3,
+   "sodiumMg": 1996
   },
   {
    "item": "Zinger Stacker® Burger Combo - Regular",
    "category": "BURGERS",
    "price": 15.45,
-   "energyKj": 4273
+   "energyKj": 4273,
+   "proteinGrams": 55.8,
+   "satFatGrams": 9.0,
+   "sugarsGrams": 9.8,
+   "sodiumMg": 2157
   },
   {
    "item": "Zinger Stacker® Burger Combo - Large",
    "category": "BURGERS",
    "price": 17.95,
-   "energyKj": 5462
+   "energyKj": 5462,
+   "proteinGrams": 60.4,
+   "satFatGrams": 10.1,
+   "sugarsGrams": 10.3,
+   "sodiumMg": 2299
   },
   {
    "item": "Zinger® Crunch Burger",
    "category": "BURGERS",
    "price": 10.45,
-   "energyKj": 2378
+   "energyKj": 2378,
+   "proteinGrams": 29.7,
+   "satFatGrams": 4.8,
+   "sugarsGrams": 8.2,
+   "sodiumMg": 1231
   },
   {
    "item": "Zinger® Crunch Burger™ Combo - Regular",
    "category": "BURGERS",
    "price": 14.45,
-   "energyKj": 3570
+   "energyKj": 3570,
+   "proteinGrams": 34.4,
+   "satFatGrams": 5.9,
+   "sugarsGrams": 8.7,
+   "sodiumMg": 1393
   },
   {
    "item": "Zinger® Crunch Burger™ Combo - Large",
    "category": "BURGERS",
    "price": 16.95,
-   "energyKj": 4759
+   "energyKj": 4759,
+   "proteinGrams": 39.0,
+   "satFatGrams": 7.0,
+   "sugarsGrams": 9.2,
+   "sodiumMg": 1535
   },
   {
    "item": "Ultimate Zinger® Treat Box - Regular",
    "category": "BOXED MEALS",
    "price": 17.45,
-   "energyKj": 6615
+   "energyKj": 6615,
+   "proteinGrams": 61.3,
+   "satFatGrams": 15.2,
+   "sugarsGrams": 81.8,
+   "sodiumMg": 2718
   },
   {
    "item": "Zinger® Burger Box - Regular",
    "category": "BOXED MEALS",
    "price": 14.95,
-   "energyKj": 4289
+   "energyKj": 4289,
+   "proteinGrams": 51.6,
+   "satFatGrams": 4.9,
+   "sugarsGrams": 5.8,
+   "sodiumMg": 2374
   },
   {
    "item": "Zinger® Burger Box - Large",
    "category": "BOXED MEALS",
    "price": 17.45,
-   "energyKj": 5478
+   "energyKj": 5478,
+   "proteinGrams": 56.1,
+   "satFatGrams": 6.0,
+   "sugarsGrams": 6.3,
+   "sodiumMg": 2516
   },
   {
    "item": "Mega Chicken Box - Regular",
    "category": "BOXED MEALS",
    "price": 18.45,
-   "energyKj": 5875
+   "energyKj": 5875,
+   "proteinGrams": 77.2,
+   "satFatGrams": 10.7,
+   "sugarsGrams": 6.0,
+   "sodiumMg": 2658
   },
   {
    "item": "Mega Chicken Box - Large",
    "category": "BOXED MEALS",
    "price": 20.95,
-   "energyKj": 7064
+   "energyKj": 7064,
+   "proteinGrams": 81.8,
+   "satFatGrams": 11.8,
+   "sugarsGrams": 6.4,
+   "sodiumMg": 2800
   },
   {
    "item": "Original Crispy Burger Box - Regular",
    "category": "BOXED MEALS",
    "price": 14.95,
-   "energyKj": 4316
+   "energyKj": 4316,
+   "proteinGrams": 51.7,
+   "satFatGrams": 5.8,
+   "sugarsGrams": 5.7,
+   "sodiumMg": 1876
   },
   {
    "item": "Original Crispy Burger Box - Large",
    "category": "BOXED MEALS",
    "price": 17.45,
-   "energyKj": 5505
+   "energyKj": 5505,
+   "proteinGrams": 56.3,
+   "satFatGrams": 6.9,
+   "sugarsGrams": 6.2,
+   "sodiumMg": 2018
   },
   {
    "item": "Original Crispy Bacon & Cheese Burger Box - Regular",
    "category": "BOXED MEALS",
    "price": 15.45,
-   "energyKj": 4826
+   "energyKj": 4826,
+   "proteinGrams": 58.5,
+   "satFatGrams": 9.9,
+   "sugarsGrams": 6.1,
+   "sodiumMg": 2278
   },
   {
    "item": "Original Crispy Bacon & Cheese Burger Box - Large",
    "category": "BOXED MEALS",
    "price": 17.95,
-   "energyKj": 6016
+   "energyKj": 6016,
+   "proteinGrams": 63.1,
+   "satFatGrams": 10.9,
+   "sugarsGrams": 6.6,
+   "sodiumMg": 2420
   },
   {
    "item": "Original Crispy BBQ Bacon Stacker® Burger Box - Regular",
    "category": "BOXED MEALS",
    "price": 18.45,
-   "energyKj": 5968
+   "energyKj": 5968,
+   "proteinGrams": 81.9,
+   "satFatGrams": 12.4,
+   "sugarsGrams": 10.4,
+   "sodiumMg": 3065
   },
   {
    "item": "Original Crispy BBQ Bacon Stacker® Burger Box - Large",
    "category": "BOXED MEALS",
    "price": 20.95,
-   "energyKj": 7157
+   "energyKj": 7157,
+   "proteinGrams": 86.5,
+   "satFatGrams": 13.5,
+   "sugarsGrams": 10.9,
+   "sodiumMg": 3207
   },
   {
    "item": "3 Piece Box - Regular",
    "category": "BOXED MEALS",
    "price": 14.95,
-   "energyKj": 4858
+   "energyKj": 4858,
+   "proteinGrams": 71.8,
+   "satFatGrams": 9.2,
+   "sugarsGrams": 4.5,
+   "sodiumMg": 2043
   },
   {
    "item": "3 Piece Box - Large",
    "category": "BOXED MEALS",
    "price": 17.45,
-   "energyKj": 6047
+   "energyKj": 6047,
+   "proteinGrams": 76.3,
+   "satFatGrams": 10.3,
+   "sugarsGrams": 5.0,
+   "sodiumMg": 2185
   },
   {
    "item": "Original Tenders™ Box - Regular",
    "category": "BOXED MEALS",
    "price": 14.95,
-   "energyKj": 4271
+   "energyKj": 4271,
+   "proteinGrams": 44.6,
+   "satFatGrams": 5.4,
+   "sugarsGrams": 3.1,
+   "sodiumMg": 2258
   },
   {
    "item": "Original Tenders™ Box - Large",
    "category": "BOXED MEALS",
    "price": 17.45,
-   "energyKj": 5460
+   "energyKj": 5460,
+   "proteinGrams": 49.2,
+   "satFatGrams": 6.5,
+   "sugarsGrams": 3.5,
+   "sodiumMg": 2401
   },
   {
    "item": "Favourites Box - Regular",
    "category": "BOXED MEALS",
    "price": 15.95,
-   "energyKj": 5532
+   "energyKj": 5532,
+   "proteinGrams": 67.1,
+   "satFatGrams": 9.1,
+   "sugarsGrams": 5.0,
+   "sodiumMg": 2660
   },
   {
    "item": "Favourites Box - Large",
    "category": "BOXED MEALS",
    "price": 18.45,
-   "energyKj": 6721
+   "energyKj": 6721,
+   "proteinGrams": 71.7,
+   "satFatGrams": 10.2,
+   "sugarsGrams": 5.5,
+   "sodiumMg": 2802
   },
   {
    "item": "Zinger® Bacon & Cheese Burger Box - Regular",
    "category": "BOXED MEALS",
    "price": 16.45,
-   "energyKj": 4713
+   "energyKj": 4713,
+   "proteinGrams": 58.4,
+   "satFatGrams": 8.8,
+   "sugarsGrams": 7.1,
+   "sodiumMg": 2814
   },
   {
    "item": "Zinger® Bacon & Cheese Burger Box - Large",
    "category": "BOXED MEALS",
    "price": 18.95,
-   "energyKj": 5902
+   "energyKj": 5902,
+   "proteinGrams": 63.0,
+   "satFatGrams": 9.9,
+   "sugarsGrams": 7.6,
+   "sodiumMg": 2956
   },
   {
    "item": "Zinger Stacker® Burger Box - Regular",
    "category": "BOXED MEALS",
    "price": 18.45,
-   "energyKj": 5497
+   "energyKj": 5497,
+   "proteinGrams": 76.5,
+   "satFatGrams": 10.6,
+   "sugarsGrams": 10.8,
+   "sodiumMg": 3425
   },
   {
    "item": "Zinger Stacker® Burger Box - Large",
    "category": "BOXED MEALS",
    "price": 20.95,
-   "energyKj": 6686
+   "energyKj": 6686,
+   "proteinGrams": 81.1,
+   "satFatGrams": 11.7,
+   "sugarsGrams": 11.2,
+   "sodiumMg": 3567
   },
   {
    "item": "Zinger® Crunch Burger™ Box - Regular",
    "category": "BOXED MEALS",
    "price": 17.45,
-   "energyKj": 4793
+   "energyKj": 4793,
+   "proteinGrams": 55.1,
+   "satFatGrams": 7.5,
+   "sugarsGrams": 9.7,
+   "sodiumMg": 2661
   },
   {
    "item": "Zinger® Crunch Burger™ Box - Large",
    "category": "BOXED MEALS",
    "price": 19.95,
-   "energyKj": 5983
+   "energyKj": 5983,
+   "proteinGrams": 59.7,
+   "satFatGrams": 8.6,
+   "sugarsGrams": 10.2,
+   "sodiumMg": 2803
   },
   {
    "item": "Original Crunch Twister® Box - Regular",
    "category": "BOXED MEALS",
    "price": 16.45,
-   "energyKj": 4632
+   "energyKj": 4632,
+   "proteinGrams": 41.9,
+   "satFatGrams": 7.1,
+   "sugarsGrams": 7.4,
+   "sodiumMg": 2245
   },
   {
    "item": "Original Crunch Twister® Box - Large",
    "category": "BOXED MEALS",
    "price": 18.95,
-   "energyKj": 5821
+   "energyKj": 5821,
+   "proteinGrams": 46.4,
+   "satFatGrams": 8.1,
+   "sugarsGrams": 7.9,
+   "sodiumMg": 2387
   },
   {
    "item": "Zinger® Crunch Twister® Box - Regular",
    "category": "BOXED MEALS",
    "price": 16.45,
-   "energyKj": 4903
+   "energyKj": 4903,
+   "proteinGrams": 45.7,
+   "satFatGrams": 7.4,
+   "sugarsGrams": 8.7,
+   "sodiumMg": 2429
   },
   {
    "item": "Zinger® Crunch Twister® Box - Large",
    "category": "BOXED MEALS",
    "price": 18.95,
-   "energyKj": 6092
+   "energyKj": 6092,
+   "proteinGrams": 50.3,
+   "satFatGrams": 8.5,
+   "sugarsGrams": 9.2,
+   "sodiumMg": 2571
   },
   {
    "item": "3 Pieces Wicked Boneless",
    "category": "CHICKEN",
    "price": 8.45,
-   "energyKj": 1434
+   "energyKj": 1434,
+   "proteinGrams": 28.2,
+   "satFatGrams": 2.2,
+   "sugarsGrams": 0.3,
+   "sodiumMg": 1103
   },
   {
    "item": "3 Pieces Wicked Boneless Combo - Regular",
    "category": "CHICKEN",
    "price": 12.45,
-   "energyKj": 2626
+   "energyKj": 2626,
+   "proteinGrams": 32.9,
+   "satFatGrams": 3.2,
+   "sugarsGrams": 0.8,
+   "sodiumMg": 1265
   },
   {
    "item": "3 Pieces Wicked Boneless Combo - Large",
    "category": "CHICKEN",
    "price": 14.95,
-   "energyKj": 3815
+   "energyKj": 3815,
+   "proteinGrams": 37.5,
+   "satFatGrams": 4.3,
+   "sugarsGrams": 1.2,
+   "sodiumMg": 1407
   },
   {
    "item": "6 Pieces Wicked Boneless",
    "category": "CHICKEN",
    "price": 12.45,
-   "energyKj": 2868
+   "energyKj": 2868,
+   "proteinGrams": 56.4,
+   "satFatGrams": 4.3,
+   "sugarsGrams": 0.6,
+   "sodiumMg": 2206
   },
   {
    "item": "6 Pieces Wicked Boneless Combo - Regular",
    "category": "CHICKEN",
    "price": 16.45,
-   "energyKj": 4060
+   "energyKj": 4060,
+   "proteinGrams": 61.1,
+   "satFatGrams": 5.4,
+   "sugarsGrams": 1.1,
+   "sodiumMg": 2368
   },
   {
    "item": "6 Pieces Wicked Boneless Combo - Large",
    "category": "CHICKEN",
    "price": 18.95,
-   "energyKj": 5249
+   "energyKj": 5249,
+   "proteinGrams": 65.7,
+   "satFatGrams": 6.5,
+   "sugarsGrams": 1.5,
+   "sodiumMg": 2510
   },
   {
    "item": "1 Piece of Chicken",
    "category": "CHICKEN",
    "price": 3.95,
-   "energyKj": 984
+   "energyKj": 984,
+   "proteinGrams": 20.4,
+   "satFatGrams": 2.6,
+   "sugarsGrams": 0.2,
+   "sodiumMg": 407
   },
   {
    "item": "3 Pieces of Chicken",
    "category": "CHICKEN",
    "price": 9.95,
-   "energyKj": 2951
+   "energyKj": 2951,
+   "proteinGrams": 61.2,
+   "satFatGrams": 7.8,
+   "sugarsGrams": 0.5,
+   "sodiumMg": 1220
   },
   {
    "item": "3 Piece Combo - Regular",
    "category": "CHICKEN",
    "price": 13.95,
-   "energyKj": 4142
+   "energyKj": 4142,
+   "proteinGrams": 65.9,
+   "satFatGrams": 8.9,
+   "sugarsGrams": 1.0,
+   "sodiumMg": 1381
   },
   {
    "item": "3 Piece Combo - Large",
    "category": "CHICKEN",
    "price": 16.45,
-   "energyKj": 5331
+   "energyKj": 5331,
+   "proteinGrams": 70.5,
+   "satFatGrams": 9.9,
+   "sugarsGrams": 1.5,
+   "sodiumMg": 1523
   },
   {
    "item": "6 Pieces of Chicken",
    "category": "CHICKEN",
    "price": 17.95,
-   "energyKj": 5901
+   "energyKj": 5901,
+   "proteinGrams": 122.5,
+   "satFatGrams": 15.6,
+   "sugarsGrams": 1.0,
+   "sodiumMg": 2439
   },
   {
    "item": "21 Pieces of Chicken",
    "category": "CHICKEN",
    "price": 39.95,
-   "energyKj": 20654
+   "energyKj": 20654,
+   "proteinGrams": 428.7,
+   "satFatGrams": 54.5,
+   "sugarsGrams": 3.6,
+   "sodiumMg": 8538
   },
   {
    "item": "Original Crispy Fillet Piece",
    "category": "CHICKEN",
    "price": 5.45,
-   "energyKj": 936
+   "energyKj": 936,
+   "proteinGrams": 18.9,
+   "satFatGrams": 1.1,
+   "sugarsGrams": 0.3,
+   "sodiumMg": 510
   },
   {
    "item": "Zinger® Fillet Piece",
    "category": "CHICKEN",
    "price": 5.45,
-   "energyKj": 936
+   "energyKj": 936,
+   "proteinGrams": 20.4,
+   "satFatGrams": 1.4,
+   "sugarsGrams": 0.4,
+   "sodiumMg": 679
   },
   {
    "item": "Snack Popcorn Chicken",
    "category": "CHICKEN",
    "price": 2.95,
-   "energyKj": 1009
+   "energyKj": 1009,
+   "proteinGrams": 11.8,
+   "satFatGrams": 1.5,
+   "sugarsGrams": 0.4,
+   "sodiumMg": 577
   },
   {
    "item": "Snack Popcorn Chicken® Combo - Regular",
    "category": "CHICKEN",
    "price": 6.95,
-   "energyKj": 2201
+   "energyKj": 2201,
+   "proteinGrams": 16.5,
+   "satFatGrams": 2.6,
+   "sugarsGrams": 0.9,
+   "sodiumMg": 738
   },
   {
    "item": "Snack Popcorn Chicken® Combo - Large",
    "category": "CHICKEN",
    "price": 9.45,
-   "energyKj": 3390
+   "energyKj": 3390,
+   "proteinGrams": 21.1,
+   "satFatGrams": 3.6,
+   "sugarsGrams": 1.4,
+   "sodiumMg": 880
   },
   {
    "item": "Regular Popcorn Chicken",
    "category": "CHICKEN",
    "price": 5.95,
-   "energyKj": 1644
+   "energyKj": 1644,
+   "proteinGrams": 19.3,
+   "satFatGrams": 2.4,
+   "sugarsGrams": 0.7,
+   "sodiumMg": 939
   },
   {
    "item": "Regular Popcorn Chicken® Combo - Regular",
    "category": "CHICKEN",
    "price": 9.95,
-   "energyKj": 2835
+   "energyKj": 2835,
+   "proteinGrams": 23.9,
+   "satFatGrams": 3.5,
+   "sugarsGrams": 1.2,
+   "sodiumMg": 1101
   },
   {
    "item": "Regular Popcorn Chicken® Combo - Large",
    "category": "CHICKEN",
    "price": 12.45,
-   "energyKj": 4025
+   "energyKj": 4025,
+   "proteinGrams": 28.5,
+   "satFatGrams": 4.6,
+   "sugarsGrams": 1.6,
+   "sodiumMg": 1243
   },
   {
    "item": "Maxi Popcorn Chicken",
    "category": "CHICKEN",
    "price": 9.95,
-   "energyKj": 3014
+   "energyKj": 3014,
+   "proteinGrams": 35.3,
+   "satFatGrams": 4.4,
+   "sugarsGrams": 1.3,
+   "sodiumMg": 1722
   },
   {
    "item": "Maxi Popcorn Chicken® Combo - Regular",
    "category": "CHICKEN",
    "price": 13.95,
-   "energyKj": 4205
+   "energyKj": 4205,
+   "proteinGrams": 40.0,
+   "satFatGrams": 5.5,
+   "sugarsGrams": 1.7,
+   "sodiumMg": 1884
   },
   {
    "item": "Maxi Popcorn Chicken® Combo - Large",
    "category": "CHICKEN",
    "price": 16.45,
-   "energyKj": 5395
+   "energyKj": 5395,
+   "proteinGrams": 44.6,
+   "satFatGrams": 6.5,
+   "sugarsGrams": 2.2,
+   "sodiumMg": 2026
   },
   {
    "item": "3 Wicked Wings",
    "category": "CHICKEN",
    "price": 7.95,
-   "energyKj": 1629
+   "energyKj": 1629,
+   "proteinGrams": 22.6,
+   "satFatGrams": 4.8,
+   "sugarsGrams": 1.2,
+   "sodiumMg": 698
   },
   {
    "item": "3 Wicked Wings® Combo - Regular",
    "category": "CHICKEN",
    "price": 11.95,
-   "energyKj": 2821
+   "energyKj": 2821,
+   "proteinGrams": 27.2,
+   "satFatGrams": 5.9,
+   "sugarsGrams": 1.7,
+   "sodiumMg": 859
   },
   {
    "item": "3 Wicked Wings® Combo - Large",
    "category": "CHICKEN",
    "price": 14.45,
-   "energyKj": 4010
+   "energyKj": 4010,
+   "proteinGrams": 31.8,
+   "satFatGrams": 7.0,
+   "sugarsGrams": 2.2,
+   "sodiumMg": 1001
   },
   {
    "item": "6 Wicked Wings",
    "category": "CHICKEN",
    "price": 10.95,
-   "energyKj": 3259
+   "energyKj": 3259,
+   "proteinGrams": 45.1,
+   "satFatGrams": 9.7,
+   "sugarsGrams": 2.5,
+   "sodiumMg": 1395
   },
   {
    "item": "6 Wicked Wings® Combo - Regular",
    "category": "CHICKEN",
    "price": 14.95,
-   "energyKj": 4450
+   "energyKj": 4450,
+   "proteinGrams": 49.8,
+   "satFatGrams": 10.7,
+   "sugarsGrams": 3.0,
+   "sodiumMg": 1557
   },
   {
    "item": "6 Wicked Wings® Combo - Large",
    "category": "CHICKEN",
    "price": 17.45,
-   "energyKj": 5639
+   "energyKj": 5639,
+   "proteinGrams": 54.3,
+   "satFatGrams": 11.8,
+   "sugarsGrams": 3.4,
+   "sodiumMg": 1699
   },
   {
    "item": "10 Wicked Wings",
    "category": "CHICKEN",
    "price": 14.95,
-   "energyKj": 5431
+   "energyKj": 5431,
+   "proteinGrams": 75.2,
+   "satFatGrams": 16.1,
+   "sugarsGrams": 4.1,
+   "sodiumMg": 2325
   },
   {
    "item": "10 Wicked Wings® Combo - Regular",
    "category": "CHICKEN",
    "price": 18.95,
-   "energyKj": 6623
+   "energyKj": 6623,
+   "proteinGrams": 79.8,
+   "satFatGrams": 17.2,
+   "sugarsGrams": 4.6,
+   "sodiumMg": 2487
   },
   {
    "item": "10 Wicked Wings® Combo - Large",
    "category": "CHICKEN",
    "price": 21.45,
-   "energyKj": 7812
+   "energyKj": 7812,
+   "proteinGrams": 84.4,
+   "satFatGrams": 18.3,
+   "sugarsGrams": 5.1,
+   "sodiumMg": 2629
   },
   {
    "item": "3 Original Tenders",
    "category": "CHICKEN",
    "price": 9.45,
-   "energyKj": 1803
+   "energyKj": 1803,
+   "proteinGrams": 26.2,
+   "satFatGrams": 2.8,
+   "sugarsGrams": 1.4,
+   "sodiumMg": 988
   },
   {
    "item": "3 Original Tenders™ Combo - Regular",
    "category": "CHICKEN",
    "price": 13.45,
-   "energyKj": 2994
+   "energyKj": 2994,
+   "proteinGrams": 30.9,
+   "satFatGrams": 3.9,
+   "sugarsGrams": 1.9,
+   "sodiumMg": 1149
   },
   {
    "item": "3 Original Tenders™ Combo - Large",
    "category": "CHICKEN",
    "price": 15.95,
-   "energyKj": 4184
+   "energyKj": 4184,
+   "proteinGrams": 35.5,
+   "satFatGrams": 4.9,
+   "sugarsGrams": 2.4,
+   "sodiumMg": 1291
   },
   {
    "item": "5 Original Tenders",
    "category": "CHICKEN",
    "price": 12.95,
-   "energyKj": 3194
+   "energyKj": 3194,
+   "proteinGrams": 43.8,
+   "satFatGrams": 5.0,
+   "sugarsGrams": 2.6,
+   "sodiumMg": 1692
   },
   {
    "item": "5 Original Tenders™ Combo - Regular",
    "category": "CHICKEN",
    "price": 16.95,
-   "energyKj": 4385
+   "energyKj": 4385,
+   "proteinGrams": 48.5,
+   "satFatGrams": 6.1,
+   "sugarsGrams": 3.1,
+   "sodiumMg": 1854
   },
   {
    "item": "5 Original Tenders™ Combo - Large",
    "category": "CHICKEN",
    "price": 19.45,
-   "energyKj": 5574
+   "energyKj": 5574,
+   "proteinGrams": 53.0,
+   "satFatGrams": 7.2,
+   "sugarsGrams": 3.6,
+   "sodiumMg": 1996
   },
   {
    "item": "6 Nuggets",
    "category": "CHICKEN",
    "price": 8.95,
-   "energyKj": 1324
+   "energyKj": 1324,
+   "proteinGrams": 16.2,
+   "satFatGrams": 2.3,
+   "sugarsGrams": 12.1,
+   "sodiumMg": 780
   },
   {
    "item": "6 Nugget Combo - Regular",
    "category": "CHICKEN",
    "price": 12.95,
-   "energyKj": 2515
+   "energyKj": 2515,
+   "proteinGrams": 20.9,
+   "satFatGrams": 3.4,
+   "sugarsGrams": 12.5,
+   "sodiumMg": 942
   },
   {
    "item": "6 Nugget Combo - Large",
    "category": "CHICKEN",
    "price": 15.45,
-   "energyKj": 3704
+   "energyKj": 3704,
+   "proteinGrams": 25.4,
+   "satFatGrams": 4.5,
+   "sugarsGrams": 13.0,
+   "sodiumMg": 1084
   },
   {
    "item": "10 Nuggets",
    "category": "CHICKEN",
    "price": 9.95,
-   "energyKj": 2298
+   "energyKj": 2298,
+   "proteinGrams": 27.0,
+   "satFatGrams": 3.9,
+   "sugarsGrams": 24.0,
+   "sodiumMg": 1363
   },
   {
    "item": "10 Nugget Combo - Regular",
    "category": "CHICKEN",
    "price": 13.95,
-   "energyKj": 3489
+   "energyKj": 3489,
+   "proteinGrams": 31.7,
+   "satFatGrams": 5.0,
+   "sugarsGrams": 24.5,
+   "sodiumMg": 1525
   },
   {
    "item": "10 Nugget Combo - Large",
    "category": "CHICKEN",
    "price": 16.45,
-   "energyKj": 4678
+   "energyKj": 4678,
+   "proteinGrams": 36.3,
+   "satFatGrams": 6.1,
+   "sugarsGrams": 25.0,
+   "sodiumMg": 1667
   },
   {
    "item": "Regular Chips",
    "category": "SNACK HACKS",
    "price": 3.65,
-   "energyKj": 1186
+   "energyKj": 1186,
+   "proteinGrams": 4.4,
+   "satFatGrams": 1.1,
+   "sugarsGrams": 0.5,
+   "sodiumMg": 113
   },
   {
    "item": "Original Pepper Mayo Slider",
    "category": "SNACK HACKS",
    "price": 3.75,
-   "energyKj": 1125
+   "energyKj": 1125,
+   "proteinGrams": 12.1,
+   "satFatGrams": 1.7,
+   "sugarsGrams": 2.6,
+   "sodiumMg": 466
   },
   {
    "item": "Original BBQ Slider",
    "category": "SNACK HACKS",
    "price": 3.75,
-   "energyKj": 1012
+   "energyKj": 1012,
+   "proteinGrams": 12.2,
+   "satFatGrams": 1.4,
+   "sugarsGrams": 6.1,
+   "sodiumMg": 492
   },
   {
    "item": "Original Supercharged Slider",
    "category": "SNACK HACKS",
    "price": 3.75,
-   "energyKj": 1082
+   "energyKj": 1082,
+   "proteinGrams": 12.1,
+   "satFatGrams": 1.6,
+   "sugarsGrams": 3.1,
+   "sodiumMg": 486
   },
   {
    "item": "3 Nuggets",
    "category": "SNACK HACKS",
    "price": 3.45,
-   "energyKj": 525
+   "energyKj": 525,
+   "proteinGrams": 8.0,
+   "satFatGrams": 1.2,
+   "sugarsGrams": 0.1,
+   "sodiumMg": 296
   },
   {
    "item": "Double Chocolate Mousse",
    "category": "SNACK HACKS",
    "price": 3.75,
-   "energyKj": 1490
+   "energyKj": 1490,
+   "proteinGrams": 2.8,
+   "satFatGrams": 21.4,
+   "sugarsGrams": 16.8,
+   "sodiumMg": 22
   },
   {
    "item": "Pepsi Freeze",
    "category": "SNACK HACKS",
    "price": 2.0,
-   "energyKj": 734
+   "energyKj": 734,
+   "sugarsGrams": 43.0,
+   "sodiumMg": 47
   },
   {
    "item": "Mountain Dew Freeze",
    "category": "SNACK HACKS",
    "price": 2.0,
-   "energyKj": 782
+   "energyKj": 782,
+   "sugarsGrams": 46.1,
+   "sodiumMg": 58
   },
   {
    "item": "Raspberry Freeze",
    "category": "SNACK HACKS",
    "price": 2.0,
-   "energyKj": 760
+   "energyKj": 760,
+   "sugarsGrams": 44.4,
+   "sodiumMg": 35
   },
   {
    "item": "Regular Pepsi Max",
    "category": "SNACK HACKS",
    "price": 4.25,
-   "energyKj": 6
+   "energyKj": 6,
+   "proteinGrams": 0.2,
+   "sodiumMg": 49
   },
   {
    "item": "Regular Pepsi",
    "category": "SNACK HACKS",
    "price": 4.25,
-   "energyKj": 434
+   "energyKj": 434,
+   "sugarsGrams": 27.4,
+   "sodiumMg": 39
   },
   {
    "item": "Regular 7Up",
    "category": "SNACK HACKS",
    "price": 4.25,
-   "energyKj": 695
+   "energyKj": 695,
+   "sugarsGrams": 42.6,
+   "sodiumMg": 105
   },
   {
    "item": "Regular Mountain Dew",
    "category": "SNACK HACKS",
    "price": 4.25,
-   "energyKj": 439
+   "energyKj": 439,
+   "sugarsGrams": 28.2,
+   "sodiumMg": 60
   },
   {
    "item": "Regular Solo",
    "category": "SNACK HACKS",
    "price": 4.25,
-   "energyKj": 780
+   "energyKj": 780,
+   "proteinGrams": 0.2,
+   "sugarsGrams": 44.9,
+   "sodiumMg": 70
   },
   {
    "item": "Regular Sunkist",
@@ -837,295 +1355,488 @@
    "item": "Sparkling Water",
    "category": "SNACK HACKS",
    "price": 4.25,
-   "energyKj": null
+   "energyKj": null,
+   "sodiumMg": 18
   },
   {
    "item": "Zinger® Protein Pack - Regular",
    "category": "PROTEIN PICKS",
    "price": 11.95,
-   "energyKj": 2896
+   "energyKj": 2896,
+   "proteinGrams": 40.1,
+   "satFatGrams": 3.4,
+   "sugarsGrams": 11.2,
+   "sodiumMg": 1484
   },
   {
    "item": "Zinger® Protein Bowl",
    "category": "PROTEIN PICKS",
    "price": 10.95,
-   "energyKj": 2309
+   "energyKj": 2309,
+   "proteinGrams": 44.0,
+   "satFatGrams": 2.8,
+   "sugarsGrams": 9.8,
+   "sodiumMg": 1531
   },
   {
    "item": "Zinger® Protein Bowl Combo - Regular",
    "category": "PROTEIN PICKS",
    "price": 14.95,
-   "energyKj": 3500
+   "energyKj": 3500,
+   "proteinGrams": 48.7,
+   "satFatGrams": 3.8,
+   "sugarsGrams": 10.3,
+   "sodiumMg": 1692
   },
   {
    "item": "Zinger® Protein Bowl Combo - Large",
    "category": "PROTEIN PICKS",
    "price": 17.45,
-   "energyKj": 4689
+   "energyKj": 4689,
+   "proteinGrams": 53.2,
+   "satFatGrams": 4.9,
+   "sugarsGrams": 10.8,
+   "sodiumMg": 1834
   },
   {
    "item": "Chris' Big Bro Combo - Regular",
    "category": "PROTEIN PICKS",
    "price": 12.95,
-   "energyKj": 2400
+   "energyKj": 2400,
+   "proteinGrams": 48.0,
+   "satFatGrams": 2.5,
+   "sugarsGrams": 4.0,
+   "sodiumMg": 1492
   },
   {
    "item": "Family Feast",
    "category": "SHARED MEALS",
    "price": 38.95,
-   "energyKj": 17280
+   "energyKj": 17280,
+   "proteinGrams": 234.8,
+   "satFatGrams": 32.1,
+   "sugarsGrams": 50.0,
+   "sodiumMg": 7564
   },
   {
    "item": "Value Feast",
    "category": "SHARED MEALS",
    "price": 28.95,
-   "energyKj": 11637
+   "energyKj": 11637,
+   "proteinGrams": 159.9,
+   "satFatGrams": 20.2,
+   "sugarsGrams": 18.6,
+   "sodiumMg": 6475
   },
   {
    "item": "Burger Feast",
    "category": "SHARED MEALS",
    "price": 35.95,
-   "energyKj": 15206
+   "energyKj": 15206,
+   "proteinGrams": 155.1,
+   "satFatGrams": 17.7,
+   "sugarsGrams": 32.0,
+   "sodiumMg": 5610
   },
   {
    "item": "Giant Feast",
    "category": "SHARED MEALS",
    "price": 48.95,
-   "energyKj": 27838
+   "energyKj": 27838,
+   "proteinGrams": 393.7,
+   "satFatGrams": 55.0,
+   "sugarsGrams": 27.0,
+   "sodiumMg": 12791
   },
   {
    "item": "Mega Burger Feast",
    "category": "SHARED MEALS",
    "price": 49.95,
-   "energyKj": 22719
+   "energyKj": 22719,
+   "proteinGrams": 247.8,
+   "satFatGrams": 26.2,
+   "sugarsGrams": 42.8,
+   "sodiumMg": 8455
   },
   {
    "item": "Delivery Feast",
    "category": "SHARED MEALS",
    "price": 49.95,
-   "energyKj": 17199
+   "energyKj": 17199,
+   "proteinGrams": 245.0,
+   "satFatGrams": 30.0,
+   "sugarsGrams": 6.1,
+   "sodiumMg": 6826
   },
   {
    "item": "Zinger® Crunch Twister",
    "category": "TWISTERS & BOWLS",
    "price": 10.45,
-   "energyKj": 2435
+   "energyKj": 2435,
+   "proteinGrams": 27.4,
+   "satFatGrams": 4.8,
+   "sugarsGrams": 7.0,
+   "sodiumMg": 1159
   },
   {
    "item": "Zinger® Crunch Twister® Combo - Regular",
    "category": "TWISTERS & BOWLS",
    "price": 14.45,
-   "energyKj": 3626
+   "energyKj": 3626,
+   "proteinGrams": 32.0,
+   "satFatGrams": 5.9,
+   "sugarsGrams": 7.5,
+   "sodiumMg": 1320
   },
   {
    "item": "Zinger® Crunch Twister® Combo - Large",
    "category": "TWISTERS & BOWLS",
    "price": 16.95,
-   "energyKj": 4816
+   "energyKj": 4816,
+   "proteinGrams": 36.6,
+   "satFatGrams": 6.9,
+   "sugarsGrams": 8.0,
+   "sodiumMg": 1462
   },
   {
    "item": "Original Crunch Twister",
    "category": "TWISTERS & BOWLS",
    "price": 10.45,
-   "energyKj": 2164
+   "energyKj": 2164,
+   "proteinGrams": 23.5,
+   "satFatGrams": 4.4,
+   "sugarsGrams": 5.7,
+   "sodiumMg": 974
   },
   {
    "item": "Original Crunch Twister® Combo - Regular",
    "category": "TWISTERS & BOWLS",
    "price": 14.45,
-   "energyKj": 3355
+   "energyKj": 3355,
+   "proteinGrams": 28.2,
+   "satFatGrams": 5.5,
+   "sugarsGrams": 6.2,
+   "sodiumMg": 1135
   },
   {
    "item": "Original Crunch Twister® Combo - Large",
    "category": "TWISTERS & BOWLS",
    "price": 16.95,
-   "energyKj": 4545
+   "energyKj": 4545,
+   "proteinGrams": 32.7,
+   "satFatGrams": 6.6,
+   "sugarsGrams": 6.7,
+   "sodiumMg": 1277
   },
   {
    "item": "Zinger® Crunch Bowl",
    "category": "TWISTERS & BOWLS",
    "price": 9.95,
-   "energyKj": 1738
+   "energyKj": 1738,
+   "proteinGrams": 23.2,
+   "satFatGrams": 2.2,
+   "sugarsGrams": 10.0,
+   "sodiumMg": 988
   },
   {
    "item": "Zinger® Crunch Bowl Combo - Regular",
    "category": "TWISTERS & BOWLS",
    "price": 14.45,
-   "energyKj": 2930
+   "energyKj": 2930,
+   "proteinGrams": 27.8,
+   "satFatGrams": 3.3,
+   "sugarsGrams": 10.5,
+   "sodiumMg": 1150
   },
   {
    "item": "Zinger® Crunch Bowl Combo - Large",
    "category": "TWISTERS & BOWLS",
    "price": 16.95,
-   "energyKj": 4119
+   "energyKj": 4119,
+   "proteinGrams": 32.4,
+   "satFatGrams": 4.4,
+   "sugarsGrams": 10.9,
+   "sodiumMg": 1292
   },
   {
    "item": "Original Tenders™ Crunch Bowl",
    "category": "TWISTERS & BOWLS",
    "price": 9.95,
-   "energyKj": 1687
+   "energyKj": 1687,
+   "proteinGrams": 20.0,
+   "satFatGrams": 2.1,
+   "sugarsGrams": 8.8,
+   "sodiumMg": 840
   },
   {
    "item": "Original Tenders™ Crunch Bowl Combo - Regular",
    "category": "TWISTERS & BOWLS",
    "price": 14.45,
-   "energyKj": 2879
+   "energyKj": 2879,
+   "proteinGrams": 24.7,
+   "satFatGrams": 3.2,
+   "sugarsGrams": 9.3,
+   "sodiumMg": 1002
   },
   {
    "item": "Original Tenders™ Crunch Bowl Combo - Large",
    "category": "TWISTERS & BOWLS",
    "price": 16.95,
-   "energyKj": 4068
+   "energyKj": 4068,
+   "proteinGrams": 29.3,
+   "satFatGrams": 4.2,
+   "sugarsGrams": 9.8,
+   "sodiumMg": 1144
   },
   {
    "item": "Go Bucket® Wicked Boneless",
    "category": "GO BUCKETS & KIDS MEALS",
    "price": 4.95,
-   "energyKj": 1664
+   "energyKj": 1664,
+   "proteinGrams": 13.8,
+   "satFatGrams": 1.8,
+   "sugarsGrams": 0.6,
+   "sodiumMg": 480
   },
   {
    "item": "Go Bucket® Popcorn Chicken",
    "category": "GO BUCKETS & KIDS MEALS",
    "price": 4.95,
-   "energyKj": 2325
+   "energyKj": 2325,
+   "proteinGrams": 17.8,
+   "satFatGrams": 2.7,
+   "sugarsGrams": 1.0,
+   "sodiumMg": 764
   },
   {
    "item": "Go Bucket® 1 Original Tender",
    "category": "GO BUCKETS & KIDS MEALS",
    "price": 4.95,
-   "energyKj": 1597
+   "energyKj": 1597,
+   "proteinGrams": 13.1,
+   "satFatGrams": 1.6,
+   "sugarsGrams": 0.6,
+   "sodiumMg": 396
   },
   {
    "item": "Go Bucket® 2 Wicked Wings",
    "category": "GO BUCKETS & KIDS MEALS",
    "price": 4.95,
-   "energyKj": 2272
+   "energyKj": 2272,
+   "proteinGrams": 19.5,
+   "satFatGrams": 4.3,
+   "sugarsGrams": 1.3,
+   "sodiumMg": 578
   },
   {
    "item": "Go Bucket® 3 Nuggets",
    "category": "GO BUCKETS & KIDS MEALS",
    "price": 4.95,
-   "energyKj": 1710
+   "energyKj": 1710,
+   "proteinGrams": 12.5,
+   "satFatGrams": 2.2,
+   "sugarsGrams": 0.6,
+   "sodiumMg": 408
   },
   {
    "item": "Kids Meal with BBQ Slider",
    "category": "GO BUCKETS & KIDS MEALS",
    "price": 6.95,
-   "energyKj": 1401
+   "energyKj": 1401,
+   "proteinGrams": 13.3,
+   "satFatGrams": 1.7,
+   "sugarsGrams": 16.7,
+   "sodiumMg": 664
   },
   {
    "item": "Kids Meal with Nuggets - Small",
    "category": "GO BUCKETS & KIDS MEALS",
    "price": 6.95,
-   "energyKj": 2159
+   "energyKj": 2159,
+   "proteinGrams": 15.3,
+   "satFatGrams": 2.6,
+   "sugarsGrams": 12.5,
+   "sodiumMg": 696
   },
   {
    "item": "Kids Meal with Snack Popcorn Chicken",
    "category": "GO BUCKETS & KIDS MEALS",
    "price": 6.95,
-   "energyKj": 2195
+   "energyKj": 2195,
+   "proteinGrams": 16.3,
+   "satFatGrams": 2.6,
+   "sugarsGrams": 0.9,
+   "sodiumMg": 690
   },
   {
    "item": "$15 Pickles Boxfull - Regular",
    "category": "EVERYDAY VALUE",
    "price": 15.0,
-   "energyKj": 5400
+   "energyKj": 5400,
+   "proteinGrams": 44.4,
+   "satFatGrams": 5.9,
+   "sugarsGrams": 22.2,
+   "sodiumMg": 3251
   },
   {
    "item": "$15 Pickles Boxfull - Large",
    "category": "EVERYDAY VALUE",
    "price": 17.5,
-   "energyKj": 6589
+   "energyKj": 6589,
+   "proteinGrams": 49.0,
+   "satFatGrams": 7.0,
+   "sugarsGrams": 22.7,
+   "sodiumMg": 3393
   },
   {
    "item": "$10 Boxfull - Regular",
    "category": "EVERYDAY VALUE",
    "price": 10.0,
-   "energyKj": 3872
+   "energyKj": 3872,
+   "proteinGrams": 36.1,
+   "satFatGrams": 4.5,
+   "sugarsGrams": 16.7,
+   "sodiumMg": 1506
   },
   {
    "item": "$10 Boxfull - Large",
    "category": "EVERYDAY VALUE",
    "price": 12.5,
-   "energyKj": 5062
+   "energyKj": 5062,
+   "proteinGrams": 40.7,
+   "satFatGrams": 5.5,
+   "sugarsGrams": 17.2,
+   "sodiumMg": 1648
   },
   {
    "item": "$15 Boxfull - Regular",
    "category": "EVERYDAY VALUE",
    "price": 15.0,
-   "energyKj": 5359
+   "energyKj": 5359,
+   "proteinGrams": 59.1,
+   "satFatGrams": 5.9,
+   "sugarsGrams": 20.7,
+   "sodiumMg": 2898
   },
   {
    "item": "$15 Boxfull - Large",
    "category": "EVERYDAY VALUE",
    "price": 17.5,
-   "energyKj": 6548
+   "energyKj": 6548,
+   "proteinGrams": 63.7,
+   "satFatGrams": 7.0,
+   "sugarsGrams": 21.2,
+   "sodiumMg": 3040
   },
   {
    "item": "$5 Boxfull",
    "category": "EVERYDAY VALUE",
    "price": 5.0,
-   "energyKj": 3290
+   "energyKj": 3290,
+   "proteinGrams": 25.5,
+   "satFatGrams": 4.5,
+   "sugarsGrams": 4.2,
+   "sodiumMg": 1001
   },
   {
    "item": "$24.95 Burger Dinner",
    "category": "EVERYDAY VALUE",
    "price": 24.95,
-   "energyKj": 10013
+   "energyKj": 10013,
+   "proteinGrams": 104.8,
+   "satFatGrams": 12.5,
+   "sugarsGrams": 15.7,
+   "sodiumMg": 3988
   },
   {
    "item": "$24.95 Boneless Dinner",
    "category": "EVERYDAY VALUE",
    "price": 24.95,
-   "energyKj": 9415
+   "energyKj": 9415,
+   "proteinGrams": 115.6,
+   "satFatGrams": 12.4,
+   "sugarsGrams": 16.8,
+   "sodiumMg": 5045
   },
   {
    "item": "Large Chips",
    "category": "SIDES & DESSERTS",
    "price": 5.75,
-   "energyKj": 2371
+   "energyKj": 2371,
+   "proteinGrams": 8.9,
+   "satFatGrams": 2.2,
+   "sugarsGrams": 1.0,
+   "sodiumMg": 226
   },
   {
    "item": "Crunchy Jalapeno Slaw",
    "category": "SIDES & DESSERTS",
    "price": 5.95,
-   "energyKj": 802
+   "energyKj": 802,
+   "proteinGrams": 2.8,
+   "satFatGrams": 0.9,
+   "sugarsGrams": 9.6,
+   "sodiumMg": 309
   },
   {
    "item": "Large Potato & Gravy",
    "category": "SIDES & DESSERTS",
    "price": 7.45,
-   "energyKj": 1094
+   "energyKj": 1094,
+   "proteinGrams": 7.7,
+   "satFatGrams": 0.5,
+   "sugarsGrams": 3.2,
+   "sodiumMg": 2178
   },
   {
    "item": "Regular Potato & Gravy",
    "category": "SIDES & DESSERTS",
    "price": 5.45,
-   "energyKj": 267
+   "energyKj": 267,
+   "proteinGrams": 1.9,
+   "satFatGrams": 0.1,
+   "sugarsGrams": 0.8,
+   "sodiumMg": 532
   },
   {
    "item": "Large Coleslaw",
    "category": "SIDES & DESSERTS",
    "price": 7.45,
-   "energyKj": 1588
+   "energyKj": 1588,
+   "proteinGrams": 4.5,
+   "satFatGrams": 1.4,
+   "sugarsGrams": 43.2,
+   "sodiumMg": 706
   },
   {
    "item": "Regular Coleslaw",
    "category": "SIDES & DESSERTS",
    "price": 5.45,
-   "energyKj": 388
+   "energyKj": 388,
+   "proteinGrams": 1.1,
+   "satFatGrams": 0.3,
+   "sugarsGrams": 10.6,
+   "sodiumMg": 173
   },
   {
    "item": "Regular Gravy",
    "category": "SIDES & DESSERTS",
    "price": 5.45,
-   "energyKj": 215
+   "energyKj": 215,
+   "proteinGrams": 1.8,
+   "satFatGrams": 0.1,
+   "sugarsGrams": 0.9,
+   "sodiumMg": 695
   },
   {
    "item": "Dinner Roll",
    "category": "SIDES & DESSERTS",
    "price": 1.25,
-   "energyKj": 449
+   "energyKj": 449,
+   "proteinGrams": 4.0,
+   "satFatGrams": 0.3,
+   "sugarsGrams": 2.8,
+   "sodiumMg": 129
   },
   {
    "item": "4 Dipping Sauces",
@@ -1137,91 +1848,129 @@
    "item": "Aioli Dip",
    "category": "SIDES & DESSERTS",
    "price": 0.8,
-   "energyKj": 567
+   "energyKj": 567,
+   "proteinGrams": 0.3,
+   "satFatGrams": 1.2,
+   "sugarsGrams": 0.9,
+   "sodiumMg": 137
   },
   {
    "item": "BBQ Dip",
    "category": "SIDES & DESSERTS",
    "price": 0.8,
-   "energyKj": 205
+   "energyKj": 205,
+   "proteinGrams": 0.2,
+   "sugarsGrams": 10.2,
+   "sodiumMg": 236
   },
   {
    "item": "Tomato Dip",
    "category": "SIDES & DESSERTS",
    "price": 0.8,
-   "energyKj": 148
+   "energyKj": 148,
+   "proteinGrams": 0.5,
+   "sugarsGrams": 7.0,
+   "sodiumMg": 254
   },
   {
    "item": "Supercharged Dip",
    "category": "SIDES & DESSERTS",
    "price": 0.8,
-   "energyKj": 440
+   "energyKj": 440,
+   "proteinGrams": 0.4,
+   "satFatGrams": 0.8,
+   "sugarsGrams": 3.0,
+   "sodiumMg": 185
   },
   {
    "item": "Sweet & Sour Dip",
    "category": "SIDES & DESSERTS",
    "price": 0.8,
-   "energyKj": 274
+   "energyKj": 274,
+   "proteinGrams": 0.2,
+   "sugarsGrams": 11.8,
+   "sodiumMg": 189
   },
   {
    "item": "Large Pepsi Max",
    "category": "COLD DRINKS",
    "price": 4.75,
-   "energyKj": 10
+   "energyKj": 10,
+   "proteinGrams": 0.4,
+   "sodiumMg": 78
   },
   {
    "item": "1.25L Pepsi Max",
    "category": "COLD DRINKS",
    "price": 5.95,
-   "energyKj": 20
+   "energyKj": 20,
+   "proteinGrams": 0.8,
+   "sodiumMg": 162
   },
   {
    "item": "Large Pepsi",
    "category": "COLD DRINKS",
    "price": 4.75,
-   "energyKj": 684
+   "energyKj": 684,
+   "sugarsGrams": 43.2,
+   "sodiumMg": 62
   },
   {
    "item": "1.25L Pepsi",
    "category": "COLD DRINKS",
    "price": 5.95,
-   "energyKj": 1424
+   "energyKj": 1424,
+   "sugarsGrams": 89.8,
+   "sodiumMg": 128
   },
   {
    "item": "Large 7Up",
    "category": "COLD DRINKS",
    "price": 4.75,
-   "energyKj": 1077
+   "energyKj": 1077,
+   "sugarsGrams": 66.2,
+   "sodiumMg": 164
   },
   {
    "item": "1.25L 7Up",
    "category": "COLD DRINKS",
    "price": 5.95,
-   "energyKj": 2244
+   "energyKj": 2244,
+   "sugarsGrams": 137.8,
+   "sodiumMg": 341
   },
   {
    "item": "Large Mountain Dew",
    "category": "COLD DRINKS",
    "price": 4.75,
-   "energyKj": 691
+   "energyKj": 691,
+   "sugarsGrams": 44.3,
+   "sodiumMg": 92
   },
   {
    "item": "1.25L Mountain Dew",
    "category": "COLD DRINKS",
    "price": 5.95,
-   "energyKj": 1437
+   "energyKj": 1437,
+   "sugarsGrams": 89.8,
+   "sodiumMg": 192
   },
   {
    "item": "Large Solo",
    "category": "COLD DRINKS",
    "price": 4.75,
-   "energyKj": 1198
+   "energyKj": 1198,
+   "proteinGrams": 0.3,
+   "sugarsGrams": 69.3,
+   "sodiumMg": 106
   },
   {
    "item": "1.25L Solo",
    "category": "COLD DRINKS",
    "price": 5.95,
-   "energyKj": 2496
+   "energyKj": 2496,
+   "sugarsGrams": 149.5,
+   "sodiumMg": 221
   },
   {
    "item": "Large Sunkist",
@@ -1233,85 +1982,139 @@
    "item": "Apple Juice",
    "category": "COLD DRINKS",
    "price": 4.25,
-   "energyKj": 589
+   "energyKj": 589,
+   "sugarsGrams": 33.4,
+   "sodiumMg": 16
   },
   {
    "item": "Lipton Peach Ice Tea",
    "category": "COLD DRINKS",
    "price": 4.75,
-   "energyKj": 395
+   "energyKj": 395,
+   "proteinGrams": 0.5,
+   "satFatGrams": 0.5,
+   "sugarsGrams": 21.5,
+   "sodiumMg": 10
   },
   {
    "item": "Pickle Slider",
    "category": "SECRET MENU",
    "price": 3.95,
-   "energyKj": 1207
+   "energyKj": 1207,
+   "proteinGrams": 12.1,
+   "satFatGrams": 1.9,
+   "sugarsGrams": 3.5,
+   "sodiumMg": 673
   },
   {
    "item": "Pickle Slider Combo - Regular",
    "category": "SECRET MENU",
    "price": 7.95,
-   "energyKj": 2398
+   "energyKj": 2398,
+   "proteinGrams": 16.8,
+   "satFatGrams": 2.9,
+   "sugarsGrams": 4.0,
+   "sodiumMg": 834
   },
   {
    "item": "Pickle Slider Combo - Large",
    "category": "SECRET MENU",
    "price": 10.45,
-   "energyKj": 3587
+   "energyKj": 3587,
+   "proteinGrams": 21.4,
+   "satFatGrams": 4.0,
+   "sugarsGrams": 4.5,
+   "sodiumMg": 976
   },
   {
    "item": "Supercharged Loaded Chips",
    "category": "SECRET MENU",
    "price": 8.45,
-   "energyKj": 3840
+   "energyKj": 3840,
+   "proteinGrams": 22.4,
+   "satFatGrams": 4.4,
+   "sugarsGrams": 3.0,
+   "sodiumMg": 1020
   },
   {
    "item": "$1 Wicked Wings",
    "category": "COLONEL'S OFFERS",
    "price": 1.0,
-   "energyKj": 543
+   "energyKj": 543,
+   "proteinGrams": 7.5,
+   "satFatGrams": 1.6,
+   "sugarsGrams": 0.4,
+   "sodiumMg": 233
   },
   {
    "item": "6 Wicked Wings® Lunch",
    "category": "COLONEL'S OFFERS",
    "price": 9.95,
-   "energyKj": 4444
+   "energyKj": 4444,
+   "proteinGrams": 49.5,
+   "satFatGrams": 10.7,
+   "sugarsGrams": 3.0,
+   "sodiumMg": 1508
   },
   {
    "item": "Double Combo Meal - Regular",
    "category": "COLONEL'S OFFERS",
    "price": 18.95,
-   "energyKj": 6131
+   "energyKj": 6131,
+   "proteinGrams": 58.8,
+   "satFatGrams": 6.3,
+   "sugarsGrams": 9.5,
+   "sodiumMg": 1874
   },
   {
    "item": "Double Combo Meal - Large",
    "category": "COLONEL'S OFFERS",
    "price": 23.95,
-   "energyKj": 8509
+   "energyKj": 8509,
+   "proteinGrams": 68.0,
+   "satFatGrams": 8.4,
+   "sugarsGrams": 10.5,
+   "sodiumMg": 2158
   },
   {
    "item": "Big Dinner",
    "category": "COLONEL'S OFFERS",
    "price": 25.95,
-   "energyKj": 16121
+   "energyKj": 16121,
+   "proteinGrams": 212.6,
+   "satFatGrams": 28.3,
+   "sugarsGrams": 21.7,
+   "sodiumMg": 8840
   },
   {
    "item": "$7.95 KWENCH by KFC Snack",
    "category": "FOMO WOW",
    "price": 7.95,
-   "energyKj": 3319
+   "energyKj": 3319,
+   "proteinGrams": 20.8,
+   "satFatGrams": 6.3,
+   "sugarsGrams": 42.7,
+   "sodiumMg": 867
   },
   {
    "item": "$10 Saucy Wicked Wings Pack",
    "category": "FOMO WOW",
    "price": 10.0,
-   "energyKj": 7596
+   "energyKj": 7596,
+   "proteinGrams": 69.9,
+   "satFatGrams": 16.7,
+   "sugarsGrams": 10.3,
+   "sodiumMg": 2456
   },
   {
    "item": "Pickle Sauce ADD ON",
    "category": "FOMO WOW",
    "price": 3.5,
-   "energyKj": 3174
+   "energyKj": 3174,
+   "proteinGrams": 0.4,
+   "satFatGrams": 6.3,
+   "sugarsGrams": 8.5,
+   "sodiumMg": 793
   },
   {
    "item": "Pickle Cheesecake ADD ON",
@@ -1323,73 +2126,121 @@
    "item": "8 for $8.95 Wicked Boneless Box",
    "category": "FOMO WOW",
    "price": 8.95,
-   "energyKj": 3825
+   "energyKj": 3825,
+   "proteinGrams": 75.3,
+   "satFatGrams": 5.8,
+   "sugarsGrams": 0.8,
+   "sodiumMg": 2941
   },
   {
    "item": "8 Wicked Boneless & Wicked Sauce",
    "category": "FOMO WOW",
    "price": 11.95,
-   "energyKj": 6484
+   "energyKj": 6484,
+   "proteinGrams": 77.3,
+   "satFatGrams": 10.6,
+   "sugarsGrams": 22.6,
+   "sodiumMg": 3795
   },
   {
    "item": "$9.95 Wicked Deal for Two",
    "category": "FOMO WOW",
    "price": 9.95,
-   "energyKj": 6716
+   "energyKj": 6716,
+   "proteinGrams": 69.0,
+   "satFatGrams": 15.0,
+   "sugarsGrams": 4.3,
+   "sodiumMg": 2086
   },
   {
    "item": "Combo for 2 - Zinger® KWENCH Combo",
    "category": "FOMO WOW",
    "price": 19.95,
-   "energyKj": 9328
+   "energyKj": 9328,
+   "proteinGrams": 71.5,
+   "satFatGrams": 17.0,
+   "sugarsGrams": 133.3,
+   "sodiumMg": 2550
   },
   {
    "item": "$12 Nugget Value Pack",
    "category": "FOMO WOW",
    "price": 12.0,
-   "energyKj": 6418
+   "energyKj": 6418,
+   "proteinGrams": 62.6,
+   "satFatGrams": 9.9,
+   "sugarsGrams": 25.5,
+   "sodiumMg": 2574
   },
   {
    "item": "30 Nuggets",
    "category": "FOMO WOW",
    "price": 10.0,
-   "energyKj": 5246
+   "energyKj": 5246,
+   "proteinGrams": 80.2,
+   "satFatGrams": 11.5,
+   "sugarsGrams": 1.4,
+   "sodiumMg": 2957
   },
   {
    "item": "$7.95 Wicked Zinger® Combo - Regular",
    "category": "FOMO WOW",
    "price": 7.95,
-   "energyKj": 4695
+   "energyKj": 4695,
+   "proteinGrams": 53.4,
+   "satFatGrams": 8.2,
+   "sugarsGrams": 6.1,
+   "sodiumMg": 1803
   },
   {
    "item": "$7.95 Wicked Zinger® Combo - Large",
    "category": "FOMO WOW",
    "price": 10.45,
-   "energyKj": 5884
+   "energyKj": 5884,
+   "proteinGrams": 58.0,
+   "satFatGrams": 9.3,
+   "sugarsGrams": 6.6,
+   "sodiumMg": 1946
   },
   {
    "item": "$6.95 Kwench & Go Bucket",
    "category": "FOMO WOW",
    "price": 6.95,
-   "energyKj": 4963
+   "energyKj": 4963,
+   "proteinGrams": 28.1,
+   "satFatGrams": 15.5,
+   "sugarsGrams": 89.6,
+   "sodiumMg": 1087
   },
   {
    "item": "$14.95 Combo for 2 - Kwench & Nuggets - Regular",
    "category": "FOMO WOW",
    "price": 14.95,
-   "energyKj": 7544
+   "energyKj": 7544,
+   "proteinGrams": 46.3,
+   "satFatGrams": 17.7,
+   "sugarsGrams": 126.9,
+   "sodiumMg": 2080
   },
   {
    "item": "Double Sliders Kwench Deal - Regular",
    "category": "FOMO WOW",
    "price": 6.95,
-   "energyKj": 4888
+   "energyKj": 4888,
+   "proteinGrams": 34.6,
+   "satFatGrams": 16.2,
+   "sugarsGrams": 93.9,
+   "sodiumMg": 1257
   },
   {
    "item": "$19.95 Zinger® Party FT. Kwench by KFC - Regular",
    "category": "FOMO WOW",
    "price": 19.95,
-   "energyKj": 11320
+   "energyKj": 11320,
+   "proteinGrams": 100.5,
+   "satFatGrams": 21.8,
+   "sugarsGrams": 135.8,
+   "sodiumMg": 3887
   },
   {
    "item": "MAKE IT A COMBO for $4",
@@ -1401,61 +2252,97 @@
    "item": "$14.95 Combo for 2 - Kwench & Double Tender",
    "category": "FOMO WOW",
    "price": 14.95,
-   "energyKj": 9079
+   "energyKj": 9079,
+   "proteinGrams": 66.4,
+   "satFatGrams": 18.3,
+   "sugarsGrams": 111.8,
+   "sodiumMg": 2457
   },
   {
    "item": "$5 Large Chips & Kwench - Regular",
    "category": "FOMO WOW",
    "price": 5.0,
-   "energyKj": 5010
+   "energyKj": 5010,
+   "proteinGrams": 19.2,
+   "satFatGrams": 14.9,
+   "sugarsGrams": 89.6,
+   "sodiumMg": 549
   },
   {
    "item": "$6 Kwench & Nugget Snack - Regular",
    "category": "FOMO WOW",
    "price": 6.0,
-   "energyKj": 3962
+   "energyKj": 3962,
+   "proteinGrams": 26.5,
+   "satFatGrams": 15.1,
+   "sugarsGrams": 100.7,
+   "sodiumMg": 1103
   },
   {
    "item": "$10 Kwench & Nugget Snack - Regular",
    "category": "FOMO WOW",
    "price": 10.0,
-   "energyKj": 4936
+   "energyKj": 4936,
+   "proteinGrams": 37.3,
+   "satFatGrams": 16.7,
+   "sugarsGrams": 112.7,
+   "sodiumMg": 1686
   },
   {
    "item": "20 Nuggets",
    "category": "FOMO WOW",
    "price": 19.95,
-   "energyKj": 4614
+   "energyKj": 4614,
+   "proteinGrams": 54.0,
+   "satFatGrams": 8.9,
+   "sugarsGrams": 25.5,
+   "sodiumMg": 2486
   },
   {
    "item": "Go Bucket® Popcorn Chicken® ADD ON",
    "category": "FOMO WOW",
    "price": 4.95,
-   "energyKj": 2325
+   "energyKj": 2325,
+   "proteinGrams": 17.8,
+   "satFatGrams": 2.7,
+   "sugarsGrams": 1.0,
+   "sodiumMg": 764
   },
   {
    "item": "Regular Potato & Gravy ADD ON",
    "category": "FOMO WOW",
    "price": 5.45,
-   "energyKj": 267
+   "energyKj": 267,
+   "proteinGrams": 1.9,
+   "satFatGrams": 0.1,
+   "sugarsGrams": 0.8,
+   "sodiumMg": 532
   },
   {
    "item": "Dinner Roll ADD ON",
    "category": "FOMO WOW",
    "price": 1.25,
-   "energyKj": 460
+   "energyKj": 460,
+   "proteinGrams": 4.1,
+   "satFatGrams": 0.3,
+   "sugarsGrams": 2.8,
+   "sodiumMg": 133
   },
   {
    "item": "Regular Pepsi Max^ ADD ON",
    "category": "FOMO WOW",
    "price": 1.5,
-   "energyKj": 6
+   "energyKj": 6,
+   "proteinGrams": 0.2,
+   "sodiumMg": 49
   },
   {
    "item": "Regular Pepsi^ ADD ON",
    "category": "FOMO WOW",
    "price": 1.5,
-   "energyKj": 434
+   "energyKj": 434,
+   "sugarsGrams": 27.4,
+   "sodiumMg": 39
   },
   {
    "item": "Regular 7Up ADD ON",
@@ -1473,7 +2360,10 @@
    "item": "Regular Solo ADD ON",
    "category": "FOMO WOW",
    "price": 1.5,
-   "energyKj": 780
+   "energyKj": 780,
+   "proteinGrams": 0.2,
+   "sugarsGrams": 44.9,
+   "sodiumMg": 70
   },
   {
    "item": "Regular Sunkist ADD ON",
@@ -1485,37 +2375,56 @@
    "item": "Large Pepsi Max^ ADD ON",
    "category": "FOMO WOW",
    "price": 2.0,
-   "energyKj": 10
+   "energyKj": 10,
+   "proteinGrams": 0.4,
+   "sodiumMg": 78
   },
   {
    "item": "Large Pepsi^ ADD ON",
    "category": "FOMO WOW",
    "price": 2.0,
-   "energyKj": 684
+   "energyKj": 684,
+   "sugarsGrams": 43.2,
+   "sodiumMg": 62
   },
   {
    "item": "Large Solo ADD ON",
    "category": "FOMO WOW",
    "price": 2.0,
-   "energyKj": 1198
+   "energyKj": 1198,
+   "proteinGrams": 0.3,
+   "sugarsGrams": 69.3,
+   "sodiumMg": 106
   },
   {
    "item": "2 Wicked Boneless ADD ON",
    "category": "FOMO WOW",
    "price": 3.45,
-   "energyKj": 956
+   "energyKj": 956,
+   "proteinGrams": 18.8,
+   "satFatGrams": 1.4,
+   "sugarsGrams": 0.2,
+   "sodiumMg": 735
   },
   {
    "item": "6 Wicked Boneless ADD ON",
    "category": "FOMO WOW",
    "price": 7.45,
-   "energyKj": 2868
+   "energyKj": 2868,
+   "proteinGrams": 56.4,
+   "satFatGrams": 4.3,
+   "sugarsGrams": 0.6,
+   "sodiumMg": 2206
   },
   {
    "item": "10 Wicked Boneless ADD ON",
    "category": "FOMO WOW",
    "price": 12.95,
-   "energyKj": 4781
+   "energyKj": 4781,
+   "proteinGrams": 94.1,
+   "satFatGrams": 7.2,
+   "sugarsGrams": 1.0,
+   "sodiumMg": 3677
   },
   {
    "item": "Original Crispy Fillet Piece ADD ON",
@@ -1527,25 +2436,41 @@
    "item": "Zinger® Fillet Piece ADD ON",
    "category": "FOMO WOW",
    "price": 3.0,
-   "energyKj": 876
+   "energyKj": 876,
+   "proteinGrams": 21.0,
+   "satFatGrams": 1.0,
+   "sugarsGrams": 0.3,
+   "sodiumMg": 628
   },
   {
    "item": "1 Piece Original Recipe ADD ON",
    "category": "FOMO WOW",
    "price": 3.95,
-   "energyKj": 984
+   "energyKj": 984,
+   "proteinGrams": 20.4,
+   "satFatGrams": 2.6,
+   "sugarsGrams": 0.2,
+   "sodiumMg": 407
   },
   {
    "item": "4 Pieces Original Recipe Chicken ADD ON",
    "category": "FOMO WOW",
    "price": 7.95,
-   "energyKj": 3934
+   "energyKj": 3934,
+   "proteinGrams": 81.7,
+   "satFatGrams": 10.4,
+   "sugarsGrams": 0.7,
+   "sodiumMg": 1626
   },
   {
    "item": "2 Original Tenders™ ADD ON",
    "category": "FOMO WOW",
    "price": 5.45,
-   "energyKj": 824
+   "energyKj": 824,
+   "proteinGrams": 17.3,
+   "satFatGrams": 1.1,
+   "sugarsGrams": 0.3,
+   "sodiumMg": 567
   },
   {
    "item": "5 Original Tenders™ ADD ON",
@@ -1557,79 +2482,131 @@
    "item": "6 Nuggets ADD ON",
    "category": "FOMO WOW",
    "price": 6.95,
-   "energyKj": 1324
+   "energyKj": 1324,
+   "proteinGrams": 16.2,
+   "satFatGrams": 2.3,
+   "sugarsGrams": 12.1,
+   "sodiumMg": 780
   },
   {
    "item": "3 Wicked Wings® ADD ON",
    "category": "FOMO WOW",
    "price": 3.0,
-   "energyKj": 1512
+   "energyKj": 1512,
+   "proteinGrams": 21.6,
+   "satFatGrams": 4.3,
+   "sugarsGrams": 0.4,
+   "sodiumMg": 700
   },
   {
    "item": "2 Wicked Wings® ADD ON",
    "category": "FOMO WOW",
    "price": 5.3,
-   "energyKj": 1086
+   "energyKj": 1086,
+   "proteinGrams": 15.0,
+   "satFatGrams": 3.2,
+   "sugarsGrams": 0.8,
+   "sodiumMg": 465
   },
   {
    "item": "Snack Popcorn Chicken® ADD ON",
    "category": "FOMO WOW",
    "price": 2.95,
-   "energyKj": 1009
+   "energyKj": 1009,
+   "proteinGrams": 11.8,
+   "satFatGrams": 1.5,
+   "sugarsGrams": 0.4,
+   "sodiumMg": 577
   },
   {
    "item": "Regular Popcorn Chicken® ADD ON",
    "category": "FOMO WOW",
    "price": 5.95,
-   "energyKj": 1644
+   "energyKj": 1644,
+   "proteinGrams": 19.3,
+   "satFatGrams": 2.4,
+   "sugarsGrams": 0.7,
+   "sodiumMg": 939
   },
   {
    "item": "Maxi Popcorn Chicken® ADD ON",
    "category": "FOMO WOW",
    "price": 7.45,
-   "energyKj": 3003
+   "energyKj": 3003,
+   "proteinGrams": 37.0,
+   "satFatGrams": 4.0,
+   "sugarsGrams": 1.0,
+   "sodiumMg": 1620
   },
   {
    "item": "Double Chocolate Mousse ADD ON",
    "category": "FOMO WOW",
    "price": 3.75,
-   "energyKj": 1490
+   "energyKj": 1490,
+   "proteinGrams": 2.8,
+   "satFatGrams": 21.4,
+   "sugarsGrams": 16.8,
+   "sodiumMg": 22
   },
   {
    "item": "2 Double Chocolate Mousse ADD ON",
    "category": "FOMO WOW",
    "price": 7.5,
-   "energyKj": 1490
+   "energyKj": 1490,
+   "proteinGrams": 2.8,
+   "satFatGrams": 21.4,
+   "sugarsGrams": 16.8,
+   "sodiumMg": 22
   },
   {
    "item": "Large Chips ADD ON",
    "category": "FOMO WOW",
    "price": 4.95,
-   "energyKj": 2371
+   "energyKj": 2371,
+   "proteinGrams": 8.9,
+   "satFatGrams": 2.2,
+   "sugarsGrams": 1.0,
+   "sodiumMg": 226
   },
   {
    "item": "Large Potato & Gravy ADD ON",
    "category": "FOMO WOW",
    "price": 4.95,
-   "energyKj": 1094
+   "energyKj": 1094,
+   "proteinGrams": 7.7,
+   "satFatGrams": 0.5,
+   "sugarsGrams": 3.2,
+   "sodiumMg": 2178
   },
   {
    "item": "Large Coleslaw ADD ON",
    "category": "FOMO WOW",
    "price": 4.95,
-   "energyKj": 1588
+   "energyKj": 1588,
+   "proteinGrams": 4.5,
+   "satFatGrams": 1.4,
+   "sugarsGrams": 43.2,
+   "sodiumMg": 706
   },
   {
    "item": "Regular Gravy ADD ON",
    "category": "FOMO WOW",
    "price": 5.45,
-   "energyKj": 215
+   "energyKj": 215,
+   "proteinGrams": 1.8,
+   "satFatGrams": 0.1,
+   "sugarsGrams": 0.9,
+   "sodiumMg": 695
   },
   {
    "item": "Crunchy Jalapeno Slaw ADD ON",
    "category": "FOMO WOW",
    "price": 5.95,
-   "energyKj": 727
+   "energyKj": 727,
+   "proteinGrams": 2.6,
+   "satFatGrams": 0.8,
+   "sugarsGrams": 9.8,
+   "sodiumMg": 310
   },
   {
    "item": "4 Dinner Rolls ADD ON",
@@ -1641,49 +2618,71 @@
    "item": "1.25L Pepsi Max^ ADD ON",
    "category": "FOMO WOW",
    "price": 5.95,
-   "energyKj": 20
+   "energyKj": 20,
+   "proteinGrams": 0.8,
+   "sodiumMg": 162
   },
   {
    "item": "1.25L Pepsi^ ADD ON",
    "category": "FOMO WOW",
    "price": 5.95,
-   "energyKj": 1424
+   "energyKj": 1424,
+   "sugarsGrams": 89.8,
+   "sodiumMg": 128
   },
   {
    "item": "1.25L 7Up ADD ON",
    "category": "FOMO WOW",
    "price": 5.95,
-   "energyKj": 2244
+   "energyKj": 2244,
+   "sugarsGrams": 137.8,
+   "sodiumMg": 341
   },
   {
    "item": "1.25L Mountain Dew ADD ON",
    "category": "FOMO WOW",
    "price": 5.95,
-   "energyKj": 1437
+   "energyKj": 1437,
+   "sugarsGrams": 89.8,
+   "sodiumMg": 192
   },
   {
    "item": "1.25L Solo ADD ON",
    "category": "FOMO WOW",
    "price": 5.95,
-   "energyKj": 2496
+   "energyKj": 2496,
+   "sugarsGrams": 149.5,
+   "sodiumMg": 221
   },
   {
    "item": "Original Pepper Mayo Slider ADD ON",
    "category": "FOMO WOW",
    "price": 3.75,
-   "energyKj": 1125
+   "energyKj": 1125,
+   "proteinGrams": 12.1,
+   "satFatGrams": 1.7,
+   "sugarsGrams": 2.6,
+   "sodiumMg": 466
   },
   {
    "item": "Original BBQ Slider ADD ON",
    "category": "FOMO WOW",
    "price": 3.75,
-   "energyKj": 1012
+   "energyKj": 1012,
+   "proteinGrams": 12.2,
+   "satFatGrams": 1.4,
+   "sugarsGrams": 6.1,
+   "sodiumMg": 492
   },
   {
    "item": "Original Supercharged Slider ADD ON",
    "category": "FOMO WOW",
    "price": 3.75,
-   "energyKj": 1082
+   "energyKj": 1082,
+   "proteinGrams": 12.1,
+   "satFatGrams": 1.6,
+   "sugarsGrams": 3.1,
+   "sodiumMg": 486
   },
   {
    "item": "ADD 2 Large Sides for $7.95",
@@ -1695,169 +2694,281 @@
    "item": "$15 Double Whammy Deal",
    "category": "FOMO WOW",
    "price": 15.0,
-   "energyKj": 8120
+   "energyKj": 8120,
+   "proteinGrams": 122.8,
+   "satFatGrams": 14.4,
+   "sugarsGrams": 3.2,
+   "sodiumMg": 3429
   },
   {
    "item": "$11 Boneless Stacked Pack",
    "category": "FOMO WOW",
    "price": 11.0,
-   "energyKj": 4028
+   "energyKj": 4028,
+   "proteinGrams": 58.7,
+   "satFatGrams": 5.9,
+   "sugarsGrams": 13.2,
+   "sodiumMg": 2471
   },
   {
    "item": "$14.95 Original Crispy Burgs, Chips 'n Nuggs",
    "category": "FOMO WOW",
    "price": 14.95,
-   "energyKj": 7442
+   "energyKj": 7442,
+   "proteinGrams": 74.5,
+   "satFatGrams": 8.6,
+   "sugarsGrams": 21.6,
+   "sodiumMg": 2557
   },
   {
    "item": "$9.95 Zinger® Combo n' Slider - Regular",
    "category": "FOMO WOW",
    "price": 9.95,
-   "energyKj": 4147
+   "energyKj": 4147,
+   "proteinGrams": 43.0,
+   "satFatGrams": 5.0,
+   "sugarsGrams": 7.9,
+   "sodiumMg": 1592
   },
   {
    "item": "$9.95 Zinger® Combo n' Slider - Large",
    "category": "FOMO WOW",
    "price": 12.45,
-   "energyKj": 5336
+   "energyKj": 5336,
+   "proteinGrams": 47.6,
+   "satFatGrams": 6.1,
+   "sugarsGrams": 8.4,
+   "sodiumMg": 1734
   },
   {
    "item": "$16.95 Colonels Chicken n' Chips",
    "category": "FOMO WOW",
    "price": 16.95,
-   "energyKj": 12206
+   "energyKj": 12206,
+   "proteinGrams": 213.0,
+   "satFatGrams": 28.1,
+   "sugarsGrams": 2.7,
+   "sodiumMg": 4291
   },
   {
    "item": "$16.95 Zinger® and Nuggs for Two",
    "category": "FOMO WOW",
    "price": 16.95,
-   "energyKj": 8429
+   "energyKj": 8429,
+   "proteinGrams": 88.8,
+   "satFatGrams": 10.6,
+   "sugarsGrams": 33.8,
+   "sodiumMg": 3575
   },
   {
    "item": "$11.95 Double Tender™ Burger Combo for Two",
    "category": "FOMO WOW",
    "price": 11.95,
-   "energyKj": 6147
+   "energyKj": 6147,
+   "proteinGrams": 55.9,
+   "satFatGrams": 6.6,
+   "sugarsGrams": 9.6,
+   "sodiumMg": 2043
   },
   {
    "item": "$8.95 Original Crispy Burger & Go Bucket",
    "category": "FOMO WOW",
    "price": 8.95,
-   "energyKj": 4199
+   "energyKj": 4199,
+   "proteinGrams": 42.5,
+   "satFatGrams": 4.8,
+   "sugarsGrams": 5.2,
+   "sodiumMg": 1539
   },
   {
    "item": "15 Wicked Wings® for $15",
    "category": "FOMO WOW",
    "price": 15.0,
-   "energyKj": 8146
+   "energyKj": 8146,
+   "proteinGrams": 112.7,
+   "satFatGrams": 24.2,
+   "sugarsGrams": 6.2,
+   "sodiumMg": 3488
   },
   {
    "item": "$12.95 Chicken Deal for 2",
    "category": "FOMO WOW",
    "price": 12.95,
-   "energyKj": 8272
+   "energyKj": 8272,
+   "proteinGrams": 131.4,
+   "satFatGrams": 17.7,
+   "sugarsGrams": 2.0,
+   "sodiumMg": 2665
   },
   {
    "item": "$16.95 Twister® Double Deal",
    "category": "FOMO WOW",
    "price": 16.95,
-   "energyKj": 8666
+   "energyKj": 8666,
+   "proteinGrams": 96.7,
+   "satFatGrams": 16.1,
+   "sugarsGrams": 12.8,
+   "sodiumMg": 2986
   },
   {
    "item": "$12.95 Original Crispy Burger Combo & 3 Original Tenders - Regular",
    "category": "FOMO WOW",
    "price": 12.95,
-   "energyKj": 4868
+   "energyKj": 4868,
+   "proteinGrams": 55.6,
+   "satFatGrams": 5.9,
+   "sugarsGrams": 6.2,
+   "sodiumMg": 1925
   },
   {
    "item": "$12.95 Original Crispy Burger Combo & 3 Original Tenders - Large",
    "category": "FOMO WOW",
    "price": 15.45,
-   "energyKj": 6057
+   "energyKj": 6057,
+   "proteinGrams": 60.2,
+   "satFatGrams": 7.0,
+   "sugarsGrams": 6.6,
+   "sodiumMg": 2067
   },
   {
    "item": "$15 Zinger® Burger Combo for Two - Regular",
    "category": "FOMO WOW",
    "price": 15.0,
-   "energyKj": 6131
+   "energyKj": 6131,
+   "proteinGrams": 61.7,
+   "satFatGrams": 6.7,
+   "sugarsGrams": 9.7,
+   "sodiumMg": 2212
   },
   {
    "item": "$15.95 Boneless Pack for Two",
    "category": "FOMO WOW",
    "price": 15.95,
-   "energyKj": 8889
+   "energyKj": 8889,
+   "proteinGrams": 114.5,
+   "satFatGrams": 13.1,
+   "sugarsGrams": 26.4,
+   "sodiumMg": 4275
   },
   {
    "item": "$18 Value Burger Feast",
    "category": "FOMO WOW",
    "price": 18.0,
-   "energyKj": 12238
+   "energyKj": 12238,
+   "proteinGrams": 119.6,
+   "satFatGrams": 13.0,
+   "sugarsGrams": 19.3,
+   "sodiumMg": 3891
   },
   {
    "item": "$8.50 Zinger® Combo & Chicken - Regular",
    "category": "FOMO WOW",
    "price": 8.5,
-   "energyKj": 5033
+   "energyKj": 5033,
+   "proteinGrams": 71.7,
+   "satFatGrams": 8.5,
+   "sugarsGrams": 5.2,
+   "sodiumMg": 1919
   },
   {
    "item": "$8.50 Zinger® Combo & Chicken - Large",
    "category": "FOMO WOW",
    "price": 11.0,
-   "energyKj": 6222
+   "energyKj": 6222,
+   "proteinGrams": 76.3,
+   "satFatGrams": 9.6,
+   "sugarsGrams": 5.7,
+   "sodiumMg": 2061
   },
   {
    "item": "$9.95 Zinger® and Popcorn Lunch - Regular",
    "category": "FOMO WOW",
    "price": 9.95,
-   "energyKj": 4723
+   "energyKj": 4723,
+   "proteinGrams": 51.1,
+   "satFatGrams": 5.5,
+   "sugarsGrams": 5.7,
+   "sodiumMg": 2003
   },
   {
    "item": "$9.95 Zinger® and Popcorn Lunch - Large",
    "category": "FOMO WOW",
    "price": 12.45,
-   "energyKj": 5912
+   "energyKj": 5912,
+   "proteinGrams": 55.6,
+   "satFatGrams": 6.6,
+   "sugarsGrams": 6.1,
+   "sodiumMg": 2145
   },
   {
    "item": "$5.95 6 Wings n' Chips",
    "category": "FOMO WOW",
    "price": 5.95,
-   "energyKj": 4209
+   "energyKj": 4209,
+   "proteinGrams": 47.7,
+   "satFatGrams": 9.6,
+   "sugarsGrams": 1.2,
+   "sodiumMg": 1512
   },
   {
    "item": "$7.95 Zinger® Burger Combo & 3 Wicked Wings - Regular",
    "category": "FOMO WOW",
    "price": 7.95,
-   "energyKj": 4695
+   "energyKj": 4695,
+   "proteinGrams": 53.4,
+   "satFatGrams": 8.2,
+   "sugarsGrams": 6.1,
+   "sodiumMg": 1803
   },
   {
    "item": "$7.95 Zinger® Burger Combo & 3 Wicked Wings - Large",
    "category": "FOMO WOW",
    "price": 10.45,
-   "energyKj": 5884
+   "energyKj": 5884,
+   "proteinGrams": 58.0,
+   "satFatGrams": 9.3,
+   "sugarsGrams": 6.6,
+   "sodiumMg": 1946
   },
   {
    "item": "$19.95 Family Burger Deal",
    "category": "FOMO WOW",
    "price": 19.95,
-   "energyKj": 12413
+   "energyKj": 12413,
+   "proteinGrams": 122.1,
+   "satFatGrams": 12.7,
+   "sugarsGrams": 19.9,
+   "sodiumMg": 3825
   },
   {
    "item": "$9.95 Double Trouble Deal - Regular",
    "category": "FOMO WOW",
    "price": 9.95,
-   "energyKj": 5027
+   "energyKj": 5027,
+   "proteinGrams": 56.8,
+   "satFatGrams": 5.3,
+   "sugarsGrams": 9.5,
+   "sodiumMg": 1848
   },
   {
    "item": "$9.95 Double Trouble Deal - Large",
    "category": "FOMO WOW",
    "price": 12.45,
-   "energyKj": 6216
+   "energyKj": 6216,
+   "proteinGrams": 61.4,
+   "satFatGrams": 6.3,
+   "sugarsGrams": 10.0,
+   "sodiumMg": 1991
   },
   {
    "item": "$8.95 Zinger®, Nuggs 'n Chips",
    "category": "FOMO WOW",
    "price": 8.95,
-   "energyKj": 5371
+   "energyKj": 5371,
+   "proteinGrams": 58.6,
+   "satFatGrams": 7.0,
+   "sugarsGrams": 29.0,
+   "sodiumMg": 2378
   },
   {
    "item": "2-4-1 Burger Combo",
@@ -1875,7 +2986,11 @@
    "item": "$9.95 Wicked Double Deal",
    "category": "FOMO WOW",
    "price": 9.95,
-   "energyKj": 7802
+   "energyKj": 7802,
+   "proteinGrams": 84.0,
+   "satFatGrams": 18.3,
+   "sugarsGrams": 5.1,
+   "sodiumMg": 2551
   },
   {
    "item": "$13.95 Chicken Variety Pack Lunch",
@@ -1887,151 +3002,251 @@
    "item": "$5.95 Kentucky Snack Fest",
    "category": "FOMO WOW",
    "price": 5.95,
-   "energyKj": 3044
+   "energyKj": 3044,
+   "proteinGrams": 25.5,
+   "satFatGrams": 3.6,
+   "sugarsGrams": 2.0,
+   "sodiumMg": 1747
   },
   {
    "item": "$3 Nuggs, Chips n' Dip",
    "category": "FOMO WOW",
    "price": 3.0,
-   "energyKj": 1925
+   "energyKj": 1925,
+   "proteinGrams": 14.2,
+   "satFatGrams": 2.3,
+   "sugarsGrams": 1.5,
+   "sodiumMg": 1104
   },
   {
    "item": "$15 Chicken Feaster",
    "category": "FOMO WOW",
    "price": 15.0,
-   "energyKj": 7909
+   "energyKj": 7909,
+   "proteinGrams": 128.4,
+   "satFatGrams": 17.2,
+   "sugarsGrams": 3.0,
+   "sodiumMg": 3847
   },
   {
    "item": "$15 Kentucky Feaster",
    "category": "FOMO WOW",
    "price": 15.0,
-   "energyKj": 8396
+   "energyKj": 8396,
+   "proteinGrams": 153.3,
+   "satFatGrams": 19.4,
+   "sugarsGrams": 13.7,
+   "sodiumMg": 4178
   },
   {
    "item": "$3 Freeze & Nuggs",
    "category": "FOMO WOW",
    "price": 3.0,
-   "energyKj": 1259
+   "energyKj": 1259,
+   "proteinGrams": 8.0,
+   "satFatGrams": 1.2,
+   "sugarsGrams": 43.2,
+   "sodiumMg": 343
   },
   {
    "item": "$7.95 All Chicken Lunch",
    "category": "FOMO WOW",
    "price": 7.95,
-   "energyKj": 3302
+   "energyKj": 3302,
+   "proteinGrams": 47.9,
+   "satFatGrams": 6.7,
+   "sugarsGrams": 12.6,
+   "sodiumMg": 1750
   },
   {
    "item": "$15 Nugget Feaster",
    "category": "FOMO WOW",
    "price": 15.0,
-   "energyKj": 8727
+   "energyKj": 8727,
+   "proteinGrams": 90.1,
+   "satFatGrams": 13.8,
+   "sugarsGrams": 49.5,
+   "sodiumMg": 4035
   },
   {
    "item": "Double Burger Meal - Regular",
    "category": "FOMO WOW",
    "price": 8.95,
-   "energyKj": 4947
+   "energyKj": 4947,
+   "proteinGrams": 54.1,
+   "satFatGrams": 5.5,
+   "sugarsGrams": 9.2,
+   "sodiumMg": 1966
   },
   {
    "item": "Double Burger Meal - Large",
    "category": "FOMO WOW",
    "price": 11.45,
-   "energyKj": 6137
+   "energyKj": 6137,
+   "proteinGrams": 58.7,
+   "satFatGrams": 6.6,
+   "sugarsGrams": 9.7,
+   "sodiumMg": 2108
   },
   {
    "item": "20 Nuggets & Regular Chips",
    "category": "FOMO WOW",
    "price": 12.95,
-   "energyKj": 6418
+   "energyKj": 6418,
+   "proteinGrams": 62.6,
+   "satFatGrams": 9.9,
+   "sugarsGrams": 25.5,
+   "sodiumMg": 2574
   },
   {
    "item": "Double Burger Lunch Deal - Regular",
    "category": "FOMO WOW",
    "price": 9.95,
-   "energyKj": 4939
+   "energyKj": 4939,
+   "proteinGrams": 55.6,
+   "satFatGrams": 5.4,
+   "sugarsGrams": 9.2,
+   "sodiumMg": 1881
   },
   {
    "item": "Double Burger Lunch Deal - Large",
    "category": "FOMO WOW",
    "price": 12.45,
-   "energyKj": 6129
+   "energyKj": 6129,
+   "proteinGrams": 60.2,
+   "satFatGrams": 6.5,
+   "sugarsGrams": 9.6,
+   "sodiumMg": 2023
   },
   {
    "item": "2 for 1 Original Crispy Burger",
    "category": "FOMO WOW",
    "price": 8.45,
-   "energyKj": 1933
+   "energyKj": 1933,
+   "proteinGrams": 24.9,
+   "satFatGrams": 2.2,
+   "sugarsGrams": 4.4,
+   "sodiumMg": 787
   },
   {
    "item": "Zinger® Pop Combo - Regular",
    "category": "FOMO WOW",
    "price": 7.95,
-   "energyKj": 4710
+   "energyKj": 4710,
+   "proteinGrams": 50.1,
+   "satFatGrams": 5.7,
+   "sugarsGrams": 5.6,
+   "sodiumMg": 2045
   },
   {
    "item": "Zinger® Pop Combo - Large",
    "category": "FOMO WOW",
    "price": 10.45,
-   "energyKj": 5899
+   "energyKj": 5899,
+   "proteinGrams": 54.7,
+   "satFatGrams": 6.8,
+   "sugarsGrams": 6.0,
+   "sodiumMg": 2187
   },
   {
    "item": "Zinger® Nuggs Combo - Regular",
    "category": "FOMO WOW",
    "price": 7.95,
-   "energyKj": 4403
+   "energyKj": 4403,
+   "proteinGrams": 48.0,
+   "satFatGrams": 5.5,
+   "sugarsGrams": 17.0,
+   "sodiumMg": 1844
   },
   {
    "item": "Zinger® Nuggs Combo - Large",
    "category": "FOMO WOW",
    "price": 10.45,
-   "energyKj": 5592
+   "energyKj": 5592,
+   "proteinGrams": 52.6,
+   "satFatGrams": 6.5,
+   "sugarsGrams": 17.5,
+   "sodiumMg": 1986
   },
   {
    "item": "Twister® Nuggs Combo - Regular",
    "category": "FOMO WOW",
    "price": 10.0,
-   "energyKj": 4664
+   "energyKj": 4664,
+   "proteinGrams": 44.3,
+   "satFatGrams": 7.8,
+   "sugarsGrams": 18.7,
+   "sodiumMg": 1919
   },
   {
    "item": "Twister® Nuggs Combo - Large",
    "category": "FOMO WOW",
    "price": 12.5,
-   "energyKj": 5853
+   "energyKj": 5853,
+   "proteinGrams": 48.9,
+   "satFatGrams": 8.9,
+   "sugarsGrams": 19.2,
+   "sodiumMg": 2061
   },
   {
    "item": "Zinger® Burger Combo & Choc Mousse - Regular",
    "category": "FOMO WOW",
    "price": 7.95,
-   "energyKj": 4556
+   "energyKj": 4556,
+   "proteinGrams": 33.6,
+   "satFatGrams": 24.8,
+   "sugarsGrams": 21.7,
+   "sodiumMg": 1128
   },
   {
    "item": "Zinger® Burger Combo & Choc Mousse - Large",
    "category": "FOMO WOW",
    "price": 10.45,
-   "energyKj": 5745
+   "energyKj": 5745,
+   "proteinGrams": 38.2,
+   "satFatGrams": 25.9,
+   "sugarsGrams": 22.2,
+   "sodiumMg": 1270
   },
   {
    "item": "2 Piece Combo & Double Choc Mousse",
    "category": "FOMO WOW",
    "price": 7.0,
-   "energyKj": 4649
+   "energyKj": 4649,
+   "proteinGrams": 48.3,
+   "satFatGrams": 27.7,
+   "sugarsGrams": 17.7,
+   "sodiumMg": 997
   },
   {
    "item": "Zinger®, Chippies & Double Choc Mousses for Mates",
    "category": "FOMO WOW",
    "price": 14.95,
-   "energyKj": 9127
+   "energyKj": 9127,
+   "proteinGrams": 68.6,
+   "satFatGrams": 49.1,
+   "sugarsGrams": 43.6,
+   "sodiumMg": 2075
   },
   {
    "item": "2-4-1 Large Chips",
    "category": "FOMO WOW",
    "price": 5.75,
-   "energyKj": 4862
+   "energyKj": 4862,
+   "proteinGrams": 18.2,
+   "satFatGrams": 4.8,
+   "sugarsGrams": 1.0,
+   "sodiumMg": 389
   },
   {
    "item": "2 Original Pepper Mayo Sliders",
    "category": "FOMO WOW",
    "price": 4.0,
-   "energyKj": 2249
+   "energyKj": 2249,
+   "proteinGrams": 24.3,
+   "satFatGrams": 3.4,
+   "sugarsGrams": 5.3,
+   "sodiumMg": 933
   },
   {
    "item": "Caramel Biscuit Bliss Cup ADD ON",

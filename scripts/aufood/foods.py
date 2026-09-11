@@ -59,6 +59,10 @@ def make_row(
     serve_grams=None,
     energy_kj=None,
     protein_grams=None,
+    sat_fat_grams=None,
+    sugars_grams=None,
+    sodium_mg=None,
+    fibre_grams=None,
     id_hint: str | None = None,
 ) -> dict:
     """Build one ``data/foods.json`` item in the shape the site already expects."""
@@ -77,6 +81,10 @@ def make_row(
         "energyKj": round(float(energy_kj)) if energy_kj is not None else None,
         "energyCal": kj_to_cal(energy_kj),
         "proteinGrams": round(float(protein_grams), 1) if protein_grams is not None else None,
+        "satFatGrams": round(float(sat_fat_grams), 1) if sat_fat_grams is not None else None,
+        "sugarsGrams": round(float(sugars_grams), 1) if sugars_grams is not None else None,
+        "sodiumMg": round(float(sodium_mg)) if sodium_mg is not None else None,
+        "fibreGrams": round(float(fibre_grams), 1) if fibre_grams is not None else None,
         "sourceFile": source_file,
         "channel": channel,
         "storeLabel": store_label,

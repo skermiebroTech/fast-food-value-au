@@ -56,6 +56,10 @@ def rows_for(snapshot: dict) -> list[dict]:
                 category=item.get("category") or "Menu",
                 price=item.get("price"),
                 energy_kj=item.get("energyKj"),
+                protein_grams=item.get("proteinGrams"),
+                sat_fat_grams=item.get("satFatGrams"),
+                sugars_grams=item.get("sugarsGrams"),
+                sodium_mg=item.get("sodiumMg"),
                 note=f"{channel or 'In-store'} price at {note_store}"
                 + (f" · captured {captured}" if captured else ""),
                 channel=channel,
