@@ -1,0 +1,2073 @@
+{
+ "brand": "KFC",
+ "store": "Brisbane (store 782)",
+ "capturedAt": "2026-09-11",
+ "source": "KFC AU app API — orderserv-kfc-apac-olo-api.yum.com catalog (guest token)",
+ "channel": "Pickup",
+ "items": [
+  {
+   "item": "Happier Hours 2 for $5",
+   "category": "HAPPIER HOURS",
+   "price": 5.0,
+   "energyKj": null
+  },
+  {
+   "item": "$7.95 KWENCH by KFC Snack - Until 4pm",
+   "category": "NEW KWENCH BY KFC",
+   "price": 7.95,
+   "energyKj": 3319
+  },
+  {
+   "item": "Chocolate Krunch Shake",
+   "category": "NEW KWENCH BY KFC",
+   "price": 5.95,
+   "energyKj": 2332
+  },
+  {
+   "item": "Caramel Krunch Shake",
+   "category": "NEW KWENCH BY KFC",
+   "price": 5.95,
+   "energyKj": 2471
+  },
+  {
+   "item": "Strawberry Krunch Shake",
+   "category": "NEW KWENCH BY KFC",
+   "price": 5.95,
+   "energyKj": 2509
+  },
+  {
+   "item": "Fairy Bread Krunch Shake",
+   "category": "NEW KWENCH BY KFC",
+   "price": 5.95,
+   "energyKj": 2401
+  },
+  {
+   "item": "Watermelon Boba Refresher",
+   "category": "NEW KWENCH BY KFC",
+   "price": 5.95,
+   "energyKj": 684
+  },
+  {
+   "item": "Lychee Boba Refresher",
+   "category": "NEW KWENCH BY KFC",
+   "price": 5.95,
+   "energyKj": 998
+  },
+  {
+   "item": "Sparkling Raspberry Lemonade",
+   "category": "NEW KWENCH BY KFC",
+   "price": 4.95,
+   "energyKj": 422
+  },
+  {
+   "item": "Sparkling Peach Pop Lemonade",
+   "category": "NEW KWENCH BY KFC",
+   "price": 4.95,
+   "energyKj": 453
+  },
+  {
+   "item": "Pepsi Frozen Spider",
+   "category": "NEW KWENCH BY KFC",
+   "price": 4.0,
+   "energyKj": 956
+  },
+  {
+   "item": "Mountain Dew Frozen Spider",
+   "category": "NEW KWENCH BY KFC",
+   "price": 4.0,
+   "energyKj": 1018
+  },
+  {
+   "item": "Raspberry Frozen Spider",
+   "category": "NEW KWENCH BY KFC",
+   "price": 4.0,
+   "energyKj": 994
+  },
+  {
+   "item": "Pickle Burger",
+   "category": "FEATURED OFFERS",
+   "price": 11.45,
+   "energyKj": 2288
+  },
+  {
+   "item": "Pickle Zinger® Burger",
+   "category": "FEATURED OFFERS",
+   "price": 11.45,
+   "energyKj": 2288
+  },
+  {
+   "item": "Pickle Burger Combo - Regular",
+   "category": "FEATURED OFFERS",
+   "price": 15.45,
+   "energyKj": 3479
+  },
+  {
+   "item": "Pickle Burger Combo - Large",
+   "category": "FEATURED OFFERS",
+   "price": 17.95,
+   "energyKj": 4669
+  },
+  {
+   "item": "Pickle Burger Box - Regular",
+   "category": "FEATURED OFFERS",
+   "price": 17.95,
+   "energyKj": 4703
+  },
+  {
+   "item": "Pickle Burger Box - Large",
+   "category": "FEATURED OFFERS",
+   "price": 20.45,
+   "energyKj": 5892
+  },
+  {
+   "item": "Picklecore Meal",
+   "category": "FEATURED OFFERS",
+   "price": 20.95,
+   "energyKj": 11336
+  },
+  {
+   "item": "Pickle Loaded Chips",
+   "category": "FEATURED OFFERS",
+   "price": 8.95,
+   "energyKj": 4211
+  },
+  {
+   "item": "Frickles",
+   "category": "FEATURED OFFERS",
+   "price": 5.0,
+   "energyKj": 864
+  },
+  {
+   "item": "Pickle Sauce",
+   "category": "FEATURED OFFERS",
+   "price": 3.5,
+   "energyKj": 3174
+  },
+  {
+   "item": "Pickle Pepsi Max",
+   "category": "FEATURED OFFERS",
+   "price": 5.5,
+   "energyKj": 20
+  },
+  {
+   "item": "Pickle Pepsi",
+   "category": "FEATURED OFFERS",
+   "price": 5.5,
+   "energyKj": 448
+  },
+  {
+   "item": "Pickle Feast",
+   "category": "FEATURED OFFERS",
+   "price": 39.95,
+   "energyKj": 15417
+  },
+  {
+   "item": "Footy Feed - Regular",
+   "category": "FEATURED OFFERS",
+   "price": 29.95,
+   "energyKj": 10495
+  },
+  {
+   "item": "Original Crispy Burger",
+   "category": "BURGERS",
+   "price": 8.45,
+   "energyKj": 1874
+  },
+  {
+   "item": "Original Crispy Burger Combo - Regular",
+   "category": "BURGERS",
+   "price": 12.45,
+   "energyKj": 3065
+  },
+  {
+   "item": "Original Crispy Burger Combo - Large",
+   "category": "BURGERS",
+   "price": 14.95,
+   "energyKj": 4255
+  },
+  {
+   "item": "Original Crispy Bacon & Cheese Burger",
+   "category": "BURGERS",
+   "price": 9.45,
+   "energyKj": 2384
+  },
+  {
+   "item": "Original Crispy Bacon & Cheese Burger Combo - Regular",
+   "category": "BURGERS",
+   "price": 13.45,
+   "energyKj": 3576
+  },
+  {
+   "item": "Original Crispy Bacon & Cheese Burger Combo - Large",
+   "category": "BURGERS",
+   "price": 15.95,
+   "energyKj": 4765
+  },
+  {
+   "item": "Original Crispy BBQ Bacon Stacker® Burger",
+   "category": "BURGERS",
+   "price": 12.45,
+   "energyKj": 3526
+  },
+  {
+   "item": "Original Crispy BBQ Bacon Stacker® Burger Combo - Regular",
+   "category": "BURGERS",
+   "price": 16.45,
+   "energyKj": 4717
+  },
+  {
+   "item": "Original Crispy BBQ Bacon Stacker® Burger Combo - Large",
+   "category": "BURGERS",
+   "price": 18.95,
+   "energyKj": 5907
+  },
+  {
+   "item": "Double Tender™ Burger",
+   "category": "BURGERS",
+   "price": 6.45,
+   "energyKj": 1882
+  },
+  {
+   "item": "Double Tender™ Burger Combo - Regular",
+   "category": "BURGERS",
+   "price": 10.45,
+   "energyKj": 3073
+  },
+  {
+   "item": "Double Tender™ Burger Combo - Large",
+   "category": "BURGERS",
+   "price": 12.95,
+   "energyKj": 4263
+  },
+  {
+   "item": "Zinger® Burger",
+   "category": "BURGERS",
+   "price": 8.45,
+   "energyKj": 1874
+  },
+  {
+   "item": "Zinger® Burger Combo - Regular",
+   "category": "BURGERS",
+   "price": 12.45,
+   "energyKj": 3066
+  },
+  {
+   "item": "Zinger® Burger Combo - Large",
+   "category": "BURGERS",
+   "price": 14.95,
+   "energyKj": 4255
+  },
+  {
+   "item": "Zinger® Bacon & Cheese Burger",
+   "category": "BURGERS",
+   "price": 9.45,
+   "energyKj": 2298
+  },
+  {
+   "item": "Zinger® Bacon & Cheese Burger Combo - Regular",
+   "category": "BURGERS",
+   "price": 13.45,
+   "energyKj": 3489
+  },
+  {
+   "item": "Zinger® Bacon & Cheese Burger Combo - Large",
+   "category": "BURGERS",
+   "price": 15.95,
+   "energyKj": 4678
+  },
+  {
+   "item": "Zinger Stacker® Burger",
+   "category": "BURGERS",
+   "price": 11.45,
+   "energyKj": 3082
+  },
+  {
+   "item": "Zinger Stacker® Burger Combo - Regular",
+   "category": "BURGERS",
+   "price": 15.45,
+   "energyKj": 4273
+  },
+  {
+   "item": "Zinger Stacker® Burger Combo - Large",
+   "category": "BURGERS",
+   "price": 17.95,
+   "energyKj": 5462
+  },
+  {
+   "item": "Zinger® Crunch Burger",
+   "category": "BURGERS",
+   "price": 10.45,
+   "energyKj": 2378
+  },
+  {
+   "item": "Zinger® Crunch Burger™ Combo - Regular",
+   "category": "BURGERS",
+   "price": 14.45,
+   "energyKj": 3570
+  },
+  {
+   "item": "Zinger® Crunch Burger™ Combo - Large",
+   "category": "BURGERS",
+   "price": 16.95,
+   "energyKj": 4759
+  },
+  {
+   "item": "Ultimate Zinger® Treat Box - Regular",
+   "category": "BOXED MEALS",
+   "price": 17.45,
+   "energyKj": 6615
+  },
+  {
+   "item": "Zinger® Burger Box - Regular",
+   "category": "BOXED MEALS",
+   "price": 14.95,
+   "energyKj": 4289
+  },
+  {
+   "item": "Zinger® Burger Box - Large",
+   "category": "BOXED MEALS",
+   "price": 17.45,
+   "energyKj": 5478
+  },
+  {
+   "item": "Mega Chicken Box - Regular",
+   "category": "BOXED MEALS",
+   "price": 18.45,
+   "energyKj": 5875
+  },
+  {
+   "item": "Mega Chicken Box - Large",
+   "category": "BOXED MEALS",
+   "price": 20.95,
+   "energyKj": 7064
+  },
+  {
+   "item": "Original Crispy Burger Box - Regular",
+   "category": "BOXED MEALS",
+   "price": 14.95,
+   "energyKj": 4316
+  },
+  {
+   "item": "Original Crispy Burger Box - Large",
+   "category": "BOXED MEALS",
+   "price": 17.45,
+   "energyKj": 5505
+  },
+  {
+   "item": "Original Crispy Bacon & Cheese Burger Box - Regular",
+   "category": "BOXED MEALS",
+   "price": 15.45,
+   "energyKj": 4826
+  },
+  {
+   "item": "Original Crispy Bacon & Cheese Burger Box - Large",
+   "category": "BOXED MEALS",
+   "price": 17.95,
+   "energyKj": 6016
+  },
+  {
+   "item": "Original Crispy BBQ Bacon Stacker® Burger Box - Regular",
+   "category": "BOXED MEALS",
+   "price": 18.45,
+   "energyKj": 5968
+  },
+  {
+   "item": "Original Crispy BBQ Bacon Stacker® Burger Box - Large",
+   "category": "BOXED MEALS",
+   "price": 20.95,
+   "energyKj": 7157
+  },
+  {
+   "item": "3 Piece Box - Regular",
+   "category": "BOXED MEALS",
+   "price": 14.95,
+   "energyKj": 4858
+  },
+  {
+   "item": "3 Piece Box - Large",
+   "category": "BOXED MEALS",
+   "price": 17.45,
+   "energyKj": 6047
+  },
+  {
+   "item": "Original Tenders™ Box - Regular",
+   "category": "BOXED MEALS",
+   "price": 14.95,
+   "energyKj": 4271
+  },
+  {
+   "item": "Original Tenders™ Box - Large",
+   "category": "BOXED MEALS",
+   "price": 17.45,
+   "energyKj": 5460
+  },
+  {
+   "item": "Favourites Box - Regular",
+   "category": "BOXED MEALS",
+   "price": 15.95,
+   "energyKj": 5532
+  },
+  {
+   "item": "Favourites Box - Large",
+   "category": "BOXED MEALS",
+   "price": 18.45,
+   "energyKj": 6721
+  },
+  {
+   "item": "Zinger® Bacon & Cheese Burger Box - Regular",
+   "category": "BOXED MEALS",
+   "price": 16.45,
+   "energyKj": 4713
+  },
+  {
+   "item": "Zinger® Bacon & Cheese Burger Box - Large",
+   "category": "BOXED MEALS",
+   "price": 18.95,
+   "energyKj": 5902
+  },
+  {
+   "item": "Zinger Stacker® Burger Box - Regular",
+   "category": "BOXED MEALS",
+   "price": 18.45,
+   "energyKj": 5497
+  },
+  {
+   "item": "Zinger Stacker® Burger Box - Large",
+   "category": "BOXED MEALS",
+   "price": 20.95,
+   "energyKj": 6686
+  },
+  {
+   "item": "Zinger® Crunch Burger™ Box - Regular",
+   "category": "BOXED MEALS",
+   "price": 17.45,
+   "energyKj": 4793
+  },
+  {
+   "item": "Zinger® Crunch Burger™ Box - Large",
+   "category": "BOXED MEALS",
+   "price": 19.95,
+   "energyKj": 5983
+  },
+  {
+   "item": "Original Crunch Twister® Box - Regular",
+   "category": "BOXED MEALS",
+   "price": 16.45,
+   "energyKj": 4632
+  },
+  {
+   "item": "Original Crunch Twister® Box - Large",
+   "category": "BOXED MEALS",
+   "price": 18.95,
+   "energyKj": 5821
+  },
+  {
+   "item": "Zinger® Crunch Twister® Box - Regular",
+   "category": "BOXED MEALS",
+   "price": 16.45,
+   "energyKj": 4903
+  },
+  {
+   "item": "Zinger® Crunch Twister® Box - Large",
+   "category": "BOXED MEALS",
+   "price": 18.95,
+   "energyKj": 6092
+  },
+  {
+   "item": "3 Pieces Wicked Boneless",
+   "category": "CHICKEN",
+   "price": 8.45,
+   "energyKj": 1434
+  },
+  {
+   "item": "3 Pieces Wicked Boneless Combo - Regular",
+   "category": "CHICKEN",
+   "price": 12.45,
+   "energyKj": 2626
+  },
+  {
+   "item": "3 Pieces Wicked Boneless Combo - Large",
+   "category": "CHICKEN",
+   "price": 14.95,
+   "energyKj": 3815
+  },
+  {
+   "item": "6 Pieces Wicked Boneless",
+   "category": "CHICKEN",
+   "price": 12.45,
+   "energyKj": 2868
+  },
+  {
+   "item": "6 Pieces Wicked Boneless Combo - Regular",
+   "category": "CHICKEN",
+   "price": 16.45,
+   "energyKj": 4060
+  },
+  {
+   "item": "6 Pieces Wicked Boneless Combo - Large",
+   "category": "CHICKEN",
+   "price": 18.95,
+   "energyKj": 5249
+  },
+  {
+   "item": "1 Piece of Chicken",
+   "category": "CHICKEN",
+   "price": 3.95,
+   "energyKj": 984
+  },
+  {
+   "item": "3 Pieces of Chicken",
+   "category": "CHICKEN",
+   "price": 9.95,
+   "energyKj": 2951
+  },
+  {
+   "item": "3 Piece Combo - Regular",
+   "category": "CHICKEN",
+   "price": 13.95,
+   "energyKj": 4142
+  },
+  {
+   "item": "3 Piece Combo - Large",
+   "category": "CHICKEN",
+   "price": 16.45,
+   "energyKj": 5331
+  },
+  {
+   "item": "6 Pieces of Chicken",
+   "category": "CHICKEN",
+   "price": 17.95,
+   "energyKj": 5901
+  },
+  {
+   "item": "21 Pieces of Chicken",
+   "category": "CHICKEN",
+   "price": 39.95,
+   "energyKj": 20654
+  },
+  {
+   "item": "Original Crispy Fillet Piece",
+   "category": "CHICKEN",
+   "price": 5.45,
+   "energyKj": 936
+  },
+  {
+   "item": "Zinger® Fillet Piece",
+   "category": "CHICKEN",
+   "price": 5.45,
+   "energyKj": 936
+  },
+  {
+   "item": "Snack Popcorn Chicken",
+   "category": "CHICKEN",
+   "price": 2.95,
+   "energyKj": 1009
+  },
+  {
+   "item": "Snack Popcorn Chicken® Combo - Regular",
+   "category": "CHICKEN",
+   "price": 6.95,
+   "energyKj": 2201
+  },
+  {
+   "item": "Snack Popcorn Chicken® Combo - Large",
+   "category": "CHICKEN",
+   "price": 9.45,
+   "energyKj": 3390
+  },
+  {
+   "item": "Regular Popcorn Chicken",
+   "category": "CHICKEN",
+   "price": 5.95,
+   "energyKj": 1644
+  },
+  {
+   "item": "Regular Popcorn Chicken® Combo - Regular",
+   "category": "CHICKEN",
+   "price": 9.95,
+   "energyKj": 2835
+  },
+  {
+   "item": "Regular Popcorn Chicken® Combo - Large",
+   "category": "CHICKEN",
+   "price": 12.45,
+   "energyKj": 4025
+  },
+  {
+   "item": "Maxi Popcorn Chicken",
+   "category": "CHICKEN",
+   "price": 9.95,
+   "energyKj": 3014
+  },
+  {
+   "item": "Maxi Popcorn Chicken® Combo - Regular",
+   "category": "CHICKEN",
+   "price": 13.95,
+   "energyKj": 4205
+  },
+  {
+   "item": "Maxi Popcorn Chicken® Combo - Large",
+   "category": "CHICKEN",
+   "price": 16.45,
+   "energyKj": 5395
+  },
+  {
+   "item": "3 Wicked Wings",
+   "category": "CHICKEN",
+   "price": 7.95,
+   "energyKj": 1629
+  },
+  {
+   "item": "3 Wicked Wings® Combo - Regular",
+   "category": "CHICKEN",
+   "price": 11.95,
+   "energyKj": 2821
+  },
+  {
+   "item": "3 Wicked Wings® Combo - Large",
+   "category": "CHICKEN",
+   "price": 14.45,
+   "energyKj": 4010
+  },
+  {
+   "item": "6 Wicked Wings",
+   "category": "CHICKEN",
+   "price": 10.95,
+   "energyKj": 3259
+  },
+  {
+   "item": "6 Wicked Wings® Combo - Regular",
+   "category": "CHICKEN",
+   "price": 14.95,
+   "energyKj": 4450
+  },
+  {
+   "item": "6 Wicked Wings® Combo - Large",
+   "category": "CHICKEN",
+   "price": 17.45,
+   "energyKj": 5639
+  },
+  {
+   "item": "10 Wicked Wings",
+   "category": "CHICKEN",
+   "price": 14.95,
+   "energyKj": 5431
+  },
+  {
+   "item": "10 Wicked Wings® Combo - Regular",
+   "category": "CHICKEN",
+   "price": 18.95,
+   "energyKj": 6623
+  },
+  {
+   "item": "10 Wicked Wings® Combo - Large",
+   "category": "CHICKEN",
+   "price": 21.45,
+   "energyKj": 7812
+  },
+  {
+   "item": "3 Original Tenders",
+   "category": "CHICKEN",
+   "price": 9.45,
+   "energyKj": 1803
+  },
+  {
+   "item": "3 Original Tenders™ Combo - Regular",
+   "category": "CHICKEN",
+   "price": 13.45,
+   "energyKj": 2994
+  },
+  {
+   "item": "3 Original Tenders™ Combo - Large",
+   "category": "CHICKEN",
+   "price": 15.95,
+   "energyKj": 4184
+  },
+  {
+   "item": "5 Original Tenders",
+   "category": "CHICKEN",
+   "price": 12.95,
+   "energyKj": 3194
+  },
+  {
+   "item": "5 Original Tenders™ Combo - Regular",
+   "category": "CHICKEN",
+   "price": 16.95,
+   "energyKj": 4385
+  },
+  {
+   "item": "5 Original Tenders™ Combo - Large",
+   "category": "CHICKEN",
+   "price": 19.45,
+   "energyKj": 5574
+  },
+  {
+   "item": "6 Nuggets",
+   "category": "CHICKEN",
+   "price": 8.95,
+   "energyKj": 1324
+  },
+  {
+   "item": "6 Nugget Combo - Regular",
+   "category": "CHICKEN",
+   "price": 12.95,
+   "energyKj": 2515
+  },
+  {
+   "item": "6 Nugget Combo - Large",
+   "category": "CHICKEN",
+   "price": 15.45,
+   "energyKj": 3704
+  },
+  {
+   "item": "10 Nuggets",
+   "category": "CHICKEN",
+   "price": 9.95,
+   "energyKj": 2298
+  },
+  {
+   "item": "10 Nugget Combo - Regular",
+   "category": "CHICKEN",
+   "price": 13.95,
+   "energyKj": 3489
+  },
+  {
+   "item": "10 Nugget Combo - Large",
+   "category": "CHICKEN",
+   "price": 16.45,
+   "energyKj": 4678
+  },
+  {
+   "item": "Regular Chips",
+   "category": "SNACK HACKS",
+   "price": 3.65,
+   "energyKj": 1186
+  },
+  {
+   "item": "Original Pepper Mayo Slider",
+   "category": "SNACK HACKS",
+   "price": 3.75,
+   "energyKj": 1125
+  },
+  {
+   "item": "Original BBQ Slider",
+   "category": "SNACK HACKS",
+   "price": 3.75,
+   "energyKj": 1012
+  },
+  {
+   "item": "Original Supercharged Slider",
+   "category": "SNACK HACKS",
+   "price": 3.75,
+   "energyKj": 1082
+  },
+  {
+   "item": "3 Nuggets",
+   "category": "SNACK HACKS",
+   "price": 3.45,
+   "energyKj": 525
+  },
+  {
+   "item": "Double Chocolate Mousse",
+   "category": "SNACK HACKS",
+   "price": 3.75,
+   "energyKj": 1490
+  },
+  {
+   "item": "Pepsi Freeze",
+   "category": "SNACK HACKS",
+   "price": 2.0,
+   "energyKj": 734
+  },
+  {
+   "item": "Mountain Dew Freeze",
+   "category": "SNACK HACKS",
+   "price": 2.0,
+   "energyKj": 782
+  },
+  {
+   "item": "Raspberry Freeze",
+   "category": "SNACK HACKS",
+   "price": 2.0,
+   "energyKj": 760
+  },
+  {
+   "item": "Regular Pepsi Max",
+   "category": "SNACK HACKS",
+   "price": 4.25,
+   "energyKj": 6
+  },
+  {
+   "item": "Regular Pepsi",
+   "category": "SNACK HACKS",
+   "price": 4.25,
+   "energyKj": 434
+  },
+  {
+   "item": "Regular 7Up",
+   "category": "SNACK HACKS",
+   "price": 4.25,
+   "energyKj": 695
+  },
+  {
+   "item": "Regular Mountain Dew",
+   "category": "SNACK HACKS",
+   "price": 4.25,
+   "energyKj": 439
+  },
+  {
+   "item": "Regular Solo",
+   "category": "SNACK HACKS",
+   "price": 4.25,
+   "energyKj": 780
+  },
+  {
+   "item": "Regular Sunkist",
+   "category": "SNACK HACKS",
+   "price": 4.25,
+   "energyKj": null
+  },
+  {
+   "item": "Bottled Water",
+   "category": "SNACK HACKS",
+   "price": 4.25,
+   "energyKj": null
+  },
+  {
+   "item": "Sparkling Water",
+   "category": "SNACK HACKS",
+   "price": 4.25,
+   "energyKj": null
+  },
+  {
+   "item": "Zinger® Protein Pack - Regular",
+   "category": "PROTEIN PICKS",
+   "price": 11.95,
+   "energyKj": 2896
+  },
+  {
+   "item": "Zinger® Protein Bowl",
+   "category": "PROTEIN PICKS",
+   "price": 10.95,
+   "energyKj": 2309
+  },
+  {
+   "item": "Zinger® Protein Bowl Combo - Regular",
+   "category": "PROTEIN PICKS",
+   "price": 14.95,
+   "energyKj": 3500
+  },
+  {
+   "item": "Zinger® Protein Bowl Combo - Large",
+   "category": "PROTEIN PICKS",
+   "price": 17.45,
+   "energyKj": 4689
+  },
+  {
+   "item": "Chris' Big Bro Combo - Regular",
+   "category": "PROTEIN PICKS",
+   "price": 12.95,
+   "energyKj": 2400
+  },
+  {
+   "item": "Family Feast",
+   "category": "SHARED MEALS",
+   "price": 38.95,
+   "energyKj": 17280
+  },
+  {
+   "item": "Value Feast",
+   "category": "SHARED MEALS",
+   "price": 28.95,
+   "energyKj": 11637
+  },
+  {
+   "item": "Burger Feast",
+   "category": "SHARED MEALS",
+   "price": 35.95,
+   "energyKj": 15206
+  },
+  {
+   "item": "Giant Feast",
+   "category": "SHARED MEALS",
+   "price": 48.95,
+   "energyKj": 27838
+  },
+  {
+   "item": "Mega Burger Feast",
+   "category": "SHARED MEALS",
+   "price": 49.95,
+   "energyKj": 22719
+  },
+  {
+   "item": "Delivery Feast",
+   "category": "SHARED MEALS",
+   "price": 49.95,
+   "energyKj": 17199
+  },
+  {
+   "item": "Zinger® Crunch Twister",
+   "category": "TWISTERS & BOWLS",
+   "price": 10.45,
+   "energyKj": 2435
+  },
+  {
+   "item": "Zinger® Crunch Twister® Combo - Regular",
+   "category": "TWISTERS & BOWLS",
+   "price": 14.45,
+   "energyKj": 3626
+  },
+  {
+   "item": "Zinger® Crunch Twister® Combo - Large",
+   "category": "TWISTERS & BOWLS",
+   "price": 16.95,
+   "energyKj": 4816
+  },
+  {
+   "item": "Original Crunch Twister",
+   "category": "TWISTERS & BOWLS",
+   "price": 10.45,
+   "energyKj": 2164
+  },
+  {
+   "item": "Original Crunch Twister® Combo - Regular",
+   "category": "TWISTERS & BOWLS",
+   "price": 14.45,
+   "energyKj": 3355
+  },
+  {
+   "item": "Original Crunch Twister® Combo - Large",
+   "category": "TWISTERS & BOWLS",
+   "price": 16.95,
+   "energyKj": 4545
+  },
+  {
+   "item": "Zinger® Crunch Bowl",
+   "category": "TWISTERS & BOWLS",
+   "price": 9.95,
+   "energyKj": 1738
+  },
+  {
+   "item": "Zinger® Crunch Bowl Combo - Regular",
+   "category": "TWISTERS & BOWLS",
+   "price": 14.45,
+   "energyKj": 2930
+  },
+  {
+   "item": "Zinger® Crunch Bowl Combo - Large",
+   "category": "TWISTERS & BOWLS",
+   "price": 16.95,
+   "energyKj": 4119
+  },
+  {
+   "item": "Original Tenders™ Crunch Bowl",
+   "category": "TWISTERS & BOWLS",
+   "price": 9.95,
+   "energyKj": 1687
+  },
+  {
+   "item": "Original Tenders™ Crunch Bowl Combo - Regular",
+   "category": "TWISTERS & BOWLS",
+   "price": 14.45,
+   "energyKj": 2879
+  },
+  {
+   "item": "Original Tenders™ Crunch Bowl Combo - Large",
+   "category": "TWISTERS & BOWLS",
+   "price": 16.95,
+   "energyKj": 4068
+  },
+  {
+   "item": "Go Bucket® Wicked Boneless",
+   "category": "GO BUCKETS & KIDS MEALS",
+   "price": 4.95,
+   "energyKj": 1664
+  },
+  {
+   "item": "Go Bucket® Popcorn Chicken",
+   "category": "GO BUCKETS & KIDS MEALS",
+   "price": 4.95,
+   "energyKj": 2325
+  },
+  {
+   "item": "Go Bucket® 1 Original Tender",
+   "category": "GO BUCKETS & KIDS MEALS",
+   "price": 4.95,
+   "energyKj": 1597
+  },
+  {
+   "item": "Go Bucket® 2 Wicked Wings",
+   "category": "GO BUCKETS & KIDS MEALS",
+   "price": 4.95,
+   "energyKj": 2272
+  },
+  {
+   "item": "Go Bucket® 3 Nuggets",
+   "category": "GO BUCKETS & KIDS MEALS",
+   "price": 4.95,
+   "energyKj": 1710
+  },
+  {
+   "item": "Kids Meal with BBQ Slider",
+   "category": "GO BUCKETS & KIDS MEALS",
+   "price": 6.95,
+   "energyKj": 1401
+  },
+  {
+   "item": "Kids Meal with Nuggets - Small",
+   "category": "GO BUCKETS & KIDS MEALS",
+   "price": 6.95,
+   "energyKj": 2159
+  },
+  {
+   "item": "Kids Meal with Snack Popcorn Chicken",
+   "category": "GO BUCKETS & KIDS MEALS",
+   "price": 6.95,
+   "energyKj": 2195
+  },
+  {
+   "item": "$15 Pickles Boxfull - Regular",
+   "category": "EVERYDAY VALUE",
+   "price": 15.0,
+   "energyKj": 5400
+  },
+  {
+   "item": "$15 Pickles Boxfull - Large",
+   "category": "EVERYDAY VALUE",
+   "price": 17.5,
+   "energyKj": 6589
+  },
+  {
+   "item": "$10 Boxfull - Regular",
+   "category": "EVERYDAY VALUE",
+   "price": 10.0,
+   "energyKj": 3872
+  },
+  {
+   "item": "$10 Boxfull - Large",
+   "category": "EVERYDAY VALUE",
+   "price": 12.5,
+   "energyKj": 5062
+  },
+  {
+   "item": "$15 Boxfull - Regular",
+   "category": "EVERYDAY VALUE",
+   "price": 15.0,
+   "energyKj": 5359
+  },
+  {
+   "item": "$15 Boxfull - Large",
+   "category": "EVERYDAY VALUE",
+   "price": 17.5,
+   "energyKj": 6548
+  },
+  {
+   "item": "$5 Boxfull",
+   "category": "EVERYDAY VALUE",
+   "price": 5.0,
+   "energyKj": 3290
+  },
+  {
+   "item": "$24.95 Burger Dinner",
+   "category": "EVERYDAY VALUE",
+   "price": 24.95,
+   "energyKj": 10013
+  },
+  {
+   "item": "$24.95 Boneless Dinner",
+   "category": "EVERYDAY VALUE",
+   "price": 24.95,
+   "energyKj": 9415
+  },
+  {
+   "item": "Large Chips",
+   "category": "SIDES & DESSERTS",
+   "price": 5.75,
+   "energyKj": 2371
+  },
+  {
+   "item": "Crunchy Jalapeno Slaw",
+   "category": "SIDES & DESSERTS",
+   "price": 5.95,
+   "energyKj": 802
+  },
+  {
+   "item": "Large Potato & Gravy",
+   "category": "SIDES & DESSERTS",
+   "price": 7.45,
+   "energyKj": 1094
+  },
+  {
+   "item": "Regular Potato & Gravy",
+   "category": "SIDES & DESSERTS",
+   "price": 5.45,
+   "energyKj": 267
+  },
+  {
+   "item": "Large Coleslaw",
+   "category": "SIDES & DESSERTS",
+   "price": 7.45,
+   "energyKj": 1588
+  },
+  {
+   "item": "Regular Coleslaw",
+   "category": "SIDES & DESSERTS",
+   "price": 5.45,
+   "energyKj": 388
+  },
+  {
+   "item": "Regular Gravy",
+   "category": "SIDES & DESSERTS",
+   "price": 5.45,
+   "energyKj": 215
+  },
+  {
+   "item": "Dinner Roll",
+   "category": "SIDES & DESSERTS",
+   "price": 1.25,
+   "energyKj": 449
+  },
+  {
+   "item": "4 Dipping Sauces",
+   "category": "SIDES & DESSERTS",
+   "price": 2.0,
+   "energyKj": null
+  },
+  {
+   "item": "Aioli Dip",
+   "category": "SIDES & DESSERTS",
+   "price": 0.8,
+   "energyKj": 567
+  },
+  {
+   "item": "BBQ Dip",
+   "category": "SIDES & DESSERTS",
+   "price": 0.8,
+   "energyKj": 205
+  },
+  {
+   "item": "Tomato Dip",
+   "category": "SIDES & DESSERTS",
+   "price": 0.8,
+   "energyKj": 148
+  },
+  {
+   "item": "Supercharged Dip",
+   "category": "SIDES & DESSERTS",
+   "price": 0.8,
+   "energyKj": 440
+  },
+  {
+   "item": "Sweet & Sour Dip",
+   "category": "SIDES & DESSERTS",
+   "price": 0.8,
+   "energyKj": 274
+  },
+  {
+   "item": "Large Pepsi Max",
+   "category": "COLD DRINKS",
+   "price": 4.75,
+   "energyKj": 10
+  },
+  {
+   "item": "1.25L Pepsi Max",
+   "category": "COLD DRINKS",
+   "price": 5.95,
+   "energyKj": 20
+  },
+  {
+   "item": "Large Pepsi",
+   "category": "COLD DRINKS",
+   "price": 4.75,
+   "energyKj": 684
+  },
+  {
+   "item": "1.25L Pepsi",
+   "category": "COLD DRINKS",
+   "price": 5.95,
+   "energyKj": 1424
+  },
+  {
+   "item": "Large 7Up",
+   "category": "COLD DRINKS",
+   "price": 4.75,
+   "energyKj": 1077
+  },
+  {
+   "item": "1.25L 7Up",
+   "category": "COLD DRINKS",
+   "price": 5.95,
+   "energyKj": 2244
+  },
+  {
+   "item": "Large Mountain Dew",
+   "category": "COLD DRINKS",
+   "price": 4.75,
+   "energyKj": 691
+  },
+  {
+   "item": "1.25L Mountain Dew",
+   "category": "COLD DRINKS",
+   "price": 5.95,
+   "energyKj": 1437
+  },
+  {
+   "item": "Large Solo",
+   "category": "COLD DRINKS",
+   "price": 4.75,
+   "energyKj": 1198
+  },
+  {
+   "item": "1.25L Solo",
+   "category": "COLD DRINKS",
+   "price": 5.95,
+   "energyKj": 2496
+  },
+  {
+   "item": "Large Sunkist",
+   "category": "COLD DRINKS",
+   "price": 4.75,
+   "energyKj": null
+  },
+  {
+   "item": "Apple Juice",
+   "category": "COLD DRINKS",
+   "price": 4.25,
+   "energyKj": 589
+  },
+  {
+   "item": "Lipton Peach Ice Tea",
+   "category": "COLD DRINKS",
+   "price": 4.75,
+   "energyKj": 395
+  },
+  {
+   "item": "Pickle Slider",
+   "category": "SECRET MENU",
+   "price": 3.95,
+   "energyKj": 1207
+  },
+  {
+   "item": "Pickle Slider Combo - Regular",
+   "category": "SECRET MENU",
+   "price": 7.95,
+   "energyKj": 2398
+  },
+  {
+   "item": "Pickle Slider Combo - Large",
+   "category": "SECRET MENU",
+   "price": 10.45,
+   "energyKj": 3587
+  },
+  {
+   "item": "Supercharged Loaded Chips",
+   "category": "SECRET MENU",
+   "price": 8.45,
+   "energyKj": 3840
+  },
+  {
+   "item": "$1 Wicked Wings",
+   "category": "COLONEL'S OFFERS",
+   "price": 1.0,
+   "energyKj": 543
+  },
+  {
+   "item": "6 Wicked Wings® Lunch",
+   "category": "COLONEL'S OFFERS",
+   "price": 9.95,
+   "energyKj": 4444
+  },
+  {
+   "item": "Double Combo Meal - Regular",
+   "category": "COLONEL'S OFFERS",
+   "price": 18.95,
+   "energyKj": 6131
+  },
+  {
+   "item": "Double Combo Meal - Large",
+   "category": "COLONEL'S OFFERS",
+   "price": 23.95,
+   "energyKj": 8509
+  },
+  {
+   "item": "Big Dinner",
+   "category": "COLONEL'S OFFERS",
+   "price": 25.95,
+   "energyKj": 16121
+  },
+  {
+   "item": "$7.95 KWENCH by KFC Snack",
+   "category": "FOMO WOW",
+   "price": 7.95,
+   "energyKj": 3319
+  },
+  {
+   "item": "$10 Saucy Wicked Wings Pack",
+   "category": "FOMO WOW",
+   "price": 10.0,
+   "energyKj": 7596
+  },
+  {
+   "item": "Pickle Sauce ADD ON",
+   "category": "FOMO WOW",
+   "price": 3.5,
+   "energyKj": 3174
+  },
+  {
+   "item": "Pickle Cheesecake ADD ON",
+   "category": "FOMO WOW",
+   "price": 5.0,
+   "energyKj": null
+  },
+  {
+   "item": "8 for $8.95 Wicked Boneless Box",
+   "category": "FOMO WOW",
+   "price": 8.95,
+   "energyKj": 3825
+  },
+  {
+   "item": "8 Wicked Boneless & Wicked Sauce",
+   "category": "FOMO WOW",
+   "price": 11.95,
+   "energyKj": 6484
+  },
+  {
+   "item": "$9.95 Wicked Deal for Two",
+   "category": "FOMO WOW",
+   "price": 9.95,
+   "energyKj": 6716
+  },
+  {
+   "item": "Combo for 2 - Zinger® KWENCH Combo",
+   "category": "FOMO WOW",
+   "price": 19.95,
+   "energyKj": 9328
+  },
+  {
+   "item": "$12 Nugget Value Pack",
+   "category": "FOMO WOW",
+   "price": 12.0,
+   "energyKj": 6418
+  },
+  {
+   "item": "30 Nuggets",
+   "category": "FOMO WOW",
+   "price": 10.0,
+   "energyKj": 5246
+  },
+  {
+   "item": "$7.95 Wicked Zinger® Combo - Regular",
+   "category": "FOMO WOW",
+   "price": 7.95,
+   "energyKj": 4695
+  },
+  {
+   "item": "$7.95 Wicked Zinger® Combo - Large",
+   "category": "FOMO WOW",
+   "price": 10.45,
+   "energyKj": 5884
+  },
+  {
+   "item": "$6.95 Kwench & Go Bucket",
+   "category": "FOMO WOW",
+   "price": 6.95,
+   "energyKj": 4963
+  },
+  {
+   "item": "$14.95 Combo for 2 - Kwench & Nuggets - Regular",
+   "category": "FOMO WOW",
+   "price": 14.95,
+   "energyKj": 7544
+  },
+  {
+   "item": "Double Sliders Kwench Deal - Regular",
+   "category": "FOMO WOW",
+   "price": 6.95,
+   "energyKj": 4888
+  },
+  {
+   "item": "$19.95 Zinger® Party FT. Kwench by KFC - Regular",
+   "category": "FOMO WOW",
+   "price": 19.95,
+   "energyKj": 11320
+  },
+  {
+   "item": "MAKE IT A COMBO for $4",
+   "category": "FOMO WOW",
+   "price": 4.0,
+   "energyKj": null
+  },
+  {
+   "item": "$14.95 Combo for 2 - Kwench & Double Tender",
+   "category": "FOMO WOW",
+   "price": 14.95,
+   "energyKj": 9079
+  },
+  {
+   "item": "$5 Large Chips & Kwench - Regular",
+   "category": "FOMO WOW",
+   "price": 5.0,
+   "energyKj": 5010
+  },
+  {
+   "item": "$6 Kwench & Nugget Snack - Regular",
+   "category": "FOMO WOW",
+   "price": 6.0,
+   "energyKj": 3962
+  },
+  {
+   "item": "$10 Kwench & Nugget Snack - Regular",
+   "category": "FOMO WOW",
+   "price": 10.0,
+   "energyKj": 4936
+  },
+  {
+   "item": "20 Nuggets",
+   "category": "FOMO WOW",
+   "price": 19.95,
+   "energyKj": 4614
+  },
+  {
+   "item": "Go Bucket® Popcorn Chicken® ADD ON",
+   "category": "FOMO WOW",
+   "price": 4.95,
+   "energyKj": 2325
+  },
+  {
+   "item": "Regular Potato & Gravy ADD ON",
+   "category": "FOMO WOW",
+   "price": 5.45,
+   "energyKj": 267
+  },
+  {
+   "item": "Dinner Roll ADD ON",
+   "category": "FOMO WOW",
+   "price": 1.25,
+   "energyKj": 460
+  },
+  {
+   "item": "Regular Pepsi Max^ ADD ON",
+   "category": "FOMO WOW",
+   "price": 1.5,
+   "energyKj": 6
+  },
+  {
+   "item": "Regular Pepsi^ ADD ON",
+   "category": "FOMO WOW",
+   "price": 1.5,
+   "energyKj": 434
+  },
+  {
+   "item": "Regular 7Up ADD ON",
+   "category": "FOMO WOW",
+   "price": 1.5,
+   "energyKj": null
+  },
+  {
+   "item": "Regular Mountain Dew ADD ON",
+   "category": "FOMO WOW",
+   "price": 1.5,
+   "energyKj": null
+  },
+  {
+   "item": "Regular Solo ADD ON",
+   "category": "FOMO WOW",
+   "price": 1.5,
+   "energyKj": 780
+  },
+  {
+   "item": "Regular Sunkist ADD ON",
+   "category": "FOMO WOW",
+   "price": 1.5,
+   "energyKj": null
+  },
+  {
+   "item": "Large Pepsi Max^ ADD ON",
+   "category": "FOMO WOW",
+   "price": 2.0,
+   "energyKj": 10
+  },
+  {
+   "item": "Large Pepsi^ ADD ON",
+   "category": "FOMO WOW",
+   "price": 2.0,
+   "energyKj": 684
+  },
+  {
+   "item": "Large Solo ADD ON",
+   "category": "FOMO WOW",
+   "price": 2.0,
+   "energyKj": 1198
+  },
+  {
+   "item": "2 Wicked Boneless ADD ON",
+   "category": "FOMO WOW",
+   "price": 3.45,
+   "energyKj": 956
+  },
+  {
+   "item": "6 Wicked Boneless ADD ON",
+   "category": "FOMO WOW",
+   "price": 7.45,
+   "energyKj": 2868
+  },
+  {
+   "item": "10 Wicked Boneless ADD ON",
+   "category": "FOMO WOW",
+   "price": 12.95,
+   "energyKj": 4781
+  },
+  {
+   "item": "Original Crispy Fillet Piece ADD ON",
+   "category": "FOMO WOW",
+   "price": 3.0,
+   "energyKj": null
+  },
+  {
+   "item": "Zinger® Fillet Piece ADD ON",
+   "category": "FOMO WOW",
+   "price": 3.0,
+   "energyKj": 876
+  },
+  {
+   "item": "1 Piece Original Recipe ADD ON",
+   "category": "FOMO WOW",
+   "price": 3.95,
+   "energyKj": 984
+  },
+  {
+   "item": "4 Pieces Original Recipe Chicken ADD ON",
+   "category": "FOMO WOW",
+   "price": 7.95,
+   "energyKj": 3934
+  },
+  {
+   "item": "2 Original Tenders™ ADD ON",
+   "category": "FOMO WOW",
+   "price": 5.45,
+   "energyKj": 824
+  },
+  {
+   "item": "5 Original Tenders™ ADD ON",
+   "category": "FOMO WOW",
+   "price": 8.95,
+   "energyKj": null
+  },
+  {
+   "item": "6 Nuggets ADD ON",
+   "category": "FOMO WOW",
+   "price": 6.95,
+   "energyKj": 1324
+  },
+  {
+   "item": "3 Wicked Wings® ADD ON",
+   "category": "FOMO WOW",
+   "price": 3.0,
+   "energyKj": 1512
+  },
+  {
+   "item": "2 Wicked Wings® ADD ON",
+   "category": "FOMO WOW",
+   "price": 5.3,
+   "energyKj": 1086
+  },
+  {
+   "item": "Snack Popcorn Chicken® ADD ON",
+   "category": "FOMO WOW",
+   "price": 2.95,
+   "energyKj": 1009
+  },
+  {
+   "item": "Regular Popcorn Chicken® ADD ON",
+   "category": "FOMO WOW",
+   "price": 5.95,
+   "energyKj": 1644
+  },
+  {
+   "item": "Maxi Popcorn Chicken® ADD ON",
+   "category": "FOMO WOW",
+   "price": 7.45,
+   "energyKj": 3003
+  },
+  {
+   "item": "Double Chocolate Mousse ADD ON",
+   "category": "FOMO WOW",
+   "price": 3.75,
+   "energyKj": 1490
+  },
+  {
+   "item": "2 Double Chocolate Mousse ADD ON",
+   "category": "FOMO WOW",
+   "price": 7.5,
+   "energyKj": 1490
+  },
+  {
+   "item": "Large Chips ADD ON",
+   "category": "FOMO WOW",
+   "price": 4.95,
+   "energyKj": 2371
+  },
+  {
+   "item": "Large Potato & Gravy ADD ON",
+   "category": "FOMO WOW",
+   "price": 4.95,
+   "energyKj": 1094
+  },
+  {
+   "item": "Large Coleslaw ADD ON",
+   "category": "FOMO WOW",
+   "price": 4.95,
+   "energyKj": 1588
+  },
+  {
+   "item": "Regular Gravy ADD ON",
+   "category": "FOMO WOW",
+   "price": 5.45,
+   "energyKj": 215
+  },
+  {
+   "item": "Crunchy Jalapeno Slaw ADD ON",
+   "category": "FOMO WOW",
+   "price": 5.95,
+   "energyKj": 727
+  },
+  {
+   "item": "4 Dinner Rolls ADD ON",
+   "category": "FOMO WOW",
+   "price": 4.95,
+   "energyKj": null
+  },
+  {
+   "item": "1.25L Pepsi Max^ ADD ON",
+   "category": "FOMO WOW",
+   "price": 5.95,
+   "energyKj": 20
+  },
+  {
+   "item": "1.25L Pepsi^ ADD ON",
+   "category": "FOMO WOW",
+   "price": 5.95,
+   "energyKj": 1424
+  },
+  {
+   "item": "1.25L 7Up ADD ON",
+   "category": "FOMO WOW",
+   "price": 5.95,
+   "energyKj": 2244
+  },
+  {
+   "item": "1.25L Mountain Dew ADD ON",
+   "category": "FOMO WOW",
+   "price": 5.95,
+   "energyKj": 1437
+  },
+  {
+   "item": "1.25L Solo ADD ON",
+   "category": "FOMO WOW",
+   "price": 5.95,
+   "energyKj": 2496
+  },
+  {
+   "item": "Original Pepper Mayo Slider ADD ON",
+   "category": "FOMO WOW",
+   "price": 3.75,
+   "energyKj": 1125
+  },
+  {
+   "item": "Original BBQ Slider ADD ON",
+   "category": "FOMO WOW",
+   "price": 3.75,
+   "energyKj": 1012
+  },
+  {
+   "item": "Original Supercharged Slider ADD ON",
+   "category": "FOMO WOW",
+   "price": 3.75,
+   "energyKj": 1082
+  },
+  {
+   "item": "ADD 2 Large Sides for $7.95",
+   "category": "FOMO WOW",
+   "price": 7.95,
+   "energyKj": null
+  },
+  {
+   "item": "$15 Double Whammy Deal",
+   "category": "FOMO WOW",
+   "price": 15.0,
+   "energyKj": 8120
+  },
+  {
+   "item": "$11 Boneless Stacked Pack",
+   "category": "FOMO WOW",
+   "price": 11.0,
+   "energyKj": 4028
+  },
+  {
+   "item": "$14.95 Original Crispy Burgs, Chips 'n Nuggs",
+   "category": "FOMO WOW",
+   "price": 14.95,
+   "energyKj": 7442
+  },
+  {
+   "item": "$9.95 Zinger® Combo n' Slider - Regular",
+   "category": "FOMO WOW",
+   "price": 9.95,
+   "energyKj": 4147
+  },
+  {
+   "item": "$9.95 Zinger® Combo n' Slider - Large",
+   "category": "FOMO WOW",
+   "price": 12.45,
+   "energyKj": 5336
+  },
+  {
+   "item": "$16.95 Colonels Chicken n' Chips",
+   "category": "FOMO WOW",
+   "price": 16.95,
+   "energyKj": 12206
+  },
+  {
+   "item": "$16.95 Zinger® and Nuggs for Two",
+   "category": "FOMO WOW",
+   "price": 16.95,
+   "energyKj": 8429
+  },
+  {
+   "item": "$11.95 Double Tender™ Burger Combo for Two",
+   "category": "FOMO WOW",
+   "price": 11.95,
+   "energyKj": 6147
+  },
+  {
+   "item": "$8.95 Original Crispy Burger & Go Bucket",
+   "category": "FOMO WOW",
+   "price": 8.95,
+   "energyKj": 4199
+  },
+  {
+   "item": "15 Wicked Wings® for $15",
+   "category": "FOMO WOW",
+   "price": 15.0,
+   "energyKj": 8146
+  },
+  {
+   "item": "$12.95 Chicken Deal for 2",
+   "category": "FOMO WOW",
+   "price": 12.95,
+   "energyKj": 8272
+  },
+  {
+   "item": "$16.95 Twister® Double Deal",
+   "category": "FOMO WOW",
+   "price": 16.95,
+   "energyKj": 8666
+  },
+  {
+   "item": "$12.95 Original Crispy Burger Combo & 3 Original Tenders - Regular",
+   "category": "FOMO WOW",
+   "price": 12.95,
+   "energyKj": 4868
+  },
+  {
+   "item": "$12.95 Original Crispy Burger Combo & 3 Original Tenders - Large",
+   "category": "FOMO WOW",
+   "price": 15.45,
+   "energyKj": 6057
+  },
+  {
+   "item": "$15 Zinger® Burger Combo for Two - Regular",
+   "category": "FOMO WOW",
+   "price": 15.0,
+   "energyKj": 6131
+  },
+  {
+   "item": "$15.95 Boneless Pack for Two",
+   "category": "FOMO WOW",
+   "price": 15.95,
+   "energyKj": 8889
+  },
+  {
+   "item": "$18 Value Burger Feast",
+   "category": "FOMO WOW",
+   "price": 18.0,
+   "energyKj": 12238
+  },
+  {
+   "item": "$8.50 Zinger® Combo & Chicken - Regular",
+   "category": "FOMO WOW",
+   "price": 8.5,
+   "energyKj": 5033
+  },
+  {
+   "item": "$8.50 Zinger® Combo & Chicken - Large",
+   "category": "FOMO WOW",
+   "price": 11.0,
+   "energyKj": 6222
+  },
+  {
+   "item": "$9.95 Zinger® and Popcorn Lunch - Regular",
+   "category": "FOMO WOW",
+   "price": 9.95,
+   "energyKj": 4723
+  },
+  {
+   "item": "$9.95 Zinger® and Popcorn Lunch - Large",
+   "category": "FOMO WOW",
+   "price": 12.45,
+   "energyKj": 5912
+  },
+  {
+   "item": "$5.95 6 Wings n' Chips",
+   "category": "FOMO WOW",
+   "price": 5.95,
+   "energyKj": 4209
+  },
+  {
+   "item": "$7.95 Zinger® Burger Combo & 3 Wicked Wings - Regular",
+   "category": "FOMO WOW",
+   "price": 7.95,
+   "energyKj": 4695
+  },
+  {
+   "item": "$7.95 Zinger® Burger Combo & 3 Wicked Wings - Large",
+   "category": "FOMO WOW",
+   "price": 10.45,
+   "energyKj": 5884
+  },
+  {
+   "item": "$19.95 Family Burger Deal",
+   "category": "FOMO WOW",
+   "price": 19.95,
+   "energyKj": 12413
+  },
+  {
+   "item": "$9.95 Double Trouble Deal - Regular",
+   "category": "FOMO WOW",
+   "price": 9.95,
+   "energyKj": 5027
+  },
+  {
+   "item": "$9.95 Double Trouble Deal - Large",
+   "category": "FOMO WOW",
+   "price": 12.45,
+   "energyKj": 6216
+  },
+  {
+   "item": "$8.95 Zinger®, Nuggs 'n Chips",
+   "category": "FOMO WOW",
+   "price": 8.95,
+   "energyKj": 5371
+  },
+  {
+   "item": "2-4-1 Burger Combo",
+   "category": "FOMO WOW",
+   "price": 12.45,
+   "energyKj": null
+  },
+  {
+   "item": "$6 Original Crispy Burger & Go Bucket",
+   "category": "FOMO WOW",
+   "price": 6.0,
+   "energyKj": null
+  },
+  {
+   "item": "$9.95 Wicked Double Deal",
+   "category": "FOMO WOW",
+   "price": 9.95,
+   "energyKj": 7802
+  },
+  {
+   "item": "$13.95 Chicken Variety Pack Lunch",
+   "category": "FOMO WOW",
+   "price": 13.95,
+   "energyKj": null
+  },
+  {
+   "item": "$5.95 Kentucky Snack Fest",
+   "category": "FOMO WOW",
+   "price": 5.95,
+   "energyKj": 3044
+  },
+  {
+   "item": "$3 Nuggs, Chips n' Dip",
+   "category": "FOMO WOW",
+   "price": 3.0,
+   "energyKj": 1925
+  },
+  {
+   "item": "$15 Chicken Feaster",
+   "category": "FOMO WOW",
+   "price": 15.0,
+   "energyKj": 7909
+  },
+  {
+   "item": "$15 Kentucky Feaster",
+   "category": "FOMO WOW",
+   "price": 15.0,
+   "energyKj": 8396
+  },
+  {
+   "item": "$3 Freeze & Nuggs",
+   "category": "FOMO WOW",
+   "price": 3.0,
+   "energyKj": 1259
+  },
+  {
+   "item": "$7.95 All Chicken Lunch",
+   "category": "FOMO WOW",
+   "price": 7.95,
+   "energyKj": 3302
+  },
+  {
+   "item": "$15 Nugget Feaster",
+   "category": "FOMO WOW",
+   "price": 15.0,
+   "energyKj": 8727
+  },
+  {
+   "item": "Double Burger Meal - Regular",
+   "category": "FOMO WOW",
+   "price": 8.95,
+   "energyKj": 4947
+  },
+  {
+   "item": "Double Burger Meal - Large",
+   "category": "FOMO WOW",
+   "price": 11.45,
+   "energyKj": 6137
+  },
+  {
+   "item": "20 Nuggets & Regular Chips",
+   "category": "FOMO WOW",
+   "price": 12.95,
+   "energyKj": 6418
+  },
+  {
+   "item": "Double Burger Lunch Deal - Regular",
+   "category": "FOMO WOW",
+   "price": 9.95,
+   "energyKj": 4939
+  },
+  {
+   "item": "Double Burger Lunch Deal - Large",
+   "category": "FOMO WOW",
+   "price": 12.45,
+   "energyKj": 6129
+  },
+  {
+   "item": "2 for 1 Original Crispy Burger",
+   "category": "FOMO WOW",
+   "price": 8.45,
+   "energyKj": 1933
+  },
+  {
+   "item": "Zinger® Pop Combo - Regular",
+   "category": "FOMO WOW",
+   "price": 7.95,
+   "energyKj": 4710
+  },
+  {
+   "item": "Zinger® Pop Combo - Large",
+   "category": "FOMO WOW",
+   "price": 10.45,
+   "energyKj": 5899
+  },
+  {
+   "item": "Zinger® Nuggs Combo - Regular",
+   "category": "FOMO WOW",
+   "price": 7.95,
+   "energyKj": 4403
+  },
+  {
+   "item": "Zinger® Nuggs Combo - Large",
+   "category": "FOMO WOW",
+   "price": 10.45,
+   "energyKj": 5592
+  },
+  {
+   "item": "Twister® Nuggs Combo - Regular",
+   "category": "FOMO WOW",
+   "price": 10.0,
+   "energyKj": 4664
+  },
+  {
+   "item": "Twister® Nuggs Combo - Large",
+   "category": "FOMO WOW",
+   "price": 12.5,
+   "energyKj": 5853
+  },
+  {
+   "item": "Zinger® Burger Combo & Choc Mousse - Regular",
+   "category": "FOMO WOW",
+   "price": 7.95,
+   "energyKj": 4556
+  },
+  {
+   "item": "Zinger® Burger Combo & Choc Mousse - Large",
+   "category": "FOMO WOW",
+   "price": 10.45,
+   "energyKj": 5745
+  },
+  {
+   "item": "2 Piece Combo & Double Choc Mousse",
+   "category": "FOMO WOW",
+   "price": 7.0,
+   "energyKj": 4649
+  },
+  {
+   "item": "Zinger®, Chippies & Double Choc Mousses for Mates",
+   "category": "FOMO WOW",
+   "price": 14.95,
+   "energyKj": 9127
+  },
+  {
+   "item": "2-4-1 Large Chips",
+   "category": "FOMO WOW",
+   "price": 5.75,
+   "energyKj": 4862
+  },
+  {
+   "item": "2 Original Pepper Mayo Sliders",
+   "category": "FOMO WOW",
+   "price": 4.0,
+   "energyKj": 2249
+  },
+  {
+   "item": "Caramel Biscuit Bliss Cup ADD ON",
+   "category": "FOMO WOW",
+   "price": 5.0,
+   "energyKj": null
+  },
+  {
+   "item": "1 Original Tender ADD ON",
+   "category": "FOMO WOW",
+   "price": 3.0,
+   "energyKj": null
+  },
+  {
+   "item": "3 Original Tenders™ ADD ON",
+   "category": "FOMO WOW",
+   "price": 10.95,
+   "energyKj": null
+  },
+  {
+   "item": "$1 KFC Youth Foundation Donation",
+   "category": "CHARITY DONATIONS",
+   "price": 1.0,
+   "energyKj": null
+  },
+  {
+   "item": "$2 KFC Youth Foundation Donation",
+   "category": "CHARITY DONATIONS",
+   "price": 2.0,
+   "energyKj": null
+  },
+  {
+   "item": "$5 KFC Youth Foundation Donation",
+   "category": "CHARITY DONATIONS",
+   "price": 5.0,
+   "energyKj": null
+  }
+ ]
+}

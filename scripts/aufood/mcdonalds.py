@@ -20,6 +20,7 @@ from __future__ import annotations
 
 import json
 import os
+import re
 import uuid
 from pathlib import Path
 from typing import Any
@@ -180,6 +181,13 @@ def _market_config() -> dict:
     if _market_cache is None:
         _market_cache = _get_json(f"{BASE}/exp/v1/market/configuration/au").get("response", {})
     return _market_cache
+
+
+def _clean_name(name: str) -> str:
+    """The market config encodes ® (and ™) as a literal ``\\r`` placeholder, so
+    "Cadbury\\r Flake\\r" is really "Cadbury® Flake®". Restore it and tidy gaps."""
+    name = name.replace("\\r", "®").replace("\r", "®")
+    return re.sub(r"\s+", " ", name).strip()
 
 
 def _names_map() -> dict[int, str]:
@@ -373,6 +381,7 @@ def fetch(store: Store, channel: str) -> list[dict]:
             names_field = product.get("Names") or []
             if names_field and isinstance(names_field, list):
                 name = (names_field[0].get("longName") or names_field[0].get("name") or "").strip()
+        name = _clean_name(name)
         if not name:
             continue
         energy_kj = _resolve_energy(product_map, code)
@@ -392,4 +401,13 @@ def fetch(store: Store, channel: str) -> list[dict]:
                 id_hint=f"{name}-{code}",
             )
         )
-    return rows
+
+    # McDonald's ships several product codes that share a name and energy (e.g.
+    # two "Soft Serve Cone" PLUs at $0.50 and $1.40). Keep the cheapest so the
+    # value ranking shows one row per item, not duplicates at different prices.
+    best: dict[tuple, dict] = {}
+    for row in rows:
+        key = (row["item"], row.get("energyKj"))
+        if key not in best or (row["price"] or 0) < (best[key]["price"] or 0):
+            best[key] = row
+    return list(best.values())

@@ -11,34 +11,21 @@ A modern, no-build GitHub Pages website for comparing Australian fast food value
 - calories per dollar
 - protein grams per dollar
 - budget-fit items under a user-entered AUD budget
-- meal deal and combo comparisons across Subway, GYG, McDonald's, KFC, Domino's, Pizza Hut, Grill'd, Red Rooster, Oporto and Carl's Jr
+- value and combo comparisons across McDonald's, Pizza Hut, GYG, Red Rooster, Oporto and Carl's Jr — every row pulled straight from each chain's own ordering system, no third-party or crowd-sourced menus
 
-Prices are **Queensland-specific**. Five chains are refreshed from live menu APIs (see
-[Live menu data](#live-menu-data)); the rest are hand-curated.
+Prices are **Queensland-specific**. Every row in `data/foods.json` is pulled directly
+from a chain's own ordering system by `scripts/fetch_menus.py` (see
+[Live menu data](#live-menu-data)) — there is no hand-curated, crowd-sourced or
+third-party data in the shipped dataset.
 
-Seed data was generated from:
+Third-party and manual sources (Frugal Feeds, kfcmenuprice.au, and the workbooks in
+`sources/`) were removed on 2026-09-11 so that every price and kilojoule figure can be
+traced to the restaurant itself. Chains without a reachable first-party API — KFC,
+Domino's, Subway, Grill'd and Hungry Jack's — are therefore not currently listed;
+they return only once their own menu can be read directly.
 
-- `/Users/joel/Downloads/Subway_AU_Best_Value.xlsx`
-- `/Users/joel/Downloads/GYG_Best_Value.xlsx`
-- `/Users/joel/Downloads/McDonalds_AU_Best_Value.xlsx`
-- Frugal Feeds AU menu/deal listings for additional meal deal prices
-- kfcmenuprice.au for KFC Australia item prices and kJ values
-- Frugal Feeds AU menu listings for Domino's, Pizza Hut and Grill'd prices
-- Domino's Australia public nutrition page for Large Classic crust pizza kJ values where item names matched the added Domino's rows
-- Pizza Hut Australia `/menu/pizza` product data for Medium/Large pizza kJ values where item names and sizes matched
-
-The copied workbook sources are kept in `sources/` for maintainers. The browser loads the public seed dataset from `data/foods.json`.
-
-## Data corrections in this repo
-
-- Removed Subway FitChips because they are not a dependable current Australian Subway item.
-- Corrected the McDonald's McSmart Meal rows to the user-provided AU structure: Cheeseburger + Small Fries + one allowed food option + one allowed small drink. The invalid McDouble McSmart variant was removed.
-- Added small-meal rows for common McDonald's mains using Australian small meal prices.
-- Added Subway meal-upgrade rows, GYG kids/bundle meal-deal rows, KFC Australia items/combos/boxes/shared meals, and Domino's/Pizza Hut/Grill'd Australia menu rows.
-- KFC rows use price + kJ data from kfcmenuprice.au; serve grams and protein are shown as unavailable where the source did not provide them.
-- Domino's rows use Frugal Feeds prices, with official Domino's AU Large Classic crust pizza kJ shown where names matched. Pizza Hut Medium/Large pizza rows use Frugal Feeds prices plus official Pizza Hut AU menu kJ where names and sizes matched. Grill'd rows are price-only until a public nutrition source is added.
-- Meal deal food-value metrics use known components only. For corrected McSmart rows, kJ includes the required drink from the supplied option list; grams/protein are shown only when all food components are known and exclude drink grams/protein.
-- Promo/deal/menu prices can vary by store, app account, delivery channel and time. They are labelled with source notes and should be checked against the Australian app/store before relying on them.
+The browser loads the public dataset from `data/foods.json`. Prices vary by store, app
+account, delivery channel and time, so check the chain's own app before relying on them.
 
 ## Features
 
@@ -87,11 +74,12 @@ geocoding service or API key involved.
 
 | Brand | What the API gives | Notes |
 |---|---|---|
-| Pizza Hut | price + kJ | Both from one call; supersedes matching hand-entered rows |
+| McDonald's | price + kJ | My Macca's app API (`ap-prod.api.mcd.com`) with OAuth credentials extracted from the APK; needs `curl_cffi` for the Akamai TLS fingerprint |
+| Pizza Hut | price + kJ | Both from one call |
 | Red Rooster | price + kJ | Prices are integer cents in the feed |
 | Oporto | price + kJ | kJ present on only ~54% of items; rest are price-only |
-| GYG | price only | kJ joined from `data/gyg_nutrition.json` |
-| Carl's Jr | kJ only | No published price anywhere — add prices by hand |
+| GYG | price only | kJ joined from `data/gyg_nutrition.json` (GYG's own nutrition guide) |
+| Carl's Jr | price + kJ | My Carl's app API; `/sites` has no coordinates, so a QLD suburb table picks the store |
 
 Useful flags:
 
@@ -119,12 +107,14 @@ pass `--keep-manual` to retire none of them.
 
 ### Chains with no reachable API
 
-McDonald's, Hungry Jack's, Subway and Domino's are deliberately absent from the fetcher:
+KFC, Hungry Jack's, Subway, Domino's and Grill'd are absent from the fetcher because none
+exposes a menu that can be read directly from the chain without authentication:
 
-- **McDonald's AU** — no JSON endpoint at all. The public site is server-rendered HTML with
-  kJ but no prices anywhere, and it is behind Akamai Bot Manager.
+- **KFC AU** — the My Carl's-style app runs on a gated Cognizant OrderServe backend; the
+  ordering base URL is fetched at runtime and `api.kfc.com.au` returns 403.
 - **Hungry Jack's** — the store list is open, but the menu route requires AWS SigV4 request
   signing with credentials from the app.
+- **Grill'd** — `order.grilld.com.au` is a single-page app with no reachable public menu JSON.
 - **Subway AU** — `order.subway.com` serves price and kJ together, but Akamai fingerprints
   the TLS handshake, so it needs a real browser rather than plain HTTP.
 - **Domino's AU** — a private GraphQL backend behind Akamai, and prices are set per
@@ -212,7 +202,7 @@ Rows produced by `scripts/fetch_menus.py` carry four extra keys:
 ```
 
 Per-dollar metrics are calculated client-side from these values. A `price` of `null` means
-no price is published (Carl's Jr) and renders as `—` rather than `$0.00`; a `null`
+no price is published for that item and renders as `—` rather than `$0.00`; a `null`
 `energyKj` means the chain does not publish energy for that item.
 
 ## Price caveat

@@ -1,0 +1,2697 @@
+{
+ "brand": "Hungry Jack's",
+ "store": "Brisbane",
+ "capturedAt": "2026-09-11",
+ "source": "Hungry Jack's app on-disk menu cache (MMKV) — data from prod.api.hungryjacks.com.au",
+ "channel": "Pickup",
+ "items": [
+  {
+   "item": "Cowboy Whopper®",
+   "category": "Burgers",
+   "price": 12.65,
+   "energyKj": 3481
+  },
+  {
+   "item": "Double Cowboy Whopper®",
+   "category": "Burgers",
+   "price": 17.15,
+   "energyKj": 4897
+  },
+  {
+   "item": "Napoletana Jack's Fried Chicken",
+   "category": "Burgers",
+   "price": 13.85,
+   "energyKj": 3250
+  },
+  {
+   "item": "Napoletana Grilled Chicken",
+   "category": "Chicken",
+   "price": 12.25,
+   "energyKj": 1761
+  },
+  {
+   "item": "Double Big Jack®",
+   "category": "Burgers",
+   "price": 13.65,
+   "energyKj": 3441
+  },
+  {
+   "item": "Big Jack® Angus",
+   "category": "Burgers",
+   "price": 16.65,
+   "energyKj": 4286
+  },
+  {
+   "item": "Big Jack",
+   "category": "Burgers",
+   "price": 10.65,
+   "energyKj": 2334
+  },
+  {
+   "item": "Pistachio Papi Storm",
+   "category": "Desserts",
+   "price": 6.95,
+   "energyKj": 2874
+  },
+  {
+   "item": "Small Pistachio Papi Shake",
+   "category": "Drinks",
+   "price": 5.95,
+   "energyKj": 2001
+  },
+  {
+   "item": "Medium Pistachio Papi Shake",
+   "category": "Drinks",
+   "price": 6.95,
+   "energyKj": 2352
+  },
+  {
+   "item": "Large Pistachio Papi Shake",
+   "category": "Drinks",
+   "price": 7.95,
+   "energyKj": 2900
+  },
+  {
+   "item": "Jack'd Up Energy High Voltage^",
+   "category": "Burgers",
+   "price": 5.95,
+   "energyKj": 856
+  },
+  {
+   "item": "Jack'd Up Energy Wicked Watermelon^",
+   "category": "Burgers",
+   "price": 5.95,
+   "energyKj": 856
+  },
+  {
+   "item": "Large Coke®",
+   "category": "Drinks",
+   "price": 5.25,
+   "energyKj": 1122
+  },
+  {
+   "item": "BBQ Cheeseburger",
+   "category": "Burgers",
+   "price": 3.25,
+   "energyKj": 1415
+  },
+  {
+   "item": "Large Sprite®",
+   "category": "Drinks",
+   "price": 5.25,
+   "energyKj": 1109
+  },
+  {
+   "item": "Large Fanta® Orange",
+   "category": "Drinks",
+   "price": 5.25,
+   "energyKj": 1402
+  },
+  {
+   "item": "Large Coke® No Sugar",
+   "category": "Drinks",
+   "price": 5.25,
+   "energyKj": 9
+  },
+  {
+   "item": "Large Chocolate Shake",
+   "category": "Drinks",
+   "price": 6.05,
+   "energyKj": 2110
+  },
+  {
+   "item": "Large Strawberry Shake",
+   "category": "Drinks",
+   "price": 6.05,
+   "energyKj": 2007
+  },
+  {
+   "item": "Large Vanilla Shake",
+   "category": "Drinks",
+   "price": 6.05,
+   "energyKj": 1881
+  },
+  {
+   "item": "Large Orange Fruit Drink",
+   "category": "Drinks",
+   "price": 5.25,
+   "energyKj": 1286
+  },
+  {
+   "item": "Large Caramel Shake",
+   "category": "Drinks",
+   "price": 6.05,
+   "energyKj": 2051
+  },
+  {
+   "item": "Short Black",
+   "category": "Menu",
+   "price": 3.5,
+   "energyKj": 4
+  },
+  {
+   "item": "Large Black Dilmah Tea",
+   "category": "Menu",
+   "price": 3.5,
+   "energyKj": 8
+  },
+  {
+   "item": "Large Cappuccino",
+   "category": "Menu",
+   "price": 5.5,
+   "energyKj": 1276
+  },
+  {
+   "item": "Large Flat White",
+   "category": "Menu",
+   "price": 5.5,
+   "energyKj": 1030
+  },
+  {
+   "item": "Large Long Black",
+   "category": "Menu",
+   "price": 5.5,
+   "energyKj": 6
+  },
+  {
+   "item": "Large Latte",
+   "category": "Menu",
+   "price": 5.5,
+   "energyKj": 992
+  },
+  {
+   "item": "Large Mocha",
+   "category": "Menu",
+   "price": 5.95,
+   "energyKj": 1300
+  },
+  {
+   "item": "Large Hot Chocolate",
+   "category": "Menu",
+   "price": 5.5,
+   "energyKj": 1460
+  },
+  {
+   "item": "Large Thick Cut Chips",
+   "category": "Sides",
+   "price": 4.95,
+   "energyKj": 1843
+  },
+  {
+   "item": "Large Fanta® Raspberry",
+   "category": "Drinks",
+   "price": 5.25,
+   "energyKj": 1390
+  },
+  {
+   "item": "Large Frozen Coke®",
+   "category": "Drinks",
+   "price": 5.0,
+   "energyKj": null
+  },
+  {
+   "item": "Large Frozen Coke® Spider",
+   "category": "Drinks",
+   "price": 3.0,
+   "energyKj": 1230
+  },
+  {
+   "item": "Keri® Apple Juice",
+   "category": "Drinks",
+   "price": 3.65,
+   "energyKj": 597
+  },
+  {
+   "item": "Mount Franklin® Spring Water",
+   "category": "Drinks",
+   "price": 4.0,
+   "energyKj": null
+  },
+  {
+   "item": "Large Frozen Raspberry",
+   "category": "Drinks",
+   "price": 2.0,
+   "energyKj": 788
+  },
+  {
+   "item": "Ketchup Packet",
+   "category": "Sauces & Add-ons",
+   "price": 0.1,
+   "energyKj": 61
+  },
+  {
+   "item": "Sweet & Sour Dipping Sauce",
+   "category": "Sauces & Add-ons",
+   "price": 0.7,
+   "energyKj": 193
+  },
+  {
+   "item": "BBQ Plum Dipping Sauce",
+   "category": "Sauces & Add-ons",
+   "price": 0.7,
+   "energyKj": 258
+  },
+  {
+   "item": "Spicy Dipping Sauce",
+   "category": "Sauces & Add-ons",
+   "price": 0.7,
+   "energyKj": 520
+  },
+  {
+   "item": "Large Battered Onion Rings",
+   "category": "Sides",
+   "price": 5.75,
+   "energyKj": 1794
+  },
+  {
+   "item": "Chicken Nuggets 3 Pack",
+   "category": "Chicken",
+   "price": 6.1,
+   "energyKj": 546
+  },
+  {
+   "item": "Large Iced Coffee",
+   "category": "Drinks",
+   "price": 5.75,
+   "energyKj": 984
+  },
+  {
+   "item": "Piccolo",
+   "category": "Menu",
+   "price": 3.5,
+   "energyKj": 223
+  },
+  {
+   "item": "Macchiato",
+   "category": "Menu",
+   "price": 3.5,
+   "energyKj": 14
+  },
+  {
+   "item": "Large Chai Latte",
+   "category": "Menu",
+   "price": 5.5,
+   "energyKj": 2130
+  },
+  {
+   "item": "Large Iced Mocha",
+   "category": "Menu",
+   "price": 6.5,
+   "energyKj": 1550
+  },
+  {
+   "item": "Large Iced Chocolate",
+   "category": "Menu",
+   "price": 5.75,
+   "energyKj": 1680
+  },
+  {
+   "item": "Miniccino >> Choose Your Flavour",
+   "category": "Menu",
+   "price": 3.5,
+   "energyKj": 501
+  },
+  {
+   "item": "Large Frozen Raspberry Spider",
+   "category": "Drinks",
+   "price": 3.0,
+   "energyKj": 1090
+  },
+  {
+   "item": "Large Caramel Fudge Iced Coffee",
+   "category": "Drinks",
+   "price": 6.5,
+   "energyKj": 2140
+  },
+  {
+   "item": "Large Iced Long Black",
+   "category": "Menu",
+   "price": 5.75,
+   "energyKj": 7
+  },
+  {
+   "item": "Aioli Dipping Sauce",
+   "category": "Sauces & Add-ons",
+   "price": 0.7,
+   "energyKj": 360
+  },
+  {
+   "item": "Large Iced Chai",
+   "category": "Menu",
+   "price": 6.5,
+   "energyKj": 1820
+  },
+  {
+   "item": "Large Vanilla Coke®",
+   "category": "Drinks",
+   "price": 5.25,
+   "energyKj": 1190
+  },
+  {
+   "item": "Large Biscoff Shake",
+   "category": "Drinks",
+   "price": 7.25,
+   "energyKj": 3238
+  },
+  {
+   "item": "Large Frozen Keri Orange & Mango",
+   "category": "Drinks",
+   "price": 5.0,
+   "energyKj": 599
+  },
+  {
+   "item": "Large Frozen Keri Orange & Mango Spider",
+   "category": "Drinks",
+   "price": 5.0,
+   "energyKj": 1195
+  },
+  {
+   "item": "Large Frozen Fanta® Sour Blueberry",
+   "category": "Drinks",
+   "price": 5.0,
+   "energyKj": 462
+  },
+  {
+   "item": "Large Frozen Fanta® Sour Blueberry Spider",
+   "category": "Drinks",
+   "price": 5.0,
+   "energyKj": 1059
+  },
+  {
+   "item": "Large Dirty Chai",
+   "category": "Menu",
+   "price": 6.0,
+   "energyKj": 2391
+  },
+  {
+   "item": "Strawberry Dream with Creamer",
+   "category": "Menu",
+   "price": 5.95,
+   "energyKj": 1122
+  },
+  {
+   "item": "Blue Lagoon",
+   "category": "Menu",
+   "price": 5.25,
+   "energyKj": 1017
+  },
+  {
+   "item": "Strawberry Dream",
+   "category": "Menu",
+   "price": 5.25,
+   "energyKj": 933
+  },
+  {
+   "item": "Blue Lagoon with Creamer",
+   "category": "Menu",
+   "price": 5.95,
+   "energyKj": 1206
+  },
+  {
+   "item": "Large Frozen Frozen Fanta® Cream & Lemon",
+   "category": "Drinks",
+   "price": 5.0,
+   "energyKj": 470
+  },
+  {
+   "item": "Large Frozen Fanta® Cream & Lemon Spider",
+   "category": "Drinks",
+   "price": 5.0,
+   "energyKj": 1066
+  },
+  {
+   "item": "Chicken Royale",
+   "category": "Chicken",
+   "price": 3.75,
+   "energyKj": 1404
+  },
+  {
+   "item": "Small Coke®",
+   "category": "Drinks",
+   "price": 3.95,
+   "energyKj": 612
+  },
+  {
+   "item": "Medium Coke®",
+   "category": "Drinks",
+   "price": 4.45,
+   "energyKj": 782
+  },
+  {
+   "item": "Medium Sprite®",
+   "category": "Drinks",
+   "price": 4.45,
+   "energyKj": 764
+  },
+  {
+   "item": "Small Sprite®",
+   "category": "Drinks",
+   "price": 3.95,
+   "energyKj": 599
+  },
+  {
+   "item": "Medium Fanta® Orange",
+   "category": "Drinks",
+   "price": 4.45,
+   "energyKj": 977
+  },
+  {
+   "item": "Small Fanta® Orange",
+   "category": "Drinks",
+   "price": 3.95,
+   "energyKj": 765
+  },
+  {
+   "item": "Medium Coke® No Sugar",
+   "category": "Drinks",
+   "price": 4.45,
+   "energyKj": 7
+  },
+  {
+   "item": "Small Coke® No Sugar",
+   "category": "Drinks",
+   "price": 3.95,
+   "energyKj": 5
+  },
+  {
+   "item": "Medium Chocolate Shake",
+   "category": "Drinks",
+   "price": 5.25,
+   "energyKj": 1575
+  },
+  {
+   "item": "Small Chocolate Shake",
+   "category": "Drinks",
+   "price": 4.75,
+   "energyKj": 1200
+  },
+  {
+   "item": "Medium Strawberry Shake",
+   "category": "Drinks",
+   "price": 5.25,
+   "energyKj": 1499
+  },
+  {
+   "item": "Small Strawberry Shake",
+   "category": "Drinks",
+   "price": 4.75,
+   "energyKj": 1141
+  },
+  {
+   "item": "Medium Vanilla Shake",
+   "category": "Drinks",
+   "price": 5.25,
+   "energyKj": 1415
+  },
+  {
+   "item": "Small Vanilla Shake",
+   "category": "Drinks",
+   "price": 4.75,
+   "energyKj": 1064
+  },
+  {
+   "item": "Medium Orange Fruit Drink",
+   "category": "Drinks",
+   "price": 4.45,
+   "energyKj": 886
+  },
+  {
+   "item": "Small Orange Fruit Drink",
+   "category": "Drinks",
+   "price": 3.95,
+   "energyKj": 694
+  },
+  {
+   "item": "Medium Caramel Shake",
+   "category": "Drinks",
+   "price": 5.25,
+   "energyKj": 1532
+  },
+  {
+   "item": "Small Caramel Shake",
+   "category": "Drinks",
+   "price": 4.75,
+   "energyKj": 1166
+  },
+  {
+   "item": "Small Raspberry",
+   "category": "Menu",
+   "price": 3.95,
+   "energyKj": 759
+  },
+  {
+   "item": "Medium Raspberry",
+   "category": "Menu",
+   "price": 4.45,
+   "energyKj": 968
+  },
+  {
+   "item": "Large Raspberry",
+   "category": "Menu",
+   "price": 5.25,
+   "energyKj": 1390
+  },
+  {
+   "item": "Small Vanilla Coke®",
+   "category": "Drinks",
+   "price": 3.95,
+   "energyKj": 649
+  },
+  {
+   "item": "Medium Vanilla Coke®",
+   "category": "Drinks",
+   "price": 4.45,
+   "energyKj": 829
+  },
+  {
+   "item": "Small Biscoff Shake",
+   "category": "Drinks",
+   "price": 5.25,
+   "energyKj": 1732
+  },
+  {
+   "item": "Medium Biscoff Shake",
+   "category": "Drinks",
+   "price": 6.25,
+   "energyKj": 2502
+  },
+  {
+   "item": "Storm OREO®",
+   "category": "Desserts",
+   "price": 5.55,
+   "energyKj": 1758
+  },
+  {
+   "item": "Storm Flake®",
+   "category": "Desserts",
+   "price": 5.55,
+   "energyKj": 2166
+  },
+  {
+   "item": "Soft Serve Cone",
+   "category": "Menu",
+   "price": 1.0,
+   "energyKj": 790
+  },
+  {
+   "item": "Drumstick® Mini Vanilla",
+   "category": "Menu",
+   "price": 2.0,
+   "energyKj": 603
+  },
+  {
+   "item": "Sticky Date Pudding",
+   "category": "Menu",
+   "price": 3.95,
+   "energyKj": 960
+  },
+  {
+   "item": "Storm Biscoff",
+   "category": "Desserts",
+   "price": 5.95,
+   "energyKj": 2610
+  },
+  {
+   "item": "Chocolate Sundae",
+   "category": "Desserts",
+   "price": 3.95,
+   "energyKj": 1574
+  },
+  {
+   "item": "Large Chocolate Sundae",
+   "category": "Desserts",
+   "price": 4.95,
+   "energyKj": 2227
+  },
+  {
+   "item": "Caramel Sundae",
+   "category": "Desserts",
+   "price": 3.95,
+   "energyKj": 1632
+  },
+  {
+   "item": "Large Caramel Sundae",
+   "category": "Desserts",
+   "price": 4.95,
+   "energyKj": 2285
+  },
+  {
+   "item": "Strawberry Sundae",
+   "category": "Desserts",
+   "price": 3.95,
+   "energyKj": 1445
+  },
+  {
+   "item": "Large Strawberry Sundae",
+   "category": "Desserts",
+   "price": 4.95,
+   "energyKj": 2097
+  },
+  {
+   "item": "Grill Masters Bacon & Cheese Angus",
+   "category": "Burgers",
+   "price": 12.9,
+   "energyKj": 3390
+  },
+  {
+   "item": "Grill Masters Double Bacon & Cheese Angus",
+   "category": "Burgers",
+   "price": 15.9,
+   "energyKj": 5468
+  },
+  {
+   "item": "Grill Masters Chicago Angus",
+   "category": "Burgers",
+   "price": 13.85,
+   "energyKj": 3329
+  },
+  {
+   "item": "Grill Masters Double Chicago Angus",
+   "category": "Burgers",
+   "price": 17.25,
+   "energyKj": 3644
+  },
+  {
+   "item": "Grill Masters BBQ Smokehouse Angus",
+   "category": "Burgers",
+   "price": 14.15,
+   "energyKj": 3357
+  },
+  {
+   "item": "Grill Masters Double BBQ Smokehouse Angus",
+   "category": "Burgers",
+   "price": 17.65,
+   "energyKj": 5122
+  },
+  {
+   "item": "Grill Masters Smoky Chipotle Angus",
+   "category": "Burgers",
+   "price": 14.55,
+   "energyKj": 3213
+  },
+  {
+   "item": "Grill Masters Double Smoky Chipotle Angus",
+   "category": "Burgers",
+   "price": 18.05,
+   "energyKj": 4978
+  },
+  {
+   "item": "Classic Jack's Fried Chicken",
+   "category": "Burgers",
+   "price": 11.8,
+   "energyKj": 2843
+  },
+  {
+   "item": "Spicy Jack's Fried Chicken",
+   "category": "Burgers",
+   "price": 11.8,
+   "energyKj": 3025
+  },
+  {
+   "item": "Cheesy Bacon Classic Jack's Fried Chicken",
+   "category": "Burgers",
+   "price": 13.4,
+   "energyKj": 3126
+  },
+  {
+   "item": "Cheesy Bacon Spicy Jack's Fried Chicken",
+   "category": "Burgers",
+   "price": 13.4,
+   "energyKj": 3307
+  },
+  {
+   "item": "Spicy Grilled Chicken",
+   "category": "Chicken",
+   "price": 10.3,
+   "energyKj": 1388
+  },
+  {
+   "item": "Grilled Chicken Bacon & Cheese",
+   "category": "Chicken",
+   "price": 11.9,
+   "energyKj": 1748
+  },
+  {
+   "item": "Grilled Chicken",
+   "category": "Chicken",
+   "price": 10.3,
+   "energyKj": 1465
+  },
+  {
+   "item": "Creamy Pepper Tender Snack Wrap",
+   "category": "Chicken",
+   "price": 3.95,
+   "energyKj": 1147
+  },
+  {
+   "item": "Spicy Tender Snack Wrap",
+   "category": "Chicken",
+   "price": 3.95,
+   "energyKj": 1091
+  },
+  {
+   "item": "Smoky BBQ Tender Snack Wrap",
+   "category": "Chicken",
+   "price": 3.95,
+   "energyKj": 986
+  },
+  {
+   "item": "Chicken Nuggets 6 Pack",
+   "category": "Chicken",
+   "price": 8.65,
+   "energyKj": 1092
+  },
+  {
+   "item": "Chicken Nuggets 12 Pack",
+   "category": "Chicken",
+   "price": 12.9,
+   "energyKj": 2183
+  },
+  {
+   "item": "Medium Black Dilmah Tea",
+   "category": "Menu",
+   "price": 3.5,
+   "energyKj": 8
+  },
+  {
+   "item": "Medium Cappuccino",
+   "category": "Menu",
+   "price": 5.0,
+   "energyKj": 1043
+  },
+  {
+   "item": "Medium Flat White",
+   "category": "Menu",
+   "price": 5.0,
+   "energyKj": 860
+  },
+  {
+   "item": "Medium Long Black",
+   "category": "Menu",
+   "price": 5.0,
+   "energyKj": 5
+  },
+  {
+   "item": "Medium Latte",
+   "category": "Menu",
+   "price": 5.0,
+   "energyKj": 824
+  },
+  {
+   "item": "Medium Mocha",
+   "category": "Menu",
+   "price": 5.45,
+   "energyKj": 1090
+  },
+  {
+   "item": "Medium Hot Chocolate",
+   "category": "Menu",
+   "price": 5.0,
+   "energyKj": 1260
+  },
+  {
+   "item": "Medium Thick Cut Chips",
+   "category": "Sides",
+   "price": 3.95,
+   "energyKj": 1289
+  },
+  {
+   "item": "Medium Fanta® Raspberry",
+   "category": "Drinks",
+   "price": 4.45,
+   "energyKj": 968
+  },
+  {
+   "item": "Medium Battered Onion Rings",
+   "category": "Sides",
+   "price": 4.25,
+   "energyKj": 1196
+  },
+  {
+   "item": "Medium Iced Coffee",
+   "category": "Drinks",
+   "price": 5.25,
+   "energyKj": 757
+  },
+  {
+   "item": "Medium Chai Latte",
+   "category": "Menu",
+   "price": 5.0,
+   "energyKj": 1620
+  },
+  {
+   "item": "Medium Iced Mocha",
+   "category": "Menu",
+   "price": 6.0,
+   "energyKj": 1330
+  },
+  {
+   "item": "Medium Iced Chocolate",
+   "category": "Menu",
+   "price": 5.25,
+   "energyKj": 1440
+  },
+  {
+   "item": "Medium Caramel Fudge Iced Coffee",
+   "category": "Drinks",
+   "price": 6.0,
+   "energyKj": 1820
+  },
+  {
+   "item": "Medium Iced Long Black",
+   "category": "Menu",
+   "price": 5.25,
+   "energyKj": 7
+  },
+  {
+   "item": "Medium Iced Chai",
+   "category": "Menu",
+   "price": 6.0,
+   "energyKj": 1560
+  },
+  {
+   "item": "Medium Frozen Fanta® Raspberry",
+   "category": "Drinks",
+   "price": 5.0,
+   "energyKj": 630
+  },
+  {
+   "item": "Medium Frozen Fanta® Raspberry Spider",
+   "category": "Drinks",
+   "price": 5.0,
+   "energyKj": 1020
+  },
+  {
+   "item": "Medium Frozen Keri Orange & Mango",
+   "category": "Drinks",
+   "price": 5.0,
+   "energyKj": 435
+  },
+  {
+   "item": "Medium Frozen Keri Orange & Mango Spider",
+   "category": "Drinks",
+   "price": 5.0,
+   "energyKj": 1032
+  },
+  {
+   "item": "Medium Frozen Fanta® Sour Blueberry Spider",
+   "category": "Drinks",
+   "price": 5.0,
+   "energyKj": 630
+  },
+  {
+   "item": "Medium Frozen Fanta® Sour Blueberry",
+   "category": "Drinks",
+   "price": 5.0,
+   "energyKj": 336
+  },
+  {
+   "item": "Medium Dirty Chai",
+   "category": "Menu",
+   "price": 5.5,
+   "energyKj": 1857
+  },
+  {
+   "item": "Medium Iced Dirty Chai",
+   "category": "Menu",
+   "price": 6.5,
+   "energyKj": 1891
+  },
+  {
+   "item": "Medium Frozen Coke®",
+   "category": "Drinks",
+   "price": 5.0,
+   "energyKj": null
+  },
+  {
+   "item": "Medium Frozen Coke® Spider",
+   "category": "Drinks",
+   "price": 5.0,
+   "energyKj": null
+  },
+  {
+   "item": "Mango Breeze",
+   "category": "Menu",
+   "price": 5.25,
+   "energyKj": 1036
+  },
+  {
+   "item": "Mango Breeze with Creamer",
+   "category": "Menu",
+   "price": 5.95,
+   "energyKj": 1225
+  },
+  {
+   "item": "Medium Frozen Frozen Fanta® Cream & Lemon",
+   "category": "Drinks",
+   "price": 5.0,
+   "energyKj": 341
+  },
+  {
+   "item": "Medium Frozen Fanta® Cream & Lemon Spider",
+   "category": "Drinks",
+   "price": 5.0,
+   "energyKj": 938
+  },
+  {
+   "item": "Large Onion Rings",
+   "category": "Sides",
+   "price": 5.0,
+   "energyKj": 1794
+  },
+  {
+   "item": "Chicken Nuggets 18 Pack",
+   "category": "Chicken",
+   "price": 17.3,
+   "energyKj": 3210
+  },
+  {
+   "item": "Whopper®",
+   "category": "Burgers",
+   "price": 10.1,
+   "energyKj": 2437
+  },
+  {
+   "item": "Cheeseburger",
+   "category": "Burgers",
+   "price": 4.7,
+   "energyKj": 1347
+  },
+  {
+   "item": "Bacon Deluxe™",
+   "category": "Menu",
+   "price": 11.0,
+   "energyKj": 2142
+  },
+  {
+   "item": "Double Cheeseburger",
+   "category": "Burgers",
+   "price": 6.7,
+   "energyKj": 1978
+  },
+  {
+   "item": "Triple Cheeseburger",
+   "category": "Burgers",
+   "price": 8.7,
+   "energyKj": 2609
+  },
+  {
+   "item": "Whopper® Cheese",
+   "category": "Burgers",
+   "price": 10.9,
+   "energyKj": 2747
+  },
+  {
+   "item": "Double Whopper®",
+   "category": "Burgers",
+   "price": 12.1,
+   "energyKj": 3543
+  },
+  {
+   "item": "Double Whopper® Cheese",
+   "category": "Burgers",
+   "price": 13.7,
+   "energyKj": 4152
+  },
+  {
+   "item": "Whopper® Junior",
+   "category": "Burgers",
+   "price": 8.9,
+   "energyKj": 1228
+  },
+  {
+   "item": "Whopper® Junior Cheese",
+   "category": "Burgers",
+   "price": 9.3,
+   "energyKj": 1650
+  },
+  {
+   "item": "Ultimate Double Whopper®",
+   "category": "Burgers",
+   "price": 14.8,
+   "energyKj": 4401
+  },
+  {
+   "item": "Angry Whopper®",
+   "category": "Burgers",
+   "price": 11.5,
+   "energyKj": 3400
+  },
+  {
+   "item": "Triple Whopper® Cheese",
+   "category": "Burgers",
+   "price": 16.5,
+   "energyKj": 5780
+  },
+  {
+   "item": "Plant Based Whopper®",
+   "category": "Burgers",
+   "price": 10.1,
+   "energyKj": 2317
+  },
+  {
+   "item": "Plant Based Whopper® Cheese",
+   "category": "Burgers",
+   "price": 10.9,
+   "energyKj": 2630
+  },
+  {
+   "item": "Hamburger",
+   "category": "Burgers",
+   "price": 4.2,
+   "energyKj": 1192
+  },
+  {
+   "item": "Double Angry Whopper®",
+   "category": "Burgers",
+   "price": 14.3,
+   "energyKj": 4740
+  },
+  {
+   "item": "Triple Angry Whopper®",
+   "category": "Burgers",
+   "price": 17.1,
+   "energyKj": 6070
+  },
+  {
+   "item": "Angry Plant Based Whopper®",
+   "category": "Burgers",
+   "price": 11.5,
+   "energyKj": 2935
+  },
+  {
+   "item": "BBQ Brekky Wrap",
+   "category": "Breakfast",
+   "price": 7.9,
+   "energyKj": 1857
+  },
+  {
+   "item": "Hash Brown",
+   "category": "Breakfast",
+   "price": 2.85,
+   "energyKj": 685
+  },
+  {
+   "item": "Ham Cheese & Tomato Toastie",
+   "category": "Sauces & Add-ons",
+   "price": 5.8,
+   "energyKj": 1222
+  },
+  {
+   "item": "Cheese Toastie",
+   "category": "Menu",
+   "price": 4.75,
+   "energyKj": 1087
+  },
+  {
+   "item": "Ham & Cheese Toastie",
+   "category": "Menu",
+   "price": 5.3,
+   "energyKj": 1201
+  },
+  {
+   "item": "Big BBQ Brekky Wrap",
+   "category": "Breakfast",
+   "price": 8.9,
+   "energyKj": 2602
+  },
+  {
+   "item": "Jack's Brekky Roll",
+   "category": "Burgers",
+   "price": 8.5,
+   "energyKj": 2477
+  },
+  {
+   "item": "Bacon & Egg on Turkish",
+   "category": "Menu",
+   "price": 6.85,
+   "energyKj": 929
+  },
+  {
+   "item": "Sausage & Egg on Turkish",
+   "category": "Menu",
+   "price": 7.15,
+   "energyKj": 2045
+  },
+  {
+   "item": "Double Bacon & Egg Turkish Brekky Roll",
+   "category": "Breakfast",
+   "price": 8.1,
+   "energyKj": 1947
+  },
+  {
+   "item": "Double Sausage & Egg Turkish Brekky Roll",
+   "category": "Breakfast",
+   "price": 8.65,
+   "energyKj": 2703
+  },
+  {
+   "item": "Mega BBQ Brekky Wrap",
+   "category": "Breakfast",
+   "price": 10.85,
+   "energyKj": 4027
+  },
+  {
+   "item": "French Toast Fingers",
+   "category": "Menu",
+   "price": 5.2,
+   "energyKj": 1852
+  },
+  {
+   "item": "Small Black Dilmah Tea",
+   "category": "Menu",
+   "price": 3.5,
+   "energyKj": 8
+  },
+  {
+   "item": "Small Cappuccino",
+   "category": "Menu",
+   "price": 4.5,
+   "energyKj": 836
+  },
+  {
+   "item": "Small Flat White",
+   "category": "Menu",
+   "price": 4.5,
+   "energyKj": 594
+  },
+  {
+   "item": "Small Long Black",
+   "category": "Menu",
+   "price": 4.5,
+   "energyKj": 4
+  },
+  {
+   "item": "Small Latte",
+   "category": "Menu",
+   "price": 4.5,
+   "energyKj": 534
+  },
+  {
+   "item": "Small Mocha",
+   "category": "Menu",
+   "price": 4.95,
+   "energyKj": 733
+  },
+  {
+   "item": "Small Hot Chocolate",
+   "category": "Menu",
+   "price": 4.5,
+   "energyKj": 861
+  },
+  {
+   "item": "Small Fanta® Raspberry",
+   "category": "Drinks",
+   "price": 3.95,
+   "energyKj": 759
+  },
+  {
+   "item": "Keri® Apple Juice",
+   "category": "Drinks",
+   "price": 5.0,
+   "energyKj": 700
+  },
+  {
+   "item": "Small Iced Coffee",
+   "category": "Drinks",
+   "price": 4.75,
+   "energyKj": 576
+  },
+  {
+   "item": "Small Iced Mocha",
+   "category": "Menu",
+   "price": 5.5,
+   "energyKj": 875
+  },
+  {
+   "item": "Small Iced Chocolate",
+   "category": "Menu",
+   "price": 4.75,
+   "energyKj": 964
+  },
+  {
+   "item": "Small Chai Latte",
+   "category": "Menu",
+   "price": 4.5,
+   "energyKj": 1090
+  },
+  {
+   "item": "Mt Franklin Spring Water",
+   "category": "Drinks",
+   "price": 4.0,
+   "energyKj": null
+  },
+  {
+   "item": "Small Caramel Fudge Iced Coffee",
+   "category": "Drinks",
+   "price": 5.5,
+   "energyKj": 1450
+  },
+  {
+   "item": "Small Iced Long Black",
+   "category": "Menu",
+   "price": 4.75,
+   "energyKj": 7
+  },
+  {
+   "item": "Small Iced Chai",
+   "category": "Menu",
+   "price": 5.5,
+   "energyKj": 1300
+  },
+  {
+   "item": "Small Frozen Fanta® Raspberry",
+   "category": "Drinks",
+   "price": 5.0,
+   "energyKj": 473
+  },
+  {
+   "item": "Small Frozen Fanta® Raspberry Spider",
+   "category": "Drinks",
+   "price": 5.0,
+   "energyKj": 1010
+  },
+  {
+   "item": "Small Frozen Keri Orange & Mango",
+   "category": "Drinks",
+   "price": 5.0,
+   "energyKj": 326
+  },
+  {
+   "item": "Small Frozen Keri Orange & Mango Spider",
+   "category": "Drinks",
+   "price": 5.0,
+   "energyKj": 923
+  },
+  {
+   "item": "Small Frozen Fanta® Sour Blueberry",
+   "category": "Drinks",
+   "price": 5.0,
+   "energyKj": 265
+  },
+  {
+   "item": "Small Frozen Fanta® Sour Blueberry Spider",
+   "category": "Drinks",
+   "price": 5.0,
+   "energyKj": 849
+  },
+  {
+   "item": "Small Dirty Chai",
+   "category": "Menu",
+   "price": 5.0,
+   "energyKj": 1271
+  },
+  {
+   "item": "Small Iced Dirty Chai",
+   "category": "Menu",
+   "price": 6.0,
+   "energyKj": 1551
+  },
+  {
+   "item": "Large Iced Dirty Chai",
+   "category": "Menu",
+   "price": 7.0,
+   "energyKj": 2150
+  },
+  {
+   "item": "Small Frozen Coke®",
+   "category": "Drinks",
+   "price": 5.0,
+   "energyKj": null
+  },
+  {
+   "item": "Small Frozen Coke® Spider",
+   "category": "Drinks",
+   "price": 5.0,
+   "energyKj": null
+  },
+  {
+   "item": "Small Frozen Frozen Fanta® Cream & Lemon",
+   "category": "Drinks",
+   "price": 5.0,
+   "energyKj": 269
+  },
+  {
+   "item": "Small Frozen Fanta® Cream & Lemon Spider",
+   "category": "Drinks",
+   "price": 5.0,
+   "energyKj": 853
+  },
+  {
+   "item": "Chicken Nuggets 10 Pack",
+   "category": "Chicken",
+   "price": 8.8,
+   "energyKj": null
+  },
+  {
+   "item": "4x Small Chips",
+   "category": "Sides",
+   "price": 9.6,
+   "energyKj": 4240
+  },
+  {
+   "item": "4x Medium Chips",
+   "category": "Sides",
+   "price": 13.8,
+   "energyKj": 5160
+  },
+  {
+   "item": "4x Large Chips",
+   "category": "Sides",
+   "price": 19.8,
+   "energyKj": 7400
+  },
+  {
+   "item": "Veggie Whopper® Cheese",
+   "category": "Burgers",
+   "price": 10.9,
+   "energyKj": 2277
+  },
+  {
+   "item": "2x Small Coke®",
+   "category": "Drinks",
+   "price": 7.9,
+   "energyKj": 1224
+  },
+  {
+   "item": "2x Medium Coke®",
+   "category": "Drinks",
+   "price": 8.9,
+   "energyKj": 1564
+  },
+  {
+   "item": "2x Large Coke®",
+   "category": "Drinks",
+   "price": 10.5,
+   "energyKj": 2244
+  },
+  {
+   "item": "2x Small Sprite®",
+   "category": "Drinks",
+   "price": 7.9,
+   "energyKj": 1198
+  },
+  {
+   "item": "2x Medium Sprite®",
+   "category": "Drinks",
+   "price": 8.9,
+   "energyKj": 1528
+  },
+  {
+   "item": "2x Large Sprite®",
+   "category": "Drinks",
+   "price": 10.5,
+   "energyKj": 2218
+  },
+  {
+   "item": "2x Small Fanta® Orange",
+   "category": "Drinks",
+   "price": 7.9,
+   "energyKj": 1530
+  },
+  {
+   "item": "2x Medium Fanta® Orange",
+   "category": "Drinks",
+   "price": 8.9,
+   "energyKj": 1954
+  },
+  {
+   "item": "2x Large Fanta® Orange",
+   "category": "Drinks",
+   "price": 10.5,
+   "energyKj": 2804
+  },
+  {
+   "item": "2x Small Fanta® Raspberry",
+   "category": "Drinks",
+   "price": 7.9,
+   "energyKj": 1518
+  },
+  {
+   "item": "2x Medium Fanta® Raspberry",
+   "category": "Drinks",
+   "price": 8.9,
+   "energyKj": 1936
+  },
+  {
+   "item": "2x Large Fanta® Raspberry",
+   "category": "Drinks",
+   "price": 10.5,
+   "energyKj": 2780
+  },
+  {
+   "item": "2x Small Coke® No Sugar",
+   "category": "Drinks",
+   "price": 7.9,
+   "energyKj": 10
+  },
+  {
+   "item": "2x Medium Coke® No Sugar",
+   "category": "Drinks",
+   "price": 8.9,
+   "energyKj": 14
+  },
+  {
+   "item": "2x Large Coke® No Sugar",
+   "category": "Drinks",
+   "price": 10.5,
+   "energyKj": 18
+  },
+  {
+   "item": "2x Mount Franklin® Spring Water",
+   "category": "Drinks",
+   "price": 8.0,
+   "energyKj": null
+  },
+  {
+   "item": "2x Small Orange Fruit Drink",
+   "category": "Drinks",
+   "price": 7.9,
+   "energyKj": 1388
+  },
+  {
+   "item": "2x Medium Orange Fruit Drink",
+   "category": "Drinks",
+   "price": 8.9,
+   "energyKj": 1772
+  },
+  {
+   "item": "2x Large Orange Fruit Drink",
+   "category": "Drinks",
+   "price": 10.5,
+   "energyKj": 2572
+  },
+  {
+   "item": "2x Keri® Apple Juice",
+   "category": "Drinks",
+   "price": 7.3,
+   "energyKj": 1194
+  },
+  {
+   "item": "2x Small Vanilla Coke®",
+   "category": "Drinks",
+   "price": 7.9,
+   "energyKj": null
+  },
+  {
+   "item": "2x Medium Vanilla Coke®",
+   "category": "Drinks",
+   "price": 8.9,
+   "energyKj": null
+  },
+  {
+   "item": "2x Large Vanilla Coke®",
+   "category": "Drinks",
+   "price": 10.5,
+   "energyKj": null
+  },
+  {
+   "item": "3 Southern Style Tenders",
+   "category": "Chicken",
+   "price": 8.95,
+   "energyKj": 2393
+  },
+  {
+   "item": "3x Korean BBQ Saucy Tenders",
+   "category": "Chicken",
+   "price": 8.95,
+   "energyKj": 2268
+  },
+  {
+   "item": "3x Peri Peri Saucy Tenders",
+   "category": "Chicken",
+   "price": 8.95,
+   "energyKj": 2031
+  },
+  {
+   "item": "3x Smoky Chipotle Saucy Tenders",
+   "category": "Chicken",
+   "price": 8.95,
+   "energyKj": 2098
+  },
+  {
+   "item": "Large Chips",
+   "category": "Sides",
+   "price": 4.95,
+   "energyKj": 1843
+  },
+  {
+   "item": "Medium Chips",
+   "category": "Sides",
+   "price": 3.95,
+   "energyKj": 1289
+  },
+  {
+   "item": "Small Chips",
+   "category": "Sides",
+   "price": 2.0,
+   "energyKj": 1063
+  },
+  {
+   "item": "3 Nuggets & Chips Carry Cup",
+   "category": "Chicken",
+   "price": 4.25,
+   "energyKj": 1820
+  },
+  {
+   "item": "5 Southern Style Tenders",
+   "category": "Chicken",
+   "price": 12.45,
+   "energyKj": 3633
+  },
+  {
+   "item": "Medium Frozen Coke® Spider",
+   "category": "Drinks",
+   "price": 2.5,
+   "energyKj": 1180
+  },
+  {
+   "item": "Small Frozen Coke® Spider",
+   "category": "Drinks",
+   "price": 2.0,
+   "energyKj": 1230
+  },
+  {
+   "item": "Medium Frozen Coke®",
+   "category": "Drinks",
+   "price": 1.5,
+   "energyKj": 558
+  },
+  {
+   "item": "Large Frozen Coke®",
+   "category": "Drinks",
+   "price": 2.0,
+   "energyKj": 697
+  },
+  {
+   "item": "Small Frozen Coke®",
+   "category": "Drinks",
+   "price": 1.0,
+   "energyKj": 419
+  },
+  {
+   "item": "Small Frozen Fanta® Raspberry",
+   "category": "Drinks",
+   "price": 1.0,
+   "energyKj": 473
+  },
+  {
+   "item": "Medium Frozen Fanta® Raspberry",
+   "category": "Drinks",
+   "price": 1.5,
+   "energyKj": 630
+  },
+  {
+   "item": "Large Frozen Fanta® Raspberry",
+   "category": "Drinks",
+   "price": 2.0,
+   "energyKj": 788
+  },
+  {
+   "item": "Small Frozen Fanta® Raspberry Spider",
+   "category": "Drinks",
+   "price": 2.0,
+   "energyKj": 1010
+  },
+  {
+   "item": "Medium Frozen Fanta® Raspberry Spider",
+   "category": "Drinks",
+   "price": 2.5,
+   "energyKj": 1020
+  },
+  {
+   "item": "Large Frozen Fanta® Raspberry Spider",
+   "category": "Drinks",
+   "price": 3.0,
+   "energyKj": 1090
+  },
+  {
+   "item": "Small Frozen Keri Orange & Mango",
+   "category": "Drinks",
+   "price": 2.95,
+   "energyKj": 343
+  },
+  {
+   "item": "Medium Frozen Keri Orange & Mango",
+   "category": "Drinks",
+   "price": 3.45,
+   "energyKj": 458
+  },
+  {
+   "item": "Large Frozen Keri Orange & Mango",
+   "category": "Drinks",
+   "price": 3.95,
+   "energyKj": 674
+  },
+  {
+   "item": "Small Frozen Keri Orange & Mango Spider",
+   "category": "Drinks",
+   "price": 3.95,
+   "energyKj": 923
+  },
+  {
+   "item": "Medium Frozen Keri Orange & Mango Spider",
+   "category": "Drinks",
+   "price": 4.45,
+   "energyKj": 1032
+  },
+  {
+   "item": "Large Frozen Keri Orange & Mango Spider",
+   "category": "Drinks",
+   "price": 4.95,
+   "energyKj": 1195
+  },
+  {
+   "item": "Small Frozen Fanta® Sour Blueberry",
+   "category": "Drinks",
+   "price": 1.0,
+   "energyKj": 265
+  },
+  {
+   "item": "Medium Frozen Fanta® Sour Blueberry",
+   "category": "Drinks",
+   "price": 1.5,
+   "energyKj": 336
+  },
+  {
+   "item": "Large Frozen Fanta® Sour Blueberry",
+   "category": "Drinks",
+   "price": 2.0,
+   "energyKj": 462
+  },
+  {
+   "item": "Small Frozen Fanta® Sour Blueberry Spider",
+   "category": "Drinks",
+   "price": 2.0,
+   "energyKj": 849
+  },
+  {
+   "item": "Medium Frozen Fanta® Sour Blueberry Spider",
+   "category": "Drinks",
+   "price": 2.5,
+   "energyKj": 630
+  },
+  {
+   "item": "Large Frozen Fanta® Sour Blueberry Spider",
+   "category": "Drinks",
+   "price": 3.0,
+   "energyKj": 1059
+  },
+  {
+   "item": "Small Frozen Fanta® Cream & Lemon",
+   "category": "Drinks",
+   "price": 1.0,
+   "energyKj": 269
+  },
+  {
+   "item": "Medium Frozen Fanta® Cream & Lemon",
+   "category": "Drinks",
+   "price": 1.5,
+   "energyKj": 341
+  },
+  {
+   "item": "Large Frozen Fanta® Cream & Lemon",
+   "category": "Drinks",
+   "price": 2.0,
+   "energyKj": 470
+  },
+  {
+   "item": "Small Frozen Fanta® Cream & Lemon Spider",
+   "category": "Drinks",
+   "price": 2.0,
+   "energyKj": 853
+  },
+  {
+   "item": "Medium Frozen Fanta® Cream & Lemon Spider",
+   "category": "Drinks",
+   "price": 2.5,
+   "energyKj": 938
+  },
+  {
+   "item": "Large Frozen Fanta® Cream & Lemon Spider",
+   "category": "Drinks",
+   "price": 3.0,
+   "energyKj": 1066
+  },
+  {
+   "item": "Small Thick Cut Chips",
+   "category": "Sides",
+   "price": 2.6,
+   "energyKj": 1063
+  },
+  {
+   "item": "Kids Toy",
+   "category": "Menu",
+   "price": 1.19,
+   "energyKj": null
+  },
+  {
+   "item": "Kids Salad",
+   "category": "Menu",
+   "price": 2.95,
+   "energyKj": 32
+  },
+  {
+   "item": "Drumstick® Mini",
+   "category": "Menu",
+   "price": 1.5,
+   "energyKj": 730
+  },
+  {
+   "item": "Small Tea",
+   "category": "Menu",
+   "price": 3.5,
+   "energyKj": 8
+  },
+  {
+   "item": "Oreo Storm",
+   "category": "Desserts",
+   "price": 5.55,
+   "energyKj": 1758
+  },
+  {
+   "item": "Delivery Fee",
+   "category": "Menu",
+   "price": 3.95,
+   "energyKj": null
+  },
+  {
+   "item": "Drumstick Mini",
+   "category": "Menu",
+   "price": 2.0,
+   "energyKj": 603
+  },
+  {
+   "item": "2 x Medium Chips",
+   "category": "Sides",
+   "price": 6.9,
+   "energyKj": 2580
+  },
+  {
+   "item": "2x Large Chips",
+   "category": "Sides",
+   "price": 9.9,
+   "energyKj": 3700
+  },
+  {
+   "item": "Hash Brown x 2",
+   "category": "Breakfast",
+   "price": 5.7,
+   "energyKj": null
+  },
+  {
+   "item": "Medium Onion Rings",
+   "category": "Sides",
+   "price": 3.5,
+   "energyKj": 1196
+  },
+  {
+   "item": "Whopper Jr",
+   "category": "Burgers",
+   "price": 8.9,
+   "energyKj": 1228
+  },
+  {
+   "item": "Large Vanilla Sundae",
+   "category": "Desserts",
+   "price": 4.95,
+   "energyKj": 1890
+  },
+  {
+   "item": "Medium Choc Shake",
+   "category": "Drinks",
+   "price": 5.25,
+   "energyKj": 1575
+  },
+  {
+   "item": "Double Veggie Whopper® Cheese",
+   "category": "Burgers",
+   "price": 12.65,
+   "energyKj": 2900
+  },
+  {
+   "item": "5x Korean BBQ Saucy Tenders",
+   "category": "Chicken",
+   "price": 12.45,
+   "energyKj": 3780
+  },
+  {
+   "item": "5x Peri Peri Saucy Tenders",
+   "category": "Chicken",
+   "price": 12.45,
+   "energyKj": 3385
+  },
+  {
+   "item": "5x Smoky Chipotle Saucy Tenders",
+   "category": "Chicken",
+   "price": 12.45,
+   "energyKj": 3497
+  },
+  {
+   "item": "Angry Veggie Whopper®",
+   "category": "Burgers",
+   "price": 11.5,
+   "energyKj": 2586
+  },
+  {
+   "item": "Small Cappuccino",
+   "category": "Menu",
+   "price": 2.5,
+   "energyKj": 836
+  },
+  {
+   "item": "Medium Cappuccino",
+   "category": "Menu",
+   "price": 3.5,
+   "energyKj": 1043
+  },
+  {
+   "item": "Large Cappuccino",
+   "category": "Menu",
+   "price": 4.5,
+   "energyKj": 1276
+  },
+  {
+   "item": "Small Latte",
+   "category": "Menu",
+   "price": 2.5,
+   "energyKj": 534
+  },
+  {
+   "item": "Medium Latte",
+   "category": "Menu",
+   "price": 3.5,
+   "energyKj": 824
+  },
+  {
+   "item": "Large Latte",
+   "category": "Menu",
+   "price": 4.5,
+   "energyKj": 992
+  },
+  {
+   "item": "Miniccino >> Choose Your Flavour",
+   "category": "Menu",
+   "price": 2.5,
+   "energyKj": 501
+  },
+  {
+   "item": "Macchiato",
+   "category": "Menu",
+   "price": 2.5,
+   "energyKj": 14
+  },
+  {
+   "item": "Piccolo",
+   "category": "Menu",
+   "price": 2.5,
+   "energyKj": 223
+  },
+  {
+   "item": "Short Black",
+   "category": "Menu",
+   "price": 2.5,
+   "energyKj": 4
+  },
+  {
+   "item": "Medium Long Black",
+   "category": "Menu",
+   "price": 3.5,
+   "energyKj": 5
+  },
+  {
+   "item": "Large Long Black",
+   "category": "Menu",
+   "price": 4.5,
+   "energyKj": 6
+  },
+  {
+   "item": "Small Long Black",
+   "category": "Menu",
+   "price": 2.5,
+   "energyKj": 4
+  },
+  {
+   "item": "Small Flat White",
+   "category": "Menu",
+   "price": 2.5,
+   "energyKj": 594
+  },
+  {
+   "item": "Medium Flat White",
+   "category": "Menu",
+   "price": 3.5,
+   "energyKj": 860
+  },
+  {
+   "item": "Large Flat White",
+   "category": "Menu",
+   "price": 4.5,
+   "energyKj": 1030
+  },
+  {
+   "item": "Small Black Dilmah Tea",
+   "category": "Menu",
+   "price": 2.5,
+   "energyKj": 8
+  },
+  {
+   "item": "Medium Black Dilmah Tea",
+   "category": "Menu",
+   "price": 2.5,
+   "energyKj": 8
+  },
+  {
+   "item": "Large Black Dilmah Tea",
+   "category": "Menu",
+   "price": 2.5,
+   "energyKj": 8
+  },
+  {
+   "item": "BBQ Big Brekky Wrap",
+   "category": "Breakfast",
+   "price": 8.9,
+   "energyKj": 2602
+  },
+  {
+   "item": "Chicken Nuggets 3 Pack",
+   "category": "Chicken",
+   "price": 1.0,
+   "energyKj": 546
+  },
+  {
+   "item": "Medium Onion Rings",
+   "category": "Sides",
+   "price": 4.25,
+   "energyKj": 1196
+  },
+  {
+   "item": "Medium Tea",
+   "category": "Menu",
+   "price": 3.5,
+   "energyKj": 8
+  },
+  {
+   "item": "Medium Frozen Coke",
+   "category": "Drinks",
+   "price": 1.5,
+   "energyKj": 558
+  },
+  {
+   "item": "Medium Frozen Raspberry",
+   "category": "Drinks",
+   "price": 1.5,
+   "energyKj": 630
+  },
+  {
+   "item": "Medium Frozen Coke Spider",
+   "category": "Drinks",
+   "price": 2.5,
+   "energyKj": 1180
+  },
+  {
+   "item": "Medium Raspberry Spider",
+   "category": "Menu",
+   "price": 2.5,
+   "energyKj": 1020
+  },
+  {
+   "item": "Flake Storm",
+   "category": "Desserts",
+   "price": 5.55,
+   "energyKj": 2166
+  },
+  {
+   "item": "Small Fanta®",
+   "category": "Drinks",
+   "price": 3.95,
+   "energyKj": 765
+  },
+  {
+   "item": "Small Fanta@ Raspberry",
+   "category": "Drinks",
+   "price": 3.95,
+   "energyKj": 759
+  },
+  {
+   "item": "Ultimate Double Whopper",
+   "category": "Burgers",
+   "price": 14.8,
+   "energyKj": 4401
+  },
+  {
+   "item": "Whopper Cheese",
+   "category": "Burgers",
+   "price": 10.9,
+   "energyKj": 2747
+  },
+  {
+   "item": "Large Onion Rings",
+   "category": "Sides",
+   "price": 5.75,
+   "energyKj": 1794
+  },
+  {
+   "item": "Drumstick® Choc Vanilla",
+   "category": "Menu",
+   "price": 2.0,
+   "energyKj": 603
+  },
+  {
+   "item": "Large Chai",
+   "category": "Menu",
+   "price": 5.5,
+   "energyKj": 2130
+  },
+  {
+   "item": "Medium Frozen Raspberry Spider",
+   "category": "Drinks",
+   "price": 2.5,
+   "energyKj": 1020
+  },
+  {
+   "item": "Drumstick Choc Vanilla",
+   "category": "Menu",
+   "price": 2.0,
+   "energyKj": 603
+  },
+  {
+   "item": "Chicken Nuggets 20 Pack",
+   "category": "Chicken",
+   "price": 11.05,
+   "energyKj": 3993
+  },
+  {
+   "item": "Whopper® Jr Cheese",
+   "category": "Burgers",
+   "price": 9.3,
+   "energyKj": 1650
+  },
+  {
+   "item": "Vanilla Sundae",
+   "category": "Desserts",
+   "price": 3.95,
+   "energyKj": 1240
+  },
+  {
+   "item": "Medium Chai",
+   "category": "Menu",
+   "price": 5.0,
+   "energyKj": 1620
+  },
+  {
+   "item": "Biscoff Storm",
+   "category": "Desserts",
+   "price": 5.95,
+   "energyKj": 2610
+  },
+  {
+   "item": "Medium Sprite",
+   "category": "Drinks",
+   "price": 4.45,
+   "energyKj": 764
+  },
+  {
+   "item": "Medium Vanilla Coke",
+   "category": "Drinks",
+   "price": 4.45,
+   "energyKj": 829
+  },
+  {
+   "item": "Ham Cheese Tomato Toastie",
+   "category": "Sauces & Add-ons",
+   "price": 5.8,
+   "energyKj": 1222
+  },
+  {
+   "item": "Sweet & Sour Sauce",
+   "category": "Sauces & Add-ons",
+   "price": 0.7,
+   "energyKj": 155
+  },
+  {
+   "item": "Small Chips",
+   "category": "Sides",
+   "price": 2.6,
+   "energyKj": 1063
+  },
+  {
+   "item": "Whopper",
+   "category": "Burgers",
+   "price": 10.1,
+   "energyKj": 2437
+  },
+  {
+   "item": "Bacon Deluxe",
+   "category": "Menu",
+   "price": 11.0,
+   "energyKj": 2142
+  },
+  {
+   "item": "Small Coke",
+   "category": "Drinks",
+   "price": 3.95,
+   "energyKj": 612
+  },
+  {
+   "item": "Small Sprite",
+   "category": "Drinks",
+   "price": 3.95,
+   "energyKj": 599
+  },
+  {
+   "item": "Small Fanta",
+   "category": "Drinks",
+   "price": 3.95,
+   "energyKj": 765
+  },
+  {
+   "item": "Small Coke No Sugar",
+   "category": "Drinks",
+   "price": 3.95,
+   "energyKj": 5
+  },
+  {
+   "item": "Small Vanilla Coke",
+   "category": "Drinks",
+   "price": 3.95,
+   "energyKj": 649
+  },
+  {
+   "item": "Large Tea",
+   "category": "Menu",
+   "price": 3.5,
+   "energyKj": 8
+  },
+  {
+   "item": "Chicken Nuggets 4 Pack",
+   "category": "Chicken",
+   "price": 3.0,
+   "energyKj": 1070
+  },
+  {
+   "item": "Medium Onion Rings",
+   "category": "Sides",
+   "price": 3.0,
+   "energyKj": 1196
+  },
+  {
+   "item": "Bacon",
+   "category": "Menu",
+   "price": 1.5,
+   "energyKj": 137
+  },
+  {
+   "item": "Cage-free Egg",
+   "category": "Menu",
+   "price": 1.25,
+   "energyKj": 353
+  },
+  {
+   "item": "Mayonnaise",
+   "category": "Sauces & Add-ons",
+   "price": 0.2,
+   "energyKj": 210
+  },
+  {
+   "item": "Lettuce",
+   "category": "Sauces & Add-ons",
+   "price": 0.6,
+   "energyKj": 8
+  },
+  {
+   "item": "Tomato",
+   "category": "Sauces & Add-ons",
+   "price": 0.6,
+   "energyKj": 18
+  },
+  {
+   "item": "Ketchup",
+   "category": "Sauces & Add-ons",
+   "price": 0.2,
+   "energyKj": 31
+  },
+  {
+   "item": "Beef Patty",
+   "category": "Menu",
+   "price": 3.0,
+   "energyKj": 980
+  },
+  {
+   "item": "Cheese Slice",
+   "category": "Menu",
+   "price": 0.8,
+   "energyKj": 176
+  },
+  {
+   "item": "Beef Patty",
+   "category": "Menu",
+   "price": 2.0,
+   "energyKj": 422
+  },
+  {
+   "item": "Angus Beef Patty",
+   "category": "Burgers",
+   "price": 4.0,
+   "energyKj": 1450
+  },
+  {
+   "item": "Veggie Patty",
+   "category": "Menu",
+   "price": 2.0,
+   "energyKj": 534
+  },
+  {
+   "item": "Royale Chicken Patty",
+   "category": "Chicken",
+   "price": 2.0,
+   "energyKj": 942
+  },
+  {
+   "item": "Angry Onion",
+   "category": "Sides",
+   "price": 0.7,
+   "energyKj": 282
+  },
+  {
+   "item": "Mustard",
+   "category": "Sauces & Add-ons",
+   "price": 0.2,
+   "energyKj": 7
+  },
+  {
+   "item": "Smoky BBQ Sauce",
+   "category": "Sauces & Add-ons",
+   "price": 0.2,
+   "energyKj": 76
+  },
+  {
+   "item": "Ranch",
+   "category": "Menu",
+   "price": 0.2,
+   "energyKj": 67
+  },
+  {
+   "item": "Heavy Tomato & Herb Napoletana Sauce",
+   "category": "Sauces & Add-ons",
+   "price": 0.15,
+   "energyKj": 63
+  },
+  {
+   "item": "Natural Cheese Slice",
+   "category": "Menu",
+   "price": 0.9,
+   "energyKj": 358
+  },
+  {
+   "item": "Sausage Patty (Beef & Pork)",
+   "category": "Menu",
+   "price": 2.0,
+   "energyKj": 491
+  },
+  {
+   "item": "Strawberry Topping",
+   "category": "Menu",
+   "price": 0.75,
+   "energyKj": 82
+  },
+  {
+   "item": "OREO®",
+   "category": "Menu",
+   "price": 0.75,
+   "energyKj": 188
+  },
+  {
+   "item": "Chocolate Topping",
+   "category": "Menu",
+   "price": 0.75,
+   "energyKj": 133
+  },
+  {
+   "item": "Caramel Topping",
+   "category": "Menu",
+   "price": 0.75,
+   "energyKj": 156
+  },
+  {
+   "item": "Flake®",
+   "category": "Menu",
+   "price": 0.75,
+   "energyKj": 223
+  },
+  {
+   "item": "Ketchup",
+   "category": "Sauces & Add-ons",
+   "price": 0.4,
+   "energyKj": 62
+  },
+  {
+   "item": "Lettuce",
+   "category": "Sauces & Add-ons",
+   "price": 0.3,
+   "energyKj": 4
+  },
+  {
+   "item": "Pickle",
+   "category": "Sauces & Add-ons",
+   "price": 0.3,
+   "energyKj": 1
+  },
+  {
+   "item": "Heavy Jalapeno",
+   "category": "Menu",
+   "price": 0.3,
+   "energyKj": 21
+  },
+  {
+   "item": "Onion",
+   "category": "Sides",
+   "price": 0.3,
+   "energyKj": 10
+  },
+  {
+   "item": "Tomato",
+   "category": "Sauces & Add-ons",
+   "price": 0.3,
+   "energyKj": 9
+  },
+  {
+   "item": "Grilled Chicken Patty",
+   "category": "Chicken",
+   "price": 3.0,
+   "energyKj": 333
+  },
+  {
+   "item": "Extra Coffee Shot",
+   "category": "Drinks",
+   "price": 0.75,
+   "energyKj": null
+  },
+  {
+   "item": "Almond Milk",
+   "category": "Menu",
+   "price": 0.75,
+   "energyKj": null
+  },
+  {
+   "item": "Soy Milk",
+   "category": "Menu",
+   "price": 0.75,
+   "energyKj": null
+  },
+  {
+   "item": "Vanilla Syrup",
+   "category": "Menu",
+   "price": 0.75,
+   "energyKj": 99
+  },
+  {
+   "item": "Hazelnut Syrup",
+   "category": "Menu",
+   "price": 0.75,
+   "energyKj": 99
+  },
+  {
+   "item": "Caramel Syrup",
+   "category": "Menu",
+   "price": 0.75,
+   "energyKj": 99
+  },
+  {
+   "item": "Pickle",
+   "category": "Sauces & Add-ons",
+   "price": 0.6,
+   "energyKj": 1
+  },
+  {
+   "item": "Plant-Based Patty",
+   "category": "Menu",
+   "price": 3.0,
+   "energyKj": 1020
+  },
+  {
+   "item": "Hazelnut",
+   "category": "Menu",
+   "price": 0.75,
+   "energyKj": 198
+  },
+  {
+   "item": "Caramel",
+   "category": "Menu",
+   "price": 0.75,
+   "energyKj": 198
+  },
+  {
+   "item": "Vanilla",
+   "category": "Menu",
+   "price": 0.75,
+   "energyKj": 199
+  },
+  {
+   "item": "Onion",
+   "category": "Sides",
+   "price": 0.6,
+   "energyKj": 20
+  },
+  {
+   "item": "Jalapeno",
+   "category": "Menu",
+   "price": 0.6,
+   "energyKj": 41
+  },
+  {
+   "item": "Mayo",
+   "category": "Sauces & Add-ons",
+   "price": 0.4,
+   "energyKj": 419
+  },
+  {
+   "item": "Special Sauce",
+   "category": "Sauces & Add-ons",
+   "price": 0.2,
+   "energyKj": null
+  },
+  {
+   "item": "Turkish Bun",
+   "category": "Menu",
+   "price": 0.5,
+   "energyKj": null
+  },
+  {
+   "item": "Peppercorn Sauce",
+   "category": "Sauces & Add-ons",
+   "price": 0.4,
+   "energyKj": null
+  },
+  {
+   "item": "Add Soft Serve",
+   "category": "Menu",
+   "price": 1.0,
+   "energyKj": null
+  },
+  {
+   "item": "Mustard",
+   "category": "Sauces & Add-ons",
+   "price": 0.4,
+   "energyKj": 14
+  },
+  {
+   "item": "Smoky BBQ Sauce",
+   "category": "Sauces & Add-ons",
+   "price": 0.4,
+   "energyKj": 152
+  },
+  {
+   "item": "Premium Ham",
+   "category": "Menu",
+   "price": 0.95,
+   "energyKj": 36
+  },
+  {
+   "item": "Fried Chicken Fillet",
+   "category": "Chicken",
+   "price": 4.25,
+   "energyKj": null
+  },
+  {
+   "item": "Signature Spicy Sauce",
+   "category": "Sauces & Add-ons",
+   "price": 0.4,
+   "energyKj": null
+  },
+  {
+   "item": "Signature Spicy Sauce",
+   "category": "Sauces & Add-ons",
+   "price": 0.2,
+   "energyKj": null
+  },
+  {
+   "item": "Biscoff Topping",
+   "category": "Menu",
+   "price": 0.75,
+   "energyKj": 279
+  },
+  {
+   "item": "Biscoff Crumb",
+   "category": "Menu",
+   "price": 0.75,
+   "energyKj": null
+  },
+  {
+   "item": "Oat Milk",
+   "category": "Menu",
+   "price": 0.75,
+   "energyKj": null
+  },
+  {
+   "item": "Lactose Free Milk",
+   "category": "Menu",
+   "price": 0.75,
+   "energyKj": null
+  },
+  {
+   "item": "Watermelon Syrup",
+   "category": "Drinks",
+   "price": 0.75,
+   "energyKj": null
+  },
+  {
+   "item": "Blue Curacao Syrup",
+   "category": "Menu",
+   "price": 0.75,
+   "energyKj": null
+  },
+  {
+   "item": "Coconut Syrup",
+   "category": "Menu",
+   "price": 0.75,
+   "energyKj": null
+  },
+  {
+   "item": "Strawberry Syrup",
+   "category": "Menu",
+   "price": 0.75,
+   "energyKj": null
+  },
+  {
+   "item": "Creamer",
+   "category": "Menu",
+   "price": 0.75,
+   "energyKj": null
+  },
+  {
+   "item": "Korean BBQ Sauce",
+   "category": "Sauces & Add-ons",
+   "price": 0.5,
+   "energyKj": null
+  },
+  {
+   "item": "Blackcurrant Bursties",
+   "category": "Menu",
+   "price": 1.0,
+   "energyKj": 45
+  },
+  {
+   "item": "Chipotle Sauce",
+   "category": "Sauces & Add-ons",
+   "price": 0.5,
+   "energyKj": null
+  },
+  {
+   "item": "Peri Peri Sauce",
+   "category": "Sauces & Add-ons",
+   "price": 0.5,
+   "energyKj": null
+  },
+  {
+   "item": "Chipotle Sauce",
+   "category": "Sauces & Add-ons",
+   "price": 0.4,
+   "energyKj": 316
+  },
+  {
+   "item": "Battered Onion Rings",
+   "category": "Sides",
+   "price": 0.5,
+   "energyKj": 99
+  },
+  {
+   "item": "Blueberry Bursties",
+   "category": "Menu",
+   "price": 1.0,
+   "energyKj": 45
+  },
+  {
+   "item": "Berry Bursties",
+   "category": "Menu",
+   "price": 1.0,
+   "energyKj": 40
+  },
+  {
+   "item": "2x Vanilla Syrup",
+   "category": "Menu",
+   "price": 0.75,
+   "energyKj": 199
+  },
+  {
+   "item": "2x Hazelnut Syrup",
+   "category": "Menu",
+   "price": 0.75,
+   "energyKj": 198
+  },
+  {
+   "item": "2x Caramel Syrup",
+   "category": "Menu",
+   "price": 0.75,
+   "energyKj": 198
+  },
+  {
+   "item": "3x Vanilla Syrup",
+   "category": "Menu",
+   "price": 0.75,
+   "energyKj": 298
+  },
+  {
+   "item": "3x Hazelnut Syrup",
+   "category": "Menu",
+   "price": 0.75,
+   "energyKj": 297
+  },
+  {
+   "item": "3x Caramel Syrup",
+   "category": "Menu",
+   "price": 0.75,
+   "energyKj": 297
+  },
+  {
+   "item": "4x Vanilla Syrup",
+   "category": "Menu",
+   "price": 0.75,
+   "energyKj": 398
+  },
+  {
+   "item": "4x Hazelnut Syrup",
+   "category": "Menu",
+   "price": 0.75,
+   "energyKj": 396
+  },
+  {
+   "item": "4x Caramel Syrup",
+   "category": "Menu",
+   "price": 0.75,
+   "energyKj": 396
+  },
+  {
+   "item": "Ranch Sauce",
+   "category": "Sauces & Add-ons",
+   "price": 0.4,
+   "energyKj": 133
+  },
+  {
+   "item": "Strawberry Bursties",
+   "category": "Menu",
+   "price": 1.0,
+   "energyKj": 40
+  }
+ ]
+}

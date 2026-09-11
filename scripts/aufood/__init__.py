@@ -12,7 +12,7 @@ Module           Chain(s)                    What the API gives us
 ``pizzahut``     Pizza Hut                   price + kJ
 ``craveable``    Red Rooster, Oporto         price + kJ (Oporto kJ ~54% populated)
 ``gyg``          Guzman y Gomez              price only
-``carlsjr``      Carl's Jr                   kJ only
+``carlsjr``      Carl's Jr                   price + kJ (My Carl's app API)
 ===============  ==========================  =====================================
 
 Chains deliberately not covered here, because no reachable read API exists:

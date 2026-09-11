@@ -33,7 +33,9 @@ class Store:
     @property
     def label(self) -> str:
         suburb = self.suburb or self.name
-        return f"{self.name} ({suburb} {self.state} {self.postcode})".replace(" ()", "")
+        raw = f"{self.name} ({suburb} {self.state} {self.postcode})"
+        # Collapse the gaps a missing suburb/state/postcode leaves behind.
+        return re.sub(r"\s+\)", ")", re.sub(r"\s{2,}", " ", raw)).replace(" ()", "")
 
 
 class LocationError(ValueError):
@@ -117,6 +119,9 @@ def nearest_store(stores: list[Store], latitude: float, longitude: float, state:
     candidates = [s for s in stores if not state or (s.state or "").strip().upper() == state.upper()]
     if not candidates:
         candidates = stores
+    # Some brands (Carl's Jr) publish stores without coordinates; those can never
+    # be the nearest, so drop them rather than crash the haversine.
+    candidates = [s for s in candidates if s.latitude is not None and s.longitude is not None]
     if not candidates:
         raise LocationError("Brand returned no usable stores.")
     return min(candidates, key=lambda s: haversine_km(latitude, longitude, s.latitude, s.longitude))

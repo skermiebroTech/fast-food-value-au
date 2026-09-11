@@ -16,7 +16,7 @@ Brands and what their API actually supplies:
     red-rooster   price + kJ      new brand
     oporto        price + kJ      new brand; kJ present on only ~54% of items
     gyg           price only      kJ joined on from the existing GYG rows
-    carls-jr      kJ only         new brand; price must be added manually
+    carls-jr      price + kJ      new brand; My Carl's app API, in-store price
 
 Hungry Jack's, Subway and Domino's are absent on purpose: none of them has a
 reachable read API. See README for what each of them does expose.
@@ -34,13 +34,32 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from aufood import carlsjr, craveable, foods, gyg, mcdonalds, net, pizzahut  # noqa: E402
 from aufood.stores import LocationError, Store, haversine_km, nearest_store, resolve_location  # noqa: E402
 
-STORE_BRANDS = ("pizza-hut", "red-rooster", "oporto", "gyg", "mcdonalds")
-ALL_BRANDS = STORE_BRANDS + ("carls-jr",)
+# Brands whose own store lists carry coordinates; these build the geocoder pool.
+GEOCODE_BRANDS = ("pizza-hut", "red-rooster", "oporto", "gyg", "mcdonalds")
+# Every brand priced per store. Carl's is one too, but its /sites feed has no
+# coordinates, so its store list is built after the pool exists (see main).
+STORE_BRANDS = GEOCODE_BRANDS + ("carls-jr",)
+ALL_BRANDS = STORE_BRANDS
 
 
 def reference_datetime() -> datetime:
     """A near-future trading time. Both APIs want a concrete fulfilment slot."""
     return (datetime.now() + timedelta(days=1)).replace(hour=18, minute=0, second=0, microsecond=0)
+
+
+def _pool_locator(pool: list[Store], state: str):
+    """A ``(name, state) -> (lat, lon) | None`` resolver over the pooled stores.
+
+    Used to place Carl's Jr stores whose suburb is not in its own QLD table.
+    """
+    def locate(name: str, site_state: str):
+        try:
+            latitude, longitude, _ = resolve_location(name, pool, state=site_state or state)
+            return latitude, longitude
+        except LocationError:
+            return None
+
+    return locate
 
 
 def collect_stores(brand: str) -> list[Store]:
@@ -57,7 +76,8 @@ def collect_stores(brand: str) -> list[Store]:
 
 def fetch_brand(brand: str, store: Store | None, channels: list[str], when: datetime) -> list[dict]:
     if brand == "carls-jr":
-        return carlsjr.fetch()
+        # Single in-store price, so channels do not apply.
+        return carlsjr.fetch(store)
 
     rows: list[dict] = []
     if brand == "pizza-hut":
@@ -97,7 +117,7 @@ SOURCE_LABELS = {
     "red-rooster": "Red Rooster AU menu API (live price + kJ)",
     "oporto": "Oporto AU menu API (live price + kJ, kJ incomplete)",
     "gyg": "GYG AU menu API (live price) + GYG nutrition guide for energy",
-    "carls-jr": "Carl's Jr AU menu page WordPress REST API (kJ only, no price)",
+    "carls-jr": "My Carl's app API (live in-store price + kJ)",
     "mcdonalds": "My Macca's app API (live price + kJ)",
 }
 
@@ -170,7 +190,7 @@ def main(argv=None) -> int:
     # --brands does not shift the resolved point and change which store is
     # nearest.
     store_lists: dict[str, list[Store]] = {}
-    for brand in STORE_BRANDS:
+    for brand in GEOCODE_BRANDS:
         try:
             store_lists[brand] = collect_stores(brand)
             in_state = sum(1 for s in store_lists[brand] if s.state == args.state.upper())
@@ -189,6 +209,20 @@ def main(argv=None) -> int:
     else:
         latitude = longitude = None
         label = args.location
+
+    # Carl's /sites has no coordinates, so build its store list now that the pool
+    # exists: known QLD suburbs come from its own centroid table, the rest fall
+    # back to the pooled geocoder.
+    if "carls-jr" in brands:
+        try:
+            store_lists["carls-jr"] = carlsjr.list_stores(locate=_pool_locator(pool, args.state))
+            located = sum(1 for s in store_lists["carls-jr"] if s.latitude is not None
+                          and s.state == args.state.upper())
+            total = sum(1 for s in store_lists["carls-jr"] if s.state == args.state.upper())
+            print(f"  {'carls-jr':<12} {len(store_lists['carls-jr']):>4} stores "
+                  f"({located}/{total} in {args.state.upper()} geocoded)")
+        except net.FetchError as error:
+            print(f"  {'carls-jr':<12} store list unavailable: {error}", file=sys.stderr)
 
     obj = foods.load(args.data)
     summary: dict[str, dict] = {}
