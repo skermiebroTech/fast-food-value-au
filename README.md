@@ -4,14 +4,9 @@ Live URL:
 
 https://skermiebrotech.github.io/fast-food-value-au/
 
-A modern, no-build GitHub Pages website for comparing Australian fast food value by:
-
-- grams per dollar
-- kilojoules per dollar
-- calories per dollar
-- protein grams per dollar
-- budget-fit items under a user-entered AUD budget
-- value and combo comparisons across McDonald's, Pizza Hut, GYG, Red Rooster, Oporto and Carl's Jr — every row pulled straight from each chain's own ordering system, no third-party or crowd-sourced menus
+A modern, no-build GitHub Pages website that finds the best-value Australian fast food:
+the most food energy (kJ or Calories), protein or weight for each dollar, the most you can
+get in one item for a budget, and the exact best 2–4 item meal under a budget.
 
 Prices are **Queensland-specific**. Every row in `data/foods.json` is pulled directly
 from a chain's own ordering system by `scripts/fetch_menus.py` (see
@@ -29,17 +24,55 @@ account, delivery channel and time, so check the chain's own app before relying 
 
 ## Features
 
-- Static GitHub Pages compatible: no backend, no build step, no database.
-- Responsive mobile cards and desktop comparison table.
-- Search, brand/category filters, price cap, and metric-based sorting.
-- Budget planner that finds best items under a selected budget.
-- Meal combo finder that builds the best 2–4 item food combinations under a budget, with brand and metric controls. Drinks/sauces are ignored and each combo uses at most one bundled meal deal/box/shared meal.
-- Add, edit, and delete food items in the browser.
-- Local edits are saved to `localStorage` so personal changes persist on the same device.
-- Export JSON to update the shared repository dataset.
-- Import JSON for quick local refreshes.
-- Progressive Web App basics: `manifest.webmanifest`, service worker caching, SVG icon.
+- Static GitHub Pages compatible: no backend, no build step, no database. Plain files and
+  native ES modules (`app.js` imports `lib/value.js` and `lib/combos.js`).
+- **Compare**: rank by energy, protein or weight per dollar, or lowest price. Search, chain,
+  food type, menu category, price cap, serving size and a "Food only" switch. Each metric shows
+  which chains it can actually compare, and a coverage bar says how many matching items are
+  ranked and how many have no published figure. Those items are listed rather than dropped.
+- **Budget**: the one item with the most energy, protein or weight for a budget, or the best
+  value per dollar under it.
+- **Combos**: the exact best 2–4 item meal under a budget, at each chain, at one chain, or
+  mixing chains. It also shows a cheaper combo that gets at least 90% as much, and the best
+  combo at each item count.
+- Order type (pickup or delivery) and energy unit (kJ or Cal) apply to every tab.
+- Add, edit and delete items in the browser. Edits are stored in `localStorage` as an overlay
+  on the published data, so refreshed prices still show for everything you haven't changed.
+- Export a `foods.json` with the same schema as the fetcher output (including `plu`,
+  `generatedBy`, `storeLabel` and `sourceNotes`), or import a file or pasted JSON.
+- Mobile-first layout with a bottom tab bar on phones, light and dark themes (follows the
+  system setting until you pick one), keyboard-navigable tabs, and labelled controls.
+- Progressive Web App basics: `manifest.webmanifest`, network-first service worker with an
+  offline fallback, SVG icon.
 - GitHub Pages helpers: `.nojekyll`, `404.html`, `robots.txt`, `sitemap.xml`, and a Pages deployment workflow.
+
+## How value is worked out
+
+- Value is a figure divided by price: kJ (or Calories), grams of protein, or grams of food per
+  dollar. It is a cost-of-food lens, not a health rating.
+- **Only published figures are ranked.** About 42% of items have no published energy,
+  including every Subway and Domino's item. Those items are counted in the coverage bar and
+  listed under the ranking, never given an estimated figure. Two gaps are filled because the
+  answer is exact: Calories ↔ kJ (1 Cal = 4.184 kJ), and an item with no figure takes it from
+  the same chain's listing of the same item under the other order type, when that listing has
+  exactly one value. Filled figures are marked.
+- Protein is published only by KFC and GYG, and serve weight only by GYG, so those rankings
+  say so and compare those chains only.
+- **Food only** hides drinks (coffee and shakes included), sauces, dips and toppings, and
+  add-ons that are only sold with another item. Charity donations, toys and delivery fees
+  are never ranked. Identical listings are shown once.
+- **Combos** are found with an exact dynamic program over price, not a shortlist. Each item is
+  used at most once, a combo holds at most one bundled deal (meal box, combo, sharing feast),
+  add-ons need a stand-alone item in the same combo, and drinks and sauces are left out.
+
+## Tests
+
+The value logic and the combo optimiser have Node tests (no dependencies). The combo tests
+check the optimiser against brute-force enumeration on hundreds of random menus.
+
+```bash
+node --test
+```
 
 ## Run locally
 
